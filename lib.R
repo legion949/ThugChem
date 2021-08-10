@@ -1,0 +1,28 @@
+
+
+# Libreries
+library(shiny)
+library(shinyjs) # Language detection
+library(shinydashboard) # New Sthetic
+library(tableHTML) # Color cell in tables
+library(numbers) # Minimum Common Divisor
+library(stringr) # str_count()
+library(shiny.i18n)
+
+# Source prefiles
+source("prefiles.R")
+
+
+
+
+
+
+# All Chem Files!
+the_dir <- "StoichiometryFunctions"
+all_chem_files <- list.files(the_dir, recursive = T)
+all_completed <- paste0(the_dir, "/", all_chem_files)
+for (k in 1:length(all_completed)) { 
+  # cat(k, "\n")
+  source(all_completed[k])
+}
+
