@@ -1,0 +1,8 @@
+
+cd /d/1erEscritorio/004_ShinyProyects/ThugChem
+
+git add .
+
+git commit -a "Your commit here!"
+
+git push
