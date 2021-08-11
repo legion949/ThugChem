@@ -1,8 +1,60 @@
 
+# Forma 1 de 2: Creamos la carpeta en la compu y la subimos...
 cd /d/1erEscritorio/004_ShinyProyects/ThugChem
 
+git init  #### POR PRIMERA Y UNA VEZ! Git en la Computadora... No es GitHub
 git add .
-
-git commit -a "Your commit here!"
-
+git commit -m "Your commit here!"
 git push
+
+
+
+########################################################################
+
+
+# Visualizador temporal
+git --oneline
+
+git hard MyNuMbEr
+
+
+#########################################################################
+
+# Conectar mi Git con GitHub... Por unica vez!
+git remote add origin https://github.com/legion949/ThugChem.git
+git branch -M main
+git push -u origin main
+
+##################################################
+
+git add .
+git commit -m "4th Commit"
+git push
+
+######################################################################
+
+
+git tag version1.0.0 -m "Version 1.0.0"
+git push --tag
+
+########################################################################
+
+git brunch NombreMiNuevaRama 
+git checkout NombreMiNuevaRama
+git brunch   # Nos muestra en que rama estamos...
+
+git add .   # Lleva el add a la nueva rama
+git commit -m MiMensaje   # Lleva el commit a la rama
+
+
+#################################################
+
+# Todo para el MARGE
+git checkout master   # Nos ponemos en el master... Somos la masa... 
+git brunch # Verificamos que estamos en el master
+git merge NombreMiNuevaRama  # Le ponemos la crema a la masa! Jajajaja
+
+
+git branch -d NombreMiNuevaRama # Con esto, borramos la rama que ya no queremos.
+
+
