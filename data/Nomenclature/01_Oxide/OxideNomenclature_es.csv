@@ -1,120 +1,119 @@
-Order,Symbol,Name,Atomic Number,Group,Period,Type,Subtype,State,Valence,"Atomic Weight
-(uma)",density g/mL,Boiling point,Fusion Point,Amount of Valences,Oxide_ValenceOrder1,Oxide_ValenceOrder2,Oxide_ValenceOrder3,Oxide_ValenceOrder4,Oxide_ValenceOrder5
-1,H,Hidrógeno,1,1,1,Non-metal,Other Non-Metals,Gas,1,1.007975,0.0000699,-252.9,-259.1,1,de Hidrógeno,,,,
-2,He,Helio,2,18,1,Noble gas,-,Gas,0,4.002602,0.000179,-268.9,-272.2,1,Helio,,,,
-3,Li,Litio,3,1,2,Metal,Alkaline,Solid,1,6.9675,543,1342,180.5,1,de Litio,,,,
-4,Be,Berilio,4,2,2,Metal,Alkaline earths,Solid,2,9.0121831,1.85,2970,1278,1,de Berilio,,,,
-5,B,Boro,5,13,2,Metalloid,-,Solid,3,10.8135,2.34,2550,2079,1,de Boro,,,,
-8,O,Oxígeno,8,16,2,Non-metal,Other Non-Metals,Gas,2,15.9994,0.00143,-183,-218.4,1,Oxígeno,,,,
-9,F,Flúor,9,17,2,Non-metal,Halogens,Gas,1,18.99840316,0.0017,-188.1,-219.8,1,de Flúor,,,,
-10,Ne,Neón,10,18,2,Noble gas,-,Gas,0,20.1797,0.0009,-248.7,-248,1,Neón,,,,
-11,Na,Sodio,11,1,3,Metal,Alkaline,Solid,1,22.98976928,971,883,97.8,1,de Sodio,,,,
-12,Mg,Magnesio,12,2,3,Metal,Alkaline earths,Solid,2,24.3055,1.74,1090,649,1,de Magnesio,,,,
-13,Al,Aluminio,13,13,3,Metal,Metals from Block p,Solid,3,26.9815385,2.7,2467,660,1,de Aluminio,,,,
-14,Si,Silicio,14,14,3,Metalloid,-,Solid,4,28085,2.33,2355,1410,1,de Silicio,,,,
-18,Ar,Argón,18,18,3,Noble gas,-,Gas,0,39948,0.00178,-185.7,-189.2,1,Argón,,,,
-19,K,Potasio,19,1,4,Metal,Alkaline,Solid,1,39.0983,0.86,760,63.25,1,de Potasio,,,,
-20,Ca,Calcio,20,2,4,Metal,Alkaline earths,Solid,2,40078,1.55,1484,839,1,de Calcio,,,,
-21,Sc,Escandio,21,3,4,Metal,Transition Metals,Solid,3,44.955908,2.99,2832,1541,1,de Escandio,,,,
-30,Zn,Zinc,30,12,4,Metal,Transition Metals,Solid,2,65.38,7.13,906,419.6,1,de Zinc,,,,
-31,Ga,Galio,31,13,4,Metal,Metals from Block p,Liquid,3,69723,5.9,2403,29.8,1,de Galio,,,,
-32,Ge,Germanio,32,14,4,Metalloid,-,Solid,4,72.63,5.32,2830,947.4,1,de Germanio,,,,
-36,Kr,Criptón,36,18,4,Noble gas,-,Gas,0,83798,0.00374,-152,-157,1,Criptón,,,,
-37,Rb,Rubidio,37,1,5,Metal,Alkaline,Solid,1,85.4678,1.53,686,38.9,1,de Rubidio,,,,
-38,Sr,Estroncio,38,2,5,Metal,Alkaline earths,Solid,2,87.62,2.54,1384,769,1,de Estroncio,,,,
-39,Y,Yodo,39,3,5,Metal,Transition Metals,Solid,3,88.90584,4.47,3337,1523,1,de Yodo,,,,
-40,Zr,Circonio,40,4,5,Metal,Transition Metals,Solid,4,91224,6.51,4377,1852,1,de Circonio,,,,
-43,Tc,Tecnecio,43,7,5,Metal,Transition Metals,Solid,7,98,11.5,4877,2172,1,de Tecnecio,,,,
-47,Ag,Plata,47,11,5,Metal,Transition Metals,Solid,1,107.8682,10.5,2212,962,1,de Plata,,,Silver,
-48,Cd,Cadmio,48,12,5,Metal,Transition Metals,Solid,2,112414,8.65,765,320.9,1,de Cadmio,,,Cadmium,
-49,In,Indio,49,13,5,Metal,Metals from Block p,Solid,3,114818,7.31,2080,156.6,1,de Indio,,,Indian,
-54,Xe,Xenón,54,18,5,Noble gas,-,Gas,0,131293,0.00589,-107.1,-111.8,1,Xenón,,,Xenon,
-55,Cs,Cesio,55,1,6,Metal,Alkaline,Liquid,1,132.905452,1.87,669,28.4,1,de Cesio,,,Cesium,
-56,Ba,Bario,56,2,6,Metal,Alkaline earths,Solid,2,137327,3.5,1640,725,1,de Bario,,,Barium,
-57,La,Lantano,57,3,6,Metal,Lanthanides,Solid,3,138.90547,6.15,3454,920,1,de Lantano,,,Lanthanum,
-60,Nd,Neodimio,60,3,6,Metal,Lanthanides,Solid,3,144242,7,3127,1016,1,de Neodimio,,,Neodymium,
-61,Pm,Prometio,61,3,6,Metal,Lanthanides,Solid,3,145,7.26,3000,1042,1,de Prometio,,,Promise,
-64,Gd,Gadolinio,64,3,6,Metal,Lanthanides,Solid,3,157.25,7.9,3273,1313,1,de Gadolinio,,,Gadolinium,
-66,Dy,Disprosio,66,3,6,Metal,Lanthanides,Solid,3,162.5,8.55,2567,1412,1,de Disprosio,,,Dysprosium,
-67,Ho,Holmio,67,3,6,Metal,Lanthanides,Solid,3,164.93033,8.8,2700,1474,1,de Holmio,,,Holmium,
-68,Er,Erbio,68,3,6,Metal,Lanthanides,Solid,3,167259,9.07,2868,1529,1,de Erbio,,,Erbium,
-71,Lu,Lutecio,71,3,6,Metal,Lanthanides,Solid,3,174.9668,9.84,3402,1663,1,de Lutecio,,,Lutetium,
-72,Hf,Hafnio,72,4,6,Metal,Lanthanides,Solid,4,178.49,13.3,4600,2227,1,de Hafnio,,,Hafnium,
-73,Ta,Tantalio,73,5,6,Metal,Lanthanides,Solid,5,180.94788,16.6,5425,2996,1,de Tantalio,,,Tantalum,
-86,Rn,Radón,86,18,6,Noble gas,-,Gas,0,222,0.00973,-61.8,-71,1,Radón,,,Radon,
-87,Fr,Francio,87,1,7,Metal,Alkaline,Liquid,1,223,,677,27,1,de Francio,,,Francius,
-88,Ra,Radio,88,2,7,Metal,Alkaline earths,Solid,2,226,5,1140,700,1,Radio,,,Radio,
-89,Ac,Actinio,89,3,7,Metal,Actinides,Solid,3,227,10.1,3200,1050,1,de Actinio,,,Actinium,
-90,Th,Torio,90,3,7,Metal,Actinides,Solid,4,232.0377,11.7,4790,1750,1,de Torio,,,Thorium,
-96,Cm,Curio,96,3,7,Metal,Actinides,???,3,247,13.5,,1340,1,de Curio,,,Curium,
-98,Cf,Californio,98,3,7,Metal,Actinides,???,3,251,,,,1,de Californio,,,Californium,
-99,Es,Einstenio,99,3,7,Metal,Actinides,???,4,252,,,,1,de Einstenio,,,Einsteinium,
-100,Fm,Fermio,100,3,7,Metal,Actinides,???,4,257,,,,1,de Fermio,,,Fermium,
-104,Rf,Rutherfordio,104,3,7,Metal,Actinides,???,4,267,,,,1,de Rutherfordio,,,Rutherfordio,
-105,Db,Dubnium,105,3,7,Metal,Actinides,???,4,268,,,,1,de Dubnium,,,Dubnium,
-106,Sg,Seaborgio,106,3,7,Metal,Actinides,???,4,271,,,,1,de Seaborgio,,,Seaborgio,
-113,Nh,Nihonium,113,3,7,Metal,Actinides,???,3,284,,,,1,de Nihonium,,,Nihonium,
-6,C,Carbón,6,14,2,Non-metal,Other Non-Metals,Solid,2;4,12.0106,2.25,4827,3367,2,Carbonoso,Carbónico,,,
-22,Ti,Titanio,22,4,4,Metal,Transition Metals,Solid,3;4,47867,4.54,3287,1660,2,Titanoso,Titánico,,,
-26,Fe,Hierro,26,8,4,Metal,Transition Metals,Solid,2;3,55845,7.86,2750,1535,2,Ferroso,Férrico,,,
-27,Co,Cobalto,27,9,4,Metal,Transition Metals,Solid,2;3,58.933194,8.9,2870,1495,2,Cobaltoso,Cobáltico,,,
-28,Ni,Níquel,28,10,4,Metal,Transition Metals,Solid,2;3,58.6934,8.9,2730,1453,2,Niqueloso,Niquélico,,,
-29,Cu,Cobre,29,11,4,Metal,Transition Metals,Solid,1;2,63546,8.96,2567,1083,2,Cuproso,Cúprico,,,
-33,As,Arsénico,33,15,4,Metalloid,-,Solid,3;5,74.921595,5.73,617,817,2,Arsenioso,Arsenicico,,,
-34,Se,Selenio,34,16,4,Non-metal,Other Non-Metals,Solid,4;6,78971,4.79,685,217,2,Selenioso,Selénico,,,
-35,Br,Bromo,35,17,4,Non-metal,Halogens,Liquid,1;5,79904,3.12,58.8,-7.2,2,Bromoso,Brómico,,,
-41,Nb,Niobio,41,5,5,Metal,Transition Metals,Solid,3;5,92.90637,8.57,4742,2468,2,Niobioso,Nióbico,,,
-46,Pd,Paladio,46,10,5,Metal,Transition Metals,Solid,2;4,106.42,12,3140,1554,2,Paladoso,Paládico,,,
-50,Sn,Estaño,50,14,5,Metal,Metals from Block p,Solid,2;4,118.71,7.31,2270,232,2,Estaño,Tin;Tin,Tin;Tin,Tin;Tin,
-51,Sb,Antimonio,51,15,5,Metalloid,-,Solid,3;5,121.76,6.69,1950,631,2,Antimonio,Antimonious;Antimonic,Antimonious;Antimonic,Antimonious;Antimonic,
-58,Ce,Cerio,58,3,6,Metal,Lanthanides,Solid,3;4,140116,6.66,3257,798,2,Cerio,Cerious;Cericus,Cerious;Cericus,Cerious;Cericus,
-59,Pr,Praseodimio,59,3,6,Metal,Lanthanides,Solid,3;4,140.90766,6.77,3017,931,2,Praseodimio,Praseodmic;Praseodmic,Praseodmic;Praseodmic,Praseodmic;Praseodmic,
-62,Sm,Samario,62,3,6,Metal,Lanthanides,Solid,3;2,150.36,7.52,1794,1074,2,Samario,Samarioso;Samarico,Samarioso;Samarico,Samarioso;Samarico,
-63,Eu,Europio,63,3,6,Metal,Lanthanides,Solid,3;2,151964,5.24,1529,822,2,Europio,Europious;Europic,Europious;Europic,Europious;Europic,
-65,Tb,Terbio,65,3,6,Metal,Lanthanides,Solid,3;4,158.92535,8.23,3230,1365,2,Terbio,Terbioso;Terbico,Terbioso;Terbico,Terbioso;Terbico,
-69,Tm,Tulio,69,3,6,Metal,Lanthanides,Solid,3;2,168.93422,9.32,1950,1545,2,Tulio,Tulioso;Tunic,Tulioso;Tunic,Tulioso;Tunic,
-70,Yb,Iterbio,70,3,6,Metal,Lanthanides,Solid,3;2,173054,6.97,1196,819,2,Iterbio,Iterbious;Iterbic,Iterbious;Iterbic,Iterbious;Iterbic,
-78,Pt,Platino,78,10,6,Metal,Lanthanides,Solid,2;4,195084,21.4,3827,1772,2,Platino,Platinous;Platinic,Platinous;Platinic,Platinous;Platinic,
-79,Au,Oro,79,11,6,Metal,Lanthanides,Solid,1;3,196.966569,19.3,3080,1064,2,Oro,Auroso;Auric,Auroso;Auric,Auroso;Auric,
-80,Hg,Mercurio,80,12,6,Metal,Lanthanides,Liquid,1;2,200592,13.5,357,-38.9,2,Mercurio,Mercurose;Mercuric,Mercurose;Mercuric,Mercurose;Mercuric,
-81,Tl,Talio,81,13,6,Metal,Lanthanides,Solid,1;3,204.3835,11.9,1457,303,2,Talio,Talioso;Thalic,Talioso;Thalic,Talioso;Thalic,
-82,Pb,Dirigir,82,14,6,Metal,Lanthanides,Solid,2;4,207.2,11.4,1740,327.5,2,Dirigir,Lead;Lead,Lead;Lead,Lead;Lead,
-83,Bi,Bismuto,83,15,6,Metal,Lanthanides,Solid,3;5,208.9804,9.75,1560,271,2,Bismuto,Bismuth;Bismuth,Bismuth;Bismuth,Bismuth;Bismuth,
-84,Po,Polonio,84,16,6,Metalloid,-,Solid,2;4,209,9.32,962,254,2,Polonio,Polonious;Polonian,Polonious;Polonian,Polonious;Polonian,
-91,Pa,Protactinio,91,3,7,Metal,Actinides,Solid,4;5,231.03588,15.4,4000,1570,2,Protactinio,Protactinous;Protactinous,Protactinous;Protactinous,Protactinous;Protactinous,
-97,Bk,Berkelio,97,3,7,Metal,Actinides,???,3;4,247,14,,986,2,Berkelio,Berkelioso;Berkelico,Berkelioso;Berkelico,Berkelioso;Berkelico,
-101,Md,Mendelevio,101,3,7,Metal,Actinides,???,3;4,258,,,,2,Mendelevio,Mendelevious;Mendelevic,Mendelevious;Mendelevic,Mendelevious;Mendelevic,
-102,No,Nobelio,102,3,7,Metal,Actinides,???,3;4,259,,,,2,Nobelio,Nobelioso;Nobelic,Nobelioso;Nobelic,Nobelioso;Nobelic,
-103,Lr,Laurencio,103,3,7,Metal,Actinides,???,3;4,262,,,,2,Laurencio,Laurenusiast;Laurenic,Laurenusiast;Laurenic,Laurenusiast;Laurenic,
-110,Ds,Darmstadtium,110,3,7,Metal,Actinides,???,2;4,281,,,,2,Darmstadtium,Darmstadtious;Darmstatic,Darmstadtious;Darmstatic,Darmstadtious;Darmstatic,
-111,Rg,Roentgenio,111,3,7,Metal,Actinides,???,2;3,280,,,,2,Roentgenio,Roentgenic;Roentgenic,Roentgenic;Roentgenic,Roentgenic;Roentgenic,
-112,Cn,Copérnico,112,3,7,Metal,Actinides,???,1;2,285,,,,2,Copérnico,Copernicus;Copernicus,Copernicus;Copernicus,Copernicus;Copernicus,
-118,Og,Oganeson,118,3,7,Metal,Actinides,???,4;7,294,,,,2,Oganeson,Oganesinous;Oganesic,Oganesinous;Oganesic,Oganesinous;Oganesic,
-15,P,Fósforo,15,15,3,Non-metal,Other Non-Metals,Solid,3;4;5,30.973762,1.82,280,44.1,3,Fosforoso,Fosforoso,Fosfórico,,
-16,S,Azufre,16,16,3,Non-metal,Other Non-Metals,Solid,2;4;6,32.0675,2.07,444.7,112.8,3,Sulfuroso,Sulfuroso,Sulfúrico,,
-24,Cr,Cromo,24,6,4,Metal,Transition Metals,Solid,2;3;6,51.9961,7.19,2672,1857,3,Cromoso,Cromoso,Crómico,,
-45,Rh,Rodio,45,9,5,Metal,Transition Metals,Solid,2;3;4,102.9055,12.4,3727,1966,3,Rodioso,Rodioso,Ródico,,
-52,Te,Telurio,52,16,5,Metalloid,-,Solid,2;4;6,127.6,6.24,989.8,449.5,3,Telurio,Telluric;Telluric,Telluric;Telluric,Telluric;Telluric,
-53,I,Yodo,53,17,5,Non-metal,Halogens,Solid,1;5;7,126.90447,4.93,184,113.5,3,Yodo,Iodine;Iodine,Iodine;Iodine,Iodine;Iodine,
-107,Bh,Bohrio,107,3,7,Metal,Actinides,???,3;4;5,272,,,,3,Bohrio,Bohrioso;Bohrico,Bohrioso;Bohrico,Bohrioso;Bohrico,
-114,Fl,Flerovio,114,3,7,Metal,Actinides,???,2;4;6,289,,,,3,Flerovio,Flerovioso;Flerovico,Flerovioso;Flerovico,Flerovioso;Flerovico,
-115,Mc,Moscovio,115,3,7,Metal,Actinides,???,1;4;5,288,,,,3,Moscovio,Moscovioso;Muscovico,Moscovioso;Muscovico,Moscovioso;Muscovico,
-116,Lv,Livermorio,116,3,7,Metal,Actinides,???,3;4;5,293,,,,3,Livermorio,Livermoric;Livermoric,Livermoric;Livermoric,Livermoric;Livermoric,
-117,Ts,Tenesino,117,3,7,Metal,Actinides,???,1;2;3,292,,,,3,Tenesino,Tenesinous;Tenesinous,Tenesinous;Tenesinous,Tenesinous;Tenesinous,
-7,N,Nitrógeno,7,15,2,Non-metal,Other Non-Metals,Gas,2;3;4;5,14.006855,0.00125,-195.8,-209.9,4,Nitrogenoso,Nitrogenoso,Nítrico,Nítrico,
-17,Cl,Cloro,17,17,3,Non-metal,Halogens,Gas,1;3;5;7,35.4515,0.00321,-34.6,-101,4,Cloroso,Cloroso,Clórico,Clórico,
-23,V,Vanadio,23,5,4,Metal,Transition Metals,Solid,2;3;4;5,50.9415,6.11,3380,1890,4,Vanadioso,Vanadioso,Vanádico,Vanádico,
-77,Ir,Iridio,77,9,6,Metal,Lanthanides,Solid,2;3;4;6,192217,22.4,4130,2410,4,Iridio,Iridious;iridic,Iridious;iridic,Iridious;iridic,
-85,At,Astatus,85,17,6,Non-metal,Halogens,Solid,1;3;5;7,210,,337,302,4,Astatus,Astatoso;Asthatic,Astatoso;Asthatic,Astatoso;Asthatic,
-92,U,Uranio,92,3,7,Metal,Actinides,Solid,3;4;5;6,238.02891,19,3818,1132,4,Uranio,Uranus;Uranic,Uranus;Uranic,Uranus;Uranic,
-93,Np,Neptunio,93,3,7,Metal,Actinides,???,3;4;5;6,237,20.2,3900,640,4,Neptunio,Neptunious;Neptunian,Neptunious;Neptunian,Neptunious;Neptunian,
-94,Pu,Plutonio,94,3,7,Metal,Actinides,???,3;4;5;6,244,19.8,3232,641,4,Plutonio,Plutonious;Plutonic,Plutonious;Plutonic,Plutonious;Plutonic,
-95,Am,Americio,95,3,7,Metal,Actinides,???,3;4;5;6,243,13.7,2607,994,4,Americio,Americioso;Americo,Americioso;Americo,Americioso;Americo,
-108,Hs,Hassio,108,3,7,Metal,Actinides,???,2;4;6;7,270,,,,4,Hassio,Hassioso;Hassico,Hassioso;Hassico,Hassioso;Hassico,
-109,Mt,Meitnerius,109,3,7,Metal,Actinides,???,2;3;4;6,276,,,,4,Meitnerius,Meitnerious;Meitneric,Meitnerious;Meitneric,Meitnerious;Meitneric,
-25,Mn,Manganeso,25,7,4,Metal,Transition Metals,Solid,2;3;4;6;7,54.938044,7.43,1962,1244,5,Manganoso,Manganoso,Mangánico,Mangánico,Mangánico
-42,Mo,Molibdeno,42,6,5,Metal,Transition Metals,Solid,2;3;4;5;6,95.95,10.2,4612,2617,5,Molibdenoso,Molibdenoso,Molibdénico,Molibdénico,Molibdénico
-44,Ru,Rutenio,44,8,5,Metal,Transition Metals,Solid,2;3;4;6;8,101.07,12.4,3900,2310,5,Rutenioso,Rutenioso,Ruténico,Ruténico,Ruténico
-74,W,Tungsteno,74,6,6,Metal,Lanthanides,Solid,2;3;4;5;6,183.84,19.3,5660,3410,5,Tungsteno,Wolframioso;Wolfrámico,Wolframioso;Wolfrámico,Wolframioso;Wolfrámico,
-75,Re,Renio,75,7,6,Metal,Lanthanides,Solid,1;2;4;6;7,186207,21,5600,3180,5,Renio,Renious;Renic,Renious;Renic,Renious;Renic,
-76,Os,Osmio,76,8,6,Metal,Lanthanides,Solid,2;3;4;6;8,190.23,22.6,5030,3045,5,Osmio,Osmious;Osmic,Osmious;Osmic,Osmious;Osmic,
+Order,Symbol,Name,Type,Valence,Amount of Valences,Oxide_ValenceOrder1,Oxide_ValenceOrder2,Oxide_ValenceOrder3,Oxide_ValenceOrder4,Oxide_ValenceOrder5,IUPAC
+1,H,Hidrógeno,Non-metal,1,1,Óxido de Hidrógeno,,,,,Óxido de Hidrógeno
+2,He,Helio,Noble gas,0,1,Helio,,,,,Helio
+3,Li,Litio,Metal,1,1,Óxido de Litio,,,,,Óxido de Litio
+4,Be,Berilio,Metal,2,1,Óxido de Berilio,,,,,Óxido de Berilio
+5,B,Boro,Metalloid,3,1,Óxido de Boro,,,,,Óxido de Boro
+6,C,Carbón,Non-metal,2;4,2,Óxido Carbonoso,Óxido Carbónico,,,,Óxido de Carbón
+7,N,Nitrógeno,Non-metal,2;3;4;5,4,Óxido HipoNitrogenoso,Óxido Nitrogenoso,Óxido Nítrico,Óxido PerNítrico,,Óxido de Nitrógeno
+8,O,Oxígeno,Non-metal,2,1,Oxígeno,,,,,Oxígeno
+9,F,Flúor,Non-metal,1,1,Óxido de Flúor,,,,,Óxido de Flúor
+10,Ne,Neón,Noble gas,0,1,Neón,,,,,Neón
+11,Na,Sodio,Metal,1,1,Óxido de Sodio,,,,,Óxido de Sodio
+12,Mg,Magnesio,Metal,2,1,Óxido de Magnesio,,,,,Óxido de Magnesio
+13,Al,Aluminio,Metal,3,1,Óxido de Aluminio,,,,,Óxido de Aluminio
+14,Si,Silicio,Metalloid,4,1,Óxido de Silicio,,,,,Óxido de Silicio
+15,P,Fósforo,Non-metal,3;4;5,3,Óxido HipoFosforoso,Óxido Fosforoso,Óxido Fosfórico,,,Óxido de Fósforo
+16,S,Azufre,Non-metal,2;4;6,3,Óxido HipoSulfuroso,Óxido Sulfuroso,Óxido Sulfúrico,,,Óxido de Azufre
+17,Cl,Cloro,Non-metal,1;3;5;7,4,Óxido HipoCloroso,Cloroso,Óxido Clórico,Óxido PerClórico,,Óxido de Cloro
+18,Ar,Argón,Noble gas,0,1,Argón,,,,,Argón
+19,K,Potasio,Metal,1,1,Óxido de Potasio,,,,,Óxido de Potasio
+20,Ca,Calcio,Metal,2,1,Óxido de Calcio,,,,,Óxido de Calcio
+21,Sc,Escandio,Metal,3,1,Óxido de Escandio,,,,,Óxido de Escandio
+22,Ti,Titanio,Metal,3;4,2,Óxido Titanoso,Óxido Titánico,,,,Óxido de Titanio
+23,V,Vanadio,Metal,2;3;4;5,4,Óxido HipoVanadioso,Óxido Vanadioso,Óxido Vanádico,Óxido PerVanádico,,Óxido de Vanadio
+24,Cr,Cromo,Metal,2;3;6,3,Óxido HipoCromoso,Óxido Cromoso,Óxido Crómico,,,Óxido de Cromo
+25,Mn,Manganeso,Metal,2;3;4;6;7,5,Óxido HipoManganoso,Óxido Manganoso,Óxido Mangánico,Óxido PerMangánico,Óxido SuperMangánico,Óxido de Manganeso
+26,Fe,Hierro,Metal,2;3,2,Óxido Ferroso,Óxido Férrico,,,,Óxido de Hierro
+27,Co,Cobalto,Metal,2;3,2,Óxido Cobaltoso,Óxido Cobáltico,,,,Óxido de Cobalto
+28,Ni,Níquel,Metal,2;3,2,Óxido Niqueloso,Óxido Niquélico,,,,Óxido de Níquel
+29,Cu,Cobre,Metal,1;2,2,Óxido Cuproso,Óxido Cúprico,,,,Óxido de Cobre
+30,Zn,Zinc,Metal,2,1,Óxido de Zinc,,,,,Óxido de Zinc
+31,Ga,Galio,Metal,3,1,Óxido de Galio,,,,,Óxido de Galio
+32,Ge,Germanio,Metalloid,4,1,Óxido de Germanio,,,,,Óxido de Germanio
+33,As,Arsénico,Metalloid,3;5,2,Óxido Arsenioso,Óxido Arsenicico,,,,Óxido de Arsénico
+34,Se,Selenio,Non-metal,4;6,2,Óxido Selenioso,Óxido Selénico,,,,Óxido de Selenio
+35,Br,Bromo,Non-metal,1;5,2,Óxido Bromoso,Óxido Brómico,,,,Óxido de Bromo
+36,Kr,Criptón,Noble gas,0,1,Criptón,,,,,Criptón
+37,Rb,Rubidio,Metal,1,1,Óxido de Rubidio,,,,,Óxido de Rubidio
+38,Sr,Estroncio,Metal,2,1,Óxido de Estroncio,,,,,Óxido de Estroncio
+39,Y,Yodo,Metal,3,1,Óxido de Yodo,,,,,Óxido de Yodo
+40,Zr,Circonio,Metal,4,1,Óxido de Circonio,,,,,Óxido de Circonio
+41,Nb,Niobio,Metal,3;5,2,Óxido Niobioso,Óxido Nióbico,,,,Óxido de Niobio
+42,Mo,Molibdeno,Metal,2;3;4;5;6,5,Óxido HipoMolibdenoso,Óxido Molibdenoso,Óxido Molibdénico,Óxido PerMolibdénico,Óxido SuperMolibdénico,Óxido de Molibdeno
+43,Tc,Tecnecio,Metal,7,1,Óxido de Tecnecio,,,,,Óxido de Tecnecio
+44,Ru,Rutenio,Metal,2;3;4;6;8,5,Óxido HipoRutenioso,Óxido Rutenioso,Óxido Ruténico,Óxido PerRuténico,Óxido SuperRuténico,Óxido de Rutenio
+45,Rh,Rodio,Metal,2;3;4,3,Óxido HipoRodioso,Óxido Rodioso,Óxido Ródico,,,Óxido de Rodio
+46,Pd,Paladio,Metal,2;4,2,Óxido Paladoso,Óxido Paládico,,,,Óxido de Paladio
+47,Ag,Plata,Metal,1,1,Óxido de Plata,,,,,Óxido de Plata
+48,Cd,Cadmio,Metal,2,1,Óxido de Cadmio,,,,,Óxido de Cadmio
+49,In,Indio,Metal,3,1,Óxido de Indio,,,,,Óxido de Indio
+50,Sn,Estaño,Metal,2;4,2,Óxido Estañoso,Óxido Estánico,,,,Óxido de Estaño
+51,Sb,Antimonio,Metalloid,3;5,2,Óxido Antimonioso,Óxido Antimónico,,,,Óxido de Antimonio
+52,Te,Telurio,Metalloid,2;4;6,3,Óxido HipoTelurioso,Óxido Telurioso,Óxido Telúrico,,,Óxido de Telurio
+53,I,Yodo,Non-metal,1;5;7,3,Óxido HipoYodoso,Óxido Yodoso,Óxido Yódico,,,Óxido de Yodo
+54,Xe,Xenón,Noble gas,0,1,Xenón,,,,,Xenón
+55,Cs,Cesio,Metal,1,1,Óxido de Cesio,,,,,Óxido de Cesio
+56,Ba,Bario,Metal,2,1,Óxido de Bario,,,,,Óxido de Bario
+57,La,Lantano,Metal,3,1,Óxido de Lantano,,,,,Óxido de Lantano
+58,Ce,Cerio,Metal,3;4,2,Óxido Cerioso,Óxido Cérico,,,,Óxido de Cerio
+59,Pr,Praseodimio,Metal,3;4,2,Óxido Praseodimioso,Óxido Praseodímico,,,,Óxido de Praseodimio
+60,Nd,Neodimio,Metal,3,1,Óxido de Neodimio,,,,,Óxido de Neodimio
+61,Pm,Prometio,Metal,3,1,Óxido de Prometio,,,,,Óxido de Prometio
+62,Sm,Samario,Metal,2;3,2,Óxido Samarioso,Óxido Samárico,,,,Óxido de Samario
+63,Eu,Europio,Metal,2;3,2,Óxido Europioso,Óxido Európico,,,,Óxido de Europio
+64,Gd,Gadolinio,Metal,3,1,Óxido de Gadolinio,,,,,Óxido de Gadolinio
+65,Tb,Terbio,Metal,3;4,2,Óxido Terbioso,Óxido Térbico,,,,Óxido de Terbio
+66,Dy,Disprosio,Metal,3,1,Óxido de Disprosio,,,,,Óxido de Disprosio
+67,Ho,Holmio,Metal,3,1,Óxido de Holmio,,,,,Óxido de Holmio
+68,Er,Erbio,Metal,3,1,Óxido de Erbio,,,,,Óxido de Erbio
+69,Tm,Tulio,Metal,2;3,2,Óxido Tulioso,Óxido Túlico,,,,Óxido de Tulio
+70,Yb,Iterbio,Metal,2;3,2,Óxido Iterbioso,Óxido Itérbico,,,,Óxido de Iterbio
+71,Lu,Lutecio,Metal,3,1,Óxido de Lutecio,,,,,Óxido de Lutecio
+72,Hf,Hafnio,Metal,4,1,Óxido de Hafnio,,,,,Óxido de Hafnio
+73,Ta,Tantalio,Metal,5,1,Óxido de Tantalio,,,,,Óxido de Tantalio
+74,W,Tungsteno,Metal,2;3;4;5;6,5,Óxido HipoTungstenoso,Óxido Tungstenoso,Óxido Tungsténico,Óxido PerTungsténico,Óxido SuperTungsténico,Óxido de Tungsteno
+75,Re,Renio,Metal,1;2;4;6;7,5,Óxido HipoRenioso,Óxido Renioso,Óxido Rénico,Óxido PerRénico,Óxido SuperRénico,Óxido de Renio
+76,Os,Osmio,Metal,2;3;4;6;8,5,Óxido HipoOsmioso,Óxido Osmioso,Óxido Ósmico,Óxido PerÓsmico,Óxido SuperÓsmico,Óxido de Osmio
+77,Ir,Iridio,Metal,2;3;4;6,4,Óxido HipoIridioso,Óxido Iridioso,Óxido Irídico,Óxido PerIrídico,,Óxido de Iridio
+78,Pt,Platino,Metal,2;4,2,Óxido Platinoso,Óxido Platínico,,,,Óxido de Platino
+79,Au,Oro,Metal,1;3,2,Óxido Auroso,Óxido Áurico,,,,Óxido de Oro
+80,Hg,Mercurio,Metal,1;2,2,Óxido Mercurioso,Óxido Mercúrico,,,,Óxido de Mercurio
+81,Tl,Talio,Metal,1;3,2,Óxido Talioso,Óxido Tálico,,,,Óxido de Talio
+82,Pb,Plomo,Metal,2;4,2,Óxido Plubioso,Óxido Plúmbico,,,,Óxido de Plomo
+83,Bi,Bismuto,Metal,3;5,2,Óxido Bismutoso,Óxido Bismútico,,,,Óxido de Bismuto
+84,Po,Polonio,Metalloid,2;4,2,Óxido Polonioso,Óxido Polónico,,,,Óxido de Polonio
+85,At,Astato,Non-metal,1;3;5;7,4,Óxido HipoAstatoso,Óxido Astatoso,Óxido Astático,Óxido PerAstático,,Óxido de Astato
+86,Rn,Radón,Noble gas,0,1,Radón,,,,,Radón
+87,Fr,Francio,Metal,1,1,Óxido de Francio,,,,,Óxido de Francio
+88,Ra,Radio,Metal,2,1,Radio,,,,,Óxido de Radio
+89,Ac,Actinio,Metal,3,1,Óxido de Actinio,,,,,Óxido de Actinio
+90,Th,Torio,Metal,4,1,Óxido de Torio,,,,,Óxido de Torio
+91,Pa,Protactinio,Metal,4;5,2,Óxido Protactinioso,Óxido Protactínico,,,,Óxido de Protactinio
+92,U,Uranio,Metal,3;4;5;6,4,Óxido HipoUranoso,Óxido Uranoso,Óxido Uránico,Óxido PerUránico,,Óxido de Uranio
+93,Np,Neptunio,Metal,3;4;5;6,4,Óxido HipoNeptunioso,Óxido Neptunioso,Óxido Neptúnico,Óxido PerNeptúnico,,Óxido de Neptunio
+94,Pu,Plutonio,Metal,3;4;5;6,4,Óxido HipoPlutonioso,Óxido Plutonioso,Óxido Plutónico,Óxido PerPlutónico,,Óxido de Plutonio
+95,Am,Americio,Metal,3;4;5;6,4,Óxido HipoAmericioso,Óxido Americioso,Óxido Amerícico,Óxido PerAmerícico,,Óxido de Americio
+96,Cm,Curio,Metal,3,1,Óxido de Curio,,,,,Óxido de Curio
+97,Bk,Berkelio,Metal,3;4,2,Óxido Berkelioso,Óxido Berkélico,,,,Óxido de Berkelio
+98,Cf,Californio,Metal,3,1,Óxido de Californio,,,,,Óxido de Californio
+99,Es,Einstenio,Metal,4,1,Óxido de Einstenio,,,,,Óxido de Einstenio
+100,Fm,Fermio,Metal,4,1,Óxido de Fermio,,,,,Óxido de Fermio
+101,Md,Mendelevio,Metal,3;4,2,Óxido Mendelevioso,Óxido Mendelévico,,,,Óxido de Mendelevio
+102,No,Nobelio,Metal,3;4,2,Óxido Nobelioso,Óxido Nobélico,,,,Óxido de Nobelio
+103,Lr,Laurencio,Metal,3;4,2,Óxido Laurencioso,Óxido Lauréncico,,,,Óxido de Laurencio
+104,Rf,Rutherfordio,Metal,4,1,Óxido de Rutherfordio,,,,,Óxido de Rutherfordio
+105,Db,Dubnium,Metal,4,1,Óxido de Dubnium,,,,,Óxido de Dubnium
+106,Sg,Seaborgio,Metal,4,1,Óxido de Seaborgio,,,,,Óxido de Seaborgio
+107,Bh,Bohrio,Metal,3;4;5,3,Óxido HipoBohrioso,Óxido Bohrioso,Óxido Bóhrico,,,Óxido de Bohrio
+108,Hs,Hassio,Metal,2;4;6;7,4,Óxido HipoHassioso,Óxido Hassioso,Óxido Hássico,Óxido PerHássico,,Óxido de Hassio
+109,Mt,Meitnerio,Metal,2;3;4;6,4,Óxido HipoMeitnerioso,Óxido Meitnerioso,Óxido Meitnérico,Óxido PerMeitnérico,,Óxido de Meitnerio
+110,Ds,Darmstatio,Metal,2;4,2,Óxido Darmstatioso,Óxido Darmstático,,,,Óxido de Darmstatio
+111,Rg,Roentgenio,Metal,2;3,2,Óxido Roentgenioso,Óxido Roentegénico,,,,Óxido de Roentgenio
+112,Cn,Copérnico,Metal,1;2,2,Óxido Copernicoso,Óxido Copérnico,,,,Óxido de Copérnico
+113,Nh,Nihonium,Metal,3,1,Óxido de Nihonium,,,,,Óxido de Nihonium
+114,Fl,Flerovio,Metal,2;4;6,3,Óxido HipoFlerovioso,Óxido Flerovioso,Óxido Fleróvico,,,Óxido de Flerovio
+115,Mc,Moscovio,Metal,1;4;5,3,Óxido HipoMoscovioso,Óxido Moscovioso,Óxido Moscóvico,,,Óxido de Moscovio
+116,Lv,Livermorio,Metal,3;4;5,3,Óxido HipoLivermorioso,Óxido Livermorioso,Óxido Livermórico,,,Óxido de Livermorio
+117,Ts,Tenesino,Metal,1;2;3,3,Óxido HipoTenesinoso,Óxido Tenesinoso,Óxido Tenésico,,,Óxido de Tenesino
+118,Og,Oganeson,Metal,4;7,2,Óxido Oganesonoso,Óxido Oganésico,,,,Óxido de Oganeson

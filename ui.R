@@ -1,5 +1,6 @@
 
-options(encoding = 'UTF-8')
+# options(encoding = 'UTF-8')
+options(encoding = 'latin1')
 
 # Source initial UI settings
 source("lib.R")
@@ -114,6 +115,7 @@ shinyUI(
                  sliderInput(inputId = "help_level", label = i18n$t("Help Level"), min=0, max=3, value=3, step=1)
                  )
               ),
+        tableOutput("tabla_nomenclatura"),
         plotOutput("resolution_plot"),
   
   

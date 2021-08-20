@@ -1,0 +1,119 @@
+Order,Symbol,Name,Type,Valence,Amount of Valences,Oxide_ValenceOrder1,Oxide_ValenceOrder2,Oxide_ValenceOrder3,Oxide_ValenceOrder4,Oxide_ValenceOrder5,IUPAC
+1,H,Hydrogen,Non-metal,1,1,Hydrogen Oxide,,,,,Hydrogen Oxide
+2,He,Helium,Noble gas,0,1,Helium,,,,,Helium
+3,Li,Lithium,Metal,1,1,Lithium Oxide,,,,,Lithium Oxide
+4,Be,Beryllium,Metal,2,1,Beryllium Oxide,,,,,Beryllium Oxide
+5,B,Boron,Metalloid,3,1,Boron Oxide,,,,,Boron Oxide
+6,C,Carbon,Non-metal,2;4,2,Carbon Oxide,Carbonic Oxide,,,,Carbon Oxide
+7,N,Nitrogen,Non-metal,2;3;4;5,4,HypoNitrogenous Oxide,Nitrogen Oxide,Nitric Oxide,PerNitric Oxide,,Nitrogen Oxide
+8,O,Oxygen,Non-metal,2,1,Oxygen,,,,,Oxygen Oxide
+9,F,Fluorine,Non-metal,1,1,Fluorine Oxide,,,,,Fluorine Oxide
+10,Ne,Neon,Noble gas,0,1,Neon,,,,,Neon
+11,Na,Sodium,Metal,1,1,Sodium Oxide,,,,,Sodium Oxide
+12,Mg,Magnesium,Metal,2,1,Magnesium Oxide,,,,,Magnesium Oxide
+13,Al,Aluminum,Metal,3,1,Aluminum Oxide,,,,,Aluminum Oxide
+14,Si,Silicon,Metalloid,4,1,Silicon Oxide,,,,,Silicon Oxide
+15,P,Phosphore,Non-metal,3;4;5,3,HypoPhosphorous Oxide,Phosphorous Oxide,Phosphoric Oxide,,,Phosphore Oxide
+16,S,Sulfur,Non-metal,2;4;6,3,HypoSulfurous Oxide,Sulfurous Oxide,Sulfuric Oxide,,,Sulfur Oxide
+17,Cl,Chlorine,Non-metal,1;3;5;7,4,HypoChlorous Oxide,Chlorous,Chloric Oxide,PerChloric Oxide,,Chlorine Oxide
+18,Ar,Argon,Noble gas,0,1,Argon,,,,,Argon
+19,K,Potassium,Metal,1,1,Potassium Oxide,,,,,Potassium Oxide
+20,Ca,Calcium,Metal,2,1,Calcium Oxide,,,,,Calcium Oxide
+21,Sc,Scandium,Metal,3,1,Scandium Oxide,,,,,Scandium Oxide
+22,Ti,Titanium,Metal,3;4,2,Titanous Oxide,Titanic Oxide,,,,Titanium Oxide
+23,V,Vanadium,Metal,2;3;4;5,4,HypoVanadious Oxide,Vanadious Oxide,Vanadic Oxide,PerVanadic Oxide,,Vanadium Oxide
+24,Cr,Chrome,Metal,2;3;6,3,Hypochromic Oxide,Chromic Oxide,Chromic Oxide,,,Chrome Oxide
+25,Mn,Manganese,Metal,2;3;4;6;7,5,HypoManganous Oxide,Manganous Oxide,Manganic Oxide,Permanganic Oxide,HyperManganic Oxide,Manganese Oxide
+26,Fe,Iron,Metal,2;3,2,Ferrous Oxide,Ferric Oxide,,,,Iron Oxide
+27,Co,Cobalt,Metal,2;3,2,Cobaltous Oxide,Cobalt Oxide,,,,Cobalt Oxide
+28,Ni,Nickel,Metal,2;3,2,Nickel Oxide,Nickel Oxide,,,,Nickel Oxide
+29,Cu,Copper,Metal,1;2,2,Cuprous Oxide,Cupric Oxide,,,,Copper Oxide
+30,Zn,Zinc,Metal,2,1,Zinc Oxide,,,,,Zinc Oxide
+31,Ga,Gallium,Metal,3,1,Gallium Oxide,,,,,Gallium Oxide
+32,Ge,Germanium,Metalloid,4,1,Germanium Oxide,,,,,Germanium Oxide
+33,As,Arsenic,Metalloid,3;5,2,Arsenous Oxide,Arsenic Oxide,,,,Arsenic Oxide
+34,Se,Selenium,Non-metal,4;6,2,Selenium Oxide,Selenic Oxide,,,,Selenium Oxide
+35,Br,Bromine,Non-metal,1;5,2,Bromous Oxide,Bromic Oxide,,,,Bromine Oxide
+36,Kr,Krypton,Noble gas,0,1,Krypton,,,,,Krypton
+37,Rb,Rubidium,Metal,1,1,Rubidium Oxide,,,,,Rubidium Oxide
+38,Sr,Strontium,Metal,2,1,Strontium Oxide,,,,,Strontium Oxide
+39,Y,Yttrium,Metal,3,1,Yttrium Oxide,,,,,Yttrium Oxide
+40,Zr,Zirconium,Metal,4,1,Zirconium Oxide,,,,,Zirconium Oxide
+41,Nb,Niobium,Metal,3;5,2,Niobium Oxide,Nitrogen Oxide,,,,Niobium Oxide
+42,Mo,Molybdenum,Metal,2;3;4;5;6,5,HypoMolybdenous Oxide,Molybdenous Oxide,Molybdenic Oxide,PerMolybdenic Oxide,HyperMolybdenic Oxide,Molybdenum Oxide
+43,Tc,Technetium,Metal,7,1,Technetium Oxide,,,,,Technetium Oxide
+44,Ru,Ruthenium,Metal,2;3;4;6;8,5,HypoRuthenium Oxide,Ruthenium Oxide,Ruthenic Oxide,PerRuthenic Oxide,HyperRuthenic Oxide,Ruthenium Oxide
+45,Rh,Rhodium,Metal,2;3;4,3,HypoRodious Oxide,Rhodium Oxide,Rhodium Oxide,,,Rhodium Oxide
+46,Pd,Palladium,Metal,2;4,2,Palladenous Oxide,Palladic Oxide,,,,Palladium Oxide
+47,Ag,Silver,Metal,1,1,Silver Oxide,,,,,Silver Oxide
+48,Cd,Cadmium,Metal,2,1,Cadmium Oxide,,,,,Cadmium Oxide
+49,In,Indian,Metal,3,1,Indium Oxide,,,,,Indian Oxide
+50,Sn,Tin,Metal,2;4,2,Stannium Oxide,Stannic Oxide,,,,Tin Oxide
+51,Sb,Antimony,Metalloid,3;5,2,Antimonious Oxide,Antimonic Oxide,,,,Antimony Oxide
+52,Te,Tellurium,Metalloid,2;4;6,3,HypoTelluric Oxide,Tellurium Oxide,Telluric Oxide,,,Tellurium Oxide
+53,I,Iodine,Non-metal,1;5;7,3,HypoIodine Oxide,Iodine Oxide,Iodium Oxide,,,Iodine Oxide
+54,Xe,Xenon,Noble gas,0,1,Xenon,,,,,Xenon
+55,Cs,Cesium,Metal,1,1,Cesium Oxide,,,,,Cesium Oxide
+56,Ba,Barium,Metal,2,1,Barium Oxide,,,,,Barium Oxide
+57,La,Lanthanum,Metal,3,1,Lanthanum Oxide,,,,,Lanthanum Oxide
+58,Ce,Cerium,Metal,3;4,2,Cerium Oxide,Ceric Oxide,,,,Cerium Oxide
+59,Pr,Praseodymium,Metal,3;4,2,Praseodymium Oxide,Praseodymic Oxide,,,,Praseodymium
+60,Nd,Neodymium,Metal,3,1,Neodymium Oxide,,,,,Neodymium Oxide
+61,Pm,Promise,Metal,3,1,Promethium Oxide,,,,,Promise Oxide
+62,Sm,Samarium,Metal,2;3,2,Samarious Oxide,Samaric Oxide,,,,Samarium Oxide
+63,Eu,Europium,Metal,2;3,2,Europious Oxide,Europic Oxide,,,,Europium Oxide
+64,Gd,Gadolinium,Metal,3,1,Gadolinium Oxide,,,,,Gadolinium Oxide
+65,Tb,Terbium,Metal,3;4,2,Terbious Oxide,Terbic Oxide,,,,Terbium Oxide
+66,Dy,Dysprosium,Metal,3,1,Dysprosium Oxide,,,,,Dysprosium Oxide
+67,Ho,Holmium,Metal,3,1,Holmium Oxide,,,,,Holmium Oxide
+68,Er,Erbium,Metal,3,1,Erbium Oxide,,,,,Erbium Oxide
+69,Tm,Thulium,Metal,2;3,2,Thulious Oxide,Tholic Oxide,,,,Thulium Oxide
+70,Yb,Ytterbium,Metal,2;3,2,Itterbious Oxide,Itterbic Oxide,,,,Ytterbium Oxide
+71,Lu,Lutetium,Metal,3,1,Lutetium Oxide,,,,,Lutetium Oxide
+72,Hf,Hafnium,Metal,4,1,Hafnium Oxide,,,,,Hafnium Oxide
+73,Ta,Tantalum,Metal,5,1,Tantalum Oxide,,,,,Tantalum Oxide
+74,W,Tungsten,Metal,2;3;4;5;6,5,HypoTungsten Oxide,Tungsten Oxide,Tungsthenic Oxide,PerTungsthenic Oxide,HyperTungsthenic Oxide,Tungsten Oxide
+75,Re,Rhenium,Metal,1;2;4;6;7,5,HypoRenious Oxide,Rhenium Oxide,Renic Oxide,Perrenic Oxide,HyperRhenic Oxide,Rhenium Oxide
+76,Os,Osmium,Metal,2;3;4;6;8,5,HypoOsmous Oxide,Osmium Oxide,Osmic Oxide,PerOSmic Oxide,HyperOsmic Oxide,Osmium Oxide
+77,Ir,Iridium,Metal,2;3;4;6,4,HypoIridic Oxide,Iridescent Oxide,Iridic Oxide,PerIodic Oxide,,Iridium Oxide
+78,Pt,Platinum,Metal,2;4,2,Platinous Oxide,Platinic Oxide,,,,Platinum Oxide
+79,Au,Gold,Metal,1;3,2,Aurous Oxide,Auric Oxide,,,,Gold Oxide
+80,Hg,Mercury,Metal,1;2,2,Mercurous Oxide,Mercuric Oxide,,,,Mercury Oxide
+81,Tl,Thallium,Metal,1;3,2,Thallous Oxide,Thalic Oxide,,,,Thallium Oxide
+82,Pb,Lead,Metal,2;4,2,Plubious Oxide,Lead Oxide,,,,Lead Oxide
+83,Bi,Bismuth,Metal,3;5,2,Bismuth Oxide,Bismuth Oxide,,,,Bismuth Oxide
+84,Po,Polonium,Metalloid,2;4,2,Polonious Oxide,Polonic Oxide,,,,Polonium Oxide
+85,At,Astatus,Non-metal,1;3;5;7,4,HypoAstatosus Oxide,Astatosus Oxide,Astatic Oxide,PerAstatic Oxide,,Astatus Oxide
+86,Rn,Radon,Noble gas,0,1,Radon,,,,,Radon
+87,Fr,Francius,Metal,1,1,Francium Oxide,,,,,Francius Oxide
+88,Ra,Radio,Metal,2,1,Radio,,,,,Radio Oxide
+89,Ac,Actinium,Metal,3,1,Actinium Oxide,,,,,Actinium Oxide
+90,Th,Thorium,Metal,4,1,Thorium Oxide,,,,,Thorium Oxide
+91,Pa,Protactinium,Metal,4;5,2,Protactinium Oxide,Protactinic Oxide,,,,Protactinium Oxide
+92,U,Uranium,Metal,3;4;5;6,4,HypoUranous Oxide,Uranus Oxide,Uranic Oxide,PerUranic Oxide,,Uranium Oxide
+93,Np,Neptunium,Metal,3;4;5;6,4,Hypo Neptunious Oxide,Neptunious Oxide,Neptunic Oxide,PerNeptunic Oxide,,Neptunium Oxide
+94,Pu,Plutonium,Metal,3;4;5;6,4,HypoPlutonious Oxide,Plutonious Oxide,Plutonic Oxide,PerPlutonic Oxide,,Plutonium Oxide
+95,Am,Americium,Metal,3;4;5;6,4,HypoAmeric Oxide,Americious Oxide,Americium Oxide,PerAmeric Oxide,,Americium Oxide
+96,Cm,Curium,Metal,3,1,Curium Oxide,,,,,Curium Oxide
+97,Bk,Berkelium,Metal,3;4,2,Berkelious Oxide,Berkelic Oxide,,,,Berkelium Oxide
+98,Cf,Californium,Metal,3,1,Californium Oxide,,,,,Californium Oxide
+99,Es,Einsteinium,Metal,4,1,Einsteinium Oxide,,,,,Einsteinium Oxide
+100,Fm,Fermium,Metal,4,1,Fermium Oxide,,,,,Fermium Oxide
+101,Md,Mendelevium,Metal,3;4,2,Mendelevious Oxide,Mendelevic Oxide,,,,Mendelevium Oxide
+102,No,Nobelio,Metal,3;4,2,Nobelium Oxide,Nobelic Oxide,,,,Nobelio Oxide
+103,Lr,Laurencio,Metal,3;4,2,Laurencious Oxide,Laurenic Oxide,,,,Laurencio Oxide
+104,Rf,Rutherfordio,Metal,4,1,Rutherfordium Oxide,,,,,Rutherfordio Oxide
+105,Db,Dubnium,Metal,4,1,Dubnium Oxide,,,,,Dubnium Oxide
+106,Sg,Seaborgio,Metal,4,1,Seaborgium Oxide,,,,,Seaborgio Oxide
+107,Bh,Bohrio,Metal,3;4;5,3,HypoBohrous Oxide,Bohrous Oxide,Bohric Oxide,,,Bohrio Oxide
+108,Hs,Hassio,Metal,2;4;6;7,4,HypoHassious Oxide,Hassiosus Oxide,Hassic Oxide,PerHasic Oxide,,Hassio Oxide
+109,Mt,Meitnerius,Metal,2;3;4;6,4,Hypo-Meitneric Oxide,Meitnerious Oxide,Meiteric Oxide,PerMeitronic Oxide,,Meitnerius Oxide
+110,Ds,Darmstadtium,Metal,2;4,2,Darmstatium Oxide,Darmstatic Oxide,,,,Darmstadtium Oxide
+111,Rg,Roentgenio,Metal,2;3,2,Roentgenous Oxide,Roentegenic Oxide,,,,Roentgenio Oxide
+112,Cn,Copernicus,Metal,1;2,2,Copernicium Oxide,Copernicus Oxide,,,,Copernicus Oxide
+113,Nh,Nihonium,Metal,3,1,Nihonium Oxide,,,,,Nihonium Oxide
+114,Fl,Flerovio,Metal,2;4;6,3,HypoFlerovium Oxide,Flerovious Oxide,Flerovic Oxide,,,Flerovio Oxide
+115,Mc,Moscovio,Metal,1;4;5,3,HypoMoscovian Oxide,Muscovy Oxide,Moscow Oxide,,,Moscovio Oxide
+116,Lv,Livermorio,Metal,3;4;5,3,Hypo-Liver Oxide,Livermorous Oxide,Livermoric Oxide,,,Livermorio Oxide
+117,Ts,Tenesino,Metal,1;2;3,3,HypoTenesinous Oxide,Tenesinous Oxide,Tennesic Oxide,,,Tenesino Oxide
+118,Og,Oganeson,Metal,4;7,2,Oganesone Oxide,Oganesic Oxide,,,,Oganeson Oxide

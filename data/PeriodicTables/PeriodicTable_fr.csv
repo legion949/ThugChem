@@ -1,120 +1,120 @@
 Order,Symbol,Name,Atomic Number,Group,Period,Type,Subtype,State,Valence,"Atomic Weight
-(uma)",density g/mL,Boiling point,Fusion Point,Amount of Valences,Name_ENG,Oxide_ENG,Hydrides_ENG,Hydroxides_ENG,Hydrazides_ENG,Salt_ENG,Oxysalt_ENG
-1,H,Hydrogen,1,1,1,Non-metal,Other Non-Metals,Gas,1,1.007975,0.0000699,-252.9,-259.1,1,Hydrogen,Hydrogen,Hydrogen,Hydrogen,Hydrogen,Hydrogen,Hydrogen
-2,He,Helium,2,18,1,Noble gas,-,Gas,0,4.002602,0.000179,-268.9,-272.2,1,Helium,Helium,Helium,Helium,Helium,Helium,Helium
-3,Li,Lithium,3,1,2,Metal,Alkaline,Solid,1,6.9675,543,1342,180.5,1,Lithium,Lithium,Lithium,Lithium,Lithium,Lithium,Lithium
-4,Be,Beryllium,4,2,2,Metal,Alkaline earths,Solid,2,9.0121831,1.85,2970,1278,1,Beryllium,Beryllium,Beryllium,Beryllium,Beryllium,Beryllium,Beryllium
-5,B,Boron,5,13,2,Metalloid,-,Solid,3,10.8135,2.34,2550,2079,1,Boron,Boron,Boron,Boron,Boron,Boron,Boride
-6,C,Carbon,6,14,2,Non-metal,Other Non-Metals,Solid,2;4,12.0106,2.25,4827,3367,2,Carbon,Carbonic;Carbonic,Carbonic;Carbonic,Carbonic;Carbonic,Carbonic;Carbonic,Carbonite;Carbonate,Carbonide
-7,N,Nitrogen,7,15,2,Non-metal,Other Non-Metals,Gas,2;3;4;5,14.006855,0.00125,-195.8,-209.9,4,Nitrogen,Nitrogenous;Nitric,Nitrogenous;Nitric,Nitrogenous;Nitric,Nitrogenous;Nitric,Nitrite;Nitrate,Nitride
-8,O,Oxygen,8,16,2,Non-metal,Other Non-Metals,Gas,2,15.9994,0.00143,-183,-218.4,1,Oxygen,Oxygen,Oxygen,Oxygen,Oxygen,Oxygen,Oxygen
-9,F,Fluorine,9,17,2,Non-metal,Halogens,Gas,1,18.99840316,0.0017,-188.1,-219.8,1,Fluorine,Fluorine,Fluorine,Fluorine,Fluorine,Fluorine,Fluoride
-10,Ne,Neon,10,18,2,Noble gas,-,Gas,0,20.1797,0.0009,-248.7,-248,1,Neon,Neon,Neon,Neon,Neon,Neon,Neon
-11,Na,Sodium,11,1,3,Metal,Alkaline,Solid,1,22.98976928,971,883,97.8,1,Sodium,Sodium,Sodium,Sodium,Sodium,Sodium,Sodium
-12,Mg,Magnesium,12,2,3,Metal,Alkaline earths,Solid,2,24.3055,1.74,1090,649,1,Magnesium,Magnesium,Magnesium,Magnesium,Magnesium,Magnesium,Magnesium
-13,Al,Aluminum,13,13,3,Metal,Metals from Block p,Solid,3,26.9815385,2.7,2467,660,1,Aluminum,Aluminum,Aluminum,Aluminum,Aluminum,Aluminum,Aluminum
-14,Si,Silicon,14,14,3,Metalloid,-,Solid,4,28085,2.33,2355,1410,1,Silicon,Silicon,Silicon,Silicon,Silicon,Silicon,Silicide
-15,P,Match,15,15,3,Non-metal,Other Non-Metals,Solid,3;4;5,30.973762,1.82,280,44.1,3,Match,Phosphorous;Phosphoric,Phosphorous;Phosphoric,Phosphorous;Phosphoric,Phosphorous;Phosphoric,Phosphorite;Phosphate,Phosphide
-16,S,Sulfur,16,16,3,Non-metal,Other Non-Metals,Solid,2;4;6,32.0675,2.07,444.7,112.8,3,Sulfur,Sulfurous;Sulfuric,Sulfurous;Sulfuric,Sulfurous;Sulfuric,Sulfurous;Sulfuric,Sulfite;Sulfate,Sulfide
-17,Cl,Chlorine,17,17,3,Non-metal,Halogens,Gas,1;3;5;7,35.4515,0.00321,-34.6,-101,4,Chlorine,Chlorine;Chloric,Chlorine;Chloric,Chlorine;Chloric,Chlorine;Chloric,Chlorite;Chlorate,Chloride
-18,Ar,Argon,18,18,3,Noble gas,-,Gas,0,39948,0.00178,-185.7,-189.2,1,Argon,Argon,Argon,Argon,Argon,Argon,Argon
-19,K,Potassium,19,1,4,Metal,Alkaline,Solid,1,39.0983,0.86,760,63.25,1,Potassium,Potassium,Potassium,Potassium,Potassium,Potassium,Potassium
-20,Ca,Calcium,20,2,4,Metal,Alkaline earths,Solid,2,40078,1.55,1484,839,1,Calcium,Calcium,Calcium,Calcium,Calcium,Calcium,Calcium
-21,Sc,Scandium,21,3,4,Metal,Transition Metals,Solid,3,44.955908,2.99,2832,1541,1,Scandium,Scandium,Scandium,Scandium,Scandium,Scandium,Scandium
-22,Ti,Titanium,22,4,4,Metal,Transition Metals,Solid,3;4,47867,4.54,3287,1660,2,Titanium,Titanious;Titanic,Titanious;Titanic,Titanious;Titanic,Titanious;Titanic,Titanious;Titanic,Titanious;Titanic
-23,V,Vanadium,23,5,4,Metal,Transition Metals,Solid,2;3;4;5,50.9415,6.11,3380,1890,4,Vanadium,Vanadious;Vanadic,Vanadious;Vanadic,Vanadious;Vanadic,Vanadious;Vanadic,Vanadious;Vanadic,Vanadious;Vanadic
-24,Cr,Chrome,24,6,4,Metal,Transition Metals,Solid,2;3;6,51.9961,7.19,2672,1857,3,Chrome,Chromic;Chromic,Chromic;Chromic,Chromic;Chromic,Chromic;Chromic,Chromic;Chromic,Chromic;Chromic
-25,Mn,Manganese,25,7,4,Metal,Transition Metals,Solid,2;3;4;6;7,54.938044,7.43,1962,1244,5,Manganese,Manganous;Manganous,Manganous;Manganous,Manganous;Manganous,Manganous;Manganous,Manganous;Manganous,Manganous;Manganous
-26,Fe,Iron,26,8,4,Metal,Transition Metals,Solid,2;3,55845,7.86,2750,1535,2,Iron,Ferrous;Ferric,Ferrous;Ferric,Ferrous;Ferric,Ferrous;Ferric,Ferrous;Ferric,Ferrous;Ferric
-27,Co,Cobalt,27,9,4,Metal,Transition Metals,Solid,2;3,58.933194,8.9,2870,1495,2,Cobalt,Cobalt;Cobalt,Cobalt;Cobalt,Cobalt;Cobalt,Cobalt;Cobalt,Cobalt;Cobalt,Cobalt;Cobalt
-28,Ni,Nickel,28,10,4,Metal,Transition Metals,Solid,2;3,58.6934,8.9,2730,1453,2,Nickel,Nickel;Nickel,Nickel;Nickel,Nickel;Nickel,Nickel;Nickel,Nickel;Nickel,Nickel;Nickel
-29,Cu,Copper,29,11,4,Metal,Transition Metals,Solid,1;2,63546,8.96,2567,1083,2,Copper,Cuprous;Cupric,Cuprous;Cupric,Cuprous;Cupric,Cuprous;Cupric,Cuprous;Cupric,Cuprous;Cupric
-30,Zn,Zinc,30,12,4,Metal,Transition Metals,Solid,2,65.38,7.13,906,419.6,1,Zinc,Zinc,Zinc,Zinc,Zinc,Zinc,Zinc
-31,Ga,Gallium,31,13,4,Metal,Metals from Block p,Liquid,3,69723,5.9,2403,29.8,1,Gallium,Gallium,Gallium,Gallium,Gallium,Gallium,Gallium
-32,Ge,Germanium,32,14,4,Metalloid,-,Solid,4,72.63,5.32,2830,947.4,1,Germanium,Germanium,Germanium,Germanium,Germanium,Germanium,Gemaruro
-33,As,Arsenic,33,15,4,Metalloid,-,Solid,3;5,74.921595,5.73,617,817,2,Arsenic,Arsenious;Arsenic,Arsenious;Arsenic,Arsenious;Arsenic,Arsenious;Arsenic,Arsenious;Arsenic,Arsenide
-34,Se,Selenium,34,16,4,Non-metal,Other Non-Metals,Solid,4;6,78971,4.79,685,217,2,Selenium,Selenious;Selenic,Selenious;Selenic,Selenious;Selenic,Selenious;Selenic,Selenite;Selenate,Selenide
-35,Br,Bromine,35,17,4,Non-metal,Halogens,Liquid,1;5,79904,3.12,58.8,-7.2,2,Bromine,Bromous;Bromic,Bromous;Bromic,Bromous;Bromic,Bromous;Bromic,Bromite;Bromate,Bromide
-36,Kr,Krypton,36,18,4,Noble gas,-,Gas,0,83798,0.00374,-152,-157,1,Krypton,Krypton,Krypton,Krypton,Krypton,Krypton,Krypton
-37,Rb,Rubidium,37,1,5,Metal,Alkaline,Solid,1,85.4678,1.53,686,38.9,1,Rubidium,Rubidium,Rubidium,Rubidium,Rubidium,Rubidium,Rubidium
-38,Sr,Strontium,38,2,5,Metal,Alkaline earths,Solid,2,87.62,2.54,1384,769,1,Strontium,Strontium,Strontium,Strontium,Strontium,Strontium,Strontium
-39,Y,Yttrium,39,3,5,Metal,Transition Metals,Solid,3,88.90584,4.47,3337,1523,1,Yttrium,Yttrium,Yttrium,Yttrium,Yttrium,Yttrium,Yttrium
-40,Zr,Zirconium,40,4,5,Metal,Transition Metals,Solid,4,91224,6.51,4377,1852,1,Zirconium,Zirconium,Zirconium,Zirconium,Zirconium,Zirconium,Zirconium
-41,Nb,Niobium,41,5,5,Metal,Transition Metals,Solid,3;5,92.90637,8.57,4742,2468,2,Niobium,Niobious;Niobic,Niobious;Niobic,Niobious;Niobic,Niobious;Niobic,Niobious;Niobic,Niobious;Niobic
-42,Mo,Molybdenum,42,6,5,Metal,Transition Metals,Solid,2;3;4;5;6,95.95,10.2,4612,2617,5,Molybdenum,Molybdenous;Molybdenic,Molybdenous;Molybdenic,Molybdenous;Molybdenic,Molybdenous;Molybdenic,Molybdenous;Molybdenic,Molybdenous;Molybdenic
-43,Tc,Technetium,43,7,5,Metal,Transition Metals,Solid,7,98,11.5,4877,2172,1,Technetium,Technetium,Technetium,Technetium,Technetium,Technetium,Technetium
-44,Ru,Ruthenium,44,8,5,Metal,Transition Metals,Solid,2;3;4;6;8,101.07,12.4,3900,2310,5,Ruthenium,Ruthenic;ruthenic,Ruthenic;ruthenic,Ruthenic;ruthenic,Ruthenic;ruthenic,Ruthenic;ruthenic,Ruthenic;ruthenic
-45,Rh,Rhodium,45,9,5,Metal,Transition Metals,Solid,2;3;4,102.9055,12.4,3727,1966,3,Rhodium,Rhodic;Rhodic,Rhodic;Rhodic,Rhodic;Rhodic,Rhodic;Rhodic,Rhodic;Rhodic,Rhodic;Rhodic
-46,Pd,Palladium,46,10,5,Metal,Transition Metals,Solid,2;4,106.42,12,3140,1554,2,Palladium,Palladious;Palladic,Palladious;Palladic,Palladious;Palladic,Palladious;Palladic,Palladious;Palladic,Palladious;Palladic
-47,Ag,Silver,47,11,5,Metal,Transition Metals,Solid,1,107.8682,10.5,2212,962,1,Silver,Silver,Silver,Silver,Silver,Silver,Silver
-48,Cd,Cadmium,48,12,5,Metal,Transition Metals,Solid,2,112414,8.65,765,320.9,1,Cadmium,Cadmium,Cadmium,Cadmium,Cadmium,Cadmium,Cadmium
-49,In,Indian,49,13,5,Metal,Metals from Block p,Solid,3,114818,7.31,2080,156.6,1,Indian,Indian,Indian,Indian,Indian,Indian,Indian
-50,Sn,Tin,50,14,5,Metal,Metals from Block p,Solid,2;4,118.71,7.31,2270,232,2,Tin,Tin;Tin,Tin;Tin,Tin;Tin,Tin;Tin,Tin;Tin,Tin;Tin
-51,Sb,Antimony,51,15,5,Metalloid,-,Solid,3;5,121.76,6.69,1950,631,2,Antimony,Antimonious;Antimonic,Antimonious;Antimonic,Antimonious;Antimonic,Antimonious;Antimonic,Antimonious;Antimonic,Antimonuro
-52,Te,Tellurium,52,16,5,Metalloid,-,Solid,2;4;6,127.6,6.24,989.8,449.5,3,Tellurium,Telluric;Telluric,Telluric;Telluric,Telluric;Telluric,Telluric;Telluric,Telluric;Telluric,Telluride
-53,I,Iodine,53,17,5,Non-metal,Halogens,Solid,1;5;7,126.90447,4.93,184,113.5,3,Iodine,Iodine;Iodine,Iodine;Iodine,Iodine;Iodine,Iodine;Iodine,Iodite;Idate,Ilast
-54,Xe,Xenon,54,18,5,Noble gas,-,Gas,0,131293,0.00589,-107.1,-111.8,1,Xenon,Xenon,Xenon,Xenon,Xenon,Xenon,Xenon
-55,Cs,Cesium,55,1,6,Metal,Alkaline,Liquid,1,132.905452,1.87,669,28.4,1,Cesium,Cesium,Cesium,Cesium,Cesium,Cesium,Cesium
-56,Ba,Barium,56,2,6,Metal,Alkaline earths,Solid,2,137327,3.5,1640,725,1,Barium,Barium,Barium,Barium,Barium,Barium,Barium
-57,La,Lanthanum,57,3,6,Metal,Lanthanides,Solid,3,138.90547,6.15,3454,920,1,Lanthanum,Lanthanum,Lanthanum,Lanthanum,Lanthanum,Lanthanum,Lanthanum
-58,Ce,Cerium,58,3,6,Metal,Lanthanides,Solid,3;4,140116,6.66,3257,798,2,Cerium,Cerious;Cericus,Cerious;Cericus,Cerious;Cericus,Cerious;Cericus,Cerious;Cericus,Cerious;Cericus
-59,Pr,Praseodymium,59,3,6,Metal,Lanthanides,Solid,3;4,140.90766,6.77,3017,931,2,Praseodymium,Praseodmic;Praseodmic,Praseodmic;Praseodmic,Praseodmic;Praseodmic,Praseodmic;Praseodmic,Praseodmic;Praseodmic,Praseodmic;Praseodmic
-60,Nd,Neodymium,60,3,6,Metal,Lanthanides,Solid,3,144242,7,3127,1016,1,Neodymium,Neodymium,Neodymium,Neodymium,Neodymium,Neodymium,Neodymium
-61,Pm,Promise,61,3,6,Metal,Lanthanides,Solid,3,145,7.26,3000,1042,1,Promise,Promise,Promise,Promise,Promise,Promise,Promise
-62,Sm,Samarium,62,3,6,Metal,Lanthanides,Solid,3;2,150.36,7.52,1794,1074,2,Samarium,Samarioso;Samarico,Samarioso;Samarico,Samarioso;Samarico,Samarioso;Samarico,Samarioso;Samarico,Samarioso;Samarico
-63,Eu,Europium,63,3,6,Metal,Lanthanides,Solid,3;2,151964,5.24,1529,822,2,Europium,Europious;Europic,Europious;Europic,Europious;Europic,Europious;Europic,Europious;Europic,Europious;Europic
-64,Gd,Gadolinium,64,3,6,Metal,Lanthanides,Solid,3,157.25,7.9,3273,1313,1,Gadolinium,Gadolinium,Gadolinium,Gadolinium,Gadolinium,Gadolinium,Gadolinium
-65,Tb,Terbium,65,3,6,Metal,Lanthanides,Solid,3;4,158.92535,8.23,3230,1365,2,Terbium,Terbioso;Terbico,Terbioso;Terbico,Terbioso;Terbico,Terbioso;Terbico,Terbioso;Terbico,Terbioso;Terbico
-66,Dy,Dysprosium,66,3,6,Metal,Lanthanides,Solid,3,162.5,8.55,2567,1412,1,Dysprosium,Dysprosium,Dysprosium,Dysprosium,Dysprosium,Dysprosium,Dysprosium
-67,Ho,Holmium,67,3,6,Metal,Lanthanides,Solid,3,164.93033,8.8,2700,1474,1,Holmium,Holmium,Holmium,Holmium,Holmium,Holmium,Holmium
-68,Er,Erbium,68,3,6,Metal,Lanthanides,Solid,3,167259,9.07,2868,1529,1,Erbium,Erbium,Erbium,Erbium,Erbium,Erbium,Erbium
-69,Tm,Thulium,69,3,6,Metal,Lanthanides,Solid,3;2,168.93422,9.32,1950,1545,2,Thulium,Tulioso;Tunic,Tulioso;Tunic,Tulioso;Tunic,Tulioso;Tunic,Tulioso;Tunic,Tulioso;Tunic
-70,Yb,Ytterbium,70,3,6,Metal,Lanthanides,Solid,3;2,173054,6.97,1196,819,2,Ytterbium,Iterbious;Iterbic,Iterbious;Iterbic,Iterbious;Iterbic,Iterbious;Iterbic,Iterbious;Iterbic,Iterbious;Iterbic
-71,Lu,Lutetium,71,3,6,Metal,Lanthanides,Solid,3,174.9668,9.84,3402,1663,1,Lutetium,Lutetium,Lutetium,Lutetium,Lutetium,Lutetium,Lutetium
-72,Hf,Hafnium,72,4,6,Metal,Lanthanides,Solid,4,178.49,13.3,4600,2227,1,Hafnium,Hafnium,Hafnium,Hafnium,Hafnium,Hafnium,Hafnium
-73,Ta,Tantalum,73,5,6,Metal,Lanthanides,Solid,5,180.94788,16.6,5425,2996,1,Tantalum,Tantalum,Tantalum,Tantalum,Tantalum,Tantalum,Tantalum
-74,W,Tungsten,74,6,6,Metal,Lanthanides,Solid,2;3;4;5;6,183.84,19.3,5660,3410,5,Tungsten,Wolframioso;Wolfrámico,Wolframioso;Wolfrámico,Wolframioso;Wolfrámico,Wolframioso;Wolfrámico,Wolframioso;Wolfrámico,Wolframioso;Wolfrámico
-75,Re,Rhenium,75,7,6,Metal,Lanthanides,Solid,1;2;4;6;7,186207,21,5600,3180,5,Rhenium,Renious;Renic,Renious;Renic,Renious;Renic,Renious;Renic,Renious;Renic,Renious;Renic
-76,Os,Osmium,76,8,6,Metal,Lanthanides,Solid,2;3;4;6;8,190.23,22.6,5030,3045,5,Osmium,Osmious;Osmic,Osmious;Osmic,Osmious;Osmic,Osmious;Osmic,Osmious;Osmic,Osmious;Osmic
-77,Ir,Iridium,77,9,6,Metal,Lanthanides,Solid,2;3;4;6,192217,22.4,4130,2410,4,Iridium,Iridious;iridic,Iridious;iridic,Iridious;iridic,Iridious;iridic,Iridious;iridic,Iridious;iridic
-78,Pt,Platinum,78,10,6,Metal,Lanthanides,Solid,2;4,195084,21.4,3827,1772,2,Platinum,Platinous;Platinic,Platinous;Platinic,Platinous;Platinic,Platinous;Platinic,Platinous;Platinic,Platinous;Platinic
-79,Au,Gold,79,11,6,Metal,Lanthanides,Solid,1;3,196.966569,19.3,3080,1064,2,Gold,Auroso;Auric,Auroso;Auric,Auroso;Auric,Auroso;Auric,Auroso;Auric,Auroso;Auric
-80,Hg,Mercury,80,12,6,Metal,Lanthanides,Liquid,1;2,200592,13.5,357,-38.9,2,Mercury,Mercurose;Mercuric,Mercurose;Mercuric,Mercurose;Mercuric,Mercurose;Mercuric,Mercurose;Mercuric,Mercurose;Mercuric
-81,Tl,Thallium,81,13,6,Metal,Lanthanides,Solid,1;3,204.3835,11.9,1457,303,2,Thallium,Talioso;Thalic,Talioso;Thalic,Talioso;Thalic,Talioso;Thalic,Talioso;Thalic,Talioso;Thalic
-82,Pb,Lead,82,14,6,Metal,Lanthanides,Solid,2;4,207.2,11.4,1740,327.5,2,Lead,Lead;Lead,Lead;Lead,Lead;Lead,Lead;Lead,Lead;Lead,Lead;Lead
-83,Bi,Bismuth,83,15,6,Metal,Lanthanides,Solid,3;5,208.9804,9.75,1560,271,2,Bismuth,Bismuth;Bismuth,Bismuth;Bismuth,Bismuth;Bismuth,Bismuth;Bismuth,Bismuth;Bismuth,Bismuth;Bismuth
-84,Po,Polonium,84,16,6,Metalloid,-,Solid,2;4,209,9.32,962,254,2,Polonium,Polonious;Polonian,Polonious;Polonian,Polonious;Polonian,Polonious;Polonian,Polonious;Polonian,Poloniuro
-85,At,Astatus,85,17,6,Non-metal,Halogens,Solid,1;3;5;7,210,,337,302,4,Astatus,Astatoso;Asthatic,Astatoso;Asthatic,Astatoso;Asthatic,Astatoso;Asthatic,Astatito;Astato,Astatuto
-86,Rn,Radon,86,18,6,Noble gas,-,Gas,0,222,0.00973,-61.8,-71,1,Radon,Radon,Radon,Radon,Radon,Radon,Radon
-87,Fr,Francius,87,1,7,Metal,Alkaline,Liquid,1,223,,677,27,1,Francius,Francius,Francius,Francius,Francius,Francius,Francius
-88,Ra,Radio,88,2,7,Metal,Alkaline earths,Solid,2,226,5,1140,700,1,Radio,Radio,Radio,Radio,Radio,Radio,Radio
-89,Ac,Actinium,89,3,7,Metal,Actinides,Solid,3,227,10.1,3200,1050,1,Actinium,Actinium,Actinium,Actinium,Actinium,Actinium,Actinium
-90,Th,Thorium,90,3,7,Metal,Actinides,Solid,4,232.0377,11.7,4790,1750,1,Thorium,Thorium,Thorium,Thorium,Thorium,Thorium,Thorium
-91,Pa,Protactinium,91,3,7,Metal,Actinides,Solid,4;5,231.03588,15.4,4000,1570,2,Protactinium,Protactinous;Protactinous,Protactinous;Protactinous,Protactinous;Protactinous,Protactinous;Protactinous,Protactinous;Protactinous,Protactinous;Protactinous
-92,U,Uranium,92,3,7,Metal,Actinides,Solid,3;4;5;6,238.02891,19,3818,1132,4,Uranium,Uranus;Uranic,Uranus;Uranic,Uranus;Uranic,Uranus;Uranic,Uranus;Uranic,Uranus;Uranic
-93,Np,Neptunium,93,3,7,Metal,Actinides,???,3;4;5;6,237,20.2,3900,640,4,Neptunium,Neptunious;Neptunian,Neptunious;Neptunian,Neptunious;Neptunian,Neptunious;Neptunian,Neptunious;Neptunian,Neptunious;Neptunian
-94,Pu,Plutonium,94,3,7,Metal,Actinides,???,3;4;5;6,244,19.8,3232,641,4,Plutonium,Plutonious;Plutonic,Plutonious;Plutonic,Plutonious;Plutonic,Plutonious;Plutonic,Plutonious;Plutonic,Plutonious;Plutonic
-95,Am,Americium,95,3,7,Metal,Actinides,???,3;4;5;6,243,13.7,2607,994,4,Americium,Americioso;Americo,Americioso;Americo,Americioso;Americo,Americioso;Americo,Americioso;Americo,Americioso;Americo
-96,Cm,Curium,96,3,7,Metal,Actinides,???,3,247,13.5,,1340,1,Curium,Curium,Curium,Curium,Curium,Curium,Curium
-97,Bk,Berkelium,97,3,7,Metal,Actinides,???,3;4,247,14,,986,2,Berkelium,Berkelioso;Berkelico,Berkelioso;Berkelico,Berkelioso;Berkelico,Berkelioso;Berkelico,Berkelioso;Berkelico,Berkelioso;Berkelico
-98,Cf,Californium,98,3,7,Metal,Actinides,???,3,251,,,,1,Californium,Californium,Californium,Californium,Californium,Californium,Californium
-99,Es,Einsteinium,99,3,7,Metal,Actinides,???,4,252,,,,1,Einsteinium,Einsteinium,Einsteinium,Einsteinium,Einsteinium,Einsteinium,Einsteinium
-100,Fm,Fermium,100,3,7,Metal,Actinides,???,4,257,,,,1,Fermium,Fermium,Fermium,Fermium,Fermium,Fermium,Fermium
-101,Md,Mendelevium,101,3,7,Metal,Actinides,???,3;4,258,,,,2,Mendelevium,Mendelevious;Mendelevic,Mendelevious;Mendelevic,Mendelevious;Mendelevic,Mendelevious;Mendelevic,Mendelevious;Mendelevic,Mendelevious;Mendelevic
-102,No,Nobelio,102,3,7,Metal,Actinides,???,3;4,259,,,,2,Nobelio,Nobelioso;Nobelic,Nobelioso;Nobelic,Nobelioso;Nobelic,Nobelioso;Nobelic,Nobelioso;Nobelic,Nobelioso;Nobelic
-103,Lr,Laurencio,103,3,7,Metal,Actinides,???,3;4,262,,,,2,Laurencio,Laurenusiast;Laurenic,Laurenusiast;Laurenic,Laurenusiast;Laurenic,Laurenusiast;Laurenic,Laurenusiast;Laurenic,Laurenusiast;Laurenic
-104,Rf,Rutherfordio,104,3,7,Metal,Actinides,???,4,267,,,,1,Rutherfordio,Rutherfordio,Rutherfordio,Rutherfordio,Rutherfordio,Rutherfordio,Rutherfordio
-105,Db,Dubnium,105,3,7,Metal,Actinides,???,4,268,,,,1,Dubnium,Dubnium,Dubnium,Dubnium,Dubnium,Dubnium,Dubnium
-106,Sg,Seaborgio,106,3,7,Metal,Actinides,???,4,271,,,,1,Seaborgio,Seaborgio,Seaborgio,Seaborgio,Seaborgio,Seaborgio,Seaborgio
-107,Bh,Bohrio,107,3,7,Metal,Actinides,???,3;4;5,272,,,,3,Bohrio,Bohrioso;Bohrico,Bohrioso;Bohrico,Bohrioso;Bohrico,Bohrioso;Bohrico,Bohrioso;Bohrico,Bohrioso;Bohrico
-108,Hs,Hassio,108,3,7,Metal,Actinides,???,2;4;6;7,270,,,,4,Hassio,Hassioso;Hassico,Hassioso;Hassico,Hassioso;Hassico,Hassioso;Hassico,Hassioso;Hassico,Hassioso;Hassico
-109,Mt,Meitnerius,109,3,7,Metal,Actinides,???,2;3;4;6,276,,,,4,Meitnerius,Meitnerious;Meitneric,Meitnerious;Meitneric,Meitnerious;Meitneric,Meitnerious;Meitneric,Meitnerious;Meitneric,Meitnerious;Meitneric
-110,Ds,Darmstadtium,110,3,7,Metal,Actinides,???,2;4,281,,,,2,Darmstadtium,Darmstadtious;Darmstatic,Darmstadtious;Darmstatic,Darmstadtious;Darmstatic,Darmstadtious;Darmstatic,Darmstadtious;Darmstatic,Darmstadtious;Darmstatic
-111,Rg,Roentgenio,111,3,7,Metal,Actinides,???,2;3,280,,,,2,Roentgenio,Roentgenic;Roentgenic,Roentgenic;Roentgenic,Roentgenic;Roentgenic,Roentgenic;Roentgenic,Roentgenic;Roentgenic,Roentgenic;Roentgenic
-112,Cn,Copernicus,112,3,7,Metal,Actinides,???,1;2,285,,,,2,Copernicus,Copernicus;Copernicus,Copernicus;Copernicus,Copernicus;Copernicus,Copernicus;Copernicus,Copernicus;Copernicus,Copernicus;Copernicus
-113,Nh,Nihonium,113,3,7,Metal,Actinides,???,3,284,,,,1,Nihonium,Nihonium,Nihonium,Nihonium,Nihonium,Nihonium,Nihonium
-114,Fl,Flerovio,114,3,7,Metal,Actinides,???,2;4;6,289,,,,3,Flerovio,Flerovioso;Flerovico,Flerovioso;Flerovico,Flerovioso;Flerovico,Flerovioso;Flerovico,Flerovioso;Flerovico,Flerovioso;Flerovico
-115,Mc,Moscovio,115,3,7,Metal,Actinides,???,1;4;5,288,,,,3,Moscovio,Moscovioso;Muscovico,Moscovioso;Muscovico,Moscovioso;Muscovico,Moscovioso;Muscovico,Moscovioso;Muscovico,Moscovioso;Muscovico
-116,Lv,Livermorio,116,3,7,Metal,Actinides,???,3;4;5,293,,,,3,Livermorio,Livermoric;Livermoric,Livermoric;Livermoric,Livermoric;Livermoric,Livermoric;Livermoric,Livermoric;Livermoric,Livermoric;Livermoric
-117,Ts,Tenesino,117,3,7,Metal,Actinides,???,1;2;3,292,,,,3,Tenesino,Tenesinous;Tenesinous,Tenesinous;Tenesinous,Tenesinous;Tenesinous,Tenesinous;Tenesinous,Tenesinous;Tenesinous,Tenesinous;Tenesinous
-118,Og,Oganeson,118,3,7,Metal,Actinides,???,4;7,294,,,,2,Oganeson,Oganesinous;Oganesic,Oganesinous;Oganesic,Oganesinous;Oganesic,Oganesinous;Oganesic,Oganesinous;Oganesic,Oganesinous;Oganesic
+(uma)",density g/mL,Boiling point,Fusion Point,Amount of Valences
+1,H,Hydrogène,1,1,1,Non-metal,Other Non-Metals,Gas,1,1.007975,0.0000699,-252.9,-259.1,1
+2,He,Hélium,2,18,1,Noble gas,-,Gas,0,4.002602,0.000179,-268.9,-272.2,1
+3,Li,Lithium,3,1,2,Metal,Alkaline,Solid,1,6.9675,543,1342,180.5,1
+4,Be,Béryllium,4,2,2,Metal,Alkaline earths,Solid,2,9.0121831,1.85,2970,1278,1
+5,B,Bore,5,13,2,Metalloid,-,Solid,3,10.8135,2.34,2550,2079,1
+6,C,Carbone,6,14,2,Non-metal,Other Non-Metals,Solid,2;4,12.0106,2.25,4827,3367,2
+7,N,Azote,7,15,2,Non-metal,Other Non-Metals,Gas,2;3;4;5,14.006855,0.00125,-195.8,-209.9,4
+8,O,Oxygène,8,16,2,Non-metal,Other Non-Metals,Gas,2,15.9994,0.00143,-183,-218.4,1
+9,F,Fluor,9,17,2,Non-metal,Halogens,Gas,1,18.99840316,0.0017,-188.1,-219.8,1
+10,Ne,Néon,10,18,2,Noble gas,-,Gas,0,20.1797,0.0009,-248.7,-248,1
+11,Na,Sodium,11,1,3,Metal,Alkaline,Solid,1,22.98976928,971,883,97.8,1
+12,Mg,Magnésium,12,2,3,Metal,Alkaline earths,Solid,2,24.3055,1.74,1090,649,1
+13,Al,Aluminium,13,13,3,Metal,Metals from Block p,Solid,3,26.9815385,2.7,2467,660,1
+14,Si,Silicium,14,14,3,Metalloid,-,Solid,4,28085,2.33,2355,1410,1
+15,P,Correspondre,15,15,3,Non-metal,Other Non-Metals,Solid,3;4;5,30.973762,1.82,280,44.1,3
+16,S,Soufre,16,16,3,Non-metal,Other Non-Metals,Solid,2;4;6,32.0675,2.07,444.7,112.8,3
+17,Cl,Chlore,17,17,3,Non-metal,Halogens,Gas,1;3;5;7,35.4515,0.00321,-34.6,-101,4
+18,Ar,Argon,18,18,3,Noble gas,-,Gas,0,39948,0.00178,-185.7,-189.2,1
+19,K,Potassium,19,1,4,Metal,Alkaline,Solid,1,39.0983,0.86,760,63.25,1
+20,Ca,Calcium,20,2,4,Metal,Alkaline earths,Solid,2,40078,1.55,1484,839,1
+21,Sc,Scandium,21,3,4,Metal,Transition Metals,Solid,3,44.955908,2.99,2832,1541,1
+22,Ti,Titane,22,4,4,Metal,Transition Metals,Solid,3;4,47867,4.54,3287,1660,2
+23,V,Vanadium,23,5,4,Metal,Transition Metals,Solid,2;3;4;5,50.9415,6.11,3380,1890,4
+24,Cr,Chrome,24,6,4,Metal,Transition Metals,Solid,2;3;6,51.9961,7.19,2672,1857,3
+25,Mn,Manganèse,25,7,4,Metal,Transition Metals,Solid,2;3;4;6;7,54.938044,7.43,1962,1244,5
+26,Fe,Le fer,26,8,4,Metal,Transition Metals,Solid,2;3,55845,7.86,2750,1535,2
+27,Co,Cobalt,27,9,4,Metal,Transition Metals,Solid,2;3,58.933194,8.9,2870,1495,2
+28,Ni,Nickel,28,10,4,Metal,Transition Metals,Solid,2;3,58.6934,8.9,2730,1453,2
+29,Cu,Cuivre,29,11,4,Metal,Transition Metals,Solid,1;2,63546,8.96,2567,1083,2
+30,Zn,Zinc,30,12,4,Metal,Transition Metals,Solid,2,65.38,7.13,906,419.6,1
+31,Ga,Gallium,31,13,4,Metal,Metals from Block p,Liquid,3,69723,5.9,2403,29.8,1
+32,Ge,Germanium,32,14,4,Metalloid,-,Solid,4,72.63,5.32,2830,947.4,1
+33,As,Arsenic,33,15,4,Metalloid,-,Solid,3;5,74.921595,5.73,617,817,2
+34,Se,Sélénium,34,16,4,Non-metal,Other Non-Metals,Solid,4;6,78971,4.79,685,217,2
+35,Br,Brome,35,17,4,Non-metal,Halogens,Liquid,1;5,79904,3.12,58.8,-7.2,2
+36,Kr,Krypton,36,18,4,Noble gas,-,Gas,0,83798,0.00374,-152,-157,1
+37,Rb,Rubidium,37,1,5,Metal,Alkaline,Solid,1,85.4678,1.53,686,38.9,1
+38,Sr,Strontium,38,2,5,Metal,Alkaline earths,Solid,2,87.62,2.54,1384,769,1
+39,Y,Yttrium,39,3,5,Metal,Transition Metals,Solid,3,88.90584,4.47,3337,1523,1
+40,Zr,Zirconium,40,4,5,Metal,Transition Metals,Solid,4,91224,6.51,4377,1852,1
+41,Nb,Niobium,41,5,5,Metal,Transition Metals,Solid,3;5,92.90637,8.57,4742,2468,2
+42,Mo,Molybdène,42,6,5,Metal,Transition Metals,Solid,2;3;4;5;6,95.95,10.2,4612,2617,5
+43,Tc,Technétium,43,7,5,Metal,Transition Metals,Solid,7,98,11.5,4877,2172,1
+44,Ru,Ruthénium,44,8,5,Metal,Transition Metals,Solid,2;3;4;6;8,101.07,12.4,3900,2310,5
+45,Rh,Rhodié,45,9,5,Metal,Transition Metals,Solid,2;3;4,102.9055,12.4,3727,1966,3
+46,Pd,Palladium,46,10,5,Metal,Transition Metals,Solid,2;4,106.42,12,3140,1554,2
+47,Ag,Argent,47,11,5,Metal,Transition Metals,Solid,1,107.8682,10.5,2212,962,1
+48,Cd,Cadmium,48,12,5,Metal,Transition Metals,Solid,2,112414,8.65,765,320.9,1
+49,In,Indien,49,13,5,Metal,Metals from Block p,Solid,3,114818,7.31,2080,156.6,1
+50,Sn,Étain,50,14,5,Metal,Metals from Block p,Solid,2;4,118.71,7.31,2270,232,2
+51,Sb,Antimoine,51,15,5,Metalloid,-,Solid,3;5,121.76,6.69,1950,631,2
+52,Te,Tellure,52,16,5,Metalloid,-,Solid,2;4;6,127.6,6.24,989.8,449.5,3
+53,I,Iode,53,17,5,Non-metal,Halogens,Solid,1;5;7,126.90447,4.93,184,113.5,3
+54,Xe,Xénon,54,18,5,Noble gas,-,Gas,0,131293,0.00589,-107.1,-111.8,1
+55,Cs,Césium,55,1,6,Metal,Alkaline,Liquid,1,132.905452,1.87,669,28.4,1
+56,Ba,Baryum,56,2,6,Metal,Alkaline earths,Solid,2,137327,3.5,1640,725,1
+57,La,Lanthane,57,3,6,Metal,Lanthanides,Solid,3,138.90547,6.15,3454,920,1
+58,Ce,Cérium,58,3,6,Metal,Lanthanides,Solid,3;4,140116,6.66,3257,798,2
+59,Pr,Praséodyme,59,3,6,Metal,Lanthanides,Solid,3;4,140.90766,6.77,3017,931,2
+60,Nd,Néodyme,60,3,6,Metal,Lanthanides,Solid,3,144242,7,3127,1016,1
+61,Pm,Promettre,61,3,6,Metal,Lanthanides,Solid,3,145,7.26,3000,1042,1
+62,Sm,Samarium,62,3,6,Metal,Lanthanides,Solid,2;3,150.36,7.52,1794,1074,2
+63,Eu,Europium,63,3,6,Metal,Lanthanides,Solid,2;3,151964,5.24,1529,822,2
+64,Gd,Gadolinium,64,3,6,Metal,Lanthanides,Solid,3,157.25,7.9,3273,1313,1
+65,Tb,Terbium,65,3,6,Metal,Lanthanides,Solid,3;4,158.92535,8.23,3230,1365,2
+66,Dy,Dysprosium,66,3,6,Metal,Lanthanides,Solid,3,162.5,8.55,2567,1412,1
+67,Ho,Holmium,67,3,6,Metal,Lanthanides,Solid,3,164.93033,8.8,2700,1474,1
+68,Er,Erbium,68,3,6,Metal,Lanthanides,Solid,3,167259,9.07,2868,1529,1
+69,Tm,Thulium,69,3,6,Metal,Lanthanides,Solid,3;2,168.93422,9.32,1950,1545,2
+70,Yb,Ytterbium,70,3,6,Metal,Lanthanides,Solid,2;3,173054,6.97,1196,819,2
+71,Lu,Lutécium,71,3,6,Metal,Lanthanides,Solid,3,174.9668,9.84,3402,1663,1
+72,Hf,Hafnium,72,4,6,Metal,Lanthanides,Solid,4,178.49,13.3,4600,2227,1
+73,Ta,Tantale,73,5,6,Metal,Lanthanides,Solid,5,180.94788,16.6,5425,2996,1
+74,W,Tungstène,74,6,6,Metal,Lanthanides,Solid,2;3;4;5;6,183.84,19.3,5660,3410,5
+75,Re,Rhénium,75,7,6,Metal,Lanthanides,Solid,1;2;4;6;7,186207,21,5600,3180,5
+76,Os,Osmium,76,8,6,Metal,Lanthanides,Solid,2;3;4;6;8,190.23,22.6,5030,3045,5
+77,Ir,Iridium,77,9,6,Metal,Lanthanides,Solid,2;3;4;6,192217,22.4,4130,2410,4
+78,Pt,Platine,78,10,6,Metal,Lanthanides,Solid,2;4,195084,21.4,3827,1772,2
+79,Au,Or,79,11,6,Metal,Lanthanides,Solid,1;3,196.966569,19.3,3080,1064,2
+80,Hg,Mercure,80,12,6,Metal,Lanthanides,Liquid,1;2,200592,13.5,357,-38.9,2
+81,Tl,Thallium,81,13,6,Metal,Lanthanides,Solid,1;3,204.3835,11.9,1457,303,2
+82,Pb,Mener,82,14,6,Metal,Lanthanides,Solid,2;4,207.2,11.4,1740,327.5,2
+83,Bi,Bismuth,83,15,6,Metal,Lanthanides,Solid,3;5,208.9804,9.75,1560,271,2
+84,Po,Polonium,84,16,6,Metalloid,-,Solid,2;4,209,9.32,962,254,2
+85,At,Statut,85,17,6,Non-metal,Halogens,Solid,1;3;5;7,210,,337,302,4
+86,Rn,Radon,86,18,6,Noble gas,-,Gas,0,222,0.00973,-61.8,-71,1
+87,Fr,François,87,1,7,Metal,Alkaline,Liquid,1,223,,677,27,1
+88,Ra,Radio,88,2,7,Metal,Alkaline earths,Solid,2,226,5,1140,700,1
+89,Ac,Actinium,89,3,7,Metal,Actinides,Solid,3,227,10.1,3200,1050,1
+90,Th,Thorium,90,3,7,Metal,Actinides,Solid,4,232.0377,11.7,4790,1750,1
+91,Pa,Protactinium,91,3,7,Metal,Actinides,Solid,4;5,231.03588,15.4,4000,1570,2
+92,U,Uranium,92,3,7,Metal,Actinides,Solid,3;4;5;6,238.02891,19,3818,1132,4
+93,Np,Neptunium,93,3,7,Metal,Actinides,???,3;4;5;6,237,20.2,3900,640,4
+94,Pu,Plutonium,94,3,7,Metal,Actinides,???,3;4;5;6,244,19.8,3232,641,4
+95,Am,Américium,95,3,7,Metal,Actinides,???,3;4;5;6,243,13.7,2607,994,4
+96,Cm,Curium,96,3,7,Metal,Actinides,???,3,247,13.5,,1340,1
+97,Bk,Berkélium,97,3,7,Metal,Actinides,???,3;4,247,14,,986,2
+98,Cf,Californie,98,3,7,Metal,Actinides,???,3,251,,,,1
+99,Es,Einsteinium,99,3,7,Metal,Actinides,???,4,252,,,,1
+100,Fm,Fermium,100,3,7,Metal,Actinides,???,4,257,,,,1
+101,Md,Mendélévie,101,3,7,Metal,Actinides,???,3;4,258,,,,2
+102,No,Nobelio,102,3,7,Metal,Actinides,???,3;4,259,,,,2
+103,Lr,Laurencio,103,3,7,Metal,Actinides,???,3;4,262,,,,2
+104,Rf,Rutherfordio,104,3,7,Metal,Actinides,???,4,267,,,,1
+105,Db,Dubnium,105,3,7,Metal,Actinides,???,4,268,,,,1
+106,Sg,Seaborgio,106,3,7,Metal,Actinides,???,4,271,,,,1
+107,Bh,Bohrio,107,3,7,Metal,Actinides,???,3;4;5,272,,,,3
+108,Hs,Hassio,108,3,7,Metal,Actinides,???,2;4;6;7,270,,,,4
+109,Mt,Meitnerius,109,3,7,Metal,Actinides,???,2;3;4;6,276,,,,4
+110,Ds,Darmstadtium,110,3,7,Metal,Actinides,???,2;4,281,,,,2
+111,Rg,Roentgenio,111,3,7,Metal,Actinides,???,2;3,280,,,,2
+112,Cn,Copernic,112,3,7,Metal,Actinides,???,1;2,285,,,,2
+113,Nh,Nihonium,113,3,7,Metal,Actinides,???,3,284,,,,1
+114,Fl,Flerovio,114,3,7,Metal,Actinides,???,2;4;6,289,,,,3
+115,Mc,Moscou,115,3,7,Metal,Actinides,???,1;4;5,288,,,,3
+116,Lv,Livermorio,116,3,7,Metal,Actinides,???,3;4;5,293,,,,3
+117,Ts,Tenesino,117,3,7,Metal,Actinides,???,1;2;3,292,,,,3
+118,Og,Oganeson,118,3,7,Metal,Actinides,???,4;7,294,,,,2

@@ -1,5 +1,6 @@
 
-options(encoding = 'UTF-8')
+# options(encoding = 'UTF-8')
+options(encoding = 'latin1')
 
 # options(encoding = 'latin1')
 # Source initial UI settings
@@ -131,8 +132,18 @@ shinyServer(function(input, output ,session) {
     
     nomenclature <- reactive({
       
+      GeneralNomenclature(input_atomic_number1 = as.numeric(as.character(input$atomic_number1)),
+                          input_valence1 = as.numeric(as.character(input$valence1)),
+                          input_atomic_number2 = as.numeric(as.character(input$atomic_number2)),
+                          input_valence2 = as.numeric(as.character(input$valence2)),
+                          input_family = input$chemestry_family,
+                          input_internal_language = "en",
+                          input_external_language = input$selected_language,
+                          input_PeriodicTable = PeriodicTable,
+                          input_Nomenclature = Nomenclature)
           })
     
+
   ###  
   } # End General Resolution
   ####################################################################
@@ -338,14 +349,33 @@ shinyServer(function(input, output ,session) {
       } else if (selected_step() == nomenclature_step()) {
         plot(c(0:30), c(0:30), axes=F, col="orange", xlab=" ", ylab=" ")
         rect(par("usr")[1],par("usr")[3],par("usr")[2],par("usr")[4], col = "orange", border = "orange")
+        
         text(15, 25, i18n()$t("Nomenclature"), cex = 7)
+        
+        armed01 <- paste0(colnames(nomenclature())[1],": ",nomenclature()[1,1])
+        armed02 <- paste0(colnames(nomenclature())[2],": ",nomenclature()[1,2])
+        armed03 <- paste0(colnames(nomenclature())[3],": ",nomenclature()[1,3])
+        armed04 <- colnames(nomenclature())[4]
+        armed05 <- nomenclature()[1,4]
+        
+         text(3, 25, armed01, cex = 2, pos = 4)
+         text(3, 15, armed02, cex = 2, pos = 4)
+         text(3,  5, armed03, cex = 2, pos = 4)
+         text(15, 25, armed04, cex = 2)
+         text(15, 25, expression(armed05), cex = 2)
+
       }
     
     
   })
   
   
-  
+  output$tabla_nomenclatura <- renderTable({
+    
+    nomenclature()
+    
+    
+  })
   
   
   
@@ -412,239 +442,6 @@ shinyServer(function(input, output ,session) {
   
   
 
-  
-
-  
-  
-if (1 == 2){
-  output$graf1 <- renderPlot({
-    
-    # Controlador 000...
-    # Este controlador 000, despues hay que fletarlo...
-    # Lo puse para poder poner un grafico que diga "Proximamente..." en las
-    # partes que todavia no hice...
-    if(!is.null(num_chemfam()))
-      if(length(num_chemfam()) > 0) {
-   
-        
-    # Controlador 000-01
-        if (num_chemfam() == 1) {
-          
-           
-          if(!is.null(selected_language()))
-            if(!is.null(PasosResolucion()))
-              if (dim(PasosLaTeX())[1] > 1) 
-                if (dim(PasosLaTeX())[2] > 1) 
-                  if(!is.null(selected_step()))
-                    if(!is.null(vector_slider()))
-                      if(!is.null(input$helper))
-          if(selected_step() < length(vector_slider())) {
-            
-            
-            input_numfam <- num_chemfam()
-            input_ejemplo <- PasosResolucion()
-            input_language_interno <- "es"
-            input_language_optativo <-selected_language()
-            input_paso <- selected_step()
-            input_total <- nrow(input_ejemplo)
-            input_subtitulos <- subtitulos
-            input_tabla <- PeriodicTable
-            
-            mis_subtitulos <- SubtitulosGeneral(
-                                  input_numfam = input_numfam,
-                                  input_ejemplo = input_ejemplo, 
-                                  input_language_interno = input_language_interno, 
-                                  input_language_optativo = input_language_optativo, 
-                                  input_subtitulos = input_subtitulos, 
-                                  input_tabla = input_tabla,
-                                  input_paso = input_paso,
-                                  input_total = input_total)
-          
-            
-            # Grafico
-            GrafGeneral(input_numfam = num_chemfam(), 
-                        input_latex = PasosLaTeX(),
-                        input_paso = selected_step(),
-                        input_language_interno = "es",
-                        input_language_optativo = NULL,
-                        input_tabla = PeriodicTable,
-                        input_color_fondo = "orange",
-                        input_color_general = "black",
-                        input_color_especifico = "blue",
-                        input_color_ecuacion = "black",
-                        input_color_signo = "black",
-                        input_color_paso = "blue")
-          
-            
-            
-          # Paso...
-          if(input$helper >= 1) text(mis_subtitulos[[1]][1], mis_subtitulos[[1]][2], mis_subtitulos[[1]][3], pos=1, cex=1.3, adj = c(0.5, 0.5)) 
-          
-          # Frase general...
-          if(input$helper >= 2)text(mis_subtitulos[[2]][1], mis_subtitulos[[2]][2], mis_subtitulos[[2]][3], pos=1, cex=1.3, adj = c(0.5, 0.5)) 
-          
-          # Frase especifica...
-          if(input$helper >= 3)text(mis_subtitulos[[3]][1], mis_subtitulos[[3]][2], mis_subtitulos[[3]][3], pos=1, cex=1.3, col="blue", adj = c(0.5, 0.5)) 
-          
-          
-       #   text(gps_x2[input_paso], gps_y2[input_paso], salida_sub2, pos=1, cex=1.3, adj = c(0.5, 0.5))
-          
-          # Frase especifica...
-       #   text(gps_x3[input_paso], gps_y3[input_paso], salida_sub3, pos=1, cex=1.3, adj = c(0.5, 0.5), col="blue")
-          
-          } # Fin Parte5
-            ###########################################################
-          
-          
-          # Caso 2... Si le tiramos por la cabeza la nomenclatura...
-          else if(selected_step() == length(vector_slider())){
-            
-            if (selected_language() == "es") if(!is.null(Nomenclatura())) {
-            
-              # Pintada de fondo
-              plot(c(0:30), axes=F, col="white", xlab=" ", ylab=" ")
-              rect(par("usr")[1],par("usr")[3],par("usr")[2],par("usr")[4],col = "orange")
-              
-              # Detalles de nomenclatura
-              nomenclatura_completa <- Nomenclatura()
-              
-              # Coordenadas
-              x_nomen <- c( 4,  4,  4,  4, 12)
-              y_nomen <- c(25, 19, 13,  7,  7)
-              
-              
-              nombre_uipac <- paste0(names(nomenclatura_completa)[1],": ", nomenclatura_completa[1])
-              nombre_clasico <- paste0(names(nomenclatura_completa)[2],": ", nomenclatura_completa[2])
-              nombre_stock <- paste0(names(nomenclatura_completa)[3],": ", nomenclatura_completa[3])
-              intro_fq <- "Fórmula Química: "
-              fq <- nomenclatura_completa[4]
-              fq_latex <- nomenclatura_completa[5]
-              
-              armado_fq  <-   parse(text=paste("text(x_nomen[5], y_nomen[5], 
-                                            expression(",nomenclatura_completa[5],"),
-                                            col='black', cex=2, pos = 4)", collapse=""))
-              
-              
-              
-#              frase4 <- paste0(names(nomenclatura_completa)[1],": ", nomenclatura_completa[1])
-              text(x_nomen[1],y_nomen[1], nombre_uipac, cex=2, pos = 4)
-              text(x_nomen[2],y_nomen[2], nombre_clasico, cex=2, pos = 4)
-              text(x_nomen[3],y_nomen[3], nombre_stock, cex=2, pos = 4)
-              text(x_nomen[4],y_nomen[4], intro_fq, cex=2, pos = 4)
-              eval(armado_fq)
-              
-              
-            }
-              
-              if (selected_language() != "es") {
-            # Buscamos la opcion correcta...
-            search.me <- "idS10_01"
-            dt10 <- grep(search.me, idShiny)
-            my_choices <- as.character(details[dt10,input$language_selector])
-            
-            # my_choices <- Nomenclatura()[1]
-            
-            # Creamos un grafico de aviso...
-            
-           
-            
-            
-            
-            plot(1,1, col="white", axes= F, xlab="", ylab="")
-            text(1,1, my_choices)
-            } 
-          }
-          
-        } 
-   
-   
-               
-        if (num_chemfam() == 2) {
-          
-          
-         
-          
-          # Buscamos la opcion correcta...
-          search.me <- "idS09_01"
-          dt10 <- grep(search.me, idShiny)
-          my_choices <- as.character(details[dt10,input$language_selector])
-          
-          # Creamos un grafico de aviso...
-          plot(1,1, col="white", axes= F, xlab="", ylab="")
-          text(1,1, my_choices)
-          
-        }             
-                   
-         
-        
-                
-                      
-                    } # Fin Controlador 000
-    
-  })
-
-  
-
- 
-  output$tabla4 <- render_tableHTML({
-    
-    if (!is.null(CantidadesPaso())) {
-      
-      # Leyenda en botones...
-      search.me <- "idS12"
-      dt12 <- grep(search.me, idShiny)
-      my_choices12 <- details[dt12,input$language_selector]
-      remove(search.me)
-      
-      .afirmativo <- as.character(as.vector(as.matrix(my_choices12[12])))
-      .negativo <- as.character(as.vector(as.matrix(my_choices12[13])))
-      
-    # #f6f6f6
-    data <- CantidadesPaso();
-    # //Some operations on data
-    data %>% 
-      tableHTML(rownames = F) %>% 
-      add_css_conditional_column(conditional = '==',
-                                 value = .negativo,
-                                 css = list(c('background-color'),
-                                            c('red')),
-                                 columns = 1:ncol(data)) %>% 
-      add_css_conditional_column(conditional = '==',
-                                 value = .afirmativo,
-                                 css = list(c('background-color'),
-                                            c('green')),
-                                 columns = 1:ncol(data)) %>% 
-      add_css_conditional_column(conditional = 'between',
-                                 between = c(10, 20),
-                                 css = list(c('background-color'),
-                                            c('lightred')),
-                                 columns = 1:ncol(data))
-    
-    
-    }
-    
-    
-  })
-  
-  
-  
-  output$tabla5 <- renderTable({
-    
-    if(!is.null(Nomenclatura())) {
-      
-      aver <- Nomenclatura()
-  
-  cat(is.null(aver))
-  as.matrix(aver)
-    
-    }
-    
-    
-  })
-  
- 
-  
-}
   
   
   
