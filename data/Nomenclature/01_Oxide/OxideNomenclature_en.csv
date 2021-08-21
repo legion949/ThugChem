@@ -1,4 +1,4 @@
-Order,Symbol,Name,Type,Valence,Amount of Valences,Oxide_ValenceOrder1,Oxide_ValenceOrder2,Oxide_ValenceOrder3,Oxide_ValenceOrder4,Oxide_ValenceOrder5,IUPAC
+Order,Symbol,Name,Type,Valence,Amount of Valences,Oxide_ValenceOrder1,Oxide_ValenceOrder2,Oxide_ValenceOrder3,Oxide_ValenceOrder4,Oxide_ValenceOrder5,Stock
 1,H,Hydrogen,Non-metal,1,1,Hydrogen Oxide,,,,,Hydrogen Oxide
 2,He,Helium,Noble gas,0,1,Helium,,,,,Helium
 3,Li,Lithium,Metal,1,1,Lithium Oxide,,,,,Lithium Oxide

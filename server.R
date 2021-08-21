@@ -1,6 +1,6 @@
 
 # options(encoding = 'UTF-8')
-options(encoding = 'latin1')
+# options(encoding = 'latin1')
 
 # options(encoding = 'latin1')
 # Source initial UI settings
@@ -394,6 +394,8 @@ shinyServer(function(input, output ,session) {
                  input_external_language = "en",
                  input_PeriodicTable = PeriodicTable)
    
+        text(15, 25, paste0("Step ", selected_step(), " of ", (equation_step()-1) ), cex = 4)
+        
       } else if (selected_step() == equation_step()) {
         
         GeneralPlot( input_atomic_number1 = input$atomic_number1,
@@ -425,7 +427,7 @@ shinyServer(function(input, output ,session) {
          text(0, 11, armed02, cex = 2, pos = 4)
          text(0,  5, armed03, cex = 2, pos = 4)
          text(22, 25, armed04, cex = 7)
-         text(22, 10, eval(parse(text=armed05)), cex = 7)
+         text(22, 10, eval(parse(text=armed05)), cex = 10)
 
       }
     

@@ -52,10 +52,12 @@ OxideNomenclature <- function(input_atomic_number1 = NULL,
                                     input_internal_language = "en",
                                     input_external_language = input_external_language,
                                     input_PeriodicTable = input_PeriodicTable)
+    
     input_latex <- input_oxide_latex[[2]]
+    
     # Chemestry Formule
-    chemestry_formule_resolution <- input_oxide_resolution[8, c(9,10,11,12)]
-    chemestry_formule_latex <- input_latex[8, 8]
+    chemestry_formule_resolution <- input_oxide_resolution[nrow(input_latex), c(9:12)]
+    chemestry_formule_latex <- input_latex[nrow(input_latex), 8]
     
     amount1 <- as.numeric(as.character(chemestry_formule_resolution[1,2]))
     amount2 <- as.numeric(as.character(chemestry_formule_resolution[1,4]))
@@ -72,6 +74,10 @@ OxideNomenclature <- function(input_atomic_number1 = NULL,
     romans <- c("I", "II", "III", "IV", "V", "VI", "VII", "")
     prefixes <- Nomenclature$Prefixes[[input_external_language]]
     medium_part_classic <- Nomenclature$General01[[input_external_language]]
+    
+    # This position is only for oxides
+    my_pos <- 1
+    
     ###
   } # Part 1
   ############################################
@@ -81,27 +87,84 @@ OxideNomenclature <- function(input_atomic_number1 = NULL,
   {
     ###
     
+    # Only nomenclature for Oxide in the selected language
     my_complet_nomenclature <- Nomenclature[[input_family]][[input_external_language]]
     
+    # Some details...
     position <- ncol(my_complet_nomenclature)
-    
-    my_iupac_nomenclature <- my_complet_nomenclature[,position]
-    
+    my_stock_nomenclature <- my_complet_nomenclature[,position]
     my_classic_nomenclature <- my_complet_nomenclature[,c((position-5): (position-1))]
-    
     set_names <- input_Nomenclature$General02[[input_external_language]][,2]
     
-    my_pos <- element_values1$order_selected_valence
+
     
-    iupac <- paste0(my_iupac_nomenclature[input_atomic_number1],
+
+    # Modifications for Language English
+    if (input_external_language == "en") {
+      
+      # IUPAC
+      iupac <- paste0(prefixes[amount2, 2],element_values1$name, " ", prefixes[amount1, 2], 
+                      medium_part_classic[my_pos, input_external_language])
+      
+
+      
+      # Stock 
+      stock <- paste0(my_stock_nomenclature[input_atomic_number1],
+                      " ", "(", romans[element_values1$selected_valence], ")")
+      
+      
+      # Classic
+      classic <- my_classic_nomenclature[input_atomic_number1, my_pos]
+      
+      
+      
+      
+      # IF have 2 "Mono", eliminate the second
+      if(prefixes[amount1, 2] ==  prefixes[amount2, 2]){
+        iupac <- paste0(element_values1$name, " ", prefixes[amount1, 2], 
+                        medium_part_classic[my_pos, input_external_language])
+       # iupac <- "CasoB"
+      } 
+      
+      # Writing errors 
+      iupac <- gsub("ii", "i-i", iupac)
+      iupac <- gsub("iI", "i-I", iupac)
+      iupac <- gsub("oO", "o", iupac)
+    }
+    
+    # Modifications for Language Spanish
+    if (input_external_language == "es") {
+      
+    # IUPAC
+    iupac <- paste0(prefixes[amount2, 2], element_values1$name, 
+                    prefixes[amount1, 2], medium_part_classic[my_pos, input_external_language])
+
+        
+    # Stock 
+    stock <- paste0(my_stock_nomenclature[input_atomic_number1],
                     " ", "(", romans[element_values1$selected_valence], ")")
     
+    
+    # Classic
     classic <- my_classic_nomenclature[input_atomic_number1, my_pos]
     
-    numeral_stock <- paste0(prefixes[amount1, 2], medium_part_classic[my_pos, 3],
-                            " ", prefixes[amount2, 2], element_values1$name)
     
-    nomenclature_system01 <- c(iupac, classic, numeral_stock, chemestry_formule_latex)
+
+    
+      # IF have 2 "Mono", eliminate the second
+      if(prefixes[amount1, 2] ==  prefixes[amount2, 2]){
+        iupac <- paste0(prefixes[amount1, 2], medium_part_classic[my_pos, 3],
+                        " ", element_values1$name)
+        
+      } 
+      
+      # Writing errors 
+      iupac <- gsub("oÓ", "ó", iupac)  
+    }
+    
+    
+    # Save all
+    nomenclature_system01 <- c(iupac, stock, classic, chemestry_formule_latex)
     dim(nomenclature_system01) <- c(1, length(nomenclature_system01))
     nomenclature_system01 <- as.data.frame(nomenclature_system01)
     colnames(nomenclature_system01) <-  set_names
@@ -133,9 +196,9 @@ OxideNomenclature <- function(input_atomic_number1 = NULL,
 
 
 # input_atomic_number1 <- 26 #Litio
-# input_valence1 <- 2
+# input_valence1 <- 3
 # input_internal_language <- "en"
-# input_external_language <- "es"
+# input_external_language <- "en"
 # input_family <- "Oxide"
 # input_PeriodicTable <- PeriodicTable
 # input_Nomenclature <- Nomenclature

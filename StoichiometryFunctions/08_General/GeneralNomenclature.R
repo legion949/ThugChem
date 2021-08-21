@@ -75,7 +75,7 @@ GeneralNomenclature <- function(input_atomic_number1 = NULL, input_valence1 = NU
       if ("Hydroxide" == input_family) {
         
         # Hydroxide!
-        general_nomenclature <- HydroxideEquation(input_atomic_number1 = input_atomic_number1,
+        general_nomenclature <- HydroxideNomenclature(input_atomic_number1 = input_atomic_number1,
                                                 input_valence1 = input_valence1,
                                                 input_internal_language = "en",
                                                 input_external_language = input_external_language,
@@ -84,7 +84,7 @@ GeneralNomenclature <- function(input_atomic_number1 = NULL, input_valence1 = NU
         if ("Oxacid" == input_family) {
           
           # Oxacid
-          general_nomenclature <- OxacidEquation(input_atomic_number1 = input_atomic_number1,
+          general_nomenclature <- OxacidNomenclature(input_atomic_number1 = input_atomic_number1,
                                                input_valence1 = input_valence1,
                                                input_internal_language = "en",
                                                input_external_language = input_external_language,
@@ -94,7 +94,7 @@ GeneralNomenclature <- function(input_atomic_number1 = NULL, input_valence1 = NU
           if ("Hydride" == input_family) {
             
             # Hydride
-            general_nomenclature <- HydrideEquation(input_atomic_number1 = input_atomic_number1,
+            general_nomenclature <- HydrideNomenclature(input_atomic_number1 = input_atomic_number1,
                                                   input_valence1 = input_valence1,
                                                   input_internal_language = "en",
                                                   input_external_language = input_external_language,
@@ -103,7 +103,7 @@ GeneralNomenclature <- function(input_atomic_number1 = NULL, input_valence1 = NU
             if ("Hydracid" == input_family) {
               
               # Hydradic
-              general_nomenclature <- HydracidEquation(input_atomic_number1 = input_atomic_number1,
+              general_nomenclature <- HydrideNomenclature(input_atomic_number1 = input_atomic_number1,
                                                      input_valence1 = input_valence1,
                                                      input_internal_language = "en",
                                                      input_external_language = input_external_language,
@@ -112,7 +112,7 @@ GeneralNomenclature <- function(input_atomic_number1 = NULL, input_valence1 = NU
               if ("Oxosalt" == input_family) {
                 
                 # Oxosalt
-                general_nomenclature <- OxosaltEquation(input_atomic_number1 = input_atomic_number1,
+                general_nomenclature <- OxosaltNomenclature(input_atomic_number1 = input_atomic_number1,
                                                       input_valence1 = input_valence1,
                                                       input_atomic_number2 = input_atomic_number2,
                                                       input_valence2 = input_valence2,
@@ -123,7 +123,7 @@ GeneralNomenclature <- function(input_atomic_number1 = NULL, input_valence1 = NU
                 if ("Salt" == input_family) {
                   
                   # Salt
-                  general_nomenclature <- SaltEquation(input_atomic_number1 = input_atomic_number1,
+                  general_nomenclature <- SaltNomenclature(input_atomic_number1 = input_atomic_number1,
                                                      input_valence1 = input_valence1,
                                                      input_atomic_number2 = input_atomic_number2,
                                                      input_valence2 = input_valence2,

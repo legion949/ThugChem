@@ -1,6 +1,6 @@
 
 # options(encoding = 'UTF-8')
-options(encoding = 'latin1')
+# options(encoding = 'latin1')
 
 # Source initial UI settings
 source("lib.R")
