@@ -9,7 +9,7 @@ source("lib.R")
 
 
 # Here we create our translator ...
-translator <- Translator$new(translation_csvs_path = "data/TranslatePage/")
+translator <- Translator$new(translation_csvs_path = "data/TranslatePagei18n/")
 
 # 0001 - 1 de 3 - Deteccion de lenguaje por defecto....
 jscode <- "var language =  window.navigator.userLanguage || window.navigator.language;
@@ -97,6 +97,8 @@ shinyServer(function(input, output ,session) {
   }
   
   
+  
+  
   # General Resolution
   {
   ###
@@ -147,6 +149,67 @@ shinyServer(function(input, output ,session) {
   ###  
   } # End General Resolution
   ####################################################################
+  
+  
+  # Chemestry Family
+  {
+    ###
+    
+    observe({
+      
+      my_family_chem <- ChemestryFamily[,"en"]
+      names(my_family_chem) <- ChemestryFamily[,input$selected_language]
+      
+      # Control the value, min, max, and step.
+      updateRadioButtons(session, "chemestry_family", 
+                         label = i18n()$t("Chemestry Family"),
+                         choices = my_family_chem,
+                         selected = my_family_chem[1])
+    })
+      
+    
+    observe({
+      # Information for reactive() in server
+      my_atomic_numbers <- PeriodicTable[[input$selected_language]][,1]
+      my_atomic_numbers_mod <- as.character(my_atomic_numbers)
+      my_count <- str_count(my_atomic_numbers_mod)
+      my_atomic_numbers_mod[my_count == 1] <- paste0("  ", my_atomic_numbers_mod[my_count == 1])
+      my_atomic_numbers_mod[my_count == 2] <- paste0(" ", my_atomic_numbers_mod[my_count == 2])
+      
+      my_symbols <- PeriodicTable[[input$selected_language]][,2]
+      my_symbols_mod <-as.character(my_symbols)
+      my_count2 <- str_count(my_symbols_mod)
+      my_symbols_mod[my_count2 == 1] <- paste0(my_symbols_mod[my_count2 == 1], " ")
+      my_symbols_mod[my_count2 == 2] <- paste0(my_symbols_mod[my_count2 == 2], "  ")
+      
+      my_names <- PeriodicTable[[input$selected_language]][,3]
+      my_valence <- strsplit(PeriodicTable[[input$selected_language]][,10], ";")
+      combinated_options <- my_atomic_numbers
+      names(combinated_options) <- paste0(my_atomic_numbers_mod, " - ",my_symbols_mod , " - ", my_names) 
+      
+      updateSelectInput(session, "atomic_number1",
+                         label = i18n()$t("Selection 01"),
+                         choices = combinated_options,
+                         selected = combinated_options[26])
+      
+      
+      if(input$chemestry_family == "Oxosalt" | input$chemestry_family == "Salt") {
+        
+        updateSelectInput(session, "atomic_number2",
+                          label = i18n()$t("Selection 02"),
+                          choices = combinated_options,
+                          selected = combinated_options[7])
+        
+      }
+      
+      
+    })
+    
+    
+    ###  
+  }
+  ########################################################
+  
   
   
   
@@ -350,19 +413,19 @@ shinyServer(function(input, output ,session) {
         plot(c(0:30), c(0:30), axes=F, col="orange", xlab=" ", ylab=" ")
         rect(par("usr")[1],par("usr")[3],par("usr")[2],par("usr")[4], col = "orange", border = "orange")
         
-        text(15, 25, i18n()$t("Nomenclature"), cex = 7)
+        text(-0.5, 25, i18n()$t("Nomenclature"), cex = 7, pos = 4)
         
         armed01 <- paste0(colnames(nomenclature())[1],": ",nomenclature()[1,1])
         armed02 <- paste0(colnames(nomenclature())[2],": ",nomenclature()[1,2])
         armed03 <- paste0(colnames(nomenclature())[3],": ",nomenclature()[1,3])
         armed04 <- colnames(nomenclature())[4]
-        armed05 <- nomenclature()[1,4]
+        armed05 <- paste0("expression(", nomenclature()[1,4], ")")
         
-         text(3, 25, armed01, cex = 2, pos = 4)
-         text(3, 15, armed02, cex = 2, pos = 4)
-         text(3,  5, armed03, cex = 2, pos = 4)
-         text(15, 25, armed04, cex = 2)
-         text(15, 25, expression(armed05), cex = 2)
+         text(0, 17, armed01, cex = 2, pos = 4)
+         text(0, 11, armed02, cex = 2, pos = 4)
+         text(0,  5, armed03, cex = 2, pos = 4)
+         text(22, 25, armed04, cex = 7)
+         text(22, 10, eval(parse(text=armed05)), cex = 7)
 
       }
     
@@ -379,64 +442,23 @@ shinyServer(function(input, output ,session) {
   
   
   
-  output$tabla1 <- renderTable({
-    
-    my_equation()
-    
-    
-  })
-  
-  
-  
-  
-  ###################################################################################
-  
-  # Todos los textos
-  
-  # Titulo de la App 
-  # idShiny01
-  output$texto01_01 <- renderText({ 
-    
-    dt <- idShiny == "idS01_01"
-    details[dt,input$language_selector]
 
-    })  
   
   
-  # Munu Lateral - Opcion: "Estequiometria"
-  # idShiny02
-  output$texto02_01 <- renderText({ 
-    
-    dt <- idShiny == "idS02_01"
-    
-    details[dt,input$language_selector]
-    
-  })  
   
+
+  
+
   
   
  
   
-  # Titulo de la App 
-  # idShiny01
-  output$texto06_01 <- renderText({ 
-    
-    dt <- idShiny == "idS06_01"
-    details[dt,input$language_selector]
-    
-  })  
+
   
  
  
   
-  
-  
-  output$texto07_01 <- renderText({ 
-    
-    dt <- idShiny == "idS07_01"
-    details[dt,input$language_selector]
-    
-  })  
+
   
 
   

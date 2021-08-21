@@ -6,10 +6,9 @@ PeriodicTable <- LoadPeriodicTable()
 # Load all Nomenclature
 Nomenclature <- LoadNomenclature()
 
-# Chemestry Family (Initial in english langueage)
-my_family_chem <- c("Oxide", "Hydroxide", "Oxacid",
-                    "Hydride", "Hydracid", "Oxosalt",
-                    "Salt")
+ChemestryFamily <- LoadChemestryFamily()
+
+
 
 # Information for reactive() in server
 my_atomic_numbers <- PeriodicTable[["en"]][,1]

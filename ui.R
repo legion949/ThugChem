@@ -10,7 +10,7 @@ armado[[1]] <- "latin1"
 names(armado) <- "fileEncoding"
 
 # File with translations
-i18n <- Translator$new(translation_csvs_path = "data/TranslatePage/")
+i18n <- Translator$new(translation_csvs_path = "data/TranslatePagei18n/")
 i18n$set_translation_language("en") # here you select the default translation to display
 
 shinyUI(
@@ -66,8 +66,8 @@ shinyUI(
                   column(2, 
                         radioButtons(inputId = "chemestry_family", 
                                label = i18n$t("Chemestry Family"),
-                               choices = my_family_chem,
-                               selected = my_family_chem[1])
+                               choices = ChemestryFamily[,"en"],
+                               selected = ChemestryFamily[,"en"][1])
                   ),
                   
                   # Atomic Number and Valence 01
@@ -76,6 +76,7 @@ shinyUI(
                               label = i18n$t("Selection 01"),
                               choices = combinated_options,
                               selected = combinated_options[26]),
+                        
                         radioButtons(inputId = "valence1", 
                                     label = i18n$t("Valence 01"),
                                     choices = c(0:8),
@@ -84,14 +85,18 @@ shinyUI(
                   
                   # Atomic Number and Valence 02
                   column(5, 
+                         conditionalPanel(
+                           condition = "input.chemestry_family == 'Oxosalt' | input.chemestry_family == 'Salt'",
                          selectInput(inputId = "atomic_number2", 
                                      label = i18n$t("Selection 02"),
                                      choices = combinated_options,
                                      selected = combinated_options[7]),
+                         
                          radioButtons(inputId = "valence2", 
                                       label = i18n$t("Valence 02"),
                                       choices = c(0:8),
                                       selected = 7)
+                         )
                   ),
                   br()
                 ),

@@ -65,14 +65,14 @@ Internal_ElementValues <- function(input_atomic_number1 = NULL,
 
 
 
-input_atomic_number1 <- 26
-input_valence1 <- 2
-input_internal_language <- "en"
-input_external_language <- "es"
-input_PeriodicTable <- PeriodicTable
-
-Internal_ElementValues(input_atomic_number1 = input_atomic_number1,
-                       input_valence1 = input_valence1,
-                       input_internal_language = input_internal_language,
-                       input_external_language = input_external_language,
-                       input_PeriodicTable = input_PeriodicTable)
+# input_atomic_number1 <- 26
+# input_valence1 <- 2
+# input_internal_language <- "en"
+# input_external_language <- "es"
+# input_PeriodicTable <- PeriodicTable
+# 
+# Internal_ElementValues(input_atomic_number1 = input_atomic_number1,
+#                        input_valence1 = input_valence1,
+#                        input_internal_language = input_internal_language,
+#                        input_external_language = input_external_language,
+#                        input_PeriodicTable = input_PeriodicTable)

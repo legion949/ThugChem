@@ -35,7 +35,7 @@ LoadPeriodicTable <- function(){
 
 
 
-# The load for Periodic Table
+# The load for Nomenclature
 LoadNomenclature <- function(){
   
   # The list
@@ -88,5 +88,23 @@ LoadNomenclature <- function(){
   
 }
 
+
+
+# The load for Chemestry Family
+LoadChemestryFamily <- function(){
+  
+  # The dir
+  my_dir <- "data/ChemestryFamily/ChemestryFamily.csv"
+
+  
+  ChemestryFamily <- read.csv(file = my_dir, sep=",", dec=".", 
+                              header = T, encoding = "latin1")
+  
+    
+
+  # Return
+  return(ChemestryFamily)
+  
+}
 
 
