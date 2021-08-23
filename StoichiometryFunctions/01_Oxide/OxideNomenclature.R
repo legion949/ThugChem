@@ -104,7 +104,7 @@ OxideNomenclature <- function(input_atomic_number1 = NULL,
       
       # IUPAC
       iupac <- paste0(prefixes[amount2, 2],element_values1$name, " ", prefixes[amount1, 2], 
-                      medium_part_classic[my_pos, input_external_language])
+                      medium_part_classic[my_pos, 2])
       
 
       
@@ -122,7 +122,7 @@ OxideNomenclature <- function(input_atomic_number1 = NULL,
       # IF have 2 "Mono", eliminate the second
       if(prefixes[amount1, 2] ==  prefixes[amount2, 2]){
         iupac <- paste0(element_values1$name, " ", prefixes[amount1, 2], 
-                        medium_part_classic[my_pos, input_external_language])
+                        medium_part_classic[my_pos, 2])
        # iupac <- "CasoB"
       } 
       
@@ -136,8 +136,8 @@ OxideNomenclature <- function(input_atomic_number1 = NULL,
     if (input_external_language == "es") {
       
     # IUPAC
-    iupac <- paste0(prefixes[amount2, 2], element_values1$name, 
-                    prefixes[amount1, 2], medium_part_classic[my_pos, input_external_language])
+    iupac <- paste0(prefixes[amount2, 2], medium_part_classic[my_pos, 3], " ", 
+                    prefixes[amount1, 2], element_values1$name )
 
         
     # Stock 
@@ -195,23 +195,23 @@ OxideNomenclature <- function(input_atomic_number1 = NULL,
 
 
 
-# input_atomic_number1 <- 26 #Litio
-# input_valence1 <- 3
-# input_internal_language <- "en"
-# input_external_language <- "en"
-# input_family <- "Oxide"
-# input_PeriodicTable <- PeriodicTable
-# input_Nomenclature <- Nomenclature
-# 
-# 
-# 
-#                                 OxideNomenclature(input_atomic_number1 = input_atomic_number1,
-#                                                   input_valence1 = input_valence1,
-#                                                   input_family = input_family,
-#                                                   input_internal_language = input_internal_language,
-#                                                   input_external_language = input_external_language,
-#                                                   input_PeriodicTable = input_PeriodicTable,
-#                                                   input_Nomenclature = input_Nomenclature)
-# 
-# 
-# 
+input_atomic_number1 <- 26 #Litio
+input_valence1 <- 3
+input_internal_language <- "en"
+input_external_language <- "es"
+input_family <- "Oxide"
+input_PeriodicTable <- PeriodicTable
+input_Nomenclature <- Nomenclature
+
+
+
+                                OxideNomenclature(input_atomic_number1 = input_atomic_number1,
+                                                  input_valence1 = input_valence1,
+                                                  input_family = input_family,
+                                                  input_internal_language = input_internal_language,
+                                                  input_external_language = input_external_language,
+                                                  input_PeriodicTable = input_PeriodicTable,
+                                                  input_Nomenclature = input_Nomenclature)
+
+
+
