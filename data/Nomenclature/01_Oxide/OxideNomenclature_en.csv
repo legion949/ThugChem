@@ -1,6 +1,6 @@
 Order,Symbol,Name,Type,Valence,Amount of Valences,Oxide_ValenceOrder1,Oxide_ValenceOrder2,Oxide_ValenceOrder3,Oxide_ValenceOrder4,Oxide_ValenceOrder5,Stock
 1,H,Hydrogen,Non-metal,1,1,Hydrogen Oxide,,,,,Hydrogen Oxide
-2,He,Helium,Noble gas,0,1,Helium,,,,,Helium
+2,He,Helium,Noble gas,0,1,Not Avairable,,,,,Not Avairable
 3,Li,Lithium,Metal,1,1,Lithium Oxide,,,,,Lithium Oxide
 4,Be,Beryllium,Metal,2,1,Beryllium Oxide,,,,,Beryllium Oxide
 5,B,Boron,Metalloid,3,1,Boron Oxide,,,,,Boron Oxide
@@ -8,7 +8,7 @@ Order,Symbol,Name,Type,Valence,Amount of Valences,Oxide_ValenceOrder1,Oxide_Vale
 7,N,Nitrogen,Non-metal,2;3;4;5,4,HypoNitrogenous Oxide,Nitrogen Oxide,Nitric Oxide,PerNitric Oxide,,Nitrogen Oxide
 8,O,Oxygen,Non-metal,2,1,Oxygen,,,,,Oxygen Oxide
 9,F,Fluorine,Non-metal,1,1,Fluorine Oxide,,,,,Fluorine Oxide
-10,Ne,Neon,Noble gas,0,1,Neon,,,,,Neon
+10,Ne,Neon,Noble gas,0,1,Not Avairable,,,,,Not Avairable
 11,Na,Sodium,Metal,1,1,Sodium Oxide,,,,,Sodium Oxide
 12,Mg,Magnesium,Metal,2,1,Magnesium Oxide,,,,,Magnesium Oxide
 13,Al,Aluminum,Metal,3,1,Aluminum Oxide,,,,,Aluminum Oxide
@@ -16,7 +16,7 @@ Order,Symbol,Name,Type,Valence,Amount of Valences,Oxide_ValenceOrder1,Oxide_Vale
 15,P,Phosphore,Non-metal,3;4;5,3,HypoPhosphorous Oxide,Phosphorous Oxide,Phosphoric Oxide,,,Phosphore Oxide
 16,S,Sulfur,Non-metal,2;4;6,3,HypoSulfurous Oxide,Sulfurous Oxide,Sulfuric Oxide,,,Sulfur Oxide
 17,Cl,Chlorine,Non-metal,1;3;5;7,4,HypoChlorous Oxide,Chlorous,Chloric Oxide,PerChloric Oxide,,Chlorine Oxide
-18,Ar,Argon,Noble gas,0,1,Argon,,,,,Argon
+18,Ar,Argon,Noble gas,0,1,Not Avairable,,,,,Not Avairable
 19,K,Potassium,Metal,1,1,Potassium Oxide,,,,,Potassium Oxide
 20,Ca,Calcium,Metal,2,1,Calcium Oxide,,,,,Calcium Oxide
 21,Sc,Scandium,Metal,3,1,Scandium Oxide,,,,,Scandium Oxide
@@ -34,7 +34,7 @@ Order,Symbol,Name,Type,Valence,Amount of Valences,Oxide_ValenceOrder1,Oxide_Vale
 33,As,Arsenic,Metalloid,3;5,2,Arsenous Oxide,Arsenic Oxide,,,,Arsenic Oxide
 34,Se,Selenium,Non-metal,4;6,2,Selenium Oxide,Selenic Oxide,,,,Selenium Oxide
 35,Br,Bromine,Non-metal,1;5,2,Bromous Oxide,Bromic Oxide,,,,Bromine Oxide
-36,Kr,Krypton,Noble gas,0,1,Krypton,,,,,Krypton
+36,Kr,Krypton,Noble gas,0,1,Not Avairable,,,,,Not Avairable
 37,Rb,Rubidium,Metal,1,1,Rubidium Oxide,,,,,Rubidium Oxide
 38,Sr,Strontium,Metal,2,1,Strontium Oxide,,,,,Strontium Oxide
 39,Y,Yttrium,Metal,3,1,Yttrium Oxide,,,,,Yttrium Oxide
@@ -52,7 +52,7 @@ Order,Symbol,Name,Type,Valence,Amount of Valences,Oxide_ValenceOrder1,Oxide_Vale
 51,Sb,Antimony,Metalloid,3;5,2,Antimonious Oxide,Antimonic Oxide,,,,Antimony Oxide
 52,Te,Tellurium,Metalloid,2;4;6,3,HypoTelluric Oxide,Tellurium Oxide,Telluric Oxide,,,Tellurium Oxide
 53,I,Iodine,Non-metal,1;5;7,3,HypoIodine Oxide,Iodine Oxide,Iodium Oxide,,,Iodine Oxide
-54,Xe,Xenon,Noble gas,0,1,Xenon,,,,,Xenon
+54,Xe,Xenon,Noble gas,0,1,Not Avairable,,,,,Not Avairable
 55,Cs,Cesium,Metal,1,1,Cesium Oxide,,,,,Cesium Oxide
 56,Ba,Barium,Metal,2,1,Barium Oxide,,,,,Barium Oxide
 57,La,Lanthanum,Metal,3,1,Lanthanum Oxide,,,,,Lanthanum Oxide
@@ -84,9 +84,9 @@ Order,Symbol,Name,Type,Valence,Amount of Valences,Oxide_ValenceOrder1,Oxide_Vale
 83,Bi,Bismuth,Metal,3;5,2,Bismuth Oxide,Bismuth Oxide,,,,Bismuth Oxide
 84,Po,Polonium,Metalloid,2;4,2,Polonious Oxide,Polonic Oxide,,,,Polonium Oxide
 85,At,Astatus,Non-metal,1;3;5;7,4,HypoAstatosus Oxide,Astatosus Oxide,Astatic Oxide,PerAstatic Oxide,,Astatus Oxide
-86,Rn,Radon,Noble gas,0,1,Radon,,,,,Radon
+86,Rn,Radon,Noble gas,0,1,Not Avairable,,,,,Not Avairable
 87,Fr,Francius,Metal,1,1,Francium Oxide,,,,,Francius Oxide
-88,Ra,Radio,Metal,2,1,Radio,,,,,Radio Oxide
+88,Ra,Radio,Metal,2,1,Radio Oxide,,,,,Radio Oxide
 89,Ac,Actinium,Metal,3,1,Actinium Oxide,,,,,Actinium Oxide
 90,Th,Thorium,Metal,4,1,Thorium Oxide,,,,,Thorium Oxide
 91,Pa,Protactinium,Metal,4;5,2,Protactinium Oxide,Protactinic Oxide,,,,Protactinium Oxide

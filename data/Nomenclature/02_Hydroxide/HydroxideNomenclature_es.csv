@@ -1,0 +1,119 @@
+Order,Symbol,Name,Type,Valence,Amount of Valences,Oxide_ValenceOrder1,Oxide_ValenceOrder2,Oxide_ValenceOrder3,Oxide_ValenceOrder4,Oxide_ValenceOrder5,Stock
+1,H,Hidrógeno,Non-metal,1,1,Hidróxido de Hidrógeno,,,,,Hidróxido de Hidrógeno
+2,He,Helio,Noble gas,0,1,No corresponde,,,,,No corresponde
+3,Li,Litio,Metal,1,1,Hidróxido de Litio,,,,,Hidróxido de Litio
+4,Be,Berilio,Metal,2,1,Hidróxido de Berilio,,,,,Hidróxido de Berilio
+5,B,Boro,Metalloid,3,1,Hidróxido de Boro,,,,,Hidróxido de Boro
+6,C,Carbón,Non-metal,2;4,2,Hidróxido Carbonoso,Hidróxido Carbónico,,,,Hidróxido de Carbón
+7,N,Nitrógeno,Non-metal,2;3;4;5,4,Hidróxido HipoNitrogenoso,Hidróxido Nitrogenoso,Hidróxido Nítrico,Hidróxido PerNítrico,,Hidróxido de Nitrógeno
+8,O,Oxígeno,Non-metal,2,1,Oxígeno,,,,,Oxígeno
+9,F,Flúor,Non-metal,1,1,Hidróxido de Flúor,,,,,Hidróxido de Flúor
+10,Ne,Neón,Noble gas,0,1,No corresponde,,,,,No corresponde
+11,Na,Sodio,Metal,1,1,Hidróxido de Sodio,,,,,Hidróxido de Sodio
+12,Mg,Magnesio,Metal,2,1,Hidróxido de Magnesio,,,,,Hidróxido de Magnesio
+13,Al,Aluminio,Metal,3,1,Hidróxido de Aluminio,,,,,Hidróxido de Aluminio
+14,Si,Silicio,Metalloid,4,1,Hidróxido de Silicio,,,,,Hidróxido de Silicio
+15,P,Fósforo,Non-metal,3;4;5,3,Hidróxido HipoFosforoso,Hidróxido Fosforoso,Hidróxido Fosfórico,,,Hidróxido de Fósforo
+16,S,Azufre,Non-metal,2;4;6,3,Hidróxido HipoSulfuroso,Hidróxido Sulfuroso,Hidróxido Sulfúrico,,,Hidróxido de Azufre
+17,Cl,Cloro,Non-metal,1;3;5;7,4,Hidróxido HipoCloroso,Cloroso,Hidróxido Clórico,Hidróxido PerClórico,,Hidróxido de Cloro
+18,Ar,Argón,Noble gas,0,1,No corresponde,,,,,No corresponde
+19,K,Potasio,Metal,1,1,Hidróxido de Potasio,,,,,Hidróxido de Potasio
+20,Ca,Calcio,Metal,2,1,Hidróxido de Calcio,,,,,Hidróxido de Calcio
+21,Sc,Escandio,Metal,3,1,Hidróxido de Escandio,,,,,Hidróxido de Escandio
+22,Ti,Titanio,Metal,3;4,2,Hidróxido Titanoso,Hidróxido Titánico,,,,Hidróxido de Titanio
+23,V,Vanadio,Metal,2;3;4;5,4,Hidróxido HipoVanadioso,Hidróxido Vanadioso,Hidróxido Vanádico,Hidróxido PerVanádico,,Hidróxido de Vanadio
+24,Cr,Cromo,Metal,2;3;6,3,Hidróxido HipoCromoso,Hidróxido Cromoso,Hidróxido Crómico,,,Hidróxido de Cromo
+25,Mn,Manganeso,Metal,2;3;4;6;7,5,Hidróxido HipoManganoso,Hidróxido Manganoso,Hidróxido Mangánico,Hidróxido PerMangánico,Hidróxido SuperMangánico,Hidróxido de Manganeso
+26,Fe,Hierro,Metal,2;3,2,Hidróxido Ferroso,Hidróxido Férrico,,,,Hidróxido de Hierro
+27,Co,Cobalto,Metal,2;3,2,Hidróxido Cobaltoso,Hidróxido Cobáltico,,,,Hidróxido de Cobalto
+28,Ni,Níquel,Metal,2;3,2,Hidróxido Niqueloso,Hidróxido Niquélico,,,,Hidróxido de Níquel
+29,Cu,Cobre,Metal,1;2,2,Hidróxido Cuproso,Hidróxido Cúprico,,,,Hidróxido de Cobre
+30,Zn,Zinc,Metal,2,1,Hidróxido de Zinc,,,,,Hidróxido de Zinc
+31,Ga,Galio,Metal,3,1,Hidróxido de Galio,,,,,Hidróxido de Galio
+32,Ge,Germanio,Metalloid,4,1,Hidróxido de Germanio,,,,,Hidróxido de Germanio
+33,As,Arsénico,Metalloid,3;5,2,Hidróxido Arsenioso,Hidróxido Arsenicico,,,,Hidróxido de Arsénico
+34,Se,Selenio,Non-metal,4;6,2,Hidróxido Selenioso,Hidróxido Selénico,,,,Hidróxido de Selenio
+35,Br,Bromo,Non-metal,1;5,2,Hidróxido Bromoso,Hidróxido Brómico,,,,Hidróxido de Bromo
+36,Kr,Criptón,Noble gas,0,1,No corresponde,,,,,No corresponde
+37,Rb,Rubidio,Metal,1,1,Hidróxido de Rubidio,,,,,Hidróxido de Rubidio
+38,Sr,Estroncio,Metal,2,1,Hidróxido de Estroncio,,,,,Hidróxido de Estroncio
+39,Y,Yodo,Metal,3,1,Hidróxido de Yodo,,,,,Hidróxido de Yodo
+40,Zr,Circonio,Metal,4,1,Hidróxido de Circonio,,,,,Hidróxido de Circonio
+41,Nb,Niobio,Metal,3;5,2,Hidróxido Niobioso,Hidróxido Nióbico,,,,Hidróxido de Niobio
+42,Mo,Molibdeno,Metal,2;3;4;5;6,5,Hidróxido HipoMolibdenoso,Hidróxido Molibdenoso,Hidróxido Molibdénico,Hidróxido PerMolibdénico,Hidróxido SuperMolibdénico,Hidróxido de Molibdeno
+43,Tc,Tecnecio,Metal,7,1,Hidróxido de Tecnecio,,,,,Hidróxido de Tecnecio
+44,Ru,Rutenio,Metal,2;3;4;6;8,5,Hidróxido HipoRutenioso,Hidróxido Rutenioso,Hidróxido Ruténico,Hidróxido PerRuténico,Hidróxido SuperRuténico,Hidróxido de Rutenio
+45,Rh,Rodio,Metal,2;3;4,3,Hidróxido HipoRodioso,Hidróxido Rodioso,Hidróxido Ródico,,,Hidróxido de Rodio
+46,Pd,Paladio,Metal,2;4,2,Hidróxido Paladoso,Hidróxido Paládico,,,,Hidróxido de Paladio
+47,Ag,Plata,Metal,1,1,Hidróxido de Plata,,,,,Hidróxido de Plata
+48,Cd,Cadmio,Metal,2,1,Hidróxido de Cadmio,,,,,Hidróxido de Cadmio
+49,In,Indio,Metal,3,1,Hidróxido de Indio,,,,,Hidróxido de Indio
+50,Sn,Estaño,Metal,2;4,2,Hidróxido Estañoso,Hidróxido Estánico,,,,Hidróxido de Estaño
+51,Sb,Antimonio,Metalloid,3;5,2,Hidróxido Antimonioso,Hidróxido Antimónico,,,,Hidróxido de Antimonio
+52,Te,Telurio,Metalloid,2;4;6,3,Hidróxido HipoTelurioso,Hidróxido Telurioso,Hidróxido Telúrico,,,Hidróxido de Telurio
+53,I,Yodo,Non-metal,1;5;7,3,Hidróxido HipoYodoso,Hidróxido Yodoso,Hidróxido Yódico,,,Hidróxido de Yodo
+54,Xe,Xenón,Noble gas,0,1,No corresponde,,,,,No corresponde
+55,Cs,Cesio,Metal,1,1,Hidróxido de Cesio,,,,,Hidróxido de Cesio
+56,Ba,Bario,Metal,2,1,Hidróxido de Bario,,,,,Hidróxido de Bario
+57,La,Lantano,Metal,3,1,Hidróxido de Lantano,,,,,Hidróxido de Lantano
+58,Ce,Cerio,Metal,3;4,2,Hidróxido Cerioso,Hidróxido Cérico,,,,Hidróxido de Cerio
+59,Pr,Praseodimio,Metal,3;4,2,Hidróxido Praseodimioso,Hidróxido Praseodímico,,,,Hidróxido de Praseodimio
+60,Nd,Neodimio,Metal,3,1,Hidróxido de Neodimio,,,,,Hidróxido de Neodimio
+61,Pm,Prometio,Metal,3,1,Hidróxido de Prometio,,,,,Hidróxido de Prometio
+62,Sm,Samario,Metal,2;3,2,Hidróxido Samarioso,Hidróxido Samárico,,,,Hidróxido de Samario
+63,Eu,Europio,Metal,2;3,2,Hidróxido Europioso,Hidróxido Európico,,,,Hidróxido de Europio
+64,Gd,Gadolinio,Metal,3,1,Hidróxido de Gadolinio,,,,,Hidróxido de Gadolinio
+65,Tb,Terbio,Metal,3;4,2,Hidróxido Terbioso,Hidróxido Térbico,,,,Hidróxido de Terbio
+66,Dy,Disprosio,Metal,3,1,Hidróxido de Disprosio,,,,,Hidróxido de Disprosio
+67,Ho,Holmio,Metal,3,1,Hidróxido de Holmio,,,,,Hidróxido de Holmio
+68,Er,Erbio,Metal,3,1,Hidróxido de Erbio,,,,,Hidróxido de Erbio
+69,Tm,Tulio,Metal,2;3,2,Hidróxido Tulioso,Hidróxido Túlico,,,,Hidróxido de Tulio
+70,Yb,Iterbio,Metal,2;3,2,Hidróxido Iterbioso,Hidróxido Itérbico,,,,Hidróxido de Iterbio
+71,Lu,Lutecio,Metal,3,1,Hidróxido de Lutecio,,,,,Hidróxido de Lutecio
+72,Hf,Hafnio,Metal,4,1,Hidróxido de Hafnio,,,,,Hidróxido de Hafnio
+73,Ta,Tantalio,Metal,5,1,Hidróxido de Tantalio,,,,,Hidróxido de Tantalio
+74,W,Tungsteno,Metal,2;3;4;5;6,5,Hidróxido HipoTungstenoso,Hidróxido Tungstenoso,Hidróxido Tungsténico,Hidróxido PerTungsténico,Hidróxido SuperTungsténico,Hidróxido de Tungsteno
+75,Re,Renio,Metal,1;2;4;6;7,5,Hidróxido HipoRenioso,Hidróxido Renioso,Hidróxido Rénico,Hidróxido PerRénico,Hidróxido SuperRénico,Hidróxido de Renio
+76,Os,Osmio,Metal,2;3;4;6;8,5,Hidróxido HipoOsmioso,Hidróxido Osmioso,Hidróxido Ósmico,Hidróxido PerÓsmico,Hidróxido SuperÓsmico,Hidróxido de Osmio
+77,Ir,Iridio,Metal,2;3;4;6,4,Hidróxido HipoIridioso,Hidróxido Iridioso,Hidróxido Irídico,Hidróxido PerIrídico,,Hidróxido de Iridio
+78,Pt,Platino,Metal,2;4,2,Hidróxido Platinoso,Hidróxido Platínico,,,,Hidróxido de Platino
+79,Au,Oro,Metal,1;3,2,Hidróxido Auroso,Hidróxido Áurico,,,,Hidróxido de Oro
+80,Hg,Mercurio,Metal,1;2,2,Hidróxido Mercurioso,Hidróxido Mercúrico,,,,Hidróxido de Mercurio
+81,Tl,Talio,Metal,1;3,2,Hidróxido Talioso,Hidróxido Tálico,,,,Hidróxido de Talio
+82,Pb,Plomo,Metal,2;4,2,Hidróxido Plubioso,Hidróxido Plúmbico,,,,Hidróxido de Plomo
+83,Bi,Bismuto,Metal,3;5,2,Hidróxido Bismutoso,Hidróxido Bismútico,,,,Hidróxido de Bismuto
+84,Po,Polonio,Metalloid,2;4,2,Hidróxido Polonioso,Hidróxido Polónico,,,,Hidróxido de Polonio
+85,At,Astato,Non-metal,1;3;5;7,4,Hidróxido HipoAstatoso,Hidróxido Astatoso,Hidróxido Astático,Hidróxido PerAstático,,Hidróxido de Astato
+86,Rn,Radón,Noble gas,0,1,No corresponde,,,,,No corresponde
+87,Fr,Francio,Metal,1,1,Hidróxido de Francio,,,,,Hidróxido de Francio
+88,Ra,Radio,Metal,2,1,Hidróxido de Radio,,,,,Hidróxido de Radio
+89,Ac,Actinio,Metal,3,1,Hidróxido de Actinio,,,,,Hidróxido de Actinio
+90,Th,Torio,Metal,4,1,Hidróxido de Torio,,,,,Hidróxido de Torio
+91,Pa,Protactinio,Metal,4;5,2,Hidróxido Protactinioso,Hidróxido Protactínico,,,,Hidróxido de Protactinio
+92,U,Uranio,Metal,3;4;5;6,4,Hidróxido HipoUranoso,Hidróxido Uranoso,Hidróxido Uránico,Hidróxido PerUránico,,Hidróxido de Uranio
+93,Np,Neptunio,Metal,3;4;5;6,4,Hidróxido HipoNeptunioso,Hidróxido Neptunioso,Hidróxido Neptúnico,Hidróxido PerNeptúnico,,Hidróxido de Neptunio
+94,Pu,Plutonio,Metal,3;4;5;6,4,Hidróxido HipoPlutonioso,Hidróxido Plutonioso,Hidróxido Plutónico,Hidróxido PerPlutónico,,Hidróxido de Plutonio
+95,Am,Americio,Metal,3;4;5;6,4,Hidróxido HipoAmericioso,Hidróxido Americioso,Hidróxido Amerícico,Hidróxido PerAmerícico,,Hidróxido de Americio
+96,Cm,Curio,Metal,3,1,Hidróxido de Curio,,,,,Hidróxido de Curio
+97,Bk,Berkelio,Metal,3;4,2,Hidróxido Berkelioso,Hidróxido Berkélico,,,,Hidróxido de Berkelio
+98,Cf,Californio,Metal,3,1,Hidróxido de Californio,,,,,Hidróxido de Californio
+99,Es,Einstenio,Metal,4,1,Hidróxido de Einstenio,,,,,Hidróxido de Einstenio
+100,Fm,Fermio,Metal,4,1,Hidróxido de Fermio,,,,,Hidróxido de Fermio
+101,Md,Mendelevio,Metal,3;4,2,Hidróxido Mendelevioso,Hidróxido Mendelévico,,,,Hidróxido de Mendelevio
+102,No,Nobelio,Metal,3;4,2,Hidróxido Nobelioso,Hidróxido Nobélico,,,,Hidróxido de Nobelio
+103,Lr,Laurencio,Metal,3;4,2,Hidróxido Laurencioso,Hidróxido Lauréncico,,,,Hidróxido de Laurencio
+104,Rf,Rutherfordio,Metal,4,1,Hidróxido de Rutherfordio,,,,,Hidróxido de Rutherfordio
+105,Db,Dubnium,Metal,4,1,Hidróxido de Dubnium,,,,,Hidróxido de Dubnium
+106,Sg,Seaborgio,Metal,4,1,Hidróxido de Seaborgio,,,,,Hidróxido de Seaborgio
+107,Bh,Bohrio,Metal,3;4;5,3,Hidróxido HipoBohrioso,Hidróxido Bohrioso,Hidróxido Bóhrico,,,Hidróxido de Bohrio
+108,Hs,Hassio,Metal,2;4;6;7,4,Hidróxido HipoHassioso,Hidróxido Hassioso,Hidróxido Hássico,Hidróxido PerHássico,,Hidróxido de Hassio
+109,Mt,Meitnerio,Metal,2;3;4;6,4,Hidróxido HipoMeitnerioso,Hidróxido Meitnerioso,Hidróxido Meitnérico,Hidróxido PerMeitnérico,,Hidróxido de Meitnerio
+110,Ds,Darmstatio,Metal,2;4,2,Hidróxido Darmstatioso,Hidróxido Darmstático,,,,Hidróxido de Darmstatio
+111,Rg,Roentgenio,Metal,2;3,2,Hidróxido Roentgenioso,Hidróxido Roentegénico,,,,Hidróxido de Roentgenio
+112,Cn,Copérnico,Metal,1;2,2,Hidróxido Copernicoso,Hidróxido Copérnico,,,,Hidróxido de Copérnico
+113,Nh,Nihonium,Metal,3,1,Hidróxido de Nihonium,,,,,Hidróxido de Nihonium
+114,Fl,Flerovio,Metal,2;4;6,3,Hidróxido HipoFlerovioso,Hidróxido Flerovioso,Hidróxido Fleróvico,,,Hidróxido de Flerovio
+115,Mc,Moscovio,Metal,1;4;5,3,Hidróxido HipoMoscovioso,Hidróxido Moscovioso,Hidróxido Moscóvico,,,Hidróxido de Moscovio
+116,Lv,Livermorio,Metal,3;4;5,3,Hidróxido HipoLivermorioso,Hidróxido Livermorioso,Hidróxido Livermórico,,,Hidróxido de Livermorio
+117,Ts,Tenesino,Metal,1;2;3,3,Hidróxido HipoTenesinoso,Hidróxido Tenesinoso,Hidróxido Tenésico,,,Hidróxido de Tenesino
+118,Og,Oganeson,Metal,4;7,2,Hidróxido Oganesonoso,Hidróxido Oganésico,,,,Hidróxido de Oganeson

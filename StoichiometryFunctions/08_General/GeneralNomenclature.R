@@ -66,6 +66,7 @@ GeneralNomenclature <- function(input_atomic_number1 = NULL, input_valence1 = NU
       # Oxide!
       general_nomenclature <- OxideNomenclature(input_atomic_number1 = input_atomic_number1,
                                                 input_valence1 = input_valence1,
+                                                input_family = "Oxide",
                                                 input_internal_language = "en",
                                                 input_external_language = input_external_language,
                                                 input_PeriodicTable = input_PeriodicTable,
@@ -76,39 +77,48 @@ GeneralNomenclature <- function(input_atomic_number1 = NULL, input_valence1 = NU
         
         # Hydroxide!
         general_nomenclature <- HydroxideNomenclature(input_atomic_number1 = input_atomic_number1,
-                                                input_valence1 = input_valence1,
-                                                input_internal_language = "en",
-                                                input_external_language = input_external_language,
-                                                input_PeriodicTable = input_PeriodicTable)
+                                                      input_valence1 = input_valence1,
+                                                      input_family = "Hydroxide",
+                                                      input_internal_language = "en",
+                                                      input_external_language = input_external_language,
+                                                      input_PeriodicTable = input_PeriodicTable,
+                                                      input_Nomenclature = input_Nomenclature)
       } else
         if ("Oxacid" == input_family) {
           
           # Oxacid
           general_nomenclature <- OxacidNomenclature(input_atomic_number1 = input_atomic_number1,
                                                input_valence1 = input_valence1,
+                                               input_family = "Oxacid",
                                                input_internal_language = "en",
                                                input_external_language = input_external_language,
-                                               input_PeriodicTable = input_PeriodicTable)
+                                               input_PeriodicTable = input_PeriodicTable,
+                                               input_Nomenclature = input_Nomenclature)
           
         } else
+          if ("Hydracid" == input_family) {
+            
+            # Hydradic
+            general_nomenclature <- HydrideNomenclature(input_atomic_number1 = input_atomic_number1,
+                                                        input_valence1 = input_valence1,
+                                                        input_internal_language = "en",
+                                                        input_family = "Hydracid",
+                                                        input_external_language = input_external_language,
+                                                        input_PeriodicTable = input_PeriodicTable,
+                                                        input_Nomenclature = input_Nomenclature)
+          } else
           if ("Hydride" == input_family) {
             
             # Hydride
             general_nomenclature <- HydrideNomenclature(input_atomic_number1 = input_atomic_number1,
                                                   input_valence1 = input_valence1,
                                                   input_internal_language = "en",
+                                                  input_family = "Hydride",
                                                   input_external_language = input_external_language,
-                                                  input_PeriodicTable = input_PeriodicTable)
+                                                  input_PeriodicTable = input_PeriodicTable,
+                                                  input_Nomenclature = input_Nomenclature)
           } else
-            if ("Hydracid" == input_family) {
-              
-              # Hydradic
-              general_nomenclature <- HydrideNomenclature(input_atomic_number1 = input_atomic_number1,
-                                                     input_valence1 = input_valence1,
-                                                     input_internal_language = "en",
-                                                     input_external_language = input_external_language,
-                                                     input_PeriodicTable = input_PeriodicTable)
-            } else
+            
               if ("Oxosalt" == input_family) {
                 
                 # Oxosalt
@@ -116,9 +126,11 @@ GeneralNomenclature <- function(input_atomic_number1 = NULL, input_valence1 = NU
                                                       input_valence1 = input_valence1,
                                                       input_atomic_number2 = input_atomic_number2,
                                                       input_valence2 = input_valence2,
+                                                      input_family = "Oxosalt",
                                                       input_internal_language = "en",
                                                       input_external_language = input_external_language,
-                                                      input_PeriodicTable = input_PeriodicTable)
+                                                      input_PeriodicTable = input_PeriodicTable,
+                                                      input_Nomenclature = input_Nomenclature)
               } else
                 if ("Salt" == input_family) {
                   
@@ -127,9 +139,11 @@ GeneralNomenclature <- function(input_atomic_number1 = NULL, input_valence1 = NU
                                                      input_valence1 = input_valence1,
                                                      input_atomic_number2 = input_atomic_number2,
                                                      input_valence2 = input_valence2,
+                                                     input_family = "Salt",
                                                      input_internal_language = "en",
                                                      input_external_language = input_external_language,
-                                                     input_PeriodicTable = input_PeriodicTable)
+                                                     input_PeriodicTable = input_PeriodicTable,
+                                                     input_Nomenclature = input_Nomenclature)
                 } 
     ###
   } # End Part 1: Structure of the "matrix_solution"

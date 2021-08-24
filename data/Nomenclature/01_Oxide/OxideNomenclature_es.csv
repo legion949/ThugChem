@@ -1,6 +1,6 @@
 Order,Symbol,Name,Type,Valence,Amount of Valences,Oxide_ValenceOrder1,Oxide_ValenceOrder2,Oxide_ValenceOrder3,Oxide_ValenceOrder4,Oxide_ValenceOrder5,Stock
 1,H,Hidrógeno,Non-metal,1,1,Óxido de Hidrógeno,,,,,Óxido de Hidrógeno
-2,He,Helio,Noble gas,0,1,Helio,,,,,Helio
+2,He,Helio,Noble gas,0,1,No corresponde,,,,,No corresponde
 3,Li,Litio,Metal,1,1,Óxido de Litio,,,,,Óxido de Litio
 4,Be,Berilio,Metal,2,1,Óxido de Berilio,,,,,Óxido de Berilio
 5,B,Boro,Metalloid,3,1,Óxido de Boro,,,,,Óxido de Boro
@@ -8,7 +8,7 @@ Order,Symbol,Name,Type,Valence,Amount of Valences,Oxide_ValenceOrder1,Oxide_Vale
 7,N,Nitrógeno,Non-metal,2;3;4;5,4,Óxido HipoNitrogenoso,Óxido Nitrogenoso,Óxido Nítrico,Óxido PerNítrico,,Óxido de Nitrógeno
 8,O,Oxígeno,Non-metal,2,1,Oxígeno,,,,,Oxígeno
 9,F,Flúor,Non-metal,1,1,Óxido de Flúor,,,,,Óxido de Flúor
-10,Ne,Neón,Noble gas,0,1,Neón,,,,,Neón
+10,Ne,Neón,Noble gas,0,1,No corresponde,,,,,No corresponde
 11,Na,Sodio,Metal,1,1,Óxido de Sodio,,,,,Óxido de Sodio
 12,Mg,Magnesio,Metal,2,1,Óxido de Magnesio,,,,,Óxido de Magnesio
 13,Al,Aluminio,Metal,3,1,Óxido de Aluminio,,,,,Óxido de Aluminio
@@ -16,7 +16,7 @@ Order,Symbol,Name,Type,Valence,Amount of Valences,Oxide_ValenceOrder1,Oxide_Vale
 15,P,Fósforo,Non-metal,3;4;5,3,Óxido HipoFosforoso,Óxido Fosforoso,Óxido Fosfórico,,,Óxido de Fósforo
 16,S,Azufre,Non-metal,2;4;6,3,Óxido HipoSulfuroso,Óxido Sulfuroso,Óxido Sulfúrico,,,Óxido de Azufre
 17,Cl,Cloro,Non-metal,1;3;5;7,4,Óxido HipoCloroso,Cloroso,Óxido Clórico,Óxido PerClórico,,Óxido de Cloro
-18,Ar,Argón,Noble gas,0,1,Argón,,,,,Argón
+18,Ar,Argón,Noble gas,0,1,No corresponde,,,,,No corresponde
 19,K,Potasio,Metal,1,1,Óxido de Potasio,,,,,Óxido de Potasio
 20,Ca,Calcio,Metal,2,1,Óxido de Calcio,,,,,Óxido de Calcio
 21,Sc,Escandio,Metal,3,1,Óxido de Escandio,,,,,Óxido de Escandio
@@ -34,7 +34,7 @@ Order,Symbol,Name,Type,Valence,Amount of Valences,Oxide_ValenceOrder1,Oxide_Vale
 33,As,Arsénico,Metalloid,3;5,2,Óxido Arsenioso,Óxido Arsenicico,,,,Óxido de Arsénico
 34,Se,Selenio,Non-metal,4;6,2,Óxido Selenioso,Óxido Selénico,,,,Óxido de Selenio
 35,Br,Bromo,Non-metal,1;5,2,Óxido Bromoso,Óxido Brómico,,,,Óxido de Bromo
-36,Kr,Criptón,Noble gas,0,1,Criptón,,,,,Criptón
+36,Kr,Criptón,Noble gas,0,1,No corresponde,,,,,No corresponde
 37,Rb,Rubidio,Metal,1,1,Óxido de Rubidio,,,,,Óxido de Rubidio
 38,Sr,Estroncio,Metal,2,1,Óxido de Estroncio,,,,,Óxido de Estroncio
 39,Y,Yodo,Metal,3,1,Óxido de Yodo,,,,,Óxido de Yodo
@@ -52,7 +52,7 @@ Order,Symbol,Name,Type,Valence,Amount of Valences,Oxide_ValenceOrder1,Oxide_Vale
 51,Sb,Antimonio,Metalloid,3;5,2,Óxido Antimonioso,Óxido Antimónico,,,,Óxido de Antimonio
 52,Te,Telurio,Metalloid,2;4;6,3,Óxido HipoTelurioso,Óxido Telurioso,Óxido Telúrico,,,Óxido de Telurio
 53,I,Yodo,Non-metal,1;5;7,3,Óxido HipoYodoso,Óxido Yodoso,Óxido Yódico,,,Óxido de Yodo
-54,Xe,Xenón,Noble gas,0,1,Xenón,,,,,Xenón
+54,Xe,Xenón,Noble gas,0,1,No corresponde,,,,,No corresponde
 55,Cs,Cesio,Metal,1,1,Óxido de Cesio,,,,,Óxido de Cesio
 56,Ba,Bario,Metal,2,1,Óxido de Bario,,,,,Óxido de Bario
 57,La,Lantano,Metal,3,1,Óxido de Lantano,,,,,Óxido de Lantano
@@ -84,9 +84,9 @@ Order,Symbol,Name,Type,Valence,Amount of Valences,Oxide_ValenceOrder1,Oxide_Vale
 83,Bi,Bismuto,Metal,3;5,2,Óxido Bismutoso,Óxido Bismútico,,,,Óxido de Bismuto
 84,Po,Polonio,Metalloid,2;4,2,Óxido Polonioso,Óxido Polónico,,,,Óxido de Polonio
 85,At,Astato,Non-metal,1;3;5;7,4,Óxido HipoAstatoso,Óxido Astatoso,Óxido Astático,Óxido PerAstático,,Óxido de Astato
-86,Rn,Radón,Noble gas,0,1,Radón,,,,,Radón
+86,Rn,Radón,Noble gas,0,1,No corresponde,,,,,No corresponde
 87,Fr,Francio,Metal,1,1,Óxido de Francio,,,,,Óxido de Francio
-88,Ra,Radio,Metal,2,1,Radio,,,,,Óxido de Radio
+88,Ra,Radio,Metal,2,1,Óxido de Radio,,,,,Óxido de Radio
 89,Ac,Actinio,Metal,3,1,Óxido de Actinio,,,,,Óxido de Actinio
 90,Th,Torio,Metal,4,1,Óxido de Torio,,,,,Óxido de Torio
 91,Pa,Protactinio,Metal,4;5,2,Óxido Protactinioso,Óxido Protactínico,,,,Óxido de Protactinio

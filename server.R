@@ -417,17 +417,17 @@ shinyServer(function(input, output ,session) {
         
         text(-0.5, 25, i18n()$t("Nomenclature"), cex = 7, pos = 4)
         
-        armed01 <- paste0(colnames(nomenclature())[1],": ",nomenclature()[1,1])
-        armed02 <- paste0(colnames(nomenclature())[2],": ",nomenclature()[1,2])
-        armed03 <- paste0(colnames(nomenclature())[3],": ",nomenclature()[1,3])
-        armed04 <- colnames(nomenclature())[4]
+        armed01 <- nomenclature()[2,1]
+        armed02 <- nomenclature()[2,2]
+        armed03 <- nomenclature()[2,3]
+        armed04 <- nomenclature()[3,4]
         armed05 <- paste0("expression(", nomenclature()[1,4], ")")
         
-         text(0, 17, armed01, cex = 2, pos = 4)
-         text(0, 11, armed02, cex = 2, pos = 4)
-         text(0,  5, armed03, cex = 2, pos = 4)
-         text(22, 25, armed04, cex = 7)
-         text(22, 10, eval(parse(text=armed05)), cex = 10)
+        text(0, 17, armed01, cex = 2, pos = 4)
+        text(0, 11, armed02, cex = 2, pos = 4)
+        text(0,  5, armed03, cex = 2, pos = 4)
+        text(22, 25, armed04, cex = 7)
+        text(22, 10, eval(parse(text=armed05)), cex = 10)
 
       }
     

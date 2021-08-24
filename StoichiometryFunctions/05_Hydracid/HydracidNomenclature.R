@@ -161,7 +161,7 @@ HydracidNomenclature <- function(input_atomic_number1 = NULL,
         } 
         
         # Writing errors 
-        iupac <- gsub("oÓ", "Ó", iupac)  
+        iupac <- gsub("o?", "?", iupac)  
       }
       
       
