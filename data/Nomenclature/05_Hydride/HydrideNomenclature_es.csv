@@ -1,0 +1,119 @@
+Order,Symbol,Name,Type,Valence,Amount of Valences,Oxide_ValenceOrder1,Oxide_ValenceOrder2,Oxide_ValenceOrder3,Oxide_ValenceOrder4,Oxide_ValenceOrder5,Stock
+1,H,Hidrógeno,Non-metal,1,1,Hidruro de Hidrógeno,,,,,Hidruro de Hidrógeno
+2,He,Helio,Noble gas,0,1,No corresponde,,,,,No corresponde
+3,Li,Litio,Metal,1,1,Hidruro de Litio,,,,,Hidruro de Litio
+4,Be,Berilio,Metal,2,1,Hidruro de Berilio,,,,,Hidruro de Berilio
+5,B,Boro,Metalloid,3,1,Hidruro de Boro,,,,,Hidruro de Boro
+6,C,Carbón,Non-metal,2;4,2,Hidruro Carbonoso,Hidruro Carbónico,,,,Hidruro de Carbón
+7,N,Nitrógeno,Non-metal,2;3;4;5,4,Hidruro HipoNitrogenoso,Hidruro Nitrogenoso,Hidruro Nítrico,Hidruro PerNítrico,,Hidruro de Nitrógeno
+8,O,Oxígeno,Non-metal,2,1,Oxígeno,,,,,Hidruro de Oxígeno
+9,F,Flúor,Non-metal,1,1,Hidruro de Flúor,,,,,Hidruro de Flúor
+10,Ne,Neón,Noble gas,0,1,No corresponde,,,,,No corresponde
+11,Na,Sodio,Metal,1,1,Hidruro de Sodio,,,,,Hidruro de Sodio
+12,Mg,Magnesio,Metal,2,1,Hidruro de Magnesio,,,,,Hidruro de Magnesio
+13,Al,Aluminio,Metal,3,1,Hidruro de Aluminio,,,,,Hidruro de Aluminio
+14,Si,Silicio,Metalloid,4,1,Hidruro de Silicio,,,,,Hidruro de Silicio
+15,P,Fósforo,Non-metal,3;4;5,3,Hidruro HipoFosforoso,Hidruro Fosforoso,Hidruro Fosfórico,,,Hidruro de Fósforo
+16,S,Azufre,Non-metal,2;4;6,3,Hidruro HipoSulfuroso,Hidruro Sulfuroso,Hidruro Sulfúrico,,,Hidruro de Azufre
+17,Cl,Cloro,Non-metal,1;3;5;7,4,Hidruro HipoCloroso,Cloroso,Hidruro Clórico,Hidruro PerClórico,,Hidruro de Cloro
+18,Ar,Argón,Noble gas,0,1,No corresponde,,,,,No corresponde
+19,K,Potasio,Metal,1,1,Hidruro de Potasio,,,,,Hidruro de Potasio
+20,Ca,Calcio,Metal,2,1,Hidruro de Calcio,,,,,Hidruro de Calcio
+21,Sc,Escandio,Metal,3,1,Hidruro de Escandio,,,,,Hidruro de Escandio
+22,Ti,Titanio,Metal,3;4,2,Hidruro Titanoso,Hidruro Titánico,,,,Hidruro de Titanio
+23,V,Vanadio,Metal,2;3;4;5,4,Hidruro HipoVanadioso,Hidruro Vanadioso,Hidruro Vanádico,Hidruro PerVanádico,,Hidruro de Vanadio
+24,Cr,Cromo,Metal,2;3;6,3,Hidruro HipoCromoso,Hidruro Cromoso,Hidruro Crómico,,,Hidruro de Cromo
+25,Mn,Manganeso,Metal,2;3;4;6;7,5,Hidruro HipoManganoso,Hidruro Manganoso,Hidruro Mangánico,Hidruro PerMangánico,Hidruro SuperMangánico,Hidruro de Manganeso
+26,Fe,Hierro,Metal,2;3,2,Hidruro Ferroso,Hidruro Férrico,,,,Hidruro de Hierro
+27,Co,Cobalto,Metal,2;3,2,Hidruro Cobaltoso,Hidruro Cobáltico,,,,Hidruro de Cobalto
+28,Ni,Níquel,Metal,2;3,2,Hidruro Niqueloso,Hidruro Niquélico,,,,Hidruro de Níquel
+29,Cu,Cobre,Metal,1;2,2,Hidruro Cuproso,Hidruro Cúprico,,,,Hidruro de Cobre
+30,Zn,Zinc,Metal,2,1,Hidruro de Zinc,,,,,Hidruro de Zinc
+31,Ga,Galio,Metal,3,1,Hidruro de Galio,,,,,Hidruro de Galio
+32,Ge,Germanio,Metalloid,4,1,Hidruro de Germanio,,,,,Hidruro de Germanio
+33,As,Arsénico,Metalloid,3;5,2,Hidruro Arsenioso,Hidruro Arsenicico,,,,Hidruro de Arsénico
+34,Se,Selenio,Non-metal,4;6,2,Hidruro Selenioso,Hidruro Selénico,,,,Hidruro de Selenio
+35,Br,Bromo,Non-metal,1;5,2,Hidruro Bromoso,Hidruro Brómico,,,,Hidruro de Bromo
+36,Kr,Criptón,Noble gas,0,1,No corresponde,,,,,No corresponde
+37,Rb,Rubidio,Metal,1,1,Hidruro de Rubidio,,,,,Hidruro de Rubidio
+38,Sr,Estroncio,Metal,2,1,Hidruro de Estroncio,,,,,Hidruro de Estroncio
+39,Y,Yodo,Metal,3,1,Hidruro de Yodo,,,,,Hidruro de Yodo
+40,Zr,Circonio,Metal,4,1,Hidruro de Circonio,,,,,Hidruro de Circonio
+41,Nb,Niobio,Metal,3;5,2,Hidruro Niobioso,Hidruro Nióbico,,,,Hidruro de Niobio
+42,Mo,Molibdeno,Metal,2;3;4;5;6,5,Hidruro HipoMolibdenoso,Hidruro Molibdenoso,Hidruro Molibdénico,Hidruro PerMolibdénico,Hidruro SuperMolibdénico,Hidruro de Molibdeno
+43,Tc,Tecnecio,Metal,7,1,Hidruro de Tecnecio,,,,,Hidruro de Tecnecio
+44,Ru,Rutenio,Metal,2;3;4;6;8,5,Hidruro HipoRutenioso,Hidruro Rutenioso,Hidruro Ruténico,Hidruro PerRuténico,Hidruro SuperRuténico,Hidruro de Rutenio
+45,Rh,Rodio,Metal,2;3;4,3,Hidruro HipoRodioso,Hidruro Rodioso,Hidruro Ródico,,,Hidruro de Rodio
+46,Pd,Paladio,Metal,2;4,2,Hidruro Paladoso,Hidruro Paládico,,,,Hidruro de Paladio
+47,Ag,Plata,Metal,1,1,Hidruro de Plata,,,,,Hidruro de Plata
+48,Cd,Cadmio,Metal,2,1,Hidruro de Cadmio,,,,,Hidruro de Cadmio
+49,In,Indio,Metal,3,1,Hidruro de Indio,,,,,Hidruro de Indio
+50,Sn,Estaño,Metal,2;4,2,Hidruro Estañoso,Hidruro Estánico,,,,Hidruro de Estaño
+51,Sb,Antimonio,Metalloid,3;5,2,Hidruro Antimonioso,Hidruro Antimónico,,,,Hidruro de Antimonio
+52,Te,Telurio,Metalloid,2;4;6,3,Hidruro HipoTelurioso,Hidruro Telurioso,Hidruro Telúrico,,,Hidruro de Telurio
+53,I,Yodo,Non-metal,1;5;7,3,Hidruro HipoYodoso,Hidruro Yodoso,Hidruro Yódico,,,Hidruro de Yodo
+54,Xe,Xenón,Noble gas,0,1,No corresponde,,,,,No corresponde
+55,Cs,Cesio,Metal,1,1,Hidruro de Cesio,,,,,Hidruro de Cesio
+56,Ba,Bario,Metal,2,1,Hidruro de Bario,,,,,Hidruro de Bario
+57,La,Lantano,Metal,3,1,Hidruro de Lantano,,,,,Hidruro de Lantano
+58,Ce,Cerio,Metal,3;4,2,Hidruro Cerioso,Hidruro Cérico,,,,Hidruro de Cerio
+59,Pr,Praseodimio,Metal,3;4,2,Hidruro Praseodimioso,Hidruro Praseodímico,,,,Hidruro de Praseodimio
+60,Nd,Neodimio,Metal,3,1,Hidruro de Neodimio,,,,,Hidruro de Neodimio
+61,Pm,Prometio,Metal,3,1,Hidruro de Prometio,,,,,Hidruro de Prometio
+62,Sm,Samario,Metal,2;3,2,Hidruro Samarioso,Hidruro Samárico,,,,Hidruro de Samario
+63,Eu,Europio,Metal,2;3,2,Hidruro Europioso,Hidruro Európico,,,,Hidruro de Europio
+64,Gd,Gadolinio,Metal,3,1,Hidruro de Gadolinio,,,,,Hidruro de Gadolinio
+65,Tb,Terbio,Metal,3;4,2,Hidruro Terbioso,Hidruro Térbico,,,,Hidruro de Terbio
+66,Dy,Disprosio,Metal,3,1,Hidruro de Disprosio,,,,,Hidruro de Disprosio
+67,Ho,Holmio,Metal,3,1,Hidruro de Holmio,,,,,Hidruro de Holmio
+68,Er,Erbio,Metal,3,1,Hidruro de Erbio,,,,,Hidruro de Erbio
+69,Tm,Tulio,Metal,2;3,2,Hidruro Tulioso,Hidruro Túlico,,,,Hidruro de Tulio
+70,Yb,Iterbio,Metal,2;3,2,Hidruro Iterbioso,Hidruro Itérbico,,,,Hidruro de Iterbio
+71,Lu,Lutecio,Metal,3,1,Hidruro de Lutecio,,,,,Hidruro de Lutecio
+72,Hf,Hafnio,Metal,4,1,Hidruro de Hafnio,,,,,Hidruro de Hafnio
+73,Ta,Tantalio,Metal,5,1,Hidruro de Tantalio,,,,,Hidruro de Tantalio
+74,W,Tungsteno,Metal,2;3;4;5;6,5,Hidruro HipoTungstenoso,Hidruro Tungstenoso,Hidruro Tungsténico,Hidruro PerTungsténico,Hidruro SuperTungsténico,Hidruro de Tungsteno
+75,Re,Renio,Metal,1;2;4;6;7,5,Hidruro HipoRenioso,Hidruro Renioso,Hidruro Rénico,Hidruro PerRénico,Hidruro SuperRénico,Hidruro de Renio
+76,Os,Osmio,Metal,2;3;4;6;8,5,Hidruro HipoOsmioso,Hidruro Osmioso,Hidruro Ósmico,Hidruro PerÓsmico,Hidruro SuperÓsmico,Hidruro de Osmio
+77,Ir,Iridio,Metal,2;3;4;6,4,Hidruro HipoIridioso,Hidruro Iridioso,Hidruro Irídico,Hidruro PerIrídico,,Hidruro de Iridio
+78,Pt,Platino,Metal,2;4,2,Hidruro Platinoso,Hidruro Platínico,,,,Hidruro de Platino
+79,Au,Oro,Metal,1;3,2,Hidruro Auroso,Hidruro Áurico,,,,Hidruro de Oro
+80,Hg,Mercurio,Metal,1;2,2,Hidruro Mercurioso,Hidruro Mercúrico,,,,Hidruro de Mercurio
+81,Tl,Talio,Metal,1;3,2,Hidruro Talioso,Hidruro Tálico,,,,Hidruro de Talio
+82,Pb,Plomo,Metal,2;4,2,Hidruro Plubioso,Hidruro Plúmbico,,,,Hidruro de Plomo
+83,Bi,Bismuto,Metal,3;5,2,Hidruro Bismutoso,Hidruro Bismútico,,,,Hidruro de Bismuto
+84,Po,Polonio,Metalloid,2;4,2,Hidruro Polonioso,Hidruro Polónico,,,,Hidruro de Polonio
+85,At,Astato,Non-metal,1;3;5;7,4,Hidruro HipoAstatoso,Hidruro Astatoso,Hidruro Astático,Hidruro PerAstático,,Hidruro de Astato
+86,Rn,Radón,Noble gas,0,1,No corresponde,,,,,No corresponde
+87,Fr,Francio,Metal,1,1,Hidruro de Francio,,,,,Hidruro de Francio
+88,Ra,Radio,Metal,2,1,Hidruro de Radio,,,,,Hidruro de Radio
+89,Ac,Actinio,Metal,3,1,Hidruro de Actinio,,,,,Hidruro de Actinio
+90,Th,Torio,Metal,4,1,Hidruro de Torio,,,,,Hidruro de Torio
+91,Pa,Protactinio,Metal,4;5,2,Hidruro Protactinioso,Hidruro Protactínico,,,,Hidruro de Protactinio
+92,U,Uranio,Metal,3;4;5;6,4,Hidruro HipoUranoso,Hidruro Uranoso,Hidruro Uránico,Hidruro PerUránico,,Hidruro de Uranio
+93,Np,Neptunio,Metal,3;4;5;6,4,Hidruro HipoNeptunioso,Hidruro Neptunioso,Hidruro Neptúnico,Hidruro PerNeptúnico,,Hidruro de Neptunio
+94,Pu,Plutonio,Metal,3;4;5;6,4,Hidruro HipoPlutonioso,Hidruro Plutonioso,Hidruro Plutónico,Hidruro PerPlutónico,,Hidruro de Plutonio
+95,Am,Americio,Metal,3;4;5;6,4,Hidruro HipoAmericioso,Hidruro Americioso,Hidruro Amerícico,Hidruro PerAmerícico,,Hidruro de Americio
+96,Cm,Curio,Metal,3,1,Hidruro de Curio,,,,,Hidruro de Curio
+97,Bk,Berkelio,Metal,3;4,2,Hidruro Berkelioso,Hidruro Berkélico,,,,Hidruro de Berkelio
+98,Cf,Californio,Metal,3,1,Hidruro de Californio,,,,,Hidruro de Californio
+99,Es,Einstenio,Metal,4,1,Hidruro de Einstenio,,,,,Hidruro de Einstenio
+100,Fm,Fermio,Metal,4,1,Hidruro de Fermio,,,,,Hidruro de Fermio
+101,Md,Mendelevio,Metal,3;4,2,Hidruro Mendelevioso,Hidruro Mendelévico,,,,Hidruro de Mendelevio
+102,No,Nobelio,Metal,3;4,2,Hidruro Nobelioso,Hidruro Nobélico,,,,Hidruro de Nobelio
+103,Lr,Laurencio,Metal,3;4,2,Hidruro Laurencioso,Hidruro Lauréncico,,,,Hidruro de Laurencio
+104,Rf,Rutherfordio,Metal,4,1,Hidruro de Rutherfordio,,,,,Hidruro de Rutherfordio
+105,Db,Dubnium,Metal,4,1,Hidruro de Dubnium,,,,,Hidruro de Dubnium
+106,Sg,Seaborgio,Metal,4,1,Hidruro de Seaborgio,,,,,Hidruro de Seaborgio
+107,Bh,Bohrio,Metal,3;4;5,3,Hidruro HipoBohrioso,Hidruro Bohrioso,Hidruro Bóhrico,,,Hidruro de Bohrio
+108,Hs,Hassio,Metal,2;4;6;7,4,Hidruro HipoHassioso,Hidruro Hassioso,Hidruro Hássico,Hidruro PerHássico,,Hidruro de Hassio
+109,Mt,Meitnerio,Metal,2;3;4;6,4,Hidruro HipoMeitnerioso,Hidruro Meitnerioso,Hidruro Meitnérico,Hidruro PerMeitnérico,,Hidruro de Meitnerio
+110,Ds,Darmstatio,Metal,2;4,2,Hidruro Darmstatioso,Hidruro Darmstático,,,,Hidruro de Darmstatio
+111,Rg,Roentgenio,Metal,2;3,2,Hidruro Roentgenioso,Hidruro Roentegénico,,,,Hidruro de Roentgenio
+112,Cn,Copérnico,Metal,1;2,2,Hidruro Copernicoso,Hidruro Copérnico,,,,Hidruro de Copérnico
+113,Nh,Nihonium,Metal,3,1,Hidruro de Nihonium,,,,,Hidruro de Nihonium
+114,Fl,Flerovio,Metal,2;4;6,3,Hidruro HipoFlerovioso,Hidruro Flerovioso,Hidruro Fleróvico,,,Hidruro de Flerovio
+115,Mc,Moscovio,Metal,1;4;5,3,Hidruro HipoMoscovioso,Hidruro Moscovioso,Hidruro Moscóvico,,,Hidruro de Moscovio
+116,Lv,Livermorio,Metal,3;4;5,3,Hidruro HipoLivermorioso,Hidruro Livermorioso,Hidruro Livermórico,,,Hidruro de Livermorio
+117,Ts,Tenesino,Metal,1;2;3,3,Hidruro HipoTenesinoso,Hidruro Tenesinoso,Hidruro Tenésico,,,Hidruro de Tenesino
+118,Og,Oganeson,Metal,4;7,2,Hidruro Oganesonoso,Hidruro Oganésico,,,,Hidruro de Oganeson

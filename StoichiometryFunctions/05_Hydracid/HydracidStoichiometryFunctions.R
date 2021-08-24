@@ -12,14 +12,16 @@ HydracidEquation <- function(input_atomic_number1 = NULL, input_valence1 = NULL,
             # Hydracid is a Hydride on Water... No more.
             
   
-  input_hydracid_resolution <- OxacidEquation(input_atomic_number1 = input_atomic_number1,
+  input_hydracid_resolution <- HydrideEquation(input_atomic_number1 = input_atomic_number1,
                                               input_valence1 = input_valence1,
                                               input_internal_language = "en",
                                               input_external_language = input_external_language,
                                               input_PeriodicTable = input_PeriodicTable)
   
   
-
+  # New column order
+  input_hydracid_resolution <- input_hydracid_resolution[,c(1:8, 11, 12, 9, 10)]
+  
         
         # Part 3: Return
         {
@@ -61,8 +63,8 @@ InternalControl_Hydracid <- function(input_atomic_number1 = NULL,
   return(internal_control)
   }
 
-# input_atomic_number1 <- 2
-# input_valence1 <- 1
+# input_atomic_number1 <- 6
+# input_valence1 <- 2
 # input_internal_language <- "en"
 # input_external_language <- "es"
 # input_PeriodicTable <- PeriodicTable

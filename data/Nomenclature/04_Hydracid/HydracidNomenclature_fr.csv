@@ -1,0 +1,119 @@
+Order,Symbol,Name,Type,Valence,Amount of Valences,Oxide_ValenceOrder1,Oxide_ValenceOrder2,Oxide_ValenceOrder3,Oxide_ValenceOrder4,Oxide_ValenceOrder5,Stock,Details,ExtraDetails
+1,H,Hydrogène,Non-metal,1,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+2,He,Hélium,Noble gas,0,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+3,Li,Lithium,Metal,1,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+4,Be,Béryllium,Metal,2,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+5,B,Bore,Metalloid,3,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+6,C,Carbone,Non-metal,2;4,2,No corresponde,No corresponde,,,,No corresponde,No corresponde,No corresponde
+7,N,Azote,Non-metal,2;3;4;5,4,No corresponde,No corresponde,No corresponde,No corresponde,,No corresponde,No corresponde,No corresponde
+8,O,Oxygène,Non-metal,2,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+9,F,Fluor,Non-metal,1,1,Fluoruro,,,,,Fluoruro,de Hidrógeno,Ácido Fluorhídrico
+10,Ne,Néon,Noble gas,0,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+11,Na,Sodium,Metal,1,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+12,Mg,Magnésium,Metal,2,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+13,Al,Aluminium,Metal,3,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+14,Si,Silicium,Metalloid,4,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+15,P,Correspondre,Non-metal,3;4;5,3,No corresponde,No corresponde,No corresponde,,,No corresponde,No corresponde,No corresponde
+16,S,Soufre,Non-metal,2;4;6,3,Sulfuro,Sulfuro,Sulfuro,,,Sulfuro,de Hidrógeno,Ácido Sulfhídrico
+17,Cl,Chlore,Non-metal,1;3;5;7,4,Cloruro,Cloruro,Cloruro,Cloruro,,Cloruro,de Hidrógeno,Ácido Clorhídrico
+18,Ar,Argon,Noble gas,0,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+19,K,Potassium,Metal,1,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+20,Ca,Calcium,Metal,2,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+21,Sc,Scandium,Metal,3,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+22,Ti,Titane,Metal,3;4,2,No corresponde,No corresponde,,,,No corresponde,No corresponde,No corresponde
+23,V,Vanadium,Metal,2;3;4;5,4,No corresponde,No corresponde,No corresponde,No corresponde,,No corresponde,No corresponde,No corresponde
+24,Cr,Chrome,Metal,2;3;6,3,No corresponde,No corresponde,No corresponde,,,No corresponde,No corresponde,No corresponde
+25,Mn,Manganèse,Metal,2;3;4;6;7,5,No corresponde,No corresponde,No corresponde,No corresponde,No corresponde,No corresponde,No corresponde,No corresponde
+26,Fe,Le fer,Metal,2;3,2,No corresponde,No corresponde,,,,No corresponde,No corresponde,No corresponde
+27,Co,Cobalt,Metal,2;3,2,No corresponde,No corresponde,,,,No corresponde,No corresponde,No corresponde
+28,Ni,Nickel,Metal,2;3,2,No corresponde,No corresponde,,,,No corresponde,No corresponde,No corresponde
+29,Cu,Cuivre,Metal,1;2,2,No corresponde,No corresponde,,,,No corresponde,No corresponde,No corresponde
+30,Zn,Zinc,Metal,2,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+31,Ga,Gallium,Metal,3,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+32,Ge,Germanium,Metalloid,4,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+33,As,Arsenic,Metalloid,3;5,2,No corresponde,No corresponde,,,,No corresponde,No corresponde,No corresponde
+34,Se,Sélénium,Non-metal,4;6,2,Seleniuro,Seleniuro,,,,Seleniuro,de Hidrógeno,ÁcidoSelenhídrico
+35,Br,Brome,Non-metal,1;5,2,Bromuro,Bromuro,,,,Bromuro,de Hidrógeno,Ácido Bromhídrico
+36,Kr,Krypton,Noble gas,0,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+37,Rb,Rubidium,Metal,1,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+38,Sr,Strontium,Metal,2,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+39,Y,Yttrium,Metal,3,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+40,Zr,Zirconium,Metal,4,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+41,Nb,Niobium,Metal,3;5,2,No corresponde,No corresponde,,,,No corresponde,No corresponde,No corresponde
+42,Mo,Molybdène,Metal,2;3;4;5;6,5,No corresponde,No corresponde,No corresponde,No corresponde,No corresponde,No corresponde,No corresponde,No corresponde
+43,Tc,Technétium,Metal,7,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+44,Ru,Ruthénium,Metal,2;3;4;6;8,5,No corresponde,No corresponde,No corresponde,No corresponde,No corresponde,No corresponde,No corresponde,No corresponde
+45,Rh,Rhodié,Metal,2;3;4,3,No corresponde,No corresponde,No corresponde,,,No corresponde,No corresponde,No corresponde
+46,Pd,Palladium,Metal,2;4,2,No corresponde,No corresponde,,,,No corresponde,No corresponde,No corresponde
+47,Ag,Argent,Metal,1,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+48,Cd,Cadmium,Metal,2,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+49,In,Indien,Metal,3,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+50,Sn,Étain,Metal,2;4,2,No corresponde,No corresponde,,,,No corresponde,No corresponde,No corresponde
+51,Sb,Antimoine,Metalloid,3;5,2,No corresponde,No corresponde,,,,No corresponde,No corresponde,No corresponde
+52,Te,Tellure,Metalloid,2;4;6,3,Teluluro,Teluluro,Teluluro,,,Teluluro,de Hidrógeno,Ácido Teluhrhídrico
+53,I,Iode,Non-metal,1;5;7,3,Yoduro,Yoduro,Yoduro,,,Yoduro,de Hidrógeno,Ácido Yodhídrico
+54,Xe,Xénon,Noble gas,0,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+55,Cs,Césium,Metal,1,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+56,Ba,Baryum,Metal,2,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+57,La,Lanthane,Metal,3,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+58,Ce,Cérium,Metal,3;4,2,No corresponde,No corresponde,,,,No corresponde,No corresponde,No corresponde
+59,Pr,Praséodyme,Metal,3;4,2,No corresponde,No corresponde,,,,No corresponde,No corresponde,No corresponde
+60,Nd,Néodyme,Metal,3,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+61,Pm,Promettre,Metal,3,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+62,Sm,Samarium,Metal,2;3,2,No corresponde,No corresponde,,,,No corresponde,No corresponde,No corresponde
+63,Eu,Europium,Metal,2;3,2,No corresponde,No corresponde,,,,No corresponde,No corresponde,No corresponde
+64,Gd,Gadolinium,Metal,3,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+65,Tb,Terbium,Metal,3;4,2,No corresponde,No corresponde,,,,No corresponde,No corresponde,No corresponde
+66,Dy,Dysprosium,Metal,3,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+67,Ho,Holmium,Metal,3,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+68,Er,Erbium,Metal,3,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+69,Tm,Thulium,Metal,2;3,2,No corresponde,No corresponde,,,,No corresponde,No corresponde,No corresponde
+70,Yb,Ytterbium,Metal,2;3,2,No corresponde,No corresponde,,,,No corresponde,No corresponde,No corresponde
+71,Lu,Lutécium,Metal,3,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+72,Hf,Hafnium,Metal,4,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+73,Ta,Tantale,Metal,5,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+74,W,Tungstène,Metal,2;3;4;5;6,5,No corresponde,No corresponde,No corresponde,No corresponde,No corresponde,No corresponde,No corresponde,No corresponde
+75,Re,Rhénium,Metal,1;2;4;6;7,5,No corresponde,No corresponde,No corresponde,No corresponde,No corresponde,No corresponde,No corresponde,No corresponde
+76,Os,Osmium,Metal,2;3;4;6;8,5,No corresponde,No corresponde,No corresponde,No corresponde,No corresponde,No corresponde,No corresponde,No corresponde
+77,Ir,Iridium,Metal,2;3;4;6,4,No corresponde,No corresponde,No corresponde,No corresponde,,No corresponde,No corresponde,No corresponde
+78,Pt,Platine,Metal,2;4,2,No corresponde,No corresponde,,,,No corresponde,No corresponde,No corresponde
+79,Au,Or,Metal,1;3,2,No corresponde,No corresponde,,,,No corresponde,No corresponde,No corresponde
+80,Hg,Mercure,Metal,1;2,2,No corresponde,No corresponde,,,,No corresponde,No corresponde,No corresponde
+81,Tl,Thallium,Metal,1;3,2,No corresponde,No corresponde,,,,No corresponde,No corresponde,No corresponde
+82,Pb,Mener,Metal,2;4,2,No corresponde,No corresponde,,,,No corresponde,No corresponde,No corresponde
+83,Bi,Bismuth,Metal,3;5,2,No corresponde,No corresponde,,,,No corresponde,No corresponde,No corresponde
+84,Po,Polonium,Metalloid,2;4,2,No corresponde,No corresponde,,,,No corresponde,No corresponde,No corresponde
+85,At,Statut,Non-metal,1;3;5;7,4,No corresponde,No corresponde,No corresponde,No corresponde,,No corresponde,No corresponde,No corresponde
+86,Rn,Radon,Noble gas,0,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+87,Fr,François,Metal,1,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+88,Ra,Radio,Metal,2,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+89,Ac,Actinium,Metal,3,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+90,Th,Thorium,Metal,4,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+91,Pa,Protactinium,Metal,4;5,2,No corresponde,No corresponde,,,,No corresponde,No corresponde,No corresponde
+92,U,Uranium,Metal,3;4;5;6,4,No corresponde,No corresponde,No corresponde,No corresponde,,No corresponde,No corresponde,No corresponde
+93,Np,Neptunium,Metal,3;4;5;6,4,No corresponde,No corresponde,No corresponde,No corresponde,,No corresponde,No corresponde,No corresponde
+94,Pu,Plutonium,Metal,3;4;5;6,4,No corresponde,No corresponde,No corresponde,No corresponde,,No corresponde,No corresponde,No corresponde
+95,Am,Américium,Metal,3;4;5;6,4,No corresponde,No corresponde,No corresponde,No corresponde,,No corresponde,No corresponde,No corresponde
+96,Cm,Curium,Metal,3,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+97,Bk,Berkélium,Metal,3;4,2,No corresponde,No corresponde,,,,No corresponde,No corresponde,No corresponde
+98,Cf,Californie,Metal,3,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+99,Es,Einsteinium,Metal,4,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+100,Fm,Fermium,Metal,4,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+101,Md,Mendélévie,Metal,3;4,2,No corresponde,No corresponde,,,,No corresponde,No corresponde,No corresponde
+102,No,Nobelio,Metal,3;4,2,No corresponde,No corresponde,,,,No corresponde,No corresponde,No corresponde
+103,Lr,Laurencio,Metal,3;4,2,No corresponde,No corresponde,,,,No corresponde,No corresponde,No corresponde
+104,Rf,Rutherfordio,Metal,4,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+105,Db,Dubnium,Metal,4,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+106,Sg,Seaborgio,Metal,4,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+107,Bh,Bohrio,Metal,3;4;5,3,No corresponde,No corresponde,No corresponde,,,No corresponde,No corresponde,No corresponde
+108,Hs,Hassio,Metal,2;4;6;7,4,No corresponde,No corresponde,No corresponde,No corresponde,,No corresponde,No corresponde,No corresponde
+109,Mt,Meitnerius,Metal,2;3;4;6,4,No corresponde,No corresponde,No corresponde,No corresponde,,No corresponde,No corresponde,No corresponde
+110,Ds,Darmstadtium,Metal,2;4,2,No corresponde,No corresponde,,,,No corresponde,No corresponde,No corresponde
+111,Rg,Roentgenio,Metal,2;3,2,No corresponde,No corresponde,,,,No corresponde,No corresponde,No corresponde
+112,Cn,Copernic,Metal,1;2,2,No corresponde,No corresponde,,,,No corresponde,No corresponde,No corresponde
+113,Nh,Nihonium,Metal,3,1,No corresponde,,,,,No corresponde,No corresponde,No corresponde
+114,Fl,Flerovio,Metal,2;4;6,3,No corresponde,No corresponde,No corresponde,,,No corresponde,No corresponde,No corresponde
+115,Mc,Moscou,Metal,1;4;5,3,No corresponde,No corresponde,No corresponde,,,No corresponde,No corresponde,No corresponde
+116,Lv,Livermorio,Metal,3;4;5,3,No corresponde,No corresponde,No corresponde,,,No corresponde,No corresponde,No corresponde
+117,Ts,Tenesino,Metal,1;2;3,3,No corresponde,No corresponde,No corresponde,,,No corresponde,No corresponde,No corresponde
+118,Og,Oganeson,Metal,4;7,2,No corresponde,No corresponde,,,,No corresponde,No corresponde,No corresponde

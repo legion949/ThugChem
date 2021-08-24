@@ -50,7 +50,7 @@ Order,Symbol,Name,Type,Valence,Amount of Valences,Oxide_ValenceOrder1,Oxide_Vale
 49,In,Indio,Metal,3,1,Óxido de Indio,,,,,Óxido de Indio
 50,Sn,Estaño,Metal,2;4,2,Óxido Estañoso,Óxido Estánico,,,,Óxido de Estaño
 51,Sb,Antimonio,Metalloid,3;5,2,Óxido Antimonioso,Óxido Antimónico,,,,Óxido de Antimonio
-52,Te,Telurio,Metalloid,2;4;6,3,Óxido HipoTelurioso,Óxido Telurioso,Óxido Telúrico,,,Óxido de Telurio
+52,Te,Telurio,Metalloid,2;4;6,3,Teluluro,Teluluro,Teluluro,,,Teluluro
 53,I,Yodo,Non-metal,1;5;7,3,Óxido HipoYodoso,Óxido Yodoso,Óxido Yódico,,,Óxido de Yodo
 54,Xe,Xenón,Noble gas,0,1,No corresponde,,,,,No corresponde
 55,Cs,Cesio,Metal,1,1,Óxido de Cesio,,,,,Óxido de Cesio

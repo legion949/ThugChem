@@ -148,8 +148,8 @@ HydracidPlot <-function(input_atomic_number1 = NULL, input_valence1 = NULL,
 }
 
 
-
-
+# 
+# 
 # input_atomic_number1 <- 6
 # input_valence1 <- 2
 # input_internal_language <- "en"
@@ -159,7 +159,7 @@ HydracidPlot <-function(input_atomic_number1 = NULL, input_valence1 = NULL,
 # input_GeneralNomenclature01 <-  GeneralNomenclature01
 # input_GeneralNomenclature02 <-  GeneralNomenclature02
 # input_GeneralNomenclature03 <-  GeneralNomenclature03
-# 
+#
 # 
 # HydracidPlot(input_atomic_number1 = input_atomic_number1,
 #                                         input_valence1 = input_valence1,

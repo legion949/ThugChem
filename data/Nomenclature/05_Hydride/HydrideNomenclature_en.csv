@@ -1,0 +1,119 @@
+Order,Symbol,Name,Type,Valence,Amount of Valences,Hydroxide_ValenceOrder1,Hydroxide_ValenceOrder2,Hydroxide_ValenceOrder3,Hydroxide_ValenceOrder4,Hydroxide_ValenceOrder5,Stock
+1,H,Hydrogen,Non-metal,1,1,Hydrogen Hydroxide,,,,,Hydrogen Hydroxide
+2,He,Helium,Noble gas,0,1,Not Avairable,,,,,Not Avairable
+3,Li,Lithium,Metal,1,1,Lithium Hydroxide,,,,,Lithium Hydroxide
+4,Be,Beryllium,Metal,2,1,Beryllium Hydroxide,,,,,Beryllium Hydroxide
+5,B,Boron,Metalloid,3,1,Boron Hydroxide,,,,,Boron Hydroxide
+6,C,Carbon,Non-metal,2;4,2,Carbon Hydroxide,Carbonic Hydroxide,,,,Carbon Hydroxide
+7,N,Nitrogen,Non-metal,2;3;4;5,4,HypoNitrogenous Hydroxide,Nitrogen Hydroxide,Nitric Hydroxide,PerNitric Hydroxide,,Nitrogen Hydroxide
+8,O,Oxygen,Non-metal,2,1,Oxygen,,,,,Oxygen Hydroxide
+9,F,Fluorine,Non-metal,1,1,Fluorine Hydroxide,,,,,Fluorine Hydroxide
+10,Ne,Neon,Noble gas,0,1,Not Avairable,,,,,Not Avairable
+11,Na,Sodium,Metal,1,1,Sodium Hydroxide,,,,,Sodium Hydroxide
+12,Mg,Magnesium,Metal,2,1,Magnesium Hydroxide,,,,,Magnesium Hydroxide
+13,Al,Aluminum,Metal,3,1,Aluminum Hydroxide,,,,,Aluminum Hydroxide
+14,Si,Silicon,Metalloid,4,1,Silicon Hydroxide,,,,,Silicon Hydroxide
+15,P,Phosphore,Non-metal,3;4;5,3,HypoPhosphorous Hydroxide,Phosphorous Hydroxide,Phosphoric Hydroxide,,,Phosphore Hydroxide
+16,S,Sulfur,Non-metal,2;4;6,3,HypoSulfurous Hydroxide,Sulfurous Hydroxide,Sulfuric Hydroxide,,,Sulfur Hydroxide
+17,Cl,Chlorine,Non-metal,1;3;5;7,4,HypoChlorous Hydroxide,Chlorous,Chloric Hydroxide,PerChloric Hydroxide,,Chlorine Hydroxide
+18,Ar,Argon,Noble gas,0,1,Not Avairable,,,,,Not Avairable
+19,K,Potassium,Metal,1,1,Potassium Hydroxide,,,,,Potassium Hydroxide
+20,Ca,Calcium,Metal,2,1,Calcium Hydroxide,,,,,Calcium Hydroxide
+21,Sc,Scandium,Metal,3,1,Scandium Hydroxide,,,,,Scandium Hydroxide
+22,Ti,Titanium,Metal,3;4,2,Titanous Hydroxide,Titanic Hydroxide,,,,Titanium Hydroxide
+23,V,Vanadium,Metal,2;3;4;5,4,HypoVanadious Hydroxide,Vanadious Hydroxide,Vanadic Hydroxide,PerVanadic Hydroxide,,Vanadium Hydroxide
+24,Cr,Chrome,Metal,2;3;6,3,Hypochromic Hydroxide,Chromic Hydroxide,Chromic Hydroxide,,,Chrome Hydroxide
+25,Mn,Manganese,Metal,2;3;4;6;7,5,HypoManganous Hydroxide,Manganous Hydroxide,Manganic Hydroxide,Permanganic Hydroxide,HyperManganic Hydroxide,Manganese Hydroxide
+26,Fe,Iron,Metal,2;3,2,Ferrous Hydroxide,Ferric Hydroxide,,,,Iron Hydroxide
+27,Co,Cobalt,Metal,2;3,2,Cobaltous Hydroxide,Cobalt Hydroxide,,,,Cobalt Hydroxide
+28,Ni,Nickel,Metal,2;3,2,Nickel Hydroxide,Nickel Hydroxide,,,,Nickel Hydroxide
+29,Cu,Copper,Metal,1;2,2,Cuprous Hydroxide,Cupric Hydroxide,,,,Copper Hydroxide
+30,Zn,Zinc,Metal,2,1,Zinc Hydroxide,,,,,Zinc Hydroxide
+31,Ga,Gallium,Metal,3,1,Gallium Hydroxide,,,,,Gallium Hydroxide
+32,Ge,Germanium,Metalloid,4,1,Germanium Hydroxide,,,,,Germanium Hydroxide
+33,As,Arsenic,Metalloid,3;5,2,Arsenous Hydroxide,Arsenic Hydroxide,,,,Arsenic Hydroxide
+34,Se,Selenium,Non-metal,4;6,2,Selenium Hydroxide,Selenic Hydroxide,,,,Selenium Hydroxide
+35,Br,Bromine,Non-metal,1;5,2,Bromous Hydroxide,Bromic Hydroxide,,,,Bromine Hydroxide
+36,Kr,Krypton,Noble gas,0,1,Not Avairable,,,,,Not Avairable
+37,Rb,Rubidium,Metal,1,1,Rubidium Hydroxide,,,,,Rubidium Hydroxide
+38,Sr,Strontium,Metal,2,1,Strontium Hydroxide,,,,,Strontium Hydroxide
+39,Y,Yttrium,Metal,3,1,Yttrium Hydroxide,,,,,Yttrium Hydroxide
+40,Zr,Zirconium,Metal,4,1,Zirconium Hydroxide,,,,,Zirconium Hydroxide
+41,Nb,Niobium,Metal,3;5,2,Niobium Hydroxide,Nitrogen Hydroxide,,,,Niobium Hydroxide
+42,Mo,Molybdenum,Metal,2;3;4;5;6,5,HypoMolybdenous Hydroxide,Molybdenous Hydroxide,Molybdenic Hydroxide,PerMolybdenic Hydroxide,HyperMolybdenic Hydroxide,Molybdenum Hydroxide
+43,Tc,Technetium,Metal,7,1,Technetium Hydroxide,,,,,Technetium Hydroxide
+44,Ru,Ruthenium,Metal,2;3;4;6;8,5,HypoRuthenium Hydroxide,Ruthenium Hydroxide,Ruthenic Hydroxide,PerRuthenic Hydroxide,HyperRuthenic Hydroxide,Ruthenium Hydroxide
+45,Rh,Rhodium,Metal,2;3;4,3,HypoRodious Hydroxide,Rhodium Hydroxide,Rhodium Hydroxide,,,Rhodium Hydroxide
+46,Pd,Palladium,Metal,2;4,2,Palladenous Hydroxide,Palladic Hydroxide,,,,Palladium Hydroxide
+47,Ag,Silver,Metal,1,1,Silver Hydroxide,,,,,Silver Hydroxide
+48,Cd,Cadmium,Metal,2,1,Cadmium Hydroxide,,,,,Cadmium Hydroxide
+49,In,Indian,Metal,3,1,Indium Hydroxide,,,,,Indian Hydroxide
+50,Sn,Tin,Metal,2;4,2,Stannium Hydroxide,Stannic Hydroxide,,,,Tin Hydroxide
+51,Sb,Antimony,Metalloid,3;5,2,Antimonious Hydroxide,Antimonic Hydroxide,,,,Antimony Hydroxide
+52,Te,Tellurium,Metalloid,2;4;6,3,HypoTelluric Hydroxide,Tellurium Hydroxide,Telluric Hydroxide,,,Tellurium Hydroxide
+53,I,Iodine,Non-metal,1;5;7,3,HypoIodine Hydroxide,Iodine Hydroxide,Iodium Hydroxide,,,Iodine Hydroxide
+54,Xe,Xenon,Noble gas,0,1,Not Avairable,,,,,Not Avairable
+55,Cs,Cesium,Metal,1,1,Cesium Hydroxide,,,,,Cesium Hydroxide
+56,Ba,Barium,Metal,2,1,Barium Hydroxide,,,,,Barium Hydroxide
+57,La,Lanthanum,Metal,3,1,Lanthanum Hydroxide,,,,,Lanthanum Hydroxide
+58,Ce,Cerium,Metal,3;4,2,Cerium Hydroxide,Ceric Hydroxide,,,,Cerium Hydroxide
+59,Pr,Praseodymium,Metal,3;4,2,Praseodymium Hydroxide,Praseodymic Hydroxide,,,,Praseodymium
+60,Nd,Neodymium,Metal,3,1,Neodymium Hydroxide,,,,,Neodymium Hydroxide
+61,Pm,Promise,Metal,3,1,Promethium Hydroxide,,,,,Promise Hydroxide
+62,Sm,Samarium,Metal,2;3,2,Samarious Hydroxide,Samaric Hydroxide,,,,Samarium Hydroxide
+63,Eu,Europium,Metal,2;3,2,Europious Hydroxide,Europic Hydroxide,,,,Europium Hydroxide
+64,Gd,Gadolinium,Metal,3,1,Gadolinium Hydroxide,,,,,Gadolinium Hydroxide
+65,Tb,Terbium,Metal,3;4,2,Terbious Hydroxide,Terbic Hydroxide,,,,Terbium Hydroxide
+66,Dy,Dysprosium,Metal,3,1,Dysprosium Hydroxide,,,,,Dysprosium Hydroxide
+67,Ho,Holmium,Metal,3,1,Holmium Hydroxide,,,,,Holmium Hydroxide
+68,Er,Erbium,Metal,3,1,Erbium Hydroxide,,,,,Erbium Hydroxide
+69,Tm,Thulium,Metal,2;3,2,Thulious Hydroxide,Tholic Hydroxide,,,,Thulium Hydroxide
+70,Yb,Ytterbium,Metal,2;3,2,Itterbious Hydroxide,Itterbic Hydroxide,,,,Ytterbium Hydroxide
+71,Lu,Lutetium,Metal,3,1,Lutetium Hydroxide,,,,,Lutetium Hydroxide
+72,Hf,Hafnium,Metal,4,1,Hafnium Hydroxide,,,,,Hafnium Hydroxide
+73,Ta,Tantalum,Metal,5,1,Tantalum Hydroxide,,,,,Tantalum Hydroxide
+74,W,Tungsten,Metal,2;3;4;5;6,5,HypoTungsten Hydroxide,Tungsten Hydroxide,Tungsthenic Hydroxide,PerTungsthenic Hydroxide,HyperTungsthenic Hydroxide,Tungsten Hydroxide
+75,Re,Rhenium,Metal,1;2;4;6;7,5,HypoRenious Hydroxide,Rhenium Hydroxide,Renic Hydroxide,Perrenic Hydroxide,HyperRhenic Hydroxide,Rhenium Hydroxide
+76,Os,Osmium,Metal,2;3;4;6;8,5,HypoOsmous Hydroxide,Osmium Hydroxide,Osmic Hydroxide,PerOSmic Hydroxide,HyperOsmic Hydroxide,Osmium Hydroxide
+77,Ir,Iridium,Metal,2;3;4;6,4,HypoIridic Hydroxide,Iridescent Hydroxide,Iridic Hydroxide,PerIodic Hydroxide,,Iridium Hydroxide
+78,Pt,Platinum,Metal,2;4,2,Platinous Hydroxide,Platinic Hydroxide,,,,Platinum Hydroxide
+79,Au,Gold,Metal,1;3,2,Aurous Hydroxide,Auric Hydroxide,,,,Gold Hydroxide
+80,Hg,Mercury,Metal,1;2,2,Mercurous Hydroxide,Mercuric Hydroxide,,,,Mercury Hydroxide
+81,Tl,Thallium,Metal,1;3,2,Thallous Hydroxide,Thalic Hydroxide,,,,Thallium Hydroxide
+82,Pb,Lead,Metal,2;4,2,Plubious Hydroxide,Lead Hydroxide,,,,Lead Hydroxide
+83,Bi,Bismuth,Metal,3;5,2,Bismuth Hydroxide,Bismuth Hydroxide,,,,Bismuth Hydroxide
+84,Po,Polonium,Metalloid,2;4,2,Polonious Hydroxide,Polonic Hydroxide,,,,Polonium Hydroxide
+85,At,Astatus,Non-metal,1;3;5;7,4,HypoAstatosus Hydroxide,Astatosus Hydroxide,Astatic Hydroxide,PerAstatic Hydroxide,,Astatus Hydroxide
+86,Rn,Radon,Noble gas,0,1,Not Avairable,,,,,Not Avairable
+87,Fr,Francius,Metal,1,1,Francium Hydroxide,,,,,Francius Hydroxide
+88,Ra,Radio,Metal,2,1,Radio Hydroxide,,,,,Radio Hydroxide
+89,Ac,Actinium,Metal,3,1,Actinium Hydroxide,,,,,Actinium Hydroxide
+90,Th,Thorium,Metal,4,1,Thorium Hydroxide,,,,,Thorium Hydroxide
+91,Pa,Protactinium,Metal,4;5,2,Protactinium Hydroxide,Protactinic Hydroxide,,,,Protactinium Hydroxide
+92,U,Uranium,Metal,3;4;5;6,4,HypoUranous Hydroxide,Uranus Hydroxide,Uranic Hydroxide,PerUranic Hydroxide,,Uranium Hydroxide
+93,Np,Neptunium,Metal,3;4;5;6,4,Hypo Neptunious Hydroxide,Neptunious Hydroxide,Neptunic Hydroxide,PerNeptunic Hydroxide,,Neptunium Hydroxide
+94,Pu,Plutonium,Metal,3;4;5;6,4,HypoPlutonious Hydroxide,Plutonious Hydroxide,Plutonic Hydroxide,PerPlutonic Hydroxide,,Plutonium Hydroxide
+95,Am,Americium,Metal,3;4;5;6,4,HypoAmeric Hydroxide,Americious Hydroxide,Americium Hydroxide,PerAmeric Hydroxide,,Americium Hydroxide
+96,Cm,Curium,Metal,3,1,Curium Hydroxide,,,,,Curium Hydroxide
+97,Bk,Berkelium,Metal,3;4,2,Berkelious Hydroxide,Berkelic Hydroxide,,,,Berkelium Hydroxide
+98,Cf,Californium,Metal,3,1,Californium Hydroxide,,,,,Californium Hydroxide
+99,Es,Einsteinium,Metal,4,1,Einsteinium Hydroxide,,,,,Einsteinium Hydroxide
+100,Fm,Fermium,Metal,4,1,Fermium Hydroxide,,,,,Fermium Hydroxide
+101,Md,Mendelevium,Metal,3;4,2,Mendelevious Hydroxide,Mendelevic Hydroxide,,,,Mendelevium Hydroxide
+102,No,Nobelio,Metal,3;4,2,Nobelium Hydroxide,Nobelic Hydroxide,,,,Nobelio Hydroxide
+103,Lr,Laurencio,Metal,3;4,2,Laurencious Hydroxide,Laurenic Hydroxide,,,,Laurencio Hydroxide
+104,Rf,Rutherfordio,Metal,4,1,Rutherfordium Hydroxide,,,,,Rutherfordio Hydroxide
+105,Db,Dubnium,Metal,4,1,Dubnium Hydroxide,,,,,Dubnium Hydroxide
+106,Sg,Seaborgio,Metal,4,1,Seaborgium Hydroxide,,,,,Seaborgio Hydroxide
+107,Bh,Bohrio,Metal,3;4;5,3,HypoBohrous Hydroxide,Bohrous Hydroxide,Bohric Hydroxide,,,Bohrio Hydroxide
+108,Hs,Hassio,Metal,2;4;6;7,4,HypoHassious Hydroxide,Hassiosus Hydroxide,Hassic Hydroxide,PerHasic Hydroxide,,Hassio Hydroxide
+109,Mt,Meitnerius,Metal,2;3;4;6,4,Hypo-Meitneric Hydroxide,Meitnerious Hydroxide,Meiteric Hydroxide,PerMeitronic Hydroxide,,Meitnerius Hydroxide
+110,Ds,Darmstadtium,Metal,2;4,2,Darmstatium Hydroxide,Darmstatic Hydroxide,,,,Darmstadtium Hydroxide
+111,Rg,Roentgenio,Metal,2;3,2,Roentgenous Hydroxide,Roentegenic Hydroxide,,,,Roentgenio Hydroxide
+112,Cn,Copernicus,Metal,1;2,2,Copernicium Hydroxide,Copernicus Hydroxide,,,,Copernicus Hydroxide
+113,Nh,Nihonium,Metal,3,1,Nihonium Hydroxide,,,,,Nihonium Hydroxide
+114,Fl,Flerovio,Metal,2;4;6,3,HypoFlerovium Hydroxide,Flerovious Hydroxide,Flerovic Hydroxide,,,Flerovio Hydroxide
+115,Mc,Moscovio,Metal,1;4;5,3,HypoMoscovian Hydroxide,Muscovy Hydroxide,Moscow Hydroxide,,,Moscovio Hydroxide
+116,Lv,Livermorio,Metal,3;4;5,3,Hypo-Liver Hydroxide,Livermorous Hydroxide,Livermoric Hydroxide,,,Livermorio Hydroxide
+117,Ts,Tenesino,Metal,1;2;3,3,HypoTenesinous Hydroxide,Tenesinous Hydroxide,Tennesic Hydroxide,,,Tenesino Hydroxide
+118,Og,Oganeson,Metal,4;7,2,Oganesone Hydroxide,Oganesic Hydroxide,,,,Oganeson Hydroxide

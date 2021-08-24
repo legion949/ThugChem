@@ -96,10 +96,21 @@ GeneralNomenclature <- function(input_atomic_number1 = NULL, input_valence1 = NU
                                                input_Nomenclature = input_Nomenclature)
           
         } else
+          if ("Hydride" == input_family) {
+            
+            # Hydride
+            general_nomenclature <- HydrideNomenclature(input_atomic_number1 = input_atomic_number1,
+                                                        input_valence1 = input_valence1,
+                                                        input_internal_language = "en",
+                                                        input_family = "Hydride",
+                                                        input_external_language = input_external_language,
+                                                        input_PeriodicTable = input_PeriodicTable,
+                                                        input_Nomenclature = input_Nomenclature)
+          } else
           if ("Hydracid" == input_family) {
             
             # Hydradic
-            general_nomenclature <- HydrideNomenclature(input_atomic_number1 = input_atomic_number1,
+            general_nomenclature <- HydracidNomenclature(input_atomic_number1 = input_atomic_number1,
                                                         input_valence1 = input_valence1,
                                                         input_internal_language = "en",
                                                         input_family = "Hydracid",
@@ -107,17 +118,7 @@ GeneralNomenclature <- function(input_atomic_number1 = NULL, input_valence1 = NU
                                                         input_PeriodicTable = input_PeriodicTable,
                                                         input_Nomenclature = input_Nomenclature)
           } else
-          if ("Hydride" == input_family) {
-            
-            # Hydride
-            general_nomenclature <- HydrideNomenclature(input_atomic_number1 = input_atomic_number1,
-                                                  input_valence1 = input_valence1,
-                                                  input_internal_language = "en",
-                                                  input_family = "Hydride",
-                                                  input_external_language = input_external_language,
-                                                  input_PeriodicTable = input_PeriodicTable,
-                                                  input_Nomenclature = input_Nomenclature)
-          } else
+         
             
               if ("Oxosalt" == input_family) {
                 

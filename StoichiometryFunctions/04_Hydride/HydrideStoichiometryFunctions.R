@@ -650,7 +650,7 @@ HydrideEquation <- function(input_atomic_number1 = NULL, input_valence1 = NULL,
   {
     ###
     
-    
+    matrix_solution <- matrix_solution[,c(1:8, 11, 12, 9, 10)]
     return(matrix_solution)
     
     
@@ -737,11 +737,11 @@ InternalControl_Hydride <- function(input_atomic_number1 = NULL,
   return(decision)
   
   
-} # End InternalControl_Oxide()
+} # End InternalControl_Hydride()
 
 
-# input_atomic_number1 <- 2
-# input_valence1 <- 0
+# input_atomic_number1 <- 3
+# input_valence1 <- 1
 # input_internal_language <- "en"
 # input_external_language <- "es"
 # input_PeriodicTable <- PeriodicTable

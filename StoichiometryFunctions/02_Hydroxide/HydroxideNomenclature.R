@@ -121,7 +121,7 @@ HydroxideNomenclature <- function(input_atomic_number1 = NULL,
     my_family <- medium_part_classic[my_pos, special_detail]
     my_stock_nomenclature <- stock_nomenclature[input_atomic_number1]
     my_roman <- romans[element_values1$selected_valence]
-    my_classic_nomenclature <- classic_nomenclature[input_atomic_number1, my_pos]
+    my_classic_nomenclature <- classic_nomenclature[input_atomic_number1, element_values1$order_selected_valence]
     
     
     ###  
@@ -176,8 +176,8 @@ HydroxideNomenclature <- function(input_atomic_number1 = NULL,
       
       
       # Writing spanish errors 
-      iupac <- gsub("oÓ", "ó", iupac)  
-      iupac <- gsub("aÓ", "ó", iupac) 
+      iupac <- gsub("oÃ“", "Ã³", iupac)  
+      iupac <- gsub("aÃ“", "Ã³", iupac) 
     }
     
     
