@@ -8,7 +8,7 @@ Nomenclature <- LoadNomenclature()
 
 ChemestryFamily <- LoadChemestryFamily()
 
-
+InteligentSelection <- LoadInteligentSelection()
 
 # Information for reactive() in server
 my_atomic_numbers <- PeriodicTable[["en"]][,1]

@@ -11,7 +11,8 @@ names(armado) <- "fileEncoding"
 
 # File with translations
 i18n <- Translator$new(translation_csvs_path = "data/TranslatePagei18n/")
-i18n$set_translation_language("en") # here you select the default translation to display
+initial_language <- "es"
+i18n$set_translation_language(initial_language) # here you select the default translation to display
 
 shinyUI(
   fluidPage(
@@ -42,7 +43,8 @@ shinyUI(
                        selectInput('selected_language',
                                    i18n$t("Change language"),
                                    choices = i18n$get_languages(),
-                                   selected = i18n$get_key_translation()),
+                                   selected = initial_language),
+                                #   selected = i18n$get_key_translation()),
                        
                       # Menu
                      menuItem(i18n$t("Steichiometry"), tabName = "tab_internal01", icon = icon("home")),

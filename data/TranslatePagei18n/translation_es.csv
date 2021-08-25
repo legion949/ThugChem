@@ -1,4 +1,5 @@
 en,es
+#### General Page,#### Pagina General
 Change language,Cambiar lenguaje
 Steichiometry,Estequiometria
 Instructions,Instrucciones
@@ -16,3 +17,12 @@ Start,Inicio
 Final,Final
 Nomenclature,Nomenclatura
 Final Equation,Ecuacion Final
+############,############
+#### Chemestry Family,### Familia Quimica
+Oxide,Oxido
+Hydroxide,Hidroxido
+Oxacid,Oxacido
+Hydride,Hidruro
+Hydracid,Hydracid
+Oxosalt,Oxosal
+Salt,Sal

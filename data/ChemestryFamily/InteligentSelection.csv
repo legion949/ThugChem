@@ -1,0 +1,120 @@
+Order,Symbol,Name,Atomic Number,Group,Period,Type,Subtype,State,Valence,"Atomic Weight
+(uma)",density g/mL,Boiling point,Fusion Point,Amount of Valences,,Oxide,Hydroxide,Oxacid,Hydride,Hydracid
+1,H,Hydrogen,1,1,1,Non-metal,Other Non-Metals,Gas,1,1.007975,0.0000699,-252.9,-259.1,1,,TRUE,TRUE,FALSE,TRUE,FALSE
+2,He,Helium,2,18,1,Noble gas,-,Gas,0,4.002602,0.000179,-268.9,-272.2,1,,TRUE,TRUE,FALSE,TRUE,FALSE
+3,Li,Lithium,3,1,2,Metal,Alkaline,Solid,1,6.9675,543,1342,180.5,1,,TRUE,TRUE,FALSE,TRUE,FALSE
+4,Be,Beryllium,4,2,2,Metal,Alkaline earths,Solid,2,9.0121831,1.85,2970,1278,1,,TRUE,TRUE,FALSE,TRUE,FALSE
+5,B,Boron,5,13,2,Metalloid,-,Solid,3,10.8135,2.34,2550,2079,1,,TRUE,TRUE,FALSE,TRUE,FALSE
+6,C,Carbon,6,14,2,Non-metal,Other Non-Metals,Solid,2;4,12.0106,2.25,4827,3367,2,,TRUE,TRUE,FALSE,TRUE,FALSE
+7,N,Nitrogen,7,15,2,Non-metal,Other Non-Metals,Gas,2;3;4;5,14.006855,0.00125,-195.8,-209.9,4,,TRUE,TRUE,FALSE,TRUE,FALSE
+8,O,Oxygen,8,16,2,Non-metal,Other Non-Metals,Gas,2,15.9994,0.00143,-183,-218.4,1,,TRUE,TRUE,FALSE,TRUE,FALSE
+9,F,Fluorine,9,17,2,Non-metal,Halogens,Gas,1,18.99840316,0.0017,-188.1,-219.8,1,,TRUE,TRUE,FALSE,TRUE,FALSE
+10,Ne,Neon,10,18,2,Noble gas,-,Gas,0,20.1797,0.0009,-248.7,-248,1,,TRUE,TRUE,FALSE,TRUE,FALSE
+11,Na,Sodium,11,1,3,Metal,Alkaline,Solid,1,22.98976928,971,883,97.8,1,,TRUE,TRUE,FALSE,TRUE,FALSE
+12,Mg,Magnesium,12,2,3,Metal,Alkaline earths,Solid,2,24.3055,1.74,1090,649,1,,TRUE,TRUE,FALSE,TRUE,FALSE
+13,Al,Aluminum,13,13,3,Metal,Metals from Block p,Solid,3,26.9815385,2.7,2467,660,1,,TRUE,TRUE,FALSE,TRUE,FALSE
+14,Si,Silicon,14,14,3,Metalloid,-,Solid,4,28085,2.33,2355,1410,1,,TRUE,TRUE,FALSE,TRUE,FALSE
+15,P,Match,15,15,3,Non-metal,Other Non-Metals,Solid,3;4;5,30.973762,1.82,280,44.1,3,,TRUE,TRUE,FALSE,TRUE,TRUE
+16,S,Sulfur,16,16,3,Non-metal,Other Non-Metals,Solid,2;4;6,32.0675,2.07,444.7,112.8,3,,TRUE,TRUE,FALSE,TRUE,FALSE
+17,Cl,Chlorine,17,17,3,Non-metal,Halogens,Gas,1;3;5;7,35.4515,0.00321,-34.6,-101,4,,TRUE,TRUE,FALSE,TRUE,FALSE
+18,Ar,Argon,18,18,3,Noble gas,-,Gas,0,39948,0.00178,-185.7,-189.2,1,,TRUE,TRUE,FALSE,TRUE,FALSE
+19,K,Potassium,19,1,4,Metal,Alkaline,Solid,1,39.0983,0.86,760,63.25,1,,TRUE,TRUE,FALSE,TRUE,FALSE
+20,Ca,Calcium,20,2,4,Metal,Alkaline earths,Solid,2,40078,1.55,1484,839,1,,TRUE,TRUE,FALSE,TRUE,FALSE
+21,Sc,Scandium,21,3,4,Metal,Transition Metals,Solid,3,44.955908,2.99,2832,1541,1,,TRUE,TRUE,FALSE,TRUE,TRUE
+22,Ti,Titanium,22,4,4,Metal,Transition Metals,Solid,3;4,47867,4.54,3287,1660,2,,TRUE,TRUE,FALSE,TRUE,FALSE
+23,V,Vanadium,23,5,4,Metal,Transition Metals,Solid,2;3;4;5,50.9415,6.11,3380,1890,4,,TRUE,TRUE,FALSE,TRUE,FALSE
+24,Cr,Chrome,24,6,4,Metal,Transition Metals,Solid,2;3;6,51.9961,7.19,2672,1857,3,,TRUE,TRUE,FALSE,TRUE,FALSE
+25,Mn,Manganese,25,7,4,Metal,Transition Metals,Solid,2;3;4;6;7,54.938044,7.43,1962,1244,5,,TRUE,TRUE,FALSE,TRUE,FALSE
+26,Fe,Iron,26,8,4,Metal,Transition Metals,Solid,2;3,55845,7.86,2750,1535,2,,TRUE,TRUE,FALSE,TRUE,FALSE
+27,Co,Cobalt,27,9,4,Metal,Transition Metals,Solid,2;3,58.933194,8.9,2870,1495,2,,TRUE,TRUE,FALSE,TRUE,FALSE
+28,Ni,Nickel,28,10,4,Metal,Transition Metals,Solid,2;3,58.6934,8.9,2730,1453,2,,TRUE,TRUE,FALSE,TRUE,FALSE
+29,Cu,Copper,29,11,4,Metal,Transition Metals,Solid,1;2,63546,8.96,2567,1083,2,,TRUE,TRUE,FALSE,TRUE,FALSE
+30,Zn,Zinc,30,12,4,Metal,Transition Metals,Solid,2,65.38,7.13,906,419.6,1,,TRUE,TRUE,FALSE,TRUE,FALSE
+31,Ga,Gallium,31,13,4,Metal,Metals from Block p,Liquid,3,69723,5.9,2403,29.8,1,,TRUE,TRUE,FALSE,TRUE,FALSE
+32,Ge,Germanium,32,14,4,Metalloid,-,Solid,4,72.63,5.32,2830,947.4,1,,TRUE,TRUE,FALSE,TRUE,FALSE
+33,As,Arsenic,33,15,4,Metalloid,-,Solid,3;5,74.921595,5.73,617,817,2,,TRUE,TRUE,FALSE,TRUE,FALSE
+34,Se,Selenium,34,16,4,Non-metal,Other Non-Metals,Solid,4;6,78971,4.79,685,217,2,,TRUE,TRUE,FALSE,TRUE,TRUE
+35,Br,Bromine,35,17,4,Non-metal,Halogens,Liquid,1;5,79904,3.12,58.8,-7.2,2,,TRUE,TRUE,FALSE,TRUE,FALSE
+36,Kr,Krypton,36,18,4,Noble gas,-,Gas,0,83798,0.00374,-152,-157,1,,TRUE,TRUE,FALSE,TRUE,FALSE
+37,Rb,Rubidium,37,1,5,Metal,Alkaline,Solid,1,85.4678,1.53,686,38.9,1,,TRUE,TRUE,FALSE,TRUE,FALSE
+38,Sr,Strontium,38,2,5,Metal,Alkaline earths,Solid,2,87.62,2.54,1384,769,1,,TRUE,TRUE,FALSE,TRUE,FALSE
+39,Y,Yttrium,39,3,5,Metal,Transition Metals,Solid,3,88.90584,4.47,3337,1523,1,,TRUE,TRUE,FALSE,TRUE,FALSE
+40,Zr,Zirconium,40,4,5,Metal,Transition Metals,Solid,4,91224,6.51,4377,1852,1,,TRUE,TRUE,FALSE,TRUE,FALSE
+41,Nb,Niobium,41,5,5,Metal,Transition Metals,Solid,3;5,92.90637,8.57,4742,2468,2,,TRUE,TRUE,FALSE,TRUE,FALSE
+42,Mo,Molybdenum,42,6,5,Metal,Transition Metals,Solid,2;3;4;5;6,95.95,10.2,4612,2617,5,,TRUE,TRUE,FALSE,TRUE,FALSE
+43,Tc,Technetium,43,7,5,Metal,Transition Metals,Solid,7,98,11.5,4877,2172,1,,TRUE,TRUE,FALSE,TRUE,FALSE
+44,Ru,Ruthenium,44,8,5,Metal,Transition Metals,Solid,2;3;4;6;8,101.07,12.4,3900,2310,5,,TRUE,TRUE,FALSE,TRUE,FALSE
+45,Rh,Rhodium,45,9,5,Metal,Transition Metals,Solid,2;3;4,102.9055,12.4,3727,1966,3,,TRUE,TRUE,FALSE,TRUE,FALSE
+46,Pd,Palladium,46,10,5,Metal,Transition Metals,Solid,2;4,106.42,12,3140,1554,2,,TRUE,TRUE,FALSE,TRUE,FALSE
+47,Ag,Silver,47,11,5,Metal,Transition Metals,Solid,1,107.8682,10.5,2212,962,1,,TRUE,TRUE,FALSE,TRUE,FALSE
+48,Cd,Cadmium,48,12,5,Metal,Transition Metals,Solid,2,112414,8.65,765,320.9,1,,TRUE,TRUE,FALSE,TRUE,TRUE
+49,In,Indian,49,13,5,Metal,Metals from Block p,Solid,3,114818,7.31,2080,156.6,1,,TRUE,TRUE,FALSE,TRUE,FALSE
+50,Sn,Tin,50,14,5,Metal,Metals from Block p,Solid,2;4,118.71,7.31,2270,232,2,,TRUE,TRUE,FALSE,TRUE,FALSE
+51,Sb,Antimony,51,15,5,Metalloid,-,Solid,3;5,121.76,6.69,1950,631,2,,TRUE,TRUE,FALSE,TRUE,FALSE
+52,Te,Tellurium,52,16,5,Metalloid,-,Solid,2;4;6,127.6,6.24,989.8,449.5,3,,TRUE,TRUE,FALSE,TRUE,FALSE
+53,I,Iodine,53,17,5,Non-metal,Halogens,Solid,1;5;7,126.90447,4.93,184,113.5,3,,TRUE,TRUE,FALSE,TRUE,FALSE
+54,Xe,Xenon,54,18,5,Noble gas,-,Gas,0,131293,0.00589,-107.1,-111.8,1,,TRUE,TRUE,FALSE,TRUE,FALSE
+55,Cs,Cesium,55,1,6,Metal,Alkaline,Liquid,1,132.905452,1.87,669,28.4,1,,TRUE,TRUE,FALSE,TRUE,FALSE
+56,Ba,Barium,56,2,6,Metal,Alkaline earths,Solid,2,137327,3.5,1640,725,1,,TRUE,TRUE,FALSE,TRUE,FALSE
+57,La,Lanthanum,57,3,6,Metal,Lanthanides,Solid,3,138.90547,6.15,3454,920,1,,TRUE,TRUE,FALSE,TRUE,FALSE
+58,Ce,Cerium,58,3,6,Metal,Lanthanides,Solid,3;4,140116,6.66,3257,798,2,,TRUE,TRUE,FALSE,TRUE,FALSE
+59,Pr,Praseodymium,59,3,6,Metal,Lanthanides,Solid,3;4,140.90766,6.77,3017,931,2,,TRUE,TRUE,FALSE,TRUE,FALSE
+60,Nd,Neodymium,60,3,6,Metal,Lanthanides,Solid,3,144242,7,3127,1016,1,,TRUE,TRUE,FALSE,TRUE,FALSE
+61,Pm,Promise,61,3,6,Metal,Lanthanides,Solid,3,145,7.26,3000,1042,1,,TRUE,TRUE,FALSE,TRUE,FALSE
+62,Sm,Samarium,62,3,6,Metal,Lanthanides,Solid,2;3,150.36,7.52,1794,1074,2,,TRUE,TRUE,FALSE,TRUE,FALSE
+63,Eu,Europium,63,3,6,Metal,Lanthanides,Solid,2;3,151964,5.24,1529,822,2,,TRUE,TRUE,FALSE,TRUE,FALSE
+64,Gd,Gadolinium,64,3,6,Metal,Lanthanides,Solid,3,157.25,7.9,3273,1313,1,,TRUE,TRUE,FALSE,TRUE,FALSE
+65,Tb,Terbium,65,3,6,Metal,Lanthanides,Solid,3;4,158.92535,8.23,3230,1365,2,,TRUE,TRUE,FALSE,TRUE,FALSE
+66,Dy,Dysprosium,66,3,6,Metal,Lanthanides,Solid,3,162.5,8.55,2567,1412,1,,TRUE,TRUE,FALSE,TRUE,FALSE
+67,Ho,Holmium,67,3,6,Metal,Lanthanides,Solid,3,164.93033,8.8,2700,1474,1,,TRUE,TRUE,FALSE,TRUE,FALSE
+68,Er,Erbium,68,3,6,Metal,Lanthanides,Solid,3,167259,9.07,2868,1529,1,,TRUE,TRUE,FALSE,TRUE,FALSE
+69,Tm,Thulium,69,3,6,Metal,Lanthanides,Solid,3;2,168.93422,9.32,1950,1545,2,,TRUE,TRUE,FALSE,TRUE,FALSE
+70,Yb,Ytterbium,70,3,6,Metal,Lanthanides,Solid,2;3,173054,6.97,1196,819,2,,TRUE,TRUE,FALSE,TRUE,FALSE
+71,Lu,Lutetium,71,3,6,Metal,Lanthanides,Solid,3,174.9668,9.84,3402,1663,1,,TRUE,TRUE,FALSE,TRUE,FALSE
+72,Hf,Hafnium,72,4,6,Metal,Lanthanides,Solid,4,178.49,13.3,4600,2227,1,,TRUE,TRUE,FALSE,TRUE,FALSE
+73,Ta,Tantalum,73,5,6,Metal,Lanthanides,Solid,5,180.94788,16.6,5425,2996,1,,TRUE,TRUE,FALSE,TRUE,FALSE
+74,W,Tungsten,74,6,6,Metal,Lanthanides,Solid,2;3;4;5;6,183.84,19.3,5660,3410,5,,TRUE,TRUE,FALSE,TRUE,FALSE
+75,Re,Rhenium,75,7,6,Metal,Lanthanides,Solid,1;2;4;6;7,186207,21,5600,3180,5,,TRUE,TRUE,FALSE,TRUE,FALSE
+76,Os,Osmium,76,8,6,Metal,Lanthanides,Solid,2;3;4;6;8,190.23,22.6,5030,3045,5,,TRUE,TRUE,FALSE,TRUE,FALSE
+77,Ir,Iridium,77,9,6,Metal,Lanthanides,Solid,2;3;4;6,192217,22.4,4130,2410,4,,TRUE,TRUE,FALSE,TRUE,FALSE
+78,Pt,Platinum,78,10,6,Metal,Lanthanides,Solid,2;4,195084,21.4,3827,1772,2,,TRUE,TRUE,FALSE,TRUE,FALSE
+79,Au,Gold,79,11,6,Metal,Lanthanides,Solid,1;3,196.966569,19.3,3080,1064,2,,TRUE,TRUE,FALSE,TRUE,FALSE
+80,Hg,Mercury,80,12,6,Metal,Lanthanides,Liquid,1;2,200592,13.5,357,-38.9,2,,TRUE,TRUE,FALSE,TRUE,FALSE
+81,Tl,Thallium,81,13,6,Metal,Lanthanides,Solid,1;3,204.3835,11.9,1457,303,2,,TRUE,TRUE,FALSE,TRUE,FALSE
+82,Pb,Lead,82,14,6,Metal,Lanthanides,Solid,2;4,207.2,11.4,1740,327.5,2,,TRUE,TRUE,FALSE,TRUE,FALSE
+83,Bi,Bismuth,83,15,6,Metal,Lanthanides,Solid,3;5,208.9804,9.75,1560,271,2,,TRUE,TRUE,FALSE,TRUE,FALSE
+84,Po,Polonium,84,16,6,Metalloid,-,Solid,2;4,209,9.32,962,254,2,,TRUE,TRUE,FALSE,TRUE,FALSE
+85,At,Astatus,85,17,6,Non-metal,Halogens,Solid,1;3;5;7,210,,337,302,4,,TRUE,TRUE,FALSE,TRUE,FALSE
+86,Rn,Radon,86,18,6,Noble gas,-,Gas,0,222,0.00973,-61.8,-71,1,,TRUE,TRUE,FALSE,TRUE,FALSE
+87,Fr,Francius,87,1,7,Metal,Alkaline,Liquid,1,223,,677,27,1,,TRUE,TRUE,FALSE,TRUE,FALSE
+88,Ra,Radio,88,2,7,Metal,Alkaline earths,Solid,2,226,5,1140,700,1,,TRUE,TRUE,FALSE,TRUE,FALSE
+89,Ac,Actinium,89,3,7,Metal,Actinides,Solid,3,227,10.1,3200,1050,1,,TRUE,TRUE,FALSE,TRUE,FALSE
+90,Th,Thorium,90,3,7,Metal,Actinides,Solid,4,232.0377,11.7,4790,1750,1,,TRUE,TRUE,FALSE,TRUE,FALSE
+91,Pa,Protactinium,91,3,7,Metal,Actinides,Solid,4;5,231.03588,15.4,4000,1570,2,,TRUE,TRUE,FALSE,TRUE,FALSE
+92,U,Uranium,92,3,7,Metal,Actinides,Solid,3;4;5;6,238.02891,19,3818,1132,4,,TRUE,TRUE,FALSE,TRUE,FALSE
+93,Np,Neptunium,93,3,7,Metal,Actinides,???,3;4;5;6,237,20.2,3900,640,4,,TRUE,TRUE,FALSE,TRUE,TRUE
+94,Pu,Plutonium,94,3,7,Metal,Actinides,???,3;4;5;6,244,19.8,3232,641,4,,TRUE,FALSE,FALSE,TRUE,FALSE
+95,Am,Americium,95,3,7,Metal,Actinides,???,3;4;5;6,243,13.7,2607,994,4,,TRUE,FALSE,FALSE,TRUE,FALSE
+96,Cm,Curium,96,3,7,Metal,Actinides,???,3,247,13.5,,1340,1,,TRUE,FALSE,FALSE,TRUE,TRUE
+97,Bk,Berkelium,97,3,7,Metal,Actinides,???,3;4,247,14,,986,2,,TRUE,FALSE,FALSE,TRUE,FALSE
+98,Cf,Californium,98,3,7,Metal,Actinides,???,3,251,,,,1,,TRUE,FALSE,FALSE,TRUE,FALSE
+99,Es,Einsteinium,99,3,7,Metal,Actinides,???,4,252,,,,1,,TRUE,FALSE,FALSE,TRUE,FALSE
+100,Fm,Fermium,100,3,7,Metal,Actinides,???,4,257,,,,1,,TRUE,TRUE,TRUE,TRUE,TRUE
+101,Md,Mendelevium,101,3,7,Metal,Actinides,???,3;4,258,,,,2,,TRUE,TRUE,TRUE,TRUE,TRUE
+102,No,Nobelio,102,3,7,Metal,Actinides,???,3;4,259,,,,2,,TRUE,TRUE,TRUE,TRUE,TRUE
+103,Lr,Laurencio,103,3,7,Metal,Actinides,???,3;4,262,,,,2,,TRUE,TRUE,TRUE,TRUE,TRUE
+104,Rf,Rutherfordio,104,3,7,Metal,Actinides,???,4,267,,,,1,,TRUE,TRUE,TRUE,TRUE,TRUE
+105,Db,Dubnium,105,3,7,Metal,Actinides,???,4,268,,,,1,,TRUE,TRUE,TRUE,TRUE,TRUE
+106,Sg,Seaborgio,106,3,7,Metal,Actinides,???,4,271,,,,1,,TRUE,TRUE,TRUE,TRUE,TRUE
+107,Bh,Bohrio,107,3,7,Metal,Actinides,???,3;4;5,272,,,,3,,TRUE,FALSE,TRUE,TRUE,TRUE
+108,Hs,Hassio,108,3,7,Metal,Actinides,???,2;4;6;7,270,,,,4,,TRUE,FALSE,TRUE,TRUE,TRUE
+109,Mt,Meitnerius,109,3,7,Metal,Actinides,???,2;3;4;6,276,,,,4,,TRUE,FALSE,TRUE,TRUE,TRUE
+110,Ds,Darmstadtium,110,3,7,Metal,Actinides,???,2;4,281,,,,2,,TRUE,FALSE,TRUE,TRUE,TRUE
+111,Rg,Roentgenio,111,3,7,Metal,Actinides,???,2;3,280,,,,2,,TRUE,FALSE,TRUE,TRUE,TRUE
+112,Cn,Copernicus,112,3,7,Metal,Actinides,???,1;2,285,,,,2,,TRUE,FALSE,TRUE,TRUE,TRUE
+113,Nh,Nihonium,113,3,7,Metal,Actinides,???,3,284,,,,1,,TRUE,FALSE,TRUE,TRUE,TRUE
+114,Fl,Flerovio,114,3,7,Metal,Actinides,???,2;4;6,289,,,,3,,TRUE,FALSE,TRUE,TRUE,TRUE
+115,Mc,Moscovio,115,3,7,Metal,Actinides,???,1;4;5,288,,,,3,,TRUE,FALSE,TRUE,TRUE,TRUE
+116,Lv,Livermorio,116,3,7,Metal,Actinides,???,3;4;5,293,,,,3,,TRUE,FALSE,TRUE,TRUE,TRUE
+117,Ts,Tenesino,117,3,7,Metal,Actinides,???,1;2;3,292,,,,3,,TRUE,FALSE,TRUE,TRUE,TRUE
+118,Og,Oganeson,118,3,7,Metal,Actinides,???,4;7,294,,,,2,,TRUE,FALSE,TRUE,TRUE,TRUE

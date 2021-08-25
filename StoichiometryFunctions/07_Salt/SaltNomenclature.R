@@ -258,27 +258,27 @@ SaltNomenclature <- function(input_atomic_number1 = NULL,
 
 
 # # 
-input_atomic_number1 <- 26 #Litio
-input_valence1 <- 2
-input_atomic_number2 <- 7 #Carbono
-input_valence2 <- 2
-input_internal_language <- "en"
-input_external_language <- "es"
-input_family <- "Salt"
-input_PeriodicTable <- PeriodicTable
-input_Nomenclature <- Nomenclature
-
-
-
-                                SaltNomenclature(input_atomic_number1 = input_atomic_number1,
-                                                  input_valence1 = input_valence1,
-                                                  input_atomic_number2 = input_atomic_number2,
-                                                  input_valence2 = input_valence2,
-                                                  input_family = input_family,
-                                                  input_internal_language = input_internal_language,
-                                                  input_external_language = input_external_language,
-                                                  input_PeriodicTable = input_PeriodicTable,
-                                                  input_Nomenclature = input_Nomenclature)
-
-
-
+# input_atomic_number1 <- 26 #Litio
+# input_valence1 <- 2
+# input_atomic_number2 <- 7 #Carbono
+# input_valence2 <- 2
+# input_internal_language <- "en"
+# input_external_language <- "es"
+# input_family <- "Salt"
+# input_PeriodicTable <- PeriodicTable
+# input_Nomenclature <- Nomenclature
+# 
+# 
+# 
+#                                 SaltNomenclature(input_atomic_number1 = input_atomic_number1,
+#                                                   input_valence1 = input_valence1,
+#                                                   input_atomic_number2 = input_atomic_number2,
+#                                                   input_valence2 = input_valence2,
+#                                                   input_family = input_family,
+#                                                   input_internal_language = input_internal_language,
+#                                                   input_external_language = input_external_language,
+#                                                   input_PeriodicTable = input_PeriodicTable,
+#                                                   input_Nomenclature = input_Nomenclature)
+# 
+# 
+# 

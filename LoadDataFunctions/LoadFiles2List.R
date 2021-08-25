@@ -108,3 +108,22 @@ LoadChemestryFamily <- function(){
 }
 
 
+
+# The load for Inteligent Selection
+LoadInteligentSelection <- function(){
+  
+  # The dir
+  my_dir <- "data/ChemestryFamily/InteligentSelection.csv"
+  
+  
+  InteligentSelection <- read.csv(file = my_dir, sep=",", dec=".", 
+                              header = T, encoding = "latin1")
+  
+  
+  
+  # Return
+  return(InteligentSelection)
+  
+}
+
+

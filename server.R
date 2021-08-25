@@ -157,8 +157,14 @@ shinyServer(function(input, output ,session) {
     
     observe({
       
+      # Internal Options
       my_family_chem <- ChemestryFamily[,"en"]
-      names(my_family_chem) <- ChemestryFamily[,input$selected_language]
+      
+      # Visual User options (Default - En)
+      user_options <- my_family_chem
+      
+      # Translate Visual user options
+      names(my_family_chem) <- i18n()$t(user_options)
       
       # Control the value, min, max, and step.
       updateRadioButtons(session, "chemestry_family", 
