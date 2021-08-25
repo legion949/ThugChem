@@ -127,7 +127,6 @@ SaltLaTeX <-function(input_atomic_number1 = NULL, input_valence1 = NULL,
                        input_salt_resolution[,6], "]") 
     
     sign1 <- rep("'+'", total_step)
-    sign1[1] <- ""
     
     coef2 <- input_salt_resolution[,7]
     armed_E2 <- paste0(input_salt_resolution[, 8], "[",
@@ -196,7 +195,7 @@ SaltLaTeX <-function(input_atomic_number1 = NULL, input_valence1 = NULL,
     matrix_latex_v2[,c(3,6,8,11)] <- gsub(target, "", matrix_latex_v2[,c(3,6,8,11)])
     
     # Empty values for more phamtons
-    matrix_latex_v2[c(1),c(4,7,8,9,10,11)] <- paste0("phantom(", matrix_latex_v2[c(1),c(4,7,8,9,10,11)], ")")
+    matrix_latex_v2[c(1),c(7,8,9,10,11)] <- paste0("phantom(", matrix_latex_v2[c(1),c(7,8,9,10,11)], ")")
     
     ###  
   } # End Part 3

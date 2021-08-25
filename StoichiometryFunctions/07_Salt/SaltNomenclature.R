@@ -257,11 +257,11 @@ SaltNomenclature <- function(input_atomic_number1 = NULL,
 } # End Function OxideNomenclature***
 
 
-
-input_atomic_number1 <- 3 #Litio
-input_valence1 <- 1
-input_atomic_number2 <- 9 #Carbono
-input_valence2 <- 1
+# # 
+input_atomic_number1 <- 26 #Litio
+input_valence1 <- 2
+input_atomic_number2 <- 7 #Carbono
+input_valence2 <- 2
 input_internal_language <- "en"
 input_external_language <- "es"
 input_family <- "Salt"
