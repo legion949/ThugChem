@@ -140,25 +140,25 @@ OxideEquation <- function(input_atomic_number1 = NULL, input_valence1 = NULL,
               #     
               #
               #  
-              # 3) Presentation for the product: Oxide
+              # 3) Product presentation: Oxide
               # To the right of the arrow, the reaction product will be detailed
-              # which in this case is an RUST. The structure of the OXIDE is the
+              # which in this case is an oxide. The structure of the oxide is the
               # element and oxygen together (without space between them) indicating
-              # that are part of the same molecule. In principle the subdice
+              # that are part of the same molecule. In principle the subindex
               # of element and oxygen in products will be 1 in both cases.
               # 
               #
-              # 4) Details on the Oxide
-              # The subscripts in the Oxide are changed.
+              # 4) Details about the Oxide
+              # The subindex in the Oxide are changed.
               # In Oxide ... the sub-index of the element will be the valence of oxygen.
               # In Oxide ... the oxygen subscript will be the valence of the element.
               #
-              # 5) Simplification in the Oxide
+              # 5) Oxide simplification
               # If possible, in the oxide, the subscripts are simplified by the
               # least common divisor (gcd). If it has been possible to simplify the
               # subscripts, the gcd is placed as the coefficient of oxide.
               #
-              # 6) Balance of the Oxygen
+              # 6) Oxygen balance
               # We proceed to balance the equation for the first time.
               # First the amount of oxygen is balanced and then the amount
               # of the element.
@@ -178,7 +178,7 @@ OxideEquation <- function(input_atomic_number1 = NULL, input_valence1 = NULL,
               # ment balances the amount of oxygen in the equation.
               #
               #  
-              # 7) Balance of the Element
+              # 7) Element balance
               # We proceed to balance the equation a second time.
               # We already have balanced Oxygen globally, now
               # we balance the element.
@@ -194,10 +194,10 @@ OxideEquation <- function(input_atomic_number1 = NULL, input_valence1 = NULL,
               # If the quantity of the element in reactants and products are not equal
               # only the coefficient of the element should be modified in reatives, and
               # This form will finally balance the entire equation.
-              # This new coefficient will be calculated as the quantity of the element
+              # This new element coefficient will be calculated as the quantity of the element
               # into products divided the amount of the element into reactants.
               # The result of this operation is the new coefficient for the
-              # item in reagents, and will provide the general balance of the entire
+              # element in reagents, and will provide the general balance of the entire
               # chemical equation.
               # 
               # 8) Coefficient Simplification

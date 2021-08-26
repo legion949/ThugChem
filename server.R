@@ -151,17 +151,18 @@ shinyServer(function(input, output ,session) {
   ####################################################################
   
   
-  # Chemestry Family
+  # Chemestry Family and Element Selection
   {
     ###
     
+    # Update Chemestry Family
     observe({
       
       # Internal Options
       my_family_chem <- PageFamilyOptions[,"chemestry_family"]
       
       # Visual User options (Default - En)
-      user_options <- my_family_chem
+      user_options <- PageFamilyOptions[,"user_chem_fam"]
       
       # Translate Visual user options
       names(my_family_chem) <- i18n()$t(user_options)
@@ -172,37 +173,91 @@ shinyServer(function(input, output ,session) {
                          choices = my_family_chem,
                          selected = my_family_chem[1])
     })
+
+    # Reactive for order row for Info and details
+    RowSelectedInfo <- reactive({
       
-    Selection01 <- reactive({
+      all_pos <- rep(NA, 3)
+      names(all_pos) <- c("01", "02", "Generic")
       
-      my_family <- input$chemestry_family
-      if (input$chemestry_family == "Oxosalt" | 
-          input$chemestry_family == "Salt") my_family <- "Hydroxide"
+      dt_family <- PageFamilyOptions$chemestry_family ==  input$chemestry_family
+      dt_hydroxide <- PageFamilyOptions$chemestry_family == "Hydroxide"
+      dt_oxacid <- PageFamilyOptions$chemestry_family == "Oxacid"
+      dt_hydracid <- PageFamilyOptions$chemestry_family == "Hydracid"
+      order <- PageFamilyOptions$Order
       
-      dt_selected <- as.logical(as.character(InteligentSelection[,my_family]))
-      dt_selected
+      # Default values por 01 and generic
+      all_pos[1] <- order[dt_family]
+      all_pos[3] <- order[dt_family]
+      
+      # Especial conditions
+      if (input$chemestry_family == "Oxosalt") {
+        all_pos[1] <- order[dt_hydroxide]
+        all_pos[2] <- order[dt_oxacid]
+      } else if (input$chemestry_family == "Salt") {
+        all_pos[1] <- order[dt_hydroxide]
+        all_pos[2] <- order[dt_hydracid]
+      } 
+      
+      all_pos
+      
+    })  
+    
+    InternalFamily <- reactive({
+      
+      PageFamilyOptions$chemestry_family[RowSelectedInfo()]
       
     })
-    Selection02 <- reactive({
+    
+    LabelForSelector <- reactive({
       
-      my_family <- input$chemestry_family
-      if (input$chemestry_family == "Oxosalt") my_family <- "Oxacid"
-          else if (input$chemestry_family == "Salt") my_family <- "Hydracid"
+      # Initial values
+      my_labels <- rep(NA, 2)
       
+      # Defual values
+      my_labels[1] <- PageFamilyOptions[RowSelectedInfo()[1], "selector_label_01"]
+      my_labels[2] <- PageFamilyOptions[RowSelectedInfo()[2], "selector_label_01"]
+      
+      if (InternalFamily()[3] == "Oxosalt") {
+        my_labels[1] <- PageFamilyOptions[RowSelectedInfo()[1], "selector_label_02"]
+        my_labels[2] <- PageFamilyOptions[RowSelectedInfo()[2], "selector_label_02"]
+      }
+      
+      if (InternalFamily()[3] == "Salt") {
+        my_labels[1] <- PageFamilyOptions[RowSelectedInfo()[1], "selector_label_03"]
+        my_labels[2] <- PageFamilyOptions[RowSelectedInfo()[2], "selector_label_03"]
+      }
+      
+      # Exit
+      my_labels
+    })
+    
+    
+    # Reacitve for Element Selection 1 and 2
+    Selection01 <- reactive({
+      
+      my_family <- InternalFamily()[1]
       dt_selected <- as.logical(as.character(InteligentSelection[,my_family]))
       dt_selected
       
     })
     
-    StartAtomicNumber01 <- reactive({
+    Selection02 <- reactive({
       
-      my_family <- input$chemestry_family
-      if (input$chemestry_family == "Oxosalt" | 
-          input$chemestry_family == "Salt") my_family <- "Hydroxide"
+      my_family <- InternalFamily()[2]
+      dt_selected <- as.logical(as.character(InteligentSelection[,my_family]))
+      dt_selected
       
-      dt_family <- PageFamilyOptions$chemestry_family ==  my_family
+    })
+    
+
+
+    # Reacitve for SAN to EP 1 and 2
+    # SAN: Start Atomic Number
+    # EP: Element Position
+    SAN2EP01 <- reactive({
       
-      the_start_atomic_number <- PageFamilyOptions[dt_family, "start_atomic_number"]
+      the_start_atomic_number <- PageFamilyOptions[RowSelectedInfo()[1], "start_atomic_number"]
       
       all_sybols <- PeriodicTable[["en"]][, "Symbol"]
       the_symbol <- all_sybols[the_start_atomic_number]
@@ -215,15 +270,9 @@ shinyServer(function(input, output ,session) {
       
 
     })
-    StartAtomicNumber02 <- reactive({
+    SAN2EP02 <- reactive({
       
-      my_family <- input$chemestry_family
-      if (input$chemestry_family == "Oxosalt") my_family <- "Oxacid"
-         else if (input$chemestry_family == "Salt") my_family <- "Hydracid"
-      
-         dt_family <- PageFamilyOptions$chemestry_family ==  my_family
-         
-         the_start_atomic_number <- PageFamilyOptions[dt_family, "start_atomic_number"]
+      the_start_atomic_number <- PageFamilyOptions[RowSelectedInfo()[2], "start_atomic_number"]
          
          all_sybols <- PeriodicTable[["en"]][, "Symbol"]
          the_symbol <- all_sybols[the_start_atomic_number]
@@ -236,15 +285,18 @@ shinyServer(function(input, output ,session) {
       
     })
     
+    # Update Atomic Number 1 and 2 (Element Selection)
     observe({
       
       combinated_options01 <- Elements_Info[[input$selected_language]][Selection01()]
       
 
       updateSelectInput(session, "atomic_number1",
-                         label = i18n()$t("Selection 01"),
+                    #     label = i18n()$t("Selection 01"),
+                          label = i18n()$t(LabelForSelector()[1]),
                          choices = combinated_options01,
-                         selected = combinated_options01[StartAtomicNumber01()])
+                         selected = combinated_options01[SAN2EP01()])
+      
       
       if(input$chemestry_family == "Oxosalt" | input$chemestry_family == "Salt") {
         
@@ -252,16 +304,40 @@ shinyServer(function(input, output ,session) {
         combinated_options02 <- Elements_Info[[input$selected_language]][Selection02()]
         
         updateSelectInput(session, "atomic_number2",
-                          label = i18n()$t("Selection 02"),
+                          #label = i18n()$t("Selection 02"),
+                          label = i18n()$t(LabelForSelector()[2]),
                           choices = combinated_options02,
-                          selected = combinated_options02[StartAtomicNumber02()])
+                          selected = combinated_options02[SAN2EP02()])
         
       }
       
       
     })
     
+    # Text01 for ES 01 and 02
+    output$fc_ES01_text01 <- renderText({
+      i18n()$t(PageFamilyOptions[RowSelectedInfo()[1], "text_01"])
+     
+      
+    })
+    output$fc_ES02_text01 <- renderText({
+      i18n()$t(PageFamilyOptions[RowSelectedInfo()[2], "text_01"])
+
+    })
     
+    # Text02 for ES 01 and 02
+    output$fc_ES01_text02 <- renderText({
+      i18n()$t(PageFamilyOptions[RowSelectedInfo()[1], "text_02"])
+      
+      
+    })
+    output$fc_ES02_text02 <- renderText({
+      i18n()$t(PageFamilyOptions[RowSelectedInfo()[2], "text_02"])
+      
+    })
+    
+    
+  
     ###  
   }
   ########################################################
@@ -434,7 +510,34 @@ shinyServer(function(input, output ,session) {
   ########################################################
   
   
- 
+  # Helper Level 01
+  # Text01 for ES 01 and 02
+  output$fc_HL_text01 <- renderText({
+    
+    armed <- paste0(InternalFamily()[3] , "_help01")
+    i18n()$t(PageHelperLevel[selected_step(), armed])
+    
+    
+  })
+  
+  
+  output$fc_HL_text02 <- renderText({
+    
+    armed <- paste0(InternalFamily()[3] , "_help02")
+    i18n()$t(PageHelperLevel[selected_step(), armed])
+    
+    
+  })
+  
+  
+  output$fc_HL_text03 <- renderText({
+    
+    armed <- paste0(InternalFamily()[3] , "_help02")
+    i18n()$t(PageHelperLevel[selected_step(), armed])
+    
+    
+  })
+  
   output$resolution_plot <- renderPlot(width = 1600, height = 400,{ 
     
   

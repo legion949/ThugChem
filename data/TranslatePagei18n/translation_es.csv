@@ -17,7 +17,6 @@ Start,Inicio
 Final,Final
 Nomenclature,Nomenclatura
 Final Equation,Ecuacion Final
-############,############
 #### Chemestry Family,### Familia Quimica
 Oxide,Oxido
 Hydroxide,Hidroxido
@@ -26,3 +25,6 @@ Hydride,Hidruro
 Hydracid,Hydracid
 Oxosalt,Oxosal
 Salt,Sal
+#### Special Characters,#### Caracteres Especiales
+,
+#### End Special Characters,#### Fin Caracteres Especiales

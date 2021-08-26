@@ -78,11 +78,19 @@ shinyUI(
                               label = i18n$t("Selection 01"),
                               choices = Elements_Info[["en"]],
                               selected = Elements_Info[["en"]][26]),
+                        textOutput("fc_ES01_text01"),
+                        br(),
                         
+                        column(2, 
                         radioButtons(inputId = "valence1", 
                                     label = i18n$t("Valence 01"),
                                     choices = c(0:8),
                                     selected = 3)
+                        ),
+                        column(3,
+                               br(),
+                        textOutput("fc_ES01_text02")
+                        )
                   ),
                   
                   # Atomic Number and Valence 02
@@ -93,11 +101,19 @@ shinyUI(
                                      label = i18n$t("Selection 02"),
                                      choices = Elements_Info[["en"]],
                                      selected = Elements_Info[["en"]][7]),
+                         textOutput("fc_ES02_text01"),
+                         br(),
                          
-                         radioButtons(inputId = "valence2", 
+                         column(2,
+                                radioButtons(inputId = "valence2", 
                                       label = i18n$t("Valence 02"),
                                       choices = c(0:8),
                                       selected = 7)
+                                ),
+                         column(3,
+                                br(),
+                         textOutput("fc_ES02_text02")
+                                )
                          )
                   ),
                   br()
@@ -124,7 +140,11 @@ shinyUI(
               ),
         tableOutput("tabla_nomenclatura"),
         plotOutput("resolution_plot"),
-  
+        fluidRow(
+          column(4, textOutput("fc_HL_text01")),
+          column(4, textOutput("fc_HL_text02")),
+          column(4, textOutput("fc_HL_text03"))
+        ),
   
 
 

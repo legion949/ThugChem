@@ -12,6 +12,8 @@ InteligentSelection <- LoadInteligentSelection()
 
 PageFamilyOptions <- LoadPageFamilyOptions()
 
+PageHelperLevel <- LoadPageHelperLevel()
+
 
 all_app_language <- c("en", "es", "fr")
 Elements_Info <- NewCombination(all_app_language = all_app_language)

@@ -197,3 +197,19 @@ NewCombination <- function(all_app_language = NULL){
 }
 
 
+# The load for HelperLevel
+LoadPageHelperLevel <- function(){
+  
+  # The dir
+  my_dir <- "data/PageFamilyOptions/PageHelperLevel.csv"
+  
+  
+  HelperLevel <- read.csv(file = my_dir, sep=",", dec=".", 
+                                header = T, encoding = "latin1", na.strings = "NA")
+  
+  
+  
+  # Return
+  return(HelperLevel)
+  
+}
