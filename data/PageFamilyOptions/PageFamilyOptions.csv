@@ -1,0 +1,8 @@
+Order,chemestry_family,start_atomic_number,text_01,text_02,text_02
+1,Oxide,26,Choose an element…,NA,Oxide is a binary compost.
+2,Hydroxide,26,Only metals and some metaloids can be choosen,NA,Hydroxide is a ternary compost.
+3,Oxacid,17,Only non-metals and some metaloids can be choosen,NA,Oxacid is a ternary compost.
+4,Hydride,26,Only metals and some metaloids can be choosen,Only the first valence can be choosen in each for Hydracid.,Hydride is binary compost.
+5,Hydracid,17,"Only six non-metals (Br, Cl, F, I, S, Se) and one metalloids (Te) can be choosen",NA,Oxosalt is a ternaty compost.
+6,Oxosalt,NA,NA,NA,Salt is a binary compost.
+7,Salt,NA,NA,,

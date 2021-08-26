@@ -68,16 +68,16 @@ shinyUI(
                   column(2, 
                         radioButtons(inputId = "chemestry_family", 
                                label = i18n$t("Chemestry Family"),
-                               choices = ChemestryFamily[,"en"],
-                               selected = ChemestryFamily[,"en"][1])
+                               choices = PageFamilyOptions[,"chemestry_family"],
+                               selected = PageFamilyOptions[,"chemestry_family"][1])
                   ),
                   
                   # Atomic Number and Valence 01
                   column(5, 
                         selectInput(inputId = "atomic_number1", 
                               label = i18n$t("Selection 01"),
-                              choices = combinated_options,
-                              selected = combinated_options[26]),
+                              choices = Elements_Info[["en"]],
+                              selected = Elements_Info[["en"]][26]),
                         
                         radioButtons(inputId = "valence1", 
                                     label = i18n$t("Valence 01"),
@@ -91,8 +91,8 @@ shinyUI(
                            condition = "input.chemestry_family == 'Oxosalt' | input.chemestry_family == 'Salt'",
                          selectInput(inputId = "atomic_number2", 
                                      label = i18n$t("Selection 02"),
-                                     choices = combinated_options,
-                                     selected = combinated_options[7]),
+                                     choices = Elements_Info[["en"]],
+                                     selected = Elements_Info[["en"]][7]),
                          
                          radioButtons(inputId = "valence2", 
                                       label = i18n$t("Valence 02"),

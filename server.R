@@ -158,7 +158,7 @@ shinyServer(function(input, output ,session) {
     observe({
       
       # Internal Options
-      my_family_chem <- ChemestryFamily[,"en"]
+      my_family_chem <- PageFamilyOptions[,"chemestry_family"]
       
       # Visual User options (Default - En)
       user_options <- my_family_chem
@@ -173,38 +173,88 @@ shinyServer(function(input, output ,session) {
                          selected = my_family_chem[1])
     })
       
+    Selection01 <- reactive({
+      
+      my_family <- input$chemestry_family
+      if (input$chemestry_family == "Oxosalt" | 
+          input$chemestry_family == "Salt") my_family <- "Hydroxide"
+      
+      dt_selected <- as.logical(as.character(InteligentSelection[,my_family]))
+      dt_selected
+      
+    })
+    Selection02 <- reactive({
+      
+      my_family <- input$chemestry_family
+      if (input$chemestry_family == "Oxosalt") my_family <- "Oxacid"
+          else if (input$chemestry_family == "Salt") my_family <- "Hydracid"
+      
+      dt_selected <- as.logical(as.character(InteligentSelection[,my_family]))
+      dt_selected
+      
+    })
+    
+    StartAtomicNumber01 <- reactive({
+      
+      my_family <- input$chemestry_family
+      if (input$chemestry_family == "Oxosalt" | 
+          input$chemestry_family == "Salt") my_family <- "Hydroxide"
+      
+      dt_family <- PageFamilyOptions$chemestry_family ==  my_family
+      
+      the_start_atomic_number <- PageFamilyOptions[dt_family, "start_atomic_number"]
+      
+      all_sybols <- PeriodicTable[["en"]][, "Symbol"]
+      the_symbol <- all_sybols[the_start_atomic_number]
+      
+      selected_symbols <- all_sybols[Selection01()]
+      dt_pos <- selected_symbols == the_symbol
+      
+      new_pos <- c(1:length(dt_pos))[dt_pos]
+      new_pos
+      
+
+    })
+    StartAtomicNumber02 <- reactive({
+      
+      my_family <- input$chemestry_family
+      if (input$chemestry_family == "Oxosalt") my_family <- "Oxacid"
+         else if (input$chemestry_family == "Salt") my_family <- "Hydracid"
+      
+         dt_family <- PageFamilyOptions$chemestry_family ==  my_family
+         
+         the_start_atomic_number <- PageFamilyOptions[dt_family, "start_atomic_number"]
+         
+         all_sybols <- PeriodicTable[["en"]][, "Symbol"]
+         the_symbol <- all_sybols[the_start_atomic_number]
+         
+         selected_symbols <- all_sybols[Selection02()]
+         dt_pos <- selected_symbols == the_symbol
+         
+         new_pos <- c(1:length(dt_pos))[dt_pos]
+         new_pos
+      
+    })
     
     observe({
-      # Information for reactive() in server
-      my_atomic_numbers <- PeriodicTable[[input$selected_language]][,1]
-      my_atomic_numbers_mod <- as.character(my_atomic_numbers)
-      my_count <- str_count(my_atomic_numbers_mod)
-      my_atomic_numbers_mod[my_count == 1] <- paste0("  ", my_atomic_numbers_mod[my_count == 1])
-      my_atomic_numbers_mod[my_count == 2] <- paste0(" ", my_atomic_numbers_mod[my_count == 2])
       
-      my_symbols <- PeriodicTable[[input$selected_language]][,2]
-      my_symbols_mod <-as.character(my_symbols)
-      my_count2 <- str_count(my_symbols_mod)
-      my_symbols_mod[my_count2 == 1] <- paste0(my_symbols_mod[my_count2 == 1], " ")
-      my_symbols_mod[my_count2 == 2] <- paste0(my_symbols_mod[my_count2 == 2], "  ")
+      combinated_options01 <- Elements_Info[[input$selected_language]][Selection01()]
       
-      my_names <- PeriodicTable[[input$selected_language]][,3]
-      my_valence <- strsplit(PeriodicTable[[input$selected_language]][,10], ";")
-      combinated_options <- my_atomic_numbers
-      names(combinated_options) <- paste0(my_atomic_numbers_mod, " - ",my_symbols_mod , " - ", my_names) 
-      
+
       updateSelectInput(session, "atomic_number1",
                          label = i18n()$t("Selection 01"),
-                         choices = combinated_options,
-                         selected = combinated_options[26])
-      
+                         choices = combinated_options01,
+                         selected = combinated_options01[StartAtomicNumber01()])
       
       if(input$chemestry_family == "Oxosalt" | input$chemestry_family == "Salt") {
         
+        
+        combinated_options02 <- Elements_Info[[input$selected_language]][Selection02()]
+        
         updateSelectInput(session, "atomic_number2",
                           label = i18n()$t("Selection 02"),
-                          choices = combinated_options,
-                          selected = combinated_options[7])
+                          choices = combinated_options02,
+                          selected = combinated_options02[StartAtomicNumber02()])
         
       }
       

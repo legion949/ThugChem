@@ -127,3 +127,73 @@ LoadInteligentSelection <- function(){
 }
 
 
+# The load for Page Family Options
+LoadPageFamilyOptions <- function(){
+  
+  # The dir
+  my_dir <- "data/PageFamilyOptions/PageFamilyOptions.csv"
+  
+  
+  PageFamilyOptions <- read.csv(file = my_dir, sep=",", dec=".", 
+                                  header = T, encoding = "latin1", na.strings = "NA")
+  
+  
+  
+  # Return
+  return(PageFamilyOptions)
+  
+}
+
+
+# The new combination
+all_app_language <- c("en", "es", "fr")
+NewCombination <- function(all_app_language = NULL){
+  
+  combinated_options <- list()
+  count_internal <- 0
+  
+  for (k in 1:length(all_app_language)) {
+    
+  if (sum(names(PeriodicTable) == all_app_language[k]) == 1) {
+    
+    # Counting...
+    count_internal <- count_internal + 1 
+    
+  # The language
+  the_language <- all_app_language[k]
+  
+  # Information for reactive() in server
+  my_atomic_numbers <- PeriodicTable[[the_language]][,1]
+  my_atomic_numbers_mod <- as.character(my_atomic_numbers)
+  my_count <- str_count(my_atomic_numbers_mod)
+  my_atomic_numbers_mod[my_count == 1] <- paste0("  ", my_atomic_numbers_mod[my_count == 1])
+  my_atomic_numbers_mod[my_count == 2] <- paste0(" ", my_atomic_numbers_mod[my_count == 2])
+  
+  my_symbols <- PeriodicTable[[the_language]][,2]
+  my_symbols_mod <-as.character(my_symbols)
+  my_count2 <- str_count(my_symbols_mod)
+  my_symbols_mod[my_count2 == 1] <- paste0(my_symbols_mod[my_count2 == 1], " ")
+  my_symbols_mod[my_count2 == 2] <- paste0(my_symbols_mod[my_count2 == 2], "  ")
+  
+  my_names <- PeriodicTable[[the_language]][,3]
+  my_types <- PeriodicTable[[the_language]][,7]
+  
+  my_valence <- strsplit(PeriodicTable[[the_language]][,10], ";")
+  
+  combinated <- my_atomic_numbers
+  names(combinated) <- paste0(my_atomic_numbers_mod, " - ", my_symbols_mod,
+                                      " - ", my_names, " - ", my_types) 
+  
+  
+  combinated_options[[count_internal]] <- combinated
+  }
+  }
+  
+  
+  names(combinated_options) <- all_app_language
+  
+  # Return
+  return(combinated_options)
+}
+
+
