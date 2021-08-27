@@ -43,6 +43,12 @@ Only metals and some metalloids can be choosen.,Solo metales y algun metaloide p
 Only non-metals and some metaloids can be choosen.,Solo No Metales y algunos metaloides pueden ser elegidos.
 "Only six non-metals (Br, Cl, F, I, S, Se) and one metalloid (Te) can be choosen.","Solos seis No Metales (Br, Cl, F, I, S, Se) y un metaloide (Te) pueden ser elegidos."
 Only the first valence can be choosen for Hydracid.,Solo la primer valencia puede ser elegida para un Hidracido.
+######## Helper table colnames,######## Nombre de las columnas del helper
+Step,Step
+Resumen,Resumen
+General details,Detalles generales
+Specific details,Detalles especificos
 #### Special Characters,#### Caracteres Especiales
 ,
+of,de
 #### End Special Characters,#### Fin Caracteres Especiales

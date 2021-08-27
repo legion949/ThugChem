@@ -145,12 +145,72 @@ shinyServer(function(input, output ,session) {
                           input_Nomenclature = Nomenclature)
           })
     
+   
 
   ###  
   } # End General Resolution
   ####################################################################
   
   
+  # Slider settings
+  {
+    
+    # Inititating reactive values, these will `reset` for each session
+    # These are just for counting purposes so we can step through the questions
+    # Cantidad de pasos
+    
+    total_stoichiometry_step <- reactive({
+      nrow(my_latex())
+    })
+    
+    vector_stoichiometry <- reactive({
+      
+      c(1:total_stoichiometry_step())
+      
+    })
+    
+    vector_slider <- reactive({
+      
+      extra_step <- 2   # Final Equation and Nomenclature
+      total_steps <- total_stoichiometry_step() + extra_step
+      
+      seq(1, total_steps, by = 1)
+      
+      
+    })
+    
+    
+    
+    # Imagen elegida para mostrar "Paso a Paso Imagenes"
+    selected_step <- reactiveVal(1)
+    
+    
+    nomenclature_step <- reactive({ 
+      
+      max(vector_slider())
+      
+      
+    })
+    
+    final_step <- reactive({ 
+      
+      result <- max(vector_slider()) - 2
+      result
+    })
+    
+    equation_step <- reactive({ 
+      
+      result <- max(vector_slider()) - 1
+      result
+    })
+    
+    
+    
+  } # End Slider settings
+  #########################################################
+  
+  
+ 
   # Chemestry Family and Element Selection
   {
     ###
@@ -345,52 +405,7 @@ shinyServer(function(input, output ,session) {
   
   
   
-  # Slider settings
-  {
-    
-    # Inititating reactive values, these will `reset` for each session
-    # These are just for counting purposes so we can step through the questions
-    # Cantidad de pasos
-    vector_slider <- reactive({
-      
-        extra_step <- 2
-        total_steps <- nrow(my_latex()) + extra_step
-        
-        seq(1, total_steps, by = 1)
-  
-      
-    })
-    
-    
-    
-    # Imagen elegida para mostrar "Paso a Paso Imagenes"
-    selected_step <- reactiveVal(1)
 
-
-    nomenclature_step <- reactive({ 
-      
-      max(vector_slider())
-      
-      
-    })
-    
-    final_step <- reactive({ 
-      
-      result <- max(vector_slider()) - 2
-      result
-    })
-    
-    equation_step <- reactive({ 
-      
-      result <- max(vector_slider()) - 1
-      result
-    })
-
-    
-    
-  } # End Slider settings
-  #########################################################
-  
   
   # Slider Upgrade
   {
@@ -510,6 +525,99 @@ shinyServer(function(input, output ,session) {
   ########################################################
   
   
+  # Helper
+  {
+  ###  
+ 
+    HelperTable <- reactive({
+      
+      # Part 01
+      my_rows <- vector_stoichiometry()
+      part01 <- paste0(my_rows, " ", i18n()$t("of"), " ", final_step())
+      
+      
+      armed01 <- paste0(InternalFamily()[3] , "_help01")
+      armed02 <- paste0(InternalFamily()[3] , "_help02")
+      armed03 <- paste0(InternalFamily()[3] , "_help03")
+      all_armed <- c(armed01, armed02, armed03)
+      
+      
+      part02 <- PageHelperLevel[my_rows, all_armed]
+      
+      
+      part03 <- cbind(part01, part02)
+      
+      
+      part04 <- rep(i18n()$t("Final Equation"), ncol(part03))
+      part04[1] <- equation_step()
+      
+      part05 <- rep(i18n()$t("Nomenclature"), ncol(part03))
+      part05[1] <- nomenclature_step()
+      
+      part06 <- rbind(part03, part04, part05)
+      my_colnames <- c("Step", "Resumen", "General details", "Specific details")
+      colnames(part06) <- i18n()$t(my_colnames)
+      part06
+    }) 
+    
+  HelperLevel01 <- reactive({
+  
+    # Part 01
+    my_rows <- vector_stoichiometry()
+   # part01 <- paste0(my_rows, " ", i18n()$t("of"), " ", final_step())
+    part01 <- HelperTable()[my_rows,1]
+    part02 <- paste0("Step ", part01)
+    
+    #Exit
+    exit <- list(part01, part02)
+    exit
+    
+  })
+  
+  HelperLevel02 <- reactive({
+    
+    # Part 01
+    my_rows <- vector_stoichiometry()
+    
+    part01 <- paste0(HelperLevel01()[[2]], " - ", HelperTable()[,2])
+    part01
+    
+  })
+  
+  HelperTable_Mod <- reactive({
+    
+    part01 <- HelperTable()
+    
+    if(input$help_level < 3) part01[,3] <- rep("Help Level 3", nrow(part01))
+    if(input$help_level < 4) part01[,4] <- rep("Help Level 4", nrow(part01))
+    
+    part01
+    
+  }) 
+  
+ 
+  
+  ###
+  }
+  #########################################
+  
+  
+  
+  
+  
+  
+  # Table Helper Level
+  output$fc_HL_Table <- renderTable({
+
+    if (input$help_level <= 4) HelperTable_Mod()[selected_step(), ]
+      else HelperTable_Mod()
+    
+   
+    
+    
+  })
+  
+  
   # Helper Level 01
   # Text01 for ES 01 and 02
   output$fc_HL_text01 <- renderText({
@@ -538,6 +646,8 @@ shinyServer(function(input, output ,session) {
     
   })
   
+  
+  
   output$resolution_plot <- renderPlot(width = 1600, height = 400,{ 
     
   
@@ -554,7 +664,8 @@ shinyServer(function(input, output ,session) {
                  input_external_language = "en",
                  input_PeriodicTable = PeriodicTable)
    
-        text(15, 25, paste0("Step ", selected_step(), " of ", (equation_step()-1) ), cex = 4)
+    if(input$help_level == 1)    text(15, 25, HelperLevel01()[[2]][selected_step()], cex = 4)
+     else if(input$help_level >= 2)    text(3, 25, HelperLevel02()[selected_step()], cex = 4, pos = 4)
         
       } else if (selected_step() == equation_step()) {
         
