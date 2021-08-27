@@ -4,7 +4,8 @@
 OxidePlot <-function(input_atomic_number1 = NULL, input_valence1 = NULL,
                       input_internal_language = "en", input_external_language = NULL,
                       input_PeriodicTable = NULL,
-                      input_step = NULL) {
+                      input_step = NULL,
+                      input_roman = NULL) {
 
 
   # Internal Settings
@@ -19,6 +20,7 @@ OxidePlot <-function(input_atomic_number1 = NULL, input_valence1 = NULL,
     if (is.null(input_external_language)) input_external_language <- "en"
 
     if (is.null(input_step)) input_step <- 1
+    if (is.null(input_roman)) input_roman <- TRUE
     ###
   } # End Internal Settings
   ##########################################################################
@@ -63,6 +65,7 @@ OxidePlot <-function(input_atomic_number1 = NULL, input_valence1 = NULL,
     # My armed step
     my_armed_step <- paste0("expression(",as.vector(input_latex[input_step,c(2:ncol(input_latex))]), ")")
 
+
     ###
   } # End Part 0: Necessary Participants
   ####################################################
@@ -76,7 +79,7 @@ OxidePlot <-function(input_atomic_number1 = NULL, input_valence1 = NULL,
     romans <- c("I", "II", "III", "IV", "V", "VI", "VII", "VIII", " ")
 
     # Roman Valences
-    r1 <- romans[input_valence1]
+    r1 <- romans[as.numeric(as.character(input_valence1))]
     r2 <- romans[2]
     ###
   } # End Part 1
@@ -102,6 +105,10 @@ OxidePlot <-function(input_atomic_number1 = NULL, input_valence1 = NULL,
   ###
     # Normal Case and Oxygen Case
     if (internal_control == 1 | internal_control == 2) {
+      
+      
+  # Complet Chemical Equation
+  {
   # GPS       1    2     3      4       5       6      7        8       9
   gps_y <- c( 7,   7,    7,     7,      7,     8.5,   8.5,      7,      7)
   gps_x <- c( 0,   3,    8,    10,     13,      17,    20,   20.5,   23.5)
@@ -132,7 +139,30 @@ OxidePlot <-function(input_atomic_number1 = NULL, input_valence1 = NULL,
   # Oxide
   text(gps_x[9], gps_y[9], eval(parse(text = my_armed_step[7])), cex = my_cex[7], pos = 4)
 
-  }
+  
+      } # End complet chemical equation equation
+  
+      
+      # Valence in Roman Numbers
+      if(input_roman) {
+      ###
+        
+        # GPS       1    2     3      4       5       6      7        8       9
+        gps_y_valence <- gps_y[c(2,5)] + 10
+        gps_x_valence <- gps_x[c(2, 5)] + 0.5
+        my_cex_valence <- c(3, 3)
+        
+        
+        # Valence in roman numbers
+        text(gps_x_valence[1], gps_y_valence[1], r1, cex = my_cex_valence[1], pos = 4)
+        text(gps_x_valence[2], gps_y_valence[2], r2, cex = my_cex_valence[2], pos = 4)
+        
+      ###  
+      } # End Valence
+      ###################################
+      
+      
+  } # End if
 
 
 
@@ -203,13 +233,14 @@ OxidePlot <-function(input_atomic_number1 = NULL, input_valence1 = NULL,
 }
 
 
-
-
-# input_atomic_number1 <- 2
-# input_valence1 <- 0
+# 
+# 
+# input_atomic_number1 <- 4
+# input_valence1 <- 1
 # input_internal_language <- "en"
 # input_external_language <- "es"
 # input_PeriodicTable <- PeriodicTable
+# input_roman = FALSE
 # input_step <- 8
 # input_GeneralNomenclature01 <-  GeneralNomenclature01
 # input_GeneralNomenclature02 <-  GeneralNomenclature02
@@ -220,6 +251,7 @@ OxidePlot <-function(input_atomic_number1 = NULL, input_valence1 = NULL,
 #                                         input_valence1 = input_valence1,
 #                                         input_internal_language = "en",
 #                                         input_external_language = input_external_language,
+#                                         input_roman = input_roman,
 #                                         input_PeriodicTable = input_PeriodicTable,
 #                                         input_step = input_step)
 # 

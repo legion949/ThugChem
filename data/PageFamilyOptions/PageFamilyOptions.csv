@@ -1,8 +1,8 @@
 Order,chemestry_family,user_chem_fam,selector_label_01,selector_label_02,selector_label_03,start_atomic_number,text_01,text_02,text_03
-1,Oxide,Oxide,Oxide - Select an element,,,26,Choose an element…,,Oxide is a binary compost.
-2,Hydroxide,Hydroxide,Hydroxide - Select an element (Restringed options),Hydroxide for a Oxosalt- Select an element (Restringed options),Hydroxide for a Salt- Select an element (Restringed options),26,Only metals and some metalloids can be choosen.,,Hydroxide is a ternary compost.
-3,Oxacid,Oxacid,Oxacid - Select an element (Restringed options),Oxacid  for a Oxosalt- Select an element (Restringed options),,17,Only non-metals and some metaloids can be choosen.,,Oxacid is a ternary compost.
-4,Hydride,Hydride (Metalic Hydride),Hydride - Select an element (Restringed options),,,26,Only metals and some metalloids can be choosen.,,Hydride is binary compost.
-5,Hydracid,Hydracid (Non-metalic Hydride),Hydracid - Select an element (Restringed options),,Hydracid  for a Salt- Select an element (Restringed options),17,"Only six non-metals (Br, Cl, F, I, S, Se) and one metalloid (Te) can be choosen.",Only the first valence can be choosen for Hydracid.,Oxosalt is a ternaty compost.
-6,Oxosalt,Oxosalt,,,,NA,NA,,Salt is a binary compost.
+1,Oxide,Oxide,Oxide - Select an element,,,26,Choose an element.,,Oxide is a binary compound.
+2,Hydroxide,Hydroxide,Hydroxide - Select an element (Restringed options),Hydroxide for a Oxosalt - Select an element (Restringed options),Hydroxide for a Salt - Select an element (Restringed options),26,Only metals and some metalloids can be choosen.,,Hydroxide is a ternary compound.
+3,Oxacid,Oxacid,Oxacid - Select an element (Restringed options),Oxacid  for a Oxosalt - Select an element (Restringed options),,17,Only non-metals and some metaloids can be choosen.,,Oxacid is a ternary compound.
+4,Hydride,Hydride (Metalic Hydride),Hydride - Select an element (Restringed options),,,26,Only metals and some metalloids can be choosen.,,Hydride is binary compound.
+5,Hydracid,Hydracid (Non-metalic Hydride),Hydracid - Select an element (Restringed options),,Hydracid  for a Salt - Select an element (Restringed options),17,"Only six non-metals (Br, Cl, F, I, S, Se) and one metalloid (Te) can be choosen.",Only the first valence can be choosen for Hydracid.,Oxosalt is a ternaty compound.
+6,Oxosalt,Oxosalt,,,,NA,NA,,Salt is a binary compound.
 7,Salt,Salt,,,,NA,NA,,

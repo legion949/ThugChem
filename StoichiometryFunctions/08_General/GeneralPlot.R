@@ -5,6 +5,7 @@
 GeneralPlot <- function(input_atomic_number1 = NULL, input_valence1 = NULL,
                             input_atomic_number2 = NULL, input_valence2 = NULL,
                             input_family = NULL,
+                            input_roman = NULL,
                             input_internal_language = "en", input_external_language = NULL,
                             input_PeriodicTable = NULL,
                             input_step = NULL) {
@@ -22,6 +23,7 @@ GeneralPlot <- function(input_atomic_number1 = NULL, input_valence1 = NULL,
     input_internal_language <- "en"
     if (is.null(input_external_language)) input_external_language <- "en"
     if (is.null(input_step)) input_step <- 1
+
     
     # Chemestry Family
     my_family <- c("Oxide", "Hydroxide", "Oxacid",
@@ -68,6 +70,7 @@ GeneralPlot <- function(input_atomic_number1 = NULL, input_valence1 = NULL,
                   input_valence1 = input_valence1,
                   input_internal_language = "en",
                   input_external_language = input_external_language,
+                  input_roman = input_roman,
                   input_PeriodicTable = input_PeriodicTable,
                   input_step = input_step)
     } else
@@ -165,15 +168,16 @@ GeneralPlot <- function(input_atomic_number1 = NULL, input_valence1 = NULL,
 
 
 
-
+# 
 # input_atomic_number1 <- 3 #Litio
 # input_valence1 <- 1
 # input_atomic_number2 <- 9 #Flúor
 # input_valence2 <- 1
 # input_internal_language <- "en"
 # input_external_language <- "es"
-# input_family <- "Oxosalt"
-# input_step <- 1
+# input_family <- "Oxide"
+# input_step <- 8
+# input_roman <- FALSE
 # input_PeriodicTable <- PeriodicTable
 # input_GeneralNomenclature01 <-  GeneralNomenclature01
 # input_GeneralNomenclature02 <-  GeneralNomenclature02
@@ -187,6 +191,8 @@ GeneralPlot <- function(input_atomic_number1 = NULL, input_valence1 = NULL,
 #                                          input_family = "Oxide",
 #                                          input_internal_language = "en",
 #                                          input_external_language = input_external_language,
+#                                          input_roman = input_roman,
+#                                          input_step = input_step,
 #                                          input_PeriodicTable = input_PeriodicTable)
 # 
 # 

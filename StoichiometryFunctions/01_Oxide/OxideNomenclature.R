@@ -106,6 +106,7 @@ OxideNomenclature <- function(input_atomic_number1 = NULL,
   } # End Part2
   #####################################################
   
+  
   # Part3: Isolate Nomenclature
   {
   ###
@@ -227,10 +228,10 @@ OxideNomenclature <- function(input_atomic_number1 = NULL,
   
 } # End Function OxideNomenclature***
 
-# 
+
 # 
 # input_atomic_number1 <- 26 #Litio
-# input_valence1 <- 3
+# input_valence1 <- 2
 # input_internal_language <- "en"
 # input_external_language <- "es"
 # input_family <- "Oxide"
@@ -239,13 +240,13 @@ OxideNomenclature <- function(input_atomic_number1 = NULL,
 # 
 # 
 # 
-#                                 OxideNomenclature(input_atomic_number1 = input_atomic_number1,
-#                                                   input_valence1 = input_valence1,
-#                                                   input_family = input_family,
-#                                                   input_internal_language = input_internal_language,
-#                                                   input_external_language = input_external_language,
-#                                                   input_PeriodicTable = input_PeriodicTable,
-#                                                   input_Nomenclature = input_Nomenclature)
+                                # OxideNomenclature(input_atomic_number1 = input_atomic_number1,
+                                #                   input_valence1 = input_valence1,
+                                #                   input_family = input_family,
+                                #                   input_internal_language = input_internal_language,
+                                #                   input_external_language = input_external_language,
+                                #                   input_PeriodicTable = input_PeriodicTable,
+                                #                   input_Nomenclature = input_Nomenclature)
 # 
-# 
-# 
+# # 
+# # 

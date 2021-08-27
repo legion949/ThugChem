@@ -17,7 +17,7 @@ Start,Inicio
 Final,Final
 Nomenclature,Nomenclatura
 Final Equation,Ecuacion Final
-#### Chemestry Family,### Familia Quimica
+######## Chemestry Family,######## Familia Quimica
 Oxide,Oxido
 Hydroxide,Hidroxido
 Oxacid,Oxacido
@@ -25,6 +25,24 @@ Hydride,Hidruro
 Hydracid,Hydracid
 Oxosalt,Oxosal
 Salt,Sal
+Hydride (Metalic Hydride),Hidruro (Hidruro Metalico)
+Hydracid (Non-metalic Hydride),Hidracido (Hidruro No metalico)
+######## Element Selector,######## Selector de Elemento
+Oxide - Select an element,Oxido - Selecciona un elemento
+Hydroxide - Select an element (Restringed options),Hidroxido - Selecciona un elemento (Eleccion restringida)
+Oxacid - Select an element (Restringed options),Oxacido - Selecciona un elemento (Eleccion restringida)
+Hydride - Select an element (Restringed options),Hidruro - Selecciona un elemento (Eleccion restringida)
+Hydracid - Select an element (Restringed options),Hidracido - Selecciona un elemento (Eleccion restringida)
+Hydroxide for a Oxosalt - Select an element (Restringed options),Hidroxido para Oxosal - Selecciona un elemento (Eleccion restringida)
+Oxacid  for a Oxosalt - Select an element (Restringed options),Oxacido para Oxosal - Selecciona un elemento (Eleccion restringida)
+Hydroxide for a Salt - Select an element (Restringed options),Hidroxido para Sal - Selecciona un elemento (Eleccion restringida)
+Hydracid  for a Salt - Select an element (Restringed options),Hidracido para Sal - Selecciona un elemento (Eleccion restringida)
+######## Help Element Selector,######## Ayuda del Selector de Elemento
+Choose an element.,Elije un elemento.
+Only metals and some metalloids can be choosen.,Solo metales y algun metaloide puede ser elegido.
+Only non-metals and some metaloids can be choosen.,Solo No Metales y algunos metaloides pueden ser elegidos.
+"Only six non-metals (Br, Cl, F, I, S, Se) and one metalloid (Te) can be choosen.","Solos seis No Metales (Br, Cl, F, I, S, Se) y un metaloide (Te) pueden ser elegidos."
+Only the first valence can be choosen for Hydracid.,Solo la primer valencia puede ser elegida para un Hidracido.
 #### Special Characters,#### Caracteres Especiales
 ,
 #### End Special Characters,#### Fin Caracteres Especiales

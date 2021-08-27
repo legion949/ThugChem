@@ -135,16 +135,18 @@ shinyUI(
                  )
                 ),
           column(4, 
-                 sliderInput(inputId = "help_level", label = i18n$t("Help Level"), min=0, max=3, value=3, step=1)
+                 sliderInput(inputId = "help_level", label = i18n$t("Help Level"), min=0, max=4, value=2, step=1)
                  )
               ),
-        tableOutput("tabla_nomenclatura"),
+
         plotOutput("resolution_plot"),
         fluidRow(
           column(4, textOutput("fc_HL_text01")),
           column(4, textOutput("fc_HL_text02")),
           column(4, textOutput("fc_HL_text03"))
         ),
+        br(), br(), 
+        tableOutput("tabla_nomenclatura"),
   
 
 

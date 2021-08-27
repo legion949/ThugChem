@@ -6,8 +6,6 @@ PeriodicTable <- LoadPeriodicTable()
 # Load all Nomenclature
 Nomenclature <- LoadNomenclature()
 
-ChemestryFamily <- LoadChemestryFamily()
-
 InteligentSelection <- LoadInteligentSelection()
 
 PageFamilyOptions <- LoadPageFamilyOptions()
