@@ -542,7 +542,7 @@ shinyServer(function(input, output ,session) {
       all_armed <- c(armed01, armed02, armed03)
       
       
-      part02 <- PageHelperLevel[my_rows, all_armed]
+      part02 <- PageHelperLevel[[input$chemestry_family]][[input$selected_language]][my_rows, all_armed]
       
       
       part03 <- cbind(part01, part02)
@@ -617,34 +617,7 @@ shinyServer(function(input, output ,session) {
     
   })
   
-  
-  # Helper Level 01
-  # Text01 for ES 01 and 02
-  output$fc_HL_text01 <- renderText({
-    
-    armed <- paste0(InternalFamily()[3] , "_help01")
-    i18n()$t(PageHelperLevel[selected_step(), armed])
-    
-    
-  })
-  
-  
-  output$fc_HL_text02 <- renderText({
-    
-    armed <- paste0(InternalFamily()[3] , "_help02")
-    i18n()$t(PageHelperLevel[selected_step(), armed])
-    
-    
-  })
-  
-  
-  output$fc_HL_text03 <- renderText({
-    
-    armed <- paste0(InternalFamily()[3] , "_help02")
-    i18n()$t(PageHelperLevel[selected_step(), armed])
-    
-    
-  })
+
   
   
   

@@ -181,16 +181,54 @@ NewCombination <- function(all_app_language = NULL){
 # The load for HelperLevel
 LoadPageHelperLevel <- function(){
   
+
+  # The list
+  PageHelperLevel <- list()
+  
   # The dir
-  my_dir <- "data/PageFamilyOptions/PageHelperLevel.csv"
+  my_dir <- "data/PageHelperLevel"
+  my_dir2 <- list.files(my_dir, include.dirs = T)
   
+  # Chem Family
+  my_chem_family <- unlist(strsplit(my_dir2, "_"))[c(F,T)]
   
-  HelperLevel <- read.csv(file = my_dir, sep=",", dec=".", 
-                                header = T, encoding = "latin1", na.strings = "NA")
+  # New list...
+  for (k in 1:length(my_chem_family)) PageHelperLevel[[k]] <- list()
+  names(PageHelperLevel) <- my_chem_family
+  
+  for (k in 1:length(my_dir2)){
+    
+    my_dir3 <- paste0(my_dir, "/", my_dir2[k])
+    my_dir4 <- list.files(my_dir3, include.dirs = T)
+    my_dir5 <- paste0(my_dir3, "/",my_dir4)
+    
+    if (length(my_dir4) > 0) {
+      
+      # The languages
+      my_language <- unlist(strsplit(unlist(strsplit(my_dir4, ".csv")), "_"))[c(F,T)]
+      
+      
+      # The load!
+      for (h in 1:length(my_dir4)) {
+        
+        
+        
+        PageHelperLevel[[k]][[h]] <- read.csv(file = my_dir5[h], sep=",", 
+                                           dec=".", header = T, encoding = "latin1")
+      } # End for h
+      
+      # List names
+      names(PageHelperLevel[[k]]) <- my_language 
+      
+    } # End ifff
+    
+  } # End for k
+  
   
   
   
   # Return
-  return(HelperLevel)
+  return(PageHelperLevel)
+  
   
 }

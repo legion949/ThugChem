@@ -144,11 +144,7 @@ shinyUI(
         plotOutput("resolution_plot"),
         tableOutput("fc_HL_Table"),
         br(), br(), br(),
-        fluidRow(
-          column(4, textOutput("fc_HL_text01")),
-          column(4, textOutput("fc_HL_text02")),
-          column(4, textOutput("fc_HL_text03"))
-        ),
+      
         br(), br(), 
         tableOutput("tabla_nomenclatura"),
   
