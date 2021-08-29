@@ -1,51 +1,17 @@
 Order,Oxacid_help01,Oxacid_help02,Oxacid_help03
-1,Reactives presentation,"The first element is placed and then the oxygen separated both
-with a '+' sign, both being reactive.
-No subscripts or coefficients added, yet.
-In computing, coefficients and subscripts equal to 1.
-and only in reagents. Nothing in products.
+1,Reactives presentation,"The Oxide is placed and then the water separated both with a '+' sign, both being reactive.
 To the right of the oxygen an arrow called ""Reaction Arrow"" is placed.
-After the reaction arrow the products will be detailed.","The first element is placed and then the oxygen separated both
-with a '+' sign, both being reactive.
-No subscripts or coefficients added, yet.
-In computing, coefficients and subscripts equal to 1.
-and only in reagents. Nothing in products.
-To the right of the oxygen an arrow called ""Reaction Arrow"" is placed.
-After the reaction arrow the products will be detailed."
-2,Reactives details,"The oxygen in reactants has a subscript 2 because it is a gas.
-If the element that will react with oxygen is also a gas
-and it is not a Noble gas, it will also have a two as a subscript.","The oxygen in reactants has a subscript 2 because it is a gas.
-If the element that will react with oxygen is also a gas
-and it is not a Noble gas, it will also have a two as a subscript."
-3,Product presentation (Oxide),"To the right of the arrow, the reaction product will be detailed which in this case is an oxide. The structure of the oxide is the
-element and oxygen together (without space between them) indicating
- that are part of the same molecule. In principle the subindex of element and oxygen in products will be 1 in both cases.","To the right of the arrow, the reaction product will be detailed which in this case is an oxide. The structure of the oxide is the
-element and oxygen together (without space between them) indicating
- that are part of the same molecule. In principle the subindex of element and oxygen in products will be 1 in both cases."
-4,Details about the Oxide,"The subindex in the Oxide are changed.
-In Oxide ... the sub-index of the element will be the valence of oxygen.
-In Oxide ... the oxygen subscript will be the valence of the element.","The subindex in the Oxide are changed.
-In Oxide ... the sub-index of the element will be the valence of oxygen.
-In Oxide ... the oxygen subscript will be the valence of the element."
-5,Oxide simplification,"If possible, in the oxide, the subscripts are simplified by the least common divisor (gcd). If it has been possible to simplify the subscripts, the gcd is placed as the coefficient of oxide.","If possible, in the oxide, the subscripts are simplified by the least common divisor (gcd). If it has been possible to simplify the subscripts, the gcd is placed as the coefficient of oxide."
-6,Oxygen balance,"This step 6 balances only Oxygen. If the amounts of oxygen in reactants and products are not equal
- the subscript of oxygen in the oxide will be placed as a coefficient
- of oxygen in reagents, and the oxygen subscript will be placed
- in reagents as a coefficient of oxide in products. This procedure
- ment balances the amount of oxygen in the equation.","This step 6 balances only Oxygen. If the amounts of oxygen in reactants and products are not equal
- the subscript of oxygen in the oxide will be placed as a coefficient
- of oxygen in reagents, and the oxygen subscript will be placed
- in reagents as a coefficient of oxide in products. This procedure
- ment balances the amount of oxygen in the equation."
-7,Element balance,"This step7 balances only the element.  This new element coefficient will be calculated as the quantity of the element
-into products divided the amount of the element into reactants.
-The result of this operation is the new coefficient for the
-element in reagents, and will provide the general balance of the entire
-chemical equation.","This step7 balances only the element.  This new element coefficient will be calculated as the quantity of the element
-into products divided the amount of the element into reactants.
-The result of this operation is the new coefficient for the
-element in reagents, and will provide the general balance of the entire
-chemical equation."
+After the reaction arrow the products will be detailed.",Coming soon…
+2,Product presentation (Oxacid),"To the right of the arrow, the reaction product will be detailed which in this case is an Oxacid. 
+The Oxacid structure is Hydrogen, element and Oxygen together (without space between them) indicating
+that are part of the same molecule. In principle the subdice of each one is will be 1 in all cases.",Coming soon…
+3,Oxacid composition - Hydrogen subindex,"If valence of the element is inpar, subindex for Hydrogen is 1.
+If valence of the element is par, subindex for Hydrogen is 2.",Coming soon…
+4,Oxacid composition - Oxygen subindex,"The subindex for Oxygen must balance the sign loads in the Oxacid. We must remenber, de valence of Oxygen es 2.",Coming soon…
+5,Hydrogen balance,"We proceed to balance the  Hydrogen. 
+This new coefficient for the Oxacid will be calculated as the quantity of the Hydrogen into reactives divided the amount of the Hydrogen in products.
+ The result of this operation is the new coefficient for the Oxacid in products, and will provide the general balance of the entire chemical equation.",Coming soon…
+6,Element balance,The Oxygen balance was ready in the before step. We must confirm that.,Coming soon…
+7,Oxygen balance,The Oxygen balance was ready in 5th step. We must confirm that.,Coming soon…
 8,Coefficient Simplification,"If possible, simplify all coefficients by the
-same least common divisor (gcd).","If possible, simplify all coefficients by the
-same least common divisor (gcd)."
+same greatest common divisor (gcd).",Coming soon…

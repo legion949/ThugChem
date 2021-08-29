@@ -133,7 +133,7 @@ OxacidEquation <- function(input_atomic_number1 = NULL, input_valence1 = NULL,
     {
       ###
       
-      # In the case of Hydracids ...
+      # In the case of Oxacid ...
       # The Stoichiometry is carried out as follows:
       #
       # 1) Presentation for the Reatives
@@ -147,9 +147,9 @@ OxacidEquation <- function(input_atomic_number1 = NULL, input_valence1 = NULL,
       #
       #
       #
-      # 2) Presentation for the product: Hydracid
+      # 2) Presentation for the product: Oxacid
       # To the right of the arrow, the reaction product will be detailed
-      # which in this case is an Hydracid. The structure of the Hydracid is the
+      # which in this case is an Oxacid. The structure of the Hydracid is the
       # Hydrogen, Element and Oxygen togethers (without space between them) indicating
       # that are part of the same molecule. In principle the sub-index for each one
       # is 1 in product.

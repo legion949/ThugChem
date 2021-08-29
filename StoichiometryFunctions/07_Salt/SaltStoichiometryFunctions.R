@@ -392,7 +392,7 @@ SaltEquation <- function(input_atomic_number1 = NULL, input_valence1 = NULL,
               gate2["Coef3"]  <- 1
               gate2["E05"]    <- cf1_element1
               gate2["Sub5"]   <- 1
-              gate2["E06"]    <- cf2_element2
+              gate2["E06"]    <- cf2_element1
               gate2["Sub6"]   <- 1
               
               # Water
@@ -579,14 +579,16 @@ SaltEquation <- function(input_atomic_number1 = NULL, input_valence1 = NULL,
               # We retrieve subscripts and coefficient of gate6 for the Hydrogen
               coef1 <- as.numeric(as.character(gate6["Coef1"]))
               sub_ind2 <- as.numeric(as.character(gate6["Sub2"]))
+              
               coef2 <- as.numeric(as.character(gate6["Coef2"]))
-              sub_ind3 <- as.numeric(as.character(gate6["Sub3"]))
+              sub_ind4 <- as.numeric(as.character(gate6["Sub4"]))
+              
               coef4 <- as.numeric(as.character(gate6["Coef4"]))
               sub_ind7 <- as.numeric(as.character(gate6["Sub7"]))
               
               
               # We calculate the amount of the element in reactants and in products
-              counting_hydrogen_reactive <- coef1*sub_ind2 + coef2*sub_ind3
+              counting_hydrogen_reactive <- coef1*sub_ind2 + coef2*sub_ind4
               counting_hydrogen_products <- coef4*sub_ind7
               
               mod_coef4 <- counting_hydrogen_reactive / counting_hydrogen_products 
@@ -601,7 +603,8 @@ SaltEquation <- function(input_atomic_number1 = NULL, input_valence1 = NULL,
               matrix_solution[general_internal_step, ] <- gate7
               
               # We eliminate what is no longer needed from this internal step ...
-              remove(coef1, sub_ind2, coef4, sub_ind7, mod_coef4)
+              remove(coef1, sub_ind2, coef2, sub_ind4, coef4, sub_ind7, 
+                     counting_hydrogen_reactive, counting_hydrogen_products, mod_coef4)
               
               ###
             } # End Step 7 of 9 - Salt
@@ -855,7 +858,7 @@ InternalControl_Salt <- function(input_atomic_number1 = NULL, input_valence1 = N
   
   
 } # End InternalControl_Oxide()
-
+# 
 # input_atomic_number1 <- 26 #Hierro
 # input_valence1 <- 3
 # input_atomic_number2 <- 17 #Cloro

@@ -240,7 +240,7 @@ OxosaltEquation <- function(input_atomic_number1 = NULL, input_valence1 = NULL,
         #
         #
         #
-        # 2) Reactives Details
+        # 2) Products presentation
         # Oxosal and water separated both with a "+" sign.
         # Oxosal without subindex.
         # Water with normal index.
