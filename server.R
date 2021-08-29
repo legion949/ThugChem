@@ -538,8 +538,9 @@ shinyServer(function(input, output ,session) {
       
       armed01 <- paste0(InternalFamily()[3] , "_help01")
       armed02 <- paste0(InternalFamily()[3] , "_help02")
-      armed03 <- paste0(InternalFamily()[3] , "_help03")
-      all_armed <- c(armed01, armed02, armed03)
+      armed03_YES <- paste0(InternalFamily()[3] , "_help03_YES")
+      armed03_NO <- paste0(InternalFamily()[3] , "_help03_NO")
+      all_armed <- c(armed01, armed02, armed03_YES, armed03_NO)
       
       
       part02 <- PageHelperLevel[[input$chemestry_family]][[input$selected_language]][my_rows, all_armed]
@@ -555,8 +556,6 @@ shinyServer(function(input, output ,session) {
       part05[1] <- nomenclature_step()
       
       part06 <- rbind(part03, part04, part05)
-      my_colnames <- c("Step", "Resumen", "General details", "Specific details")
-      colnames(part06) <- i18n()$t(my_colnames)
       part06
     }) 
     
@@ -584,14 +583,41 @@ shinyServer(function(input, output ,session) {
     
   })
   
+
+  
+  HelperLevel04 <- reactive({
+    
+    input_general_help04 <- GeneralHelp04(input_atomic_number1 = input$atomic_number1,
+                                          input_valence1 = input$valence1,
+                                          input_atomic_number2 = input$atomic_number2,
+                                          input_valence2 = input$valence2,
+                                          input_family = input$chemestry_family,
+                                          input_internal_language = "en",
+                                          input_external_language = input$selected_language,
+                                          input_PeriodicTable = PeriodicTable,
+                                          input_Helper = PageHelperLevel)
+    
+    input_general_help04
+  })
+  
   HelperTable_Mod <- reactive({
     
-    part01 <- HelperTable()
+    # HelperTable()
+    my_rows <- vector_stoichiometry()
+    my_colnames <- c("Step", "Resumen", "General details", "Specific details")
+
+    # part01 <- HelperTable()
+    part01 <- HelperTable()[,c(1:length(my_colnames))]
+    colnames(part01) <- my_colnames
     
+   
+    new_help04 <- HelperLevel04()
+
+    part01[my_rows, ncol(part01)] <- new_help04
     if(input$help_level < 3) part01[,3] <- rep("Help Level 3", nrow(part01))
     if(input$help_level < 4) part01[,4] <- rep("Help Level 4", nrow(part01))
-    
-    part01
+
+      part01
     
   }) 
   
@@ -690,31 +716,6 @@ shinyServer(function(input, output ,session) {
   
   
 
-  
-  
-  
-
-  
-
-  
-  
- 
-  
-
-  
- 
- 
-  
-
-  
-
-  
-  
-
-  
-  
-  
-  
   
   
 }
