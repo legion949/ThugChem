@@ -604,7 +604,7 @@ shinyServer(function(input, output ,session) {
     
     # HelperTable()
     my_rows <- vector_stoichiometry()
-    my_colnames <- c("Step", "Resumen", "General details", "Specific details")
+    my_colnames <- i18n()$t(c("Step", "Resumen", "General details", "Specific details"))
 
     # part01 <- HelperTable()
     part01 <- HelperTable()[,c(1:length(my_colnames))]
