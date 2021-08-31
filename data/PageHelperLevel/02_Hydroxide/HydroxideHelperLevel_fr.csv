@@ -1,18 +1,18 @@
-Order,Hydroxide_help01,Hydroxide_help02,Hydroxide_help03
+Order,Hydroxide_help01,Hydroxide_help02,Hydroxide_help03_YES,Hydroxide_help03_NO
 1,Reactives presentation,"The Oxide is placed and then the water separated both with a '+' sign, both being reactive.
 To the right of the oxygen an arrow called ""Reaction Arrow"" is placed.
-After the reaction arrow the products will be detailed.",Coming soon…
+After the reaction arrow the products will be detailed.",El elemento seleccionado es '_element1_' con valencia _valence1_.,El elemento seleccionado es '_element1_' con valencia _valence1_.
 2,Product presentation (Hydroxide),"To the right of the arrow, the reaction product will be detailed which in this case is an Hydroxide. 
 The structure of the Hydroxide is the element and Hydroxyl group together (without space between them) indicating
-that are part of the same molecule. In principle the subdice of element and hydroxyl in products will be 1 in both cases.",Coming soon…
+that are part of the same molecule. In principle the subdice of element and hydroxyl in products will be 1 in both cases.",Un Hidróxido es un compuesto ternario.,Un Hidróxido es un compuesto ternario.
 3,Details for Hydroxile composition,"The subscripts in the Hydroxide are changed. 
 In Hydroxide sub-index of the hydroxyl group will be the valence of the element.
-In Hydroxide the element subscript will be the valence of the hydroxyl (is 1).",Coming soon…
+In Hydroxide the element subscript will be the valence of the hydroxyl (is 1).","En el Hidróxido el subíndice del '_element1_' será 1, y el subíndice del Hidroxilo será _valence1_.","En el Hidróxido el subíndice del '_element1_' será 1, y el subíndice del Hidroxilo será _valence1_."
 4,Element balance,"We proceed to balance the Element.
-The sub-index of the Element from Oxide in reactives will be  the coefficient of the hydroxide in products.",Coming soon…
+The sub-index of the Element from Oxide in reactives will be  the coefficient of the hydroxide in products.",El nuevo coeficiente del Hidróxido es _coef3_.,El nuevo coeficiente del Hidróxido es _coef3_.
 5,Hydrogen balance,"We proceed to balance the  Hydrogen. 
 This form will finally balance the entire equation. 
 This new coefficient for water will be calculated as the quantity of the Hydrogen into products divided the amount of the element into reactants.
- The result of this operation is the new coefficient for the water in reagents, and will provide the general balance of the entire chemical equation.",Coming soon…
-6,Conform Oxygen balance,The Oxygen balance was ready in the before step. We must confirm that.,Coming soon…
-7,Coefficients simplification,"If possible, simplify all coefficients by the same greatest common divisor (gcd).",Coming soon…
+ The result of this operation is the new coefficient for the water in reagents, and will provide the general balance of the entire chemical equation.",El nuevo coeficiente del agua es _coef2_.,El coeficiente queda como está. Sigue siendo 1.
+6,Conform Oxygen balance,The Oxygen balance was ready in the before step. We must confirm that.,Nada más que hacer.,Nada más que hacer.
+7,Coefficients simplification,"If possible, simplify all coefficients by the same greatest common divisor (gcd).",Los coeficientes se simplifican por _mcd_coef_. Esta es la ecuación final.,No es posible simplificar más los coeficientes. Esta es la ecuación final.

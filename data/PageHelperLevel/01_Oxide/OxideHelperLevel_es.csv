@@ -16,4 +16,4 @@ El Oxígeno tiene valencia 2."
 The result of this operation is the new coefficient for the
 element in reagents, and will provide the general balance of the entire
 chemical equation.",El nuevo coeficiente del '_element1_' en reactivos será _coef1_.,El nuevo coeficiente del '_element1_' en reactivos será _coef1_.
-8,Coefficient Simplification,"Si es posible, se simplifican los coeficientes por el máximo común dividor (mcd).",Los coeficientes se simplifican por _mcd_coef_. Esta es la ecuación final.,No es posible simplificar los tres coeficientes de la ecuación.
+8,Simplificación de coeficientes,"Si es posible, se simplifican los coeficientes por el máximo común dividor (mcd).",Los coeficientes se simplifican por _mcd_coef_. Esta es la ecuación final.,No es posible simplificar los tres coeficientes de la ecuación.

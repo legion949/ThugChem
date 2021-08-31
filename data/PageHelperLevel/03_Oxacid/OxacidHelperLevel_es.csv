@@ -1,15 +1,19 @@
-Order,Oxacid_help01,Oxacid_help02,Oxacid_help03
+Order,Oxacid_help01,Oxacid_help02,Oxacid_help03_YES,Oxacid_help03_NO
 1,Presentación de Reactivos,"El Óxido es colocado y luego el agua, separados por un signo '+' siendo ambos reactivos. 
 A la derecha del agua, una flecha llamda 'Flecha de reacción' es colocada.
-Luego de la flecha serán colocados los productos.",En proceso…
+Luego de la flecha serán colocados los productos.","Colocamos las valencias en números romanos sobre cada reactivo para tenerlas de referencia.
+El elemento seleccionado es '_element1_' con valencia _valence1_.
+El Oxígeno tiene valencia 2.","Colocamos las valencias en números romanos sobre cada reactivo para tenerlas de referencia.
+El elemento seleccionado es '_element1_' con valencia _valence1_.
+El Oxígeno tiene valencia 2."
 2,Presentación del producto (Oxácido),"A la derecha de la flecha el producto de la reacción sera detallado. En este caso el producto será un Oxácido.
-La estructura del Oxácido es Hidrógeno, Elemento, y Oxígeno, juntos (sin espacios entre ellos) indicando que son parte de la misma molécula. Al inicio, el subíndice es 1 para cada uno dentro del Oxácido.",En proceso…
+La estructura del Oxácido es Hidrógeno, Elemento, y Oxígeno, juntos (sin espacios entre ellos) indicando que son parte de la misma molécula. Al inicio, el subíndice es 1 para cada uno dentro del Oxácido.","El Oxígeno es un gas. Siempre llevará un subíndice 2. En este caso el _element1_ es un gas también, por lo tanto debe llevar subíndice 2 en reactivos.","El Oxígeno es un gas. Siempre llevará un subíndice 2. En este caso el _element1_ no es un gas, por lo tanto no llevará subíndice 2 en reactivos."
 3,Composición del Oxácido - Subíndice del Hidrógeno,"Si la valencia del elemento es impar, en el Oxácido el subíndice del Hidrógeno es 1.
-Si la valencia del elemento es par, en el Oxácido el subíndice del Hidrógeno  es 2.",En proceso…
-4,Composición del Oxácido - Subíndice del Oxígeno,El subíndice del Oxígeno en el Oxácido debe balancear las cargas. Debemos recordar que la valencia del Oxígeno es 2.,En proceso…
+Si la valencia del elemento es par, en el Oxácido el subíndice del Hidrógeno  es 2.",Un Óxido es un compuesto binario.,Un Óxido es un compuesto binario.
+4,Composición del Oxácido - Subíndice del Oxígeno,El subíndice del Oxígeno en el Oxácido debe balancear las cargas. Debemos recordar que la valencia del Oxígeno es 2.,"Las valencias fueron detalladas en números romanos. En el Óxido el subíndice del '_element1_' será 2, y el subíndice del Oxígeno será _valence1_.","Las valencias fueron detalladas en números romanos. En el Óxido el subíndice del '_element1_' será 2, y el subíndice del Oxígeno será _valence1_."
 5,Balanceo del Hidrógeno,"Procedemos a balancear al Hidrógeno.
 El nuevo coeficiente del Oxácido será calculado como la cantidad de Hidrógeno en reactivos dividido la cantidad de Hidrógeno en productos.
-El resultado de esta operación es el nuevo coeficiente del Oxácido en productos y provee un balance general de toda la ecuación química.",En proceso…
-6,Balanceo del Elemento,El Elemento ya ha sido balanceado en el paso anterior. Debemos verificar esto.,En proceso…
-7,Balanceo del Oxígeno,El Oxígeno ya ha sido balanceado en el 5to paso. Debemos verificar esto.,En proceso…
-8,Simplificación de coeficientes,"Si es posible, se simplifican los coeficientes con el máximo común divisor (mcd).",En proceso…
+El resultado de esta operación es el nuevo coeficiente del Oxácido en productos y provee un balance general de toda la ecuación química.",Se simplificaron los subíndices del Óxido por _mcd_index_. Y ese valor es ahora el coeficiente del Óxido.,En este caso simplificar los subíndices no es posible.
+6,Balanceo del Elemento,El Elemento ya ha sido balanceado en el paso anterior. Debemos verificar esto.,El nuevo coeficiente del Óxido será _coef2_ y el nuevo coeficiente del Oxígeno en reactivos será _coef3_.,El nuevo coeficiente del Óxido será _coef2_ y el nuevo coeficiente del Oxígeno en reactivos será _coef3_.
+7,Balanceo del Oxígeno,El Oxígeno ya ha sido balanceado en el 5to paso. Debemos verificar esto.,El nuevo coeficiente del '_element1_' en reactivos será _coef1_.,El nuevo coeficiente del '_element1_' en reactivos será _coef1_.
+8,Simplificación de coeficientes,"Si es posible, se simplifican los coeficientes con el máximo común divisor (mcd).",Los coeficientes se simplifican por _mcd_coef_. Esta es la ecuación final.,No es posible simplificar los tres coeficientes de la ecuación.

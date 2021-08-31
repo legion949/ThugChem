@@ -1,22 +1,26 @@
-Order,Oxosalt_help01,Oxosalt_help02,Oxosalt_help03
+Order,Oxosalt_help01,Oxosalt_help02,Oxosalt_help03_YES,Oxosalt_help03_NO
 1,Reactives presentation,"Hydroxide and Oxacid was placed aseparated both with a '+' sign, both being reactive.
 To the right of the Oxacido an arrow called ""Reaction Arrow"" is placed.
-After the reaction arrow the products will be detailed.",Coming soon…
+After the reaction arrow the products will be detailed.","Colocamos las valencias en números romanos sobre cada reactivo para tenerlas de referencia.
+El elemento seleccionado es '_element1_' con valencia _valence1_.
+El Oxígeno tiene valencia 2.","Colocamos las valencias en números romanos sobre cada reactivo para tenerlas de referencia.
+El elemento seleccionado es '_element1_' con valencia _valence1_.
+El Oxígeno tiene valencia 2."
 2,Product presentation (Oxosalt and Water),"In products we details Oxosal and Water separated both with a ""+"" sign.
 Oxosal without subindex.
 Water with normal index.
-Coefficients are 1 for each one.",Coming soon…
+Coefficients are 1 for each one.","El Oxígeno es un gas. Siempre llevará un subíndice 2. En este caso el _element1_ es un gas también, por lo tanto debe llevar subíndice 2 en reactivos.","El Oxígeno es un gas. Siempre llevará un subíndice 2. En este caso el _element1_ no es un gas, por lo tanto no llevará subíndice 2 en reactivos."
 3,Oxosalt details,"The subindex in the Oxosalt are changed.
 In the Oxosal, the Ion Oxacid subindex is the subindex for the Hydroxyle from reactives. This is the metal valance.
-In the Oxosal, the new Metal subindex is the Hydrogen subindex in the Oxacid.",Coming soon…
+In the Oxosal, the new Metal subindex is the Hydrogen subindex in the Oxacid.",Un Óxido es un compuesto binario.,Un Óxido es un compuesto binario.
 4,Oxosalt subindexes simplification,"If is possible we must simplify subindex in the Oxosal.
-If that is possible, only simplify without modify coefficient for the Oxosal.",Coming soon…
-5,Metal balance,The new coefficient for Hydroxide in reactives will be our metal index in Oxosalt.,Coming soon…
-6,Non-metal balance,The coefficient for Oxacid in reactives will be our ion oxacid index in Oxosalt.,Coming soon…
+If that is possible, only simplify without modify coefficient for the Oxosal.","Las valencias fueron detalladas en números romanos. En el Óxido el subíndice del '_element1_' será 2, y el subíndice del Oxígeno será _valence1_.","Las valencias fueron detalladas en números romanos. En el Óxido el subíndice del '_element1_' será 2, y el subíndice del Oxígeno será _valence1_."
+5,Metal balance,The new coefficient for Hydroxide in reactives will be our metal index in Oxosalt.,Se simplificaron los subíndices del Óxido por _mcd_index_. Y ese valor es ahora el coeficiente del Óxido.,En este caso simplificar los subíndices no es posible.
+6,Non-metal balance,The coefficient for Oxacid in reactives will be our ion oxacid index in Oxosalt.,El nuevo coeficiente del Óxido será _coef2_ y el nuevo coeficiente del Oxígeno en reactivos será _coef3_.,El nuevo coeficiente del Óxido será _coef2_ y el nuevo coeficiente del Oxígeno en reactivos será _coef3_.
 7,Hydrogen balance,"We proceed to balance the  Hydrogen. 
 To balance Hydrogen we must only modicate the coefficient in Water.
 This new coefficient for the Water will be calculated as the quantity of the Hydrogen into reactives divided the amount of the Hydrogen in products.
-The result of this operation is the new coefficient for the Water in products, and will provide the general balance of the entire chemical equation.",Coming soon…
-8,Oxygen balance,The Oxygen balance was ready in the before step. We must confirm that.,Coming soon…
+The result of this operation is the new coefficient for the Water in products, and will provide the general balance of the entire chemical equation.",El nuevo coeficiente del '_element1_' en reactivos será _coef1_.,El nuevo coeficiente del '_element1_' en reactivos será _coef1_.
+8,Oxygen balance,The Oxygen balance was ready in the before step. We must confirm that.,Los coeficientes se simplifican por _mcd_coef_. Esta es la ecuación final.,No es posible simplificar los tres coeficientes de la ecuación.
 9,Coefficient simplification,"If possible, simplify all coefficients by the
-same greatest common divisor (gcd).",Coming soon…
+same greatest common divisor (gcd).",Los coeficientes se simplifican por _mcd_coef_. Esta es la ecuación final.,No es posible simplificar los tres coeficientes de la ecuación.
