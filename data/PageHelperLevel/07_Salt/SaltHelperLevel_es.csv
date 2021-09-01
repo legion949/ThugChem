@@ -1,23 +1,21 @@
 Order,Salt_help01,Salt_help02,Salt_help03_YES,Salt_help03_NO
 1,Presentación de Reactivos,Hidróxido e Hidrácido son puestos separados por un signo  '+'  siendo ambos reactivos. A la derecha del Hidrácido una flecha denominada ´'Flecha de Reacción'. Los productos seránd detallados luego de la flecha.,"Colocamos las valencias en números romanos sobre cada reactivo para tenerlas de referencia.
-El elemento seleccionado es '_element1_' con valencia _valence1_.
-El Oxígeno tiene valencia 2.","Colocamos las valencias en números romanos sobre cada reactivo para tenerlas de referencia.
-El elemento seleccionado es '_element1_' con valencia _valence1_.
-El Oxígeno tiene valencia 2."
+Los elementos seleccionados son '_element1_' con valencia _valence1_ y '_element2_' con valencia _valence2_ .","Colocamos las valencias en números romanos sobre cada reactivo para tenerlas de referencia.
+Los elementos seleccionados son '_element1_' con valencia _valence1_ y '_element2_' con valencia _valence2_ ."
 2,Presentación de Productos (Sal y Agua),"En productos detallamos la Sal y Agua, separadas ambas por el signo '+'.
 Sal sin subíndices.
 Agua con los subíndices de su fórmula química normal.
-No se agregan coeficientes (Coeficientes igual a 1 para Sal y Agua).","El Oxígeno es un gas. Siempre llevará un subíndice 2. En este caso el _element1_ es un gas también, por lo tanto debe llevar subíndice 2 en reactivos.","El Oxígeno es un gas. Siempre llevará un subíndice 2. En este caso el _element1_ no es un gas, por lo tanto no llevará subíndice 2 en reactivos."
+No se agregan coeficientes (Coeficientes igual a 1 para Sal y Agua).",Una Sal es un compuesto binario.,Una Sal es un compuesto binario.
 3,Detalles de la Sal,"Los subíndices en la Sal son cambiados.
 En la Sal, el nuevo índice del No-Metal es la valencia del Metal.
-En la Sal, el nuevo subíndice del Metal es la valencia del No-Metal.",Un Óxido es un compuesto binario.,Un Óxido es un compuesto binario.
+En la Sal, el nuevo subíndice del Metal es la valencia del No-Metal.",En la Sal el subíndice del elemento '_element2_' será '_sub6_' y el subíndice del elemento '_element1_' será '_sub5_'.,En la Sal el subíndice del elemento '_element2_' será '_sub6_' y el subíndice del elemento '_element1_' será '_sub5_'.
 4,Simplificación de subíndices en la Sal,"Si es posible debemos simplificar los subíndices dentro de la Sal.
-Si esto sucede, solo simplificamos y no cambiamos el coeficiente de la Sal en tal caso.","Las valencias fueron detalladas en números romanos. En el Óxido el subíndice del '_element1_' será 2, y el subíndice del Oxígeno será _valence1_.","Las valencias fueron detalladas en números romanos. En el Óxido el subíndice del '_element1_' será 2, y el subíndice del Oxígeno será _valence1_."
-5,Balance del Metal,El nuevo coeficiente del Hidróxido en reacitovs es el subíndice del Metal en la Sal.,Se simplificaron los subíndices del Óxido por _mcd_index_. Y ese valor es ahora el coeficiente del Óxido.,En este caso simplificar los subíndices no es posible.
-6,Balance del No Metal,El nuevo coeficiente para el Hidrácido en reactivos será el subíndice del No-Metal en la Sal.,El nuevo coeficiente del Óxido será _coef2_ y el nuevo coeficiente del Oxígeno en reactivos será _coef3_.,El nuevo coeficiente del Óxido será _coef2_ y el nuevo coeficiente del Oxígeno en reactivos será _coef3_.
+Si esto sucede, solo simplificamos y no cambiamos el coeficiente de la Sal en tal caso.",Se simplificaron los subíndices en la Sal por _mcd_index_.,En este caso no es posible simplificar los subíndices de la Sal. Quedan como están.
+5,Balance del Metal,El nuevo coeficiente del Hidróxido en reacitovs es el subíndice del Metal en la Sal.,El nuevo coeficiente del Hidróxido en reactivos es _coef1_,El coeficiente del Hidróxido en reactivos sigue siendo 1.
+6,Balance del No Metal,El nuevo coeficiente para el Hidrácido en reactivos será el subíndice del No-Metal en la Sal.,El nuevo coeficiente del Hidrácido en reactivos es _coef2_,El coeficiente del Hidrácido en reactivos sigue siendo 1.
 7,Balance del Hidr[ogeno,"Procedemos a balancear el Hidrógeno. 
 Para balancear el Hidrógeno solo debemos modificar el coeficiente del Agua.
 Este nuevo coefiente para el Agua será el calculado como la cantidad de Hidrógeno en reactivos dividido la cantidad de Hidrógeno en productos. 
-El resultado de esta operación es el nuevo coeficiente para el Agua en productos y permite entonces ya el balance general de la ecuación química.",El nuevo coeficiente del '_element1_' en reactivos será _coef1_.,El nuevo coeficiente del '_element1_' en reactivos será _coef1_.
-8,Balance del Oxígeno,El Oxígeno ha sido ya balanceado. Debemos verificar este punto.,Los coeficientes se simplifican por _mcd_coef_. Esta es la ecuación final.,No es posible simplificar los tres coeficientes de la ecuación.
-9,Simplificación de Coeficientes,"Si es posible, simplificamos todos los coeficientes por el mismo máximo común dividor (mcd).",Los coeficientes se simplifican por _mcd_coef_. Esta es la ecuación final.,No es posible simplificar los tres coeficientes de la ecuación.
+El resultado de esta operación es el nuevo coeficiente para el Agua en productos y permite entonces ya el balance general de la ecuación química.",El nuevo coeficiente del Agua en productos es _coef4_.,El coeficiente del Agua en productos sigue siendo 1.
+8,Balance del Oxígeno,El Oxígeno ha sido ya balanceado. Debemos verificar este punto.,Confirma el balanceo del Oxígeno!,Confirma el balanceo del Oxígeno!
+9,Simplificación de Coeficientes,"Si es posible, simplificamos todos los coeficientes por el mismo máximo común dividor (mcd).",Los coeficientes se simplifican por _mcd_coef_. Esta es la ecuación final.,No es posible simplificar los coeficientes. Esta es la ecuación final.

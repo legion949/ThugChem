@@ -2,21 +2,19 @@ Order,Oxosalt_help01,Oxosalt_help02,Oxosalt_help03_YES,Oxosalt_help03_NO
 1,Presentación de Reactivos,"Hidróxido y Oxácido son colocados separados ambos por un signo '+' siendo ambos reactivos.
 A la derecha del Oxácido una flecha denominada flecha de reacción.
 Luego de la flecha los productos serán detallados.","Colocamos las valencias en números romanos sobre cada reactivo para tenerlas de referencia.
-El elemento seleccionado es '_element1_' con valencia _valence1_.
-El Oxígeno tiene valencia 2.","Colocamos las valencias en números romanos sobre cada reactivo para tenerlas de referencia.
-El elemento seleccionado es '_element1_' con valencia _valence1_.
-El Oxígeno tiene valencia 2."
+Los elementos seleccionados son '_element1_' con valencia _valence1_ y '_element2_' con valencia _valence2_ .","Colocamos las valencias en números romanos sobre cada reactivo para tenerlas de referencia.
+Los elementos seleccionados son '_element1_' con valencia _valence1_ y '_element2_' con valencia _valence2_ ."
 2,Presentación de Productos (Oxosal y Agua),"En productos se detalla Oxosal y Agua, ambos separados por un signo '+' conformando los productos. 
-La estructura de la Oxosal es el Metal y el Ión Oxácido juntos (sin espacios entre ellos). La Oxosal por ahor sin subíndices. Agua con subíndices de su fórmula química. Sin coeficientes en ambos casos (coeficientes igual a 1).","El Oxígeno es un gas. Siempre llevará un subíndice 2. En este caso el _element1_ es un gas también, por lo tanto debe llevar subíndice 2 en reactivos.","El Oxígeno es un gas. Siempre llevará un subíndice 2. En este caso el _element1_ no es un gas, por lo tanto no llevará subíndice 2 en reactivos."
+La estructura de la Oxosal es el Metal y el Ión Oxácido juntos (sin espacios entre ellos). La Oxosal por ahor sin subíndices. Agua con subíndices de su fórmula química. Sin coeficientes en ambos casos (coeficientes igual a 1).",La Oxosal es un compuesto ternario.,La Oxosal es un compuesto ternario.
 3,Detalles en Oxosal,"Los subíndices en la Oxosal cambian.
 En la Oxosal, el nuevo índice del  Ion Oxácido será el subíndice del grupo Hidroxilo del Hidróxido en reactivos. Es lo mismo que la valencia del metal.
-En la Oxosal el nuevo subíndice del Metal es el subíndice del Hidrógeno en el Oxácido.",Un Óxido es un compuesto binario.,Un Óxido es un compuesto binario.
-4,Simplificación de subíndices en Oxosal,"Si es posible, se simplifican los subíndices en la Oxosal. En tal caso se simplifica y no se modifica el coeficiente de la Oxosal.","Las valencias fueron detalladas en números romanos. En el Óxido el subíndice del '_element1_' será 2, y el subíndice del Oxígeno será _valence1_.","Las valencias fueron detalladas en números romanos. En el Óxido el subíndice del '_element1_' será 2, y el subíndice del Oxígeno será _valence1_."
-5,Balanceo del Metal,El nuevo coeficiente del Hidróxido en reactivos es el subíndice del Metal en la Oxosal.,Se simplificaron los subíndices del Óxido por _mcd_index_. Y ese valor es ahora el coeficiente del Óxido.,En este caso simplificar los subíndices no es posible.
-6,Balancel del No-metal,El nuevo coeficiente dle Oxácido en reacitvos será el subíndice del Ion Oxácido en la Oxosal.,El nuevo coeficiente del Óxido será _coef2_ y el nuevo coeficiente del Oxígeno en reactivos será _coef3_.,El nuevo coeficiente del Óxido será _coef2_ y el nuevo coeficiente del Oxígeno en reactivos será _coef3_.
+En la Oxosal el nuevo subíndice del Metal es el subíndice del Hidrógeno en el Oxácido.",En la Oxosal el subíndice del Oxácido será '_sub7_' y el subíndice del elemento '_element1_' será '_sub6_'.,En la Oxosal el subíndice del Oxácido será '_sub7_' y el subíndice del elemento '_element1_' será '_sub6_'.
+4,Simplificación de subíndices en Oxosal,"Si es posible, se simplifican los subíndices en la Oxosal. En tal caso se simplifica y no se modifica el coeficiente de la Oxosal.",Se simplificaron los subíndices en la Oxosal por _mcd_index_.,En este caso no es posible simplificar los subíndices de la Oxosal. Quedan como están.
+5,Balanceo del Metal,El nuevo coeficiente del Hidróxido en reactivos es el subíndice del Metal en la Oxosal.,El nuevo coeficiente del Hidróxido en reactivos es _coef1_,El coeficiente del Hidróxido en reactivos sigue siendo 1.
+6,Balancel del No-metal,El nuevo coeficiente dle Oxácido en reacitvos será el subíndice del Ion Oxácido en la Oxosal.,El nuevo coeficiente del Oxácido en reactivos es _coef2_,El coeficiente del Oxácido en reactivos sigue siendo 1.
 7,Balanceo del Hidrógeno,"Procedemos a balancear el Hidrógeno.
 Para balancear el Hidrógeno debemos modificar solo el coeficiente del Agua.
 El nuevo coeficiente para el agua en productos será el resultado del cociente entre  la cantidad de Hidrógeno en reactivos dividido la cantidad de Hidrógeno en productos.
-El resultado de esta operación es el nuevo coeficiente del Agua a la vez que provee un balance general en toda la ecuación química.",El nuevo coeficiente del '_element1_' en reactivos será _coef1_.,El nuevo coeficiente del '_element1_' en reactivos será _coef1_.
-8,Balanceo del Oxígeno,El Oxígeno ya ha sido balanceado en el paso anterior. Debemos corroborar esto.,Los coeficientes se simplifican por _mcd_coef_. Esta es la ecuación final.,No es posible simplificar los tres coeficientes de la ecuación.
-9,Simplificación de coeficientes,"Si es posible, se simplifican todos los coeficientes por el mismo máximo común dividor (mcd).",Los coeficientes se simplifican por _mcd_coef_. Esta es la ecuación final.,No es posible simplificar los tres coeficientes de la ecuación.
+El resultado de esta operación es el nuevo coeficiente del Agua a la vez que provee un balance general en toda la ecuación química.",El nuevo coeficiente del Agua en productos es _coef4_.,El coeficiente del Agua en productos sigue siendo 1.
+8,Balanceo del Oxígeno,El Oxígeno ya ha sido balanceado en el paso anterior. Debemos corroborar esto.,Confirma el balanceo del Oxígeno!,Confirma el balanceo del Oxígeno!
+9,Simplificación de coeficientes,"Si es posible, se simplifican todos los coeficientes por el mismo máximo común dividor (mcd).",Los coeficientes se simplifican por _mcd_coef_. Esta es la ecuación final.,No es posible simplificar los coeficientes. Esta es la ecuación final.

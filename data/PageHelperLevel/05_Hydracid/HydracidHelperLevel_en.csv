@@ -4,26 +4,27 @@ No subscripts or coefficients added, yet.
 In computing, coefficients and subscripts equal to 1.
 and only in reagents. Nothing in products.
 To the right of the Hydrogen an arrow called ""Reaction Arrow"" is placed.
-After the reaction arrow the products will be detailed.","Colocamos las valencias en números romanos sobre cada reactivo para tenerlas de referencia.
-El elemento seleccionado es '_element1_' con valencia _valence1_.
-El Oxígeno tiene valencia 2.","Colocamos las valencias en números romanos sobre cada reactivo para tenerlas de referencia.
-El elemento seleccionado es '_element1_' con valencia _valence1_.
-El Oxígeno tiene valencia 2."
+After the reaction arrow the products will be detailed.","We put the valences in Roman numerals on each item to have them as a reference.
+The selected element is '_element1_' with valence _valence1_.
+Hydrogen has a valence of 1. ","We put the valences in Roman numerals on each item to have them as a reference.
+The selected element is '_element1_' with valence _valence1_.
+Hydrogen has a valence of 1. "
 2,Reactives details,"The Hydrogen in reactants has a subscript 2 because it is a gas.
 If the element that will react with oxygen is also a gas
-and it is not a Noble gas, it will also have a 2 as a subindex.","El Oxígeno es un gas. Siempre llevará un subíndice 2. En este caso el _element1_ es un gas también, por lo tanto debe llevar subíndice 2 en reactivos.","El Oxígeno es un gas. Siempre llevará un subíndice 2. En este caso el _element1_ no es un gas, por lo tanto no llevará subíndice 2 en reactivos."
+and it is not a Noble gas, it will also have a 2 as a subindex.","Hydrogen is a gas. It will always have a subscript 2 in reagents. In this case the _element1_ is a gas as well, therefore it must have a subscript 2 in reactants.","Hydrogen is a gas. It will always carry a subscript 2 in reactants.
+In this case the _element1_ is not a gas, therefore it will not carry a subscript 2 in reactants. "
 3,Product presentation (Hydracid),"To the right of the arrow, the reaction product will be detailed which in this case is an Hydracid. The structure of the Hydracid is the
 Hydrogen and the Element together (without space between them) indicating
- that are part of the same molecule. In principle in Hydracid, subindexes of element and Hydrogen will be 1 in both cases.",Un Óxido es un compuesto binario.,Un Óxido es un compuesto binario.
+ that are part of the same molecule. In principle in Hydracid, subindexes of element and Hydrogen will be 1 in both cases.",A Hydracid is a binary compound.,A Hydracid is a binary compound.
 4,Details about Hydracid,"The subindex in the Hydracid are changed.
 In Hydracid ... the sub-index of the element will be the valence of Hydrogen (1).
-In Hydride ... the Hydrogen  subscript will be the valence of the element.","Las valencias fueron detalladas en números romanos. En el Óxido el subíndice del '_element1_' será 2, y el subíndice del Oxígeno será _valence1_.","Las valencias fueron detalladas en números romanos. En el Óxido el subíndice del '_element1_' será 2, y el subíndice del Oxígeno será _valence1_."
+In Hydride ... the Hydrogen  subscript will be the valence of the element.","The valences were detailed in Roman numerals. In Hydracid the subscript of '_element1_' will be 1, and the subscript of Hydrogen will be _valence1_.","The valences were detailed in Roman numerals. In Hydracid the subscript of '_element1_' will be 1, and the subscript of Hydrogen will be _valence1_."
 5,Hydrogen balance,"We proceed to balance the Hydrogen.
 The sub-index of the Hydrogen in Hydracid in products will be  the coefficient of the Hydrigen in reactivs.
-The sub-index of the Hydrogen in reactives will be  the coefficient of the Hydracid in products.",Se simplificaron los subíndices del Óxido por _mcd_index_. Y ese valor es ahora el coeficiente del Óxido.,En este caso simplificar los subíndices no es posible.
+The sub-index of the Hydrogen in reactives will be  the coefficient of the Hydracid in products.",The new coefficient of Hydrogen in reactants is _coef2_.,The coefficient of Hydrogen in reactants is still _coef2_.
 6,Element balance,"We proceed to balance the Element. 
 This form will finally balance the entire equation. 
 This new coefficient for Element will be calculated as the quantity of the Element into products divided the amount of the Element into reactants.
- The result of this operation is the new coefficient for the element in reagents, and will provide the general balance of the entire chemical equation.",El nuevo coeficiente del Óxido será _coef2_ y el nuevo coeficiente del Oxígeno en reactivos será _coef3_.,El nuevo coeficiente del Óxido será _coef2_ y el nuevo coeficiente del Oxígeno en reactivos será _coef3_.
+ The result of this operation is the new coefficient for the element in reagents, and will provide the general balance of the entire chemical equation.",The new coefficient of element '_element1_' in reactants is _coef1_.,The coefficient of element '_element1_' in reactants is still _coef1_.
 7,Coefficient Simplification,"If possible, simplify all coefficients by the
-same least common divisor (gcd).",El nuevo coeficiente del '_element1_' en reactivos será _coef1_.,El nuevo coeficiente del '_element1_' en reactivos será _coef1_.
+same least common divisor (gcd).",The coefficients are simplified by _mcd_coef_. This is the final equation.,The coefficients cannot be further simplified. This is the final equation.

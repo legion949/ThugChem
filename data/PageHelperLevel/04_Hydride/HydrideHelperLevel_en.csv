@@ -25,6 +25,6 @@ The sub-index of the Hydrogen in reactives will be  the coefficient of the Hydri
 6,Element balance,"We proceed to balance the Element. 
 This form will finally balance the entire equation. 
 This new coefficient for Element will be calculated as the quantity of the Element into products divided the amount of the Element into reactants.
- The result of this operation is the new coefficient for the element in reagents, and will provide the general balance of the entire chemical equation.",The new coefficient of element '_element1_' in reactants is _coef1_.,The coefficient of element '_element1_' in reactants is still _coef2_.
+ The result of this operation is the new coefficient for the element in reagents, and will provide the general balance of the entire chemical equation.",The new coefficient of element '_element1_' in reactants is _coef1_.,The coefficient of element '_element1_' in reactants is still _coef1_.
 7,Coefficient Simplification,"If possible, simplify all coefficients by the
 same least common divisor (gcd).",The coefficients are simplified by _mcd_coef_. This is the final equation.,The coefficients cannot be further simplified. This is the final equation.
