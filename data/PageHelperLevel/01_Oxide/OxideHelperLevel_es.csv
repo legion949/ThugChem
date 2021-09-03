@@ -1,19 +1,49 @@
 Order,Oxide_help01,Oxide_help02,Oxide_help03_YES,Oxide_help03_NO
-1,Presentación de Reactivos,"El elemento es colocado primero y luego el Oxígeno, ambos separados por un signo ""+"", siendo ambos Reactivos. No se colocan subíndices ni coeficientes aún. 
-Por el momento tanto subíndices como coeficientes son igual a 1. 
-A la derecha del Oxígeno es colocada una flecha llamada 'Flecha de Reacción'. Luego de la flecha será detallado el producto.
-Nada se coloca en Productos. ","Colocamos las valencias en números romanos sobre cada reactivo para tenerlas de referencia.
-El elemento seleccionado es '_element1_' con valencia _valence1_.
-El Oxígeno tiene valencia 2.","Colocamos las valencias en números romanos sobre cada reactivo para tenerlas de referencia.
-El elemento seleccionado es '_element1_' con valencia _valence1_.
-El Oxígeno tiene valencia 2."
-2,Detalles en Reactivos,"El Oxígeno en reactivos lleva el subíndice 2 por ser un gas. Si el elemento que reaccionará es también un gas, deberá llevar subíndice 2.","El Oxígeno es un gas. Siempre llevará un subíndice 2. En este caso el _element1_ es un gas también, por lo tanto debe llevar subíndice 2 en reactivos.","El Oxígeno es un gas. Siempre llevará un subíndice 2. En este caso el _element1_ no es un gas, por lo tanto no llevará subíndice 2 en reactivos."
-3,Presentación del producto (Óxido),A la derecha de la fecha de reacción el producto será detallado. En este caso es un Óxido. La estructura del óxido es el elemento y el Oxígeno juntos (sin espacio entre ellos) indicando que son parte de la misma molécula. Por ahora no se agregan subíndices ni coeficientes al Óxido.,Un Óxido es un compuesto binario.,Un Óxido es un compuesto binario.
-4,Detalles del Óxido,"Los subíndices en el Óxido cambian. Dentro del óxido, el subíndice del elemento será la valencia del Oxígeno. Dentro del óxido, el subíndice del Oxígeno será la valencia del elemento.","Las valencias fueron detalladas en números romanos. En el Óxido el subíndice del '_element1_' será 2, y el subíndice del Oxígeno será _valence1_.","Las valencias fueron detalladas en números romanos. En el Óxido el subíndice del '_element1_' será 2, y el subíndice del Oxígeno será _valence1_."
-5,Simplificación del Óxido,"Si es posible, solo en el Óxido, son simplificados los subíndices por el máximo común dividor (mcd). Si se ha podido simplificar los subíndices el 'mdc' será el nuevo coeficiente del Óxido.",Se simplificaron los subíndices del Óxido por _mcd_index_. Y ese valor es ahora el coeficiente del Óxido.,En este caso simplificar los subíndices no es posible.
-6,Balanceo del Oxígeno,En este 6to paso balanceamos solo el Oxígeno. Si las cantidad de Oxígeno en reactivos y productos no son iguales el subíndice del Oxígeno en el Óxido pasa a ver el coeficiente del Óxidgeno en reactivos y el subíndice del Oxígeno en reactivos pasa a ser el nuevo coeficiente del Óxido en productos. Este procedimiento balancea la cantidad de Oxígeno en la ecuación.,El nuevo coeficiente del Óxido será _coef2_ y el nuevo coeficiente del Oxígeno en reactivos será _coef3_.,El nuevo coeficiente del Óxido será _coef2_ y el nuevo coeficiente del Oxígeno en reactivos será _coef3_.
-7,Balanceo del Elemento,"El 7mo paso balancea al elemento. El nuevo coeficiente del elemento será calculado como la cantidad del elemento en productos dividido la cantidad del elemento en reactivos. El resultado de esta operación es el nuevo coeficiente del elemento en reactivos. Este procedimiento ha balanceado al elemento, y finalmente a toda la ecuación química.
-The result of this operation is the new coefficient for the
-element in reagents, and will provide the general balance of the entire
-chemical equation.",El nuevo coeficiente del '_element1_' en reactivos será _coef1_.,El nuevo coeficiente del '_element1_' en reactivos será _coef1_.
-8,Simplificación de coeficientes,"Si es posible, se simplifican los coeficientes por el máximo común dividor (mcd).",Los coeficientes se simplifican por _mcd_coef_. Esta es la ecuación final.,No es posible simplificar los tres coeficientes de la ecuación.
+1,Presentación de Reactivos,"El elemento es colocado primero y luego el Oxígeno, ambos separados por un signo ""+"", siendo ambos Reactivos. 
+No se colocan subíndices ni coeficientes aún. Por el momento tanto subíndices como coeficientes son igual a 1. 
+A la derecha del Oxígeno es colocada una flecha llamada 'Flecha de Reacción'.
+Luego de la flecha será detallado el producto. Por ahora, nada se coloca en Productos.","El elemento seleccionado es '_element1_' con valencia _valence1_. 
+El Oxígeno tiene valencia 2. 
+Colocamos las valencias en números romanos sobre cada reactivo para 
+tenerlas de referencia.","El elemento seleccionado es '_element1_' con valencia _valence1_. 
+El Oxígeno tiene valencia 2. 
+Colocamos las valencias en números romanos sobre cada reactivo para 
+tenerlas de referencia."
+2,Detalles en Reactivos,"El Oxígeno en reactivos lleva el subíndice 2 por ser un gas. 
+Si el elemento que reaccionará es también un gas, deberá llevar subíndice 2.","El Oxígeno es un gas. Siempre llevará un subíndice 2. 
+En este caso el '_element1_' es un gas también, por lo tanto debe llevar subíndice 2 
+en reactivos.","El Oxígeno es un gas. Siempre llevará un subíndice 2. 
+En este caso el '_element1_' no es un gas, por lo tanto no llevará subíndice 2 
+en reactivos."
+3,Presentación del Óxido,"A la derecha de la fecha de reacción el producto será detallado. En este caso es un Óxido. 
+La estructura del Óxido es el elemento y el Oxígeno juntos (sin espacio entre ellos) indicando que son parte 
+de la misma molécula. Por ahora no se agregan subíndices ni coeficientes al Óxido.",Un Óxido es un compuesto binario.,Un Óxido es un compuesto binario.
+4,Composición del Óxido,"Los subíndices en el Óxido cambian. Dentro del Óxido, el subíndice del elemento será la valencia del Oxígeno. 
+Dentro del Óxido, el subíndice del Oxígeno será la valencia del elemento.","Las valencias fueron detalladas en números romanos. 
+En el Óxido el subíndice del '_element1_' será 2, y el subíndice del Oxígeno 
+será _valence1_.","Las valencias fueron detalladas en números romanos. 
+En el Óxido el subíndice del '_element1_' será 2, y el subíndice del Oxígeno será _valence1_."
+5,Simplificación del Óxido,"Si es posible, solo en el Óxido, son simplificados los subíndices por el máximo común dividor (mcd). 
+Si se ha podido simplificar los subíndices el 'mdc' será el nuevo coeficiente del Óxido.","Se simplificaron los subíndices del Óxido por _mcd_index_. 
+Ese valor es el nuevo coeficiente del Óxido.",En este caso simplificar los subíndices no es posible.
+6,Balanceo del Oxígeno,"En este 6to paso balanceamos solo el Oxígeno. Se deben calcular la cantidades de Oxígeno tanto en reactivos 
+como en producto. Si no son iguales realizamos un cambio de coeficientes. El nuevo coeficiente del Óxido es 
+el subíndice del Oxígeno en reactivos y  el nuevo coeficiente del Oxígeno en reactivos será el subíndice del 
+Oxígeno en el Óxido en productos. Este procedimiento balancea la cantidad de Oxígeno en la ecuación química.","El nuevo coeficiente del Óxido será _coef3_ y el coeficiente del Oxígeno 
+en reactivos será _coef2_.
+Con esto el Oxígeno queda balanecado. 
+Verificar!","El coeficiente del Óxido sigue siendo _coef3_ y el coeficiente del Oxígeno 
+en reactivos sigue siendo _coef2_.
+El Oxígeno queda balanceado. 
+Verificar!"
+7,Balanceo del Elemento,"El 7mo paso balancea al elemento. 
+El nuevo coeficiente del elemento será calculado como la cantidad del elemento en productos dividido 
+la cantidad del elemento en reactivos. El resultado de esta operación es el nuevo coeficiente del elemento 
+en reactivos. Este procedimiento ha balanceado al elemento, y finalmente a toda la ecuación química.","El nuevo coeficiente del '_element1_' en reactivos será _coef1_.
+El elemento  '_element1_' queda balanecado. 
+Verificar!","El coeficiente del '_element1_' en reactivos sigue siendo _coef1_.
+El  elemento '_element1_' queda balanecado. 
+Verificar!"
+8,Simplificación de coeficientes,"Si es posible, se simplifican los coeficientes por el máximo común dividor (mcd).","Los coeficientes se simplifican por _mcd_coef_. 
+Esta es la ecuación final.","No es posible simplificar los tres coeficientes de la ecuación. 
+Esta es la ecuación final."

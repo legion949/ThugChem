@@ -97,7 +97,16 @@ HydracidHelp04 <-function(input_atomic_number1 = NULL,
     
     # Step 1: Default value
    
-    # Step 2: Default value
+    # Step 2: Element is a gas?
+    {
+      ###
+      # If the element is a gas
+      
+      if (state1 == "Gas") new_help04[2] <- my_YES[2]
+      
+      ###  
+    } # End Step 2
+    ###########################
     
     # Step 3: Default value
     
@@ -195,19 +204,19 @@ HydracidHelp04 <-function(input_atomic_number1 = NULL,
 }  
 
 
-
-#
+# 
+# 
 # input_atomic_number1 <- 17
 # input_valence1 <- 1
 # input_internal_language <- "en"
-# input_external_language <- "en"
+# input_external_language <- "es"
 # input_PeriodicTable <- PeriodicTable
 # input_family = "Hydracid"
 # input_Helper = PageHelperLevel
-#
-#
 # 
-# input_hydracid_help04 <- HydrideHelp04(input_atomic_number1 = input_atomic_number1,
+# 
+# 
+# input_hydracid_help04 <- HydracidHelp04(input_atomic_number1 = input_atomic_number1,
 #                                         input_valence1 = input_valence1,
 #                                         input_internal_language = "en",
 #                                         input_external_language = input_external_language,

@@ -269,29 +269,29 @@ SaltHelp04 <-function(input_atomic_number1 = NULL,
 }  
 
 
-
-
-input_atomic_number1 <- 26
-input_valence1 <- 2
-input_atomic_number2 <- 6
-input_valence2 <- 2
-input_internal_language <- "en"
-input_external_language <- "es"
-input_PeriodicTable <- PeriodicTable
-input_family = "Salt"
-input_Helper = PageHelperLevel
-
-
-
-input_salt_help04 <- SaltHelp04(input_atomic_number1 = input_atomic_number1,
-                                        input_valence1 = input_valence1,
-                                        input_atomic_number2 = input_atomic_number2,
-                                        input_valence2 = input_valence2,
-                                        input_internal_language = "en",
-                                        input_external_language = input_external_language,
-                                        input_PeriodicTable = input_PeriodicTable,
-                                        input_family = input_family,
-                                        input_Helper = input_Helper)
-
-
-input_salt_help04
+# 
+# 
+# input_atomic_number1 <- 26
+# input_valence1 <- 2
+# input_atomic_number2 <- 6
+# input_valence2 <- 2
+# input_internal_language <- "en"
+# input_external_language <- "es"
+# input_PeriodicTable <- PeriodicTable
+# input_family = "Salt"
+# input_Helper = PageHelperLevel
+# 
+# 
+# 
+# input_salt_help04 <- SaltHelp04(input_atomic_number1 = input_atomic_number1,
+#                                         input_valence1 = input_valence1,
+#                                         input_atomic_number2 = input_atomic_number2,
+#                                         input_valence2 = input_valence2,
+#                                         input_internal_language = "en",
+#                                         input_external_language = input_external_language,
+#                                         input_PeriodicTable = input_PeriodicTable,
+#                                         input_family = input_family,
+#                                         input_Helper = input_Helper)
+# 
+# 
+# input_salt_help04

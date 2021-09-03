@@ -1,18 +1,37 @@
 Order,Hydroxide_help01,Hydroxide_help02,Hydroxide_help03_YES,Hydroxide_help03_NO
-1,Presentanción de Reactivos,El Óxido es colocado y luego el Agua y separados por un signo '+' siendo ambos Reactivos. A la derecha del Agua se coloca la fecha de reacción. Luego de la fecha el producto será detallado.,El elemento seleccionado es '_element1_' con valencia _valence1_.,El elemento seleccionado es '_element1_' con valencia _valence1_.
-2,Presentación de Producto (Hidróxido),"A la derecha de la flecha de reacción será detallado el producto, siendo en este caso un Hidróxido.
-La estructura química del Hidróxido es el Elemento y el grupo Hidroxilo juntos (sin espacios entre ellos) indicando que ambos forman parte de una misma molécula. En principio los sumbíndices del elemento y el Hidroxilo es 1 en ambos casos.",Un Hidróxido es un compuesto ternario.,Un Hidróxido es un compuesto ternario.
-3,Detalles de la composición del Hydróxido,"Los subíndices cambian en el Hidróxido.
+1,Presentanción de Reactivos,"El Óxido es colocado y luego el Agua, separados por un signo '+' siendo ambos Reactivos. 
+A la derecha del Agua se coloca la fecha de reacción. Luego de la fecha el producto será detallado.",El elemento seleccionado es '_element1_' con valencia _valence1_.,El elemento seleccionado es '_element1_' con valencia _valence1_.
+2,Presentación de Hidróxido,"A la derecha de la flecha de reacción será detallado el producto, siendo en este caso un Hidróxido.
+La estructura química del Hidróxido es el Elemento y el grupo Hidroxilo juntos (sin espacios entre 
+ellos) indicando que ambos forman parte de una misma molécula. 
+Por ahora los subíndices del Elemento y el Hidroxilo son 1 en ambos casos.","El grupo Hidroxilo es: (OH) 
+Un Hidróxido es un compuesto ternario.","El grupo Hidroxilo es: (OH) 
+Un Hidróxido es un compuesto ternario."
+3,Composición del Hidróxido,"Los subíndices cambian en el Hidróxido.
 En el Hidróxido el subíndice del grupo Hidroxilo es la valencia del elemento.
-Ene l Hidróxido el subíndice del elemento es la valencia del grupo Hidroxilo (que es 1).
+En el Hidróxido el subíndice del elemento es la valencia del grupo Hidroxilo (que es 1).
 El elemento se encuentra ya balanceado.
-","En el Hidróxido el subíndice del '_element1_' será 1, y el subíndice del Hidroxilo será _valence1_.","En el Hidróxido el subíndice del '_element1_' será 1, y el subíndice del Hidroxilo será _valence1_."
-4,Balanceo del Elemento,"Procedemos a balancear el elemento.
-El nuevo coeficiente del Hidróxido en productos es el subíndice del elemento en el óxido en reactivos.",El nuevo coeficiente del Hidróxido es _coef3_.,El coeficiente del Hidróxido queda como está. Sigue siendo 1.
-5,Balanceo del Hydrógeno,"Procedemos a balancear el Hidrógeno.
-El nuevo coeficiente para el agua en reactivos será calculado como la cantidad de Hidrógeno en productos dividido la cantidad de Hidrógeno en reactivos. 
-El resultado de este cociente es el nuevo coeficiente del agua en reactivos.
-El Hidrógeno está balanceado.
-Si prestamos atención este paso ha balanceado ya a toda la ecuación química.",El nuevo coeficiente del agua es _coef2_.,El coeficiente del agua queda como está. Sigue siendo 1.
-6,Balanceo del Oxýgeno,El Oxígeno ha sido ya balanceado en el paso anterior. Debemos confirmar esto.,Confirma el balanceo del Oxígeno!,Confirma el balanceo del Oxígeno!
-7,Simplificación de coeficientes,"Si es posible, simplificamos todos los coeficientes por el mismo máximo común dividor (mcd).",Los coeficientes se simplifican por _mcd_coef_. Esta es la ecuación final.,No es posible simplificar más los coeficientes. Esta es la ecuación final.
+","En el Hidróxido el subíndice del '_element1_' será 1, y el subíndice del 
+Hidroxilo será _valence1_.","En el Hidróxido el subíndice del '_element1_' será 1, y el subíndice del 
+Hidroxilo será _valence1_."
+4,Balanceo del Elemento,"Procedemos a balancear el Elemento.
+El nuevo coeficiente del Hidróxido en productos es el subíndice del Elemento en el Óxido en Reactivos.","El nuevo coeficiente del Hidróxido es _coef3_.
+El elemento '_element1_' está balanceado. 
+Verificar!","El coeficiente del Hidróxido queda como está. Sigue siendo 1.
+El elemento '_element1_' está balanceado. 
+Verificar!"
+5,Balanceo del Hidrógeno,"Procedemos a balancear el Hidrógeno.
+El nuevo coeficiente para el agua en reactivos será calculado como la cantidad de Hidrógeno 
+en productos dividido la cantidad de Hidrógeno en reactivos. El resultado de este cociente es
+el nuevo coeficiente del agua en reactivos. El Hidrógeno está balanceado.
+Si prestamos atención este paso ha balanceado ya a toda la ecuación química.","El nuevo coeficiente del agua es _coef2_.
+El Hidrógeno está balanceado. 
+Verificar!","El coeficiente del agua queda como está. Sigue siendo 1.
+El Hidrógeno está balanceado. 
+Verificar!"
+6,Balanceo del Oxígeno,El Oxígeno ya ha sido balanceado en el paso anterior. Debemos confirmar esto.,"El Oxígeno ya está balanceado. 
+Verificar!","El Oxígeno ya está balanceado. 
+Verificar!"
+7,Simplificación de coeficientes,"Si es posible, simplificamos todos los coeficientes por el mismo máximo común dividor (mcd).","Los coeficientes se simplifican por _mcd_coef_. 
+Esta es la ecuación final.","No es posible simplificar más los coeficientes.
+Esta es la ecuación final."

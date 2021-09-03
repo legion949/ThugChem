@@ -1,9 +1,6 @@
 Order,Oxide_help01,Oxide_help02,Oxide_help03_YES,Oxide_help03_NO
-1,Reactives presentation,"The first element is placed and then the oxygen separated both
-with a '+' sign, both being reactive.
-No subscripts or coefficients added, yet.
-In computing, coefficients and subscripts equal to 1.
-and only in reagents. Nothing in products.
+1,Reactives presentation,"The first element is placed and then the oxygen separated both with a '+' sign, both being reactive. 
+No subscripts or coefficients added, yet. In computing, coefficients and subscripts equal to 1.
 To the right of the oxygen an arrow called ""Reaction Arrow"" is placed.
 After the reaction arrow the products will be detailed.","We put the valences in Roman numerals on each item to have them as a reference.
 The selected element is '_element1_' with valence _valence1_.

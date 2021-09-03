@@ -29,6 +29,9 @@ LoadFunctions(the_dir = "StoichiometryFunctions")
 # Load Functions to Load Data!
 LoadFunctions(the_dir = "LoadDataFunctions")
 
+# Load More Functions!
+LoadFunctions(the_dir = "MoreFunctions")
+
 
 # Source prefiles
 source("prefiles.R")

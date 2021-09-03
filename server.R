@@ -559,7 +559,7 @@ shinyServer(function(input, output ,session) {
       part06
     }) 
     
-  HelperLevel01 <- reactive({
+    HelperLevel01 <- reactive({
   
     # Part 01
     my_rows <- vector_stoichiometry()
@@ -567,27 +567,29 @@ shinyServer(function(input, output ,session) {
     part01 <- HelperTable()[my_rows,1]
     part02 <- paste0("Step ", part01)
     
+
     #Exit
     exit <- list(part01, part02)
     exit
     
   })
   
-  HelperLevel02 <- reactive({
+    HelperLevel02 <- reactive({
     
     # Part 01
     my_rows <- vector_stoichiometry()
-    
+
     part01 <- paste0(HelperLevel01()[[2]], " - ", HelperTable()[,2])
+
     part01
     
+    
+   
   })
   
-
-  
-  HelperLevel04 <- reactive({
+    HelperLevel04 <- reactive({
     
-    input_general_help04 <- GeneralHelp04(input_atomic_number1 = input$atomic_number1,
+     GeneralHelp04(input_atomic_number1 = input$atomic_number1,
                                           input_valence1 = input$valence1,
                                           input_atomic_number2 = input$atomic_number2,
                                           input_valence2 = input$valence2,
@@ -597,10 +599,14 @@ shinyServer(function(input, output ,session) {
                                           input_PeriodicTable = PeriodicTable,
                                           input_Helper = PageHelperLevel)
     
-    input_general_help04
+    
+    
+   
+    
   })
   
-  HelperTable_Mod <- reactive({
+    
+    HelperTable_Mod <- reactive({
     
     # HelperTable()
     my_rows <- vector_stoichiometry()
@@ -622,7 +628,45 @@ shinyServer(function(input, output ,session) {
   }) 
   
  
+    HelperLevel01_Mod <- reactive({ 
+      
+      RegularText(input_text = HelperLevel01()[[2]], max_n = 6)
+      
+      })
+    
+    HelperLevel02_Mod <- reactive({ 
+      
+      RegularText(input_text = HelperLevel02(), max_n = 6)
+      })
+    
+    HelperLevel03_Mod <- reactive({ 
+      
+      RegularText(input_text = HelperTable_Mod()[,3], max_n = 6)
+      
+      })
+    
+    HelperLevel04_Mod <- reactive({ 
+      
+      RegularText(input_text = HelperTable_Mod()[,4], max_n = 6)
+      
+    })
+      
+ 
   
+  # HelperLevel03 <- reactive({
+  # 
+  #   HelperTable_Mod()[3]
+  # 
+  # })
+
+  # 
+  # HelperLevel04 <- reactive({
+  #   
+  #   HelperTable_Mod()[,3]
+  #   
+  # })
+  
+
   ###
   }
   #########################################
@@ -647,7 +691,7 @@ shinyServer(function(input, output ,session) {
   
   
   
-  output$resolution_plot <- renderPlot(width = 1600, height = 400,{ 
+  output$resolution_plot <- renderPlot(width = 1600, height = 450,{ 
     
   
 
@@ -714,10 +758,159 @@ shinyServer(function(input, output ,session) {
   })
   
   
-  
+  ###############################################################################
 
+  output$resolution_plot_V2 <- renderPlot(width = 1600, height = 450,{ 
+    
+    
+    
+    if (selected_step() <= final_step() ) { 
+      GeneralPlot( input_atomic_number1 = input$atomic_number1,
+                   input_valence1 = input$valence1,
+                   input_atomic_number2 = input$atomic_number2,
+                   input_valence2 = input$valence2,
+                   input_family = input$chemestry_family,
+                   input_roman = TRUE,
+                   input_step = selected_step(),
+                   input_internal_language = "en",
+                   input_external_language = "en",
+                   input_PeriodicTable = PeriodicTable)
+      
+      
+      text(0, 0, "Plot V2", cex = 4)
+      
+      
+      
+      
+      # # # # Headers
+      {
+      ###
+        
+      cex_1 <- 2
+      ycoord_1 <- 28
+      
+      # Helper Level 1 and 2
+      if(input$help_level == 1)    text(x = -1, y = ycoord_1, 
+                                        labels = colnames(HelperTable_Mod())[1],
+                                        adj = c(0,0), cex = cex_1)
+      
+      else if(input$help_level >= 2)    text(x = -1, y = ycoord_1, 
+                                             labels = colnames(HelperTable_Mod())[2],
+                                             adj = c(0,0), cex = cex_1)
+      
+      # # Level 3
+      if(input$help_level >= 3)    text(x = 5, y = ycoord_1, 
+                                        labels = colnames(HelperTable_Mod())[3],
+                                        adj = c(0,0), cex = cex_1)
+      
+      # # Level 4
+      if(input$help_level >= 4)    text(20, 28, colnames(HelperTable_Mod())[4],  
+                                        adj = c(0,0), cex = cex_1)
+      
+      ###
+      } # End Header
+      #######################################################################################
+      
+      
+      
+      # # # # Text
+      {
+      ###
+        
+      cex_2 <- 1
+      ycoord_2 <- 27
+      
+      
+      
+      # Level 1 or 2
+      if(input$help_level == 1) text(x = -1, y = ycoord_2, 
+                                     labels = HelperLevel01_Mod()[selected_step()], 
+                                     adj = c(0,1), cex = cex_2)
+      
+      
+      else if(input$help_level >= 2)  text(x = -1, y = ycoord_2,
+                                           labels = HelperLevel02_Mod()[selected_step()],
+                                           adj = c(0,1), cex = cex_2)
+      
+      # # Level 3
+      if(input$help_level >= 3)    text(x = 5, y = ycoord_2, 
+                                       labels = HelperLevel03_Mod()[selected_step()],
+                                        adj = c(0,1), cex = cex_2)
+       
+      # # Level 4
+      if(input$help_level >= 4)    text(x = 20, y = ycoord_2, 
+                                        labels =  HelperLevel04_Mod()[selected_step()],
+                                        adj = c(0,1), cex = cex_2, col = "blue")
+       
+        
+      ###
+      } # End Text
+      #######################################################################################
+      
+      
+    } else if (selected_step() == equation_step()) {
+      
+      GeneralPlot( input_atomic_number1 = input$atomic_number1,
+                   input_valence1 = input$valence1,
+                   input_atomic_number2 = input$atomic_number2,
+                   input_valence2 = input$valence2,
+                   input_family = input$chemestry_family,
+                   input_roman = FALSE,
+                   input_step = selected_step()-1,
+                   input_internal_language = "en",
+                   input_external_language = "en",
+                   input_PeriodicTable = PeriodicTable)
+      
+      
+      text(15, 25, i18n()$t("Final Equation"), cex = 7)
+      
+    } else if (selected_step() == nomenclature_step()) {
+      plot(c(0:30), c(0:30), axes=F, col="orange", xlab=" ", ylab=" ")
+      rect(par("usr")[1],par("usr")[3],par("usr")[2],par("usr")[4], col = "orange", border = "orange")
+      
+      text(-0.5, 25, i18n()$t("Nomenclature"), cex = 7, pos = 4)
+      
+      armed01 <- nomenclature()[2,1]
+      armed02 <- nomenclature()[2,2]
+      armed03 <- nomenclature()[2,3]
+      armed04 <- nomenclature()[3,4]
+      armed05 <- paste0("expression(", nomenclature()[1,4], ")")
+      
+      text(0, 17, armed01, cex = 2, pos = 4)
+      text(0, 11, armed02, cex = 2, pos = 4)
+      text(0,  5, armed03, cex = 2, pos = 4)
+      text(22, 25, armed04, cex = 7)
+      text(22, 10, eval(parse(text=armed05)), cex = 10)
+      
+    }
+    
+    
+  })
   
   
+  output$text_V1 <- renderText({
+    
+    my_text <- "Versión 1 - Estequimetría en Plot y Tabla Help"
+    my_text
+  })
+  
+  output$text_V2 <- renderText({
+    
+    my_text <- "Versión 2 - Estequimetría y Help todo en Plot"
+    my_text
+  })
+  
+  output$text_V3 <- renderText({
+    
+    my_text <- "Tabla Help"
+    my_text
+  })
+  
+  output$text_V4 <- renderText({
+    
+    my_text <- "Tabla de Nomenclatura"
+    my_text
+  })
 }
 
 

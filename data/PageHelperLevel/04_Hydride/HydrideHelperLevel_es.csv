@@ -1,22 +1,46 @@
 Order,Hydride_help01,Hydride_help02,Hydride_help03_YES,Hydride_help03_NO
-1,Presentación de Reactivos,EL elemento y luego el Hidrógeno son colocados separados por un signo '+' siendo ambos reactivos. No se colocan suníndices ni coeficientes. Nada den productos. A la derecha del Hidrógeno se coloca la flecha de reacción. A continuación de la flecha será detallado el producto.,"Colocamos las valencias en números romanos sobre cada reactivo para tenerlas de referencia.
-El elemento seleccionado es '_element1_' con valencia _valence1_.
-El Hidrógeno tiene valencia 1.","Colocamos las valencias en números romanos sobre cada reactivo para tenerlas de referencia.
-El elemento seleccionado es '_element1_' con valencia _valence1_.
-El Hidrógeno tiene valencia 1."
-2,Detalles en Reactivos,"El Hidrógeno en reactivos lleva subíndice 2 por ser un gas.
-Si el elemento esun gas debe llevar un 2 como subíndice.","El Hidrógeno es un gas. Siempre llevará un subíndice 2 en reactivos. En este caso el _element1_ es un gas también, por lo tanto debe llevar subíndice 2 en reactivos.","El Hidrógeno es un gas. Siempre llevará un subíndice 2 en reactivos.
-En este caso el _element1_ no es un gas, por lo tanto no llevará subíndice 2 en reactivos."
-3,Presentación del producto (Hidruro),"A la derecha de la flecha se detalla el producto. En este caso un Hidruro.
-La estructura del Hidruro es Elemento e Hidrógeno juntos (sin espacio entre ellos) indicando que son parte de una misma molécula.
-En principio no se colocan subíndices dentro del Hidruro.",Un Hidruro es un compuesto binario.,Un Hidruro es un compuesto binario.
-4,Detalles sobre el Hidruro,"El subíndice del Hidrógeno en el Hidruro cambia. 
+1,Presentación de Reactivos,"EL Elemento y luego el Hidrógeno son colocados separados por un signo '+' siendo ambos reactivos. 
+No se colocan suníndices ni coeficientes. Nada den productos. A la derecha del Hidrógeno se coloca 
+la flecha de reacción. A continuación de la flecha será detallado el producto.","El elemento seleccionado es '_element1_' con valencia _valence1_.
+El Hidrógeno tiene valencia 1. 
+Colocamos las valencias en números romanos sobre cada reactivo para 
+tenerlas de referencia.
+","El elemento seleccionado es '_element1_' con valencia _valence1_.
+El Hidrógeno tiene valencia 1. 
+Colocamos las valencias en números romanos sobre cada reactivo para 
+tenerlas de referencia.
+"
+2,Detalles en Reactivos,"El Hidrógeno en reactivos lleva subíndice 2 por ser un gas. 
+Si el elemento esun gas debe llevar un 2 como subíndice.","El Hidrógeno es un gas. Siempre llevará un subíndice 2 en reactivos. En este caso el '_element1_' es un gas también, por lo tanto debe llevar subíndice 2 
+en reactivos.","El Hidrógeno es un gas. Siempre llevará un subíndice 2 en reactivos.
+En este caso el '_element1_' no es un gas, por lo tanto no llevará subíndice 2 
+en reactivos."
+3,Presentación Hidruro,"A la derecha de la flecha se detalla el producto. En este caso un Hidruro.
+La estructura del Hidruro (Metálico) es Elemento e Hidrógeno juntos (sin espacio 
+entre ellos) indicando que son parte de una misma molécula.
+No se colocan subíndices dentro del Hidruro.",Un Hidruro es un compuesto binario.,Un Hidruro es un compuesto binario.
+4,Composición del  Hidruro,"El subíndice del Hidrógeno en el Hidruro cambia. 
 En el Hidruro el subíndice del Hidrógeno será la valencia del Elemento.
-En el Hidruro el subíndice del Elemento será la valencia del Hidrógeno (que es 1).","Las valencias fueron detalladas en números romanos. En el Hidruro el subíndice del '_element1_' será 1, y el subíndice del hidrógeno será _valence1_.","Las valencias fueron detalladas en números romanos. En el Hidruro el subíndice del '_element1_' será 1, y el subíndice del hidrógeno será _valence1_."
+En el Hidruro el subíndice del Elemento será la valencia del Hidrógeno (que es 1).","Las valencias fueron detalladas en números romanos. 
+En el Hidruro el subíndice del '_element1_' será 1, y el subíndice del hidrógeno será _valence1_.","Las valencias fueron detalladas en números romanos. 
+En el Hidruro el subíndice del '_element1_' será 1, y el subíndice del hidrógeno será _valence1_."
 5,Balanceo del Hidrógeno,"Procedemos a balancear el Hidrógeno.
 El subíndice del Hidrógeno en el Hidruro será el nuevo coeficiente del Hidrógeno en reactivos.
-",El nuevo coeficiente del Hidrógeno en reactivos es _coef2_ .,El coeficiente del Hidrógeno en reactivos sigue siendo _coef2_.
-6,Balanceo del Elemento,"Procedemos a balancear el elemento.
-El nuevo coeficiente del Elemento en reactivos será iguial a la cantidad del Elemento en reactivos dividido la cantidad del Elemento en productos.
-El resultado de esta operación será el nuevo coeficiente del Elemento en reactivos, y proveerá un balance general en toda la ecuación química.",El nuevo coeficiente del elemento '_element1_' en reactivos es _coef1_.,El coeficiente del elemento '_element1_'en reactivos sigue siendo _coef1_.
-7,Simplificación de coeficientes,"Si es posible, se simplifican los coeficientes de toda la ecuación con el mismo máximo común dividor (mcd).",Los coeficientes se simplifican por _mcd_coef_. Esta es la ecuación final.,No es posible simplificar aún más los coeficientes. Esta es la ecuación final.
+","El nuevo coeficiente del Hidrógeno en reactivos es _coef2_ . 
+El Hidrógeno fue balanceado.
+Verificar!","El coeficiente del Hidrógeno en reactivos sigue siendo _coef2_.
+El Hidrógeno fue balanceado.
+Verificar!"
+6,Balanceo del Elemento,"Procedemos a balancear el Elemento.
+El nuevo coeficiente del Elemento en reactivos será iguial a la cantidad del Elemento en reactivos 
+dividido la cantidad del Elemento en productos.
+El resultado de esta operación será el nuevo coeficiente del Elemento en reactivos, y proveerá un 
+balance general en toda la ecuación química.","El nuevo coeficiente del elemento '_element1_' en reactivos es _coef1_.
+El elemento '_element1_' fue balanceado.
+Verificar!","El coeficiente del elemento '_element1_' en reactivos sigue siendo _coef1_.
+El elemento '_element1_' fue balanceado.
+Verificar!"
+7,Simplificación de coeficientes,"Si es posible, se simplifican los coeficientes de toda la ecuación con el mismo máximo común 
+dividor (mcd).","Los coeficientes se simplifican por _mcd_coef_. 
+Esta es la ecuación final.","No es posible simplificar aún más los coeficientes. 
+Esta es la ecuación final."

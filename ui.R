@@ -45,6 +45,10 @@ shinyUI(
                                    choices = i18n$get_languages(),
                                    selected = initial_language),
                                 #   selected = i18n$get_key_translation()),
+                       selectInput('plot_version',
+                                   i18n$t("Plot version"),
+                                   choices = c("Version 1", "Version 2"),
+                                   selected = "Version 2"),
                        
                       # Menu
                      menuItem(i18n$t("Steichiometry"), tabName = "tab_internal01", icon = icon("home")),
@@ -137,15 +141,28 @@ shinyUI(
                 ),
           column(4, 
                  sliderInput(inputId = "help_level", label = i18n$t("Help Level"), 
-                             min=0, max=5, value=2, step=1)
+                             min=0, max=5, value=5, step=1)
                  )
               ),
 
-        plotOutput("resolution_plot"),
-        tableOutput("fc_HL_Table"),
+        br(), br(),
+        conditionalPanel(
+          condition = "input.plot_version == 'Version 1'",
+          h1(textOutput("text_V1")),
+        plotOutput("resolution_plot"), br(), br(),
+        ),
+        conditionalPanel(
+          condition = "input.plot_version == 'Version 2'",
+          h1(textOutput("text_V2")),
+          plotOutput("resolution_plot_V2"),
+        ),
         br(), br(), br(),
       
         br(), br(), 
+        h1(textOutput("text_V3")),
+        tableOutput("fc_HL_Table"),
+        br(),
+        h1(textOutput("text_V4")),
         tableOutput("tabla_nomenclatura"),
   
 

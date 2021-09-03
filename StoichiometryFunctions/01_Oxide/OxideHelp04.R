@@ -102,7 +102,7 @@ OxideHelp04 <-function(input_atomic_number1 = NULL, input_valence1 = NULL,
     ###
         # If the element is a gas
       
-      if (type1 == "Gas") new_help04[1] <- my_YES[1]
+      if (state1 == "Gas") new_help04[1] <- my_YES[1]
       
     ###  
     } # End Step 2
