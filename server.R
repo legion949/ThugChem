@@ -134,7 +134,7 @@ shinyServer(function(input, output ,session) {
     
     nomenclature <- reactive({
       
-      GeneralNomenclature(input_atomic_number1 = as.numeric(as.character(input$atomic_number1)),
+      my_nomenclature <- GeneralNomenclature(input_atomic_number1 = as.numeric(as.character(input$atomic_number1)),
                           input_valence1 = as.numeric(as.character(input$valence1)),
                           input_atomic_number2 = as.numeric(as.character(input$atomic_number2)),
                           input_valence2 = as.numeric(as.character(input$valence2)),
@@ -143,6 +143,9 @@ shinyServer(function(input, output ,session) {
                           input_external_language = input$selected_language,
                           input_PeriodicTable = PeriodicTable,
                           input_Nomenclature = Nomenclature)
+      
+      
+      my_nomenclature 
       # # 
       # # 
       # # GeneralNomenclature(input_atomic_number1 = 6,
@@ -777,7 +780,7 @@ shinyServer(function(input, output ,session) {
   
   output$tabla_nomenclatura <- renderTable({
     
-    nomenclature()
+    nomenclature()[1,]
     
     
   })

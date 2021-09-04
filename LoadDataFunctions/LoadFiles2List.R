@@ -21,8 +21,11 @@ LoadPeriodicTable <- function(){
   # The load!
   for (k in 1:length(completed_files_periodic)) {
     
+    # PeriodicTable[[k]] <- read.csv(file = completed_files_periodic[k], sep=",", 
+    #                                dec=".", header = T, encoding = "latin1")
+    # 
     PeriodicTable[[k]] <- read.csv(file = completed_files_periodic[k], sep=",", 
-                                   dec=".", header = T, encoding = "latin1")
+                                   dec=".", header = T, encoding = "utf-8")
   }
   
   # List names

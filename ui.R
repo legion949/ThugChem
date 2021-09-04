@@ -126,23 +126,22 @@ shinyUI(
 
        
         fluidRow(
-          column(8,   
-                 column(7,
+          column(4,
                         actionButton(inputId = "b1", label = i18n$t("Start")),
                         actionButton(inputId = "b2", label = i18n$t("<<<")),
                         actionButton(inputId = "b3", label = i18n$t(">>>")),
                         actionButton(inputId = "b4", label = i18n$t("Final")),
                         actionButton(inputId = "b5", label = i18n$t("Nomenclature"))
-                        ),
-                 column(5,
-                 sliderInput(inputId = "slider", label = i18n$t("Slider"), min=0, 
-                             max=15, value=1, step=1)
-                 )
-                ),
-          column(4, 
+                 ),
+          column(4,    
+                 sliderInput(inputId = "slider", label = i18n$t("Slider"), min=1, 
+                             max=10, value=1, step=1, ticks = T)
+                 ),
+          column(4,     
                  sliderInput(inputId = "help_level", label = i18n$t("Help Level"), 
                              min=0, max=5, value=5, step=1)
-                 )
+          )
+                
               ),
 
         br(), br(),
