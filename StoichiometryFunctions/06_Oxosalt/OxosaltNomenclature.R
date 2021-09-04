@@ -203,10 +203,7 @@ OxosaltNomenclature <- function(input_atomic_number1 = NULL,
       classic <- paste0(my_classic_nomenclature2, " ", my_classic_nomenclature1)
       
       
-      
-      # Writing spanish errors 
-      iupac <- gsub("oÓ", "ó", iupac)  
-      iupac <- gsub("aÓ", "ó", iupac) 
+
     }
     
     

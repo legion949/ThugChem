@@ -202,9 +202,7 @@ SaltNomenclature <- function(input_atomic_number1 = NULL,
       
       
       
-      # Writing spanish errors 
-      iupac <- gsub("oÓ", "ó", iupac)  
-      iupac <- gsub("aÓ", "ó", iupac) 
+
     }
     
     
