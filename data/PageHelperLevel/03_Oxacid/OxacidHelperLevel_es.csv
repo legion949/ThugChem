@@ -1,7 +1,9 @@
 Order,Oxacid_help01,Oxacid_help02,Oxacid_help03_YES,Oxacid_help03_NO
 1,Presentación de Reactivos,"El Óxido es colocado y luego el agua, separados por un signo '+' siendo ambos reactivos. 
 A la derecha del agua, una flecha llamda 'Flecha de reacción' es colocada. 
-Luego de la flecha serán colocados los productos.",El elemento seleccionado es '_element1_' con valencia _valence1_.,El elemento seleccionado es '_element1_' con valencia _valence1_.
+Luego de la flecha serán colocados los productos.","El elemento seleccionado es '_element1_' con valencia _valence1_. 
+Colocamos la valencia en números romanos como referencia.","El elemento seleccionado es '_element1_' con valencia _valence1_. 
+Colocamos la valencia en números romanos como referencia."
 2,Presentación del Oxácido,"A la derecha de la flecha el producto de la reacción sera detallado. En este caso el producto 
 será un Oxácido. La estructura del Oxácido es Hidrógeno, Elemento, y Oxígeno, juntos (sin 
 espacios entre ellos) indicando que son parte de la misma molécula. Al inicio, el subíndice

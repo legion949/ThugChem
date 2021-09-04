@@ -230,9 +230,9 @@ OxacidNomenclature <- function(input_atomic_number1 = NULL,
 } # End Function OxacidNomenclature***
 
 
-
-# input_atomic_number1 <- 6 #Carbono
-# input_valence1 <- 4
+# 
+# input_atomic_number1 <- 23 #Carbono
+# input_valence1 <- 2
 # input_internal_language <- "en"
 # input_external_language <- "es"
 # input_family <- "Oxacid"

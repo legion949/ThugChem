@@ -143,6 +143,25 @@ shinyServer(function(input, output ,session) {
                           input_external_language = input$selected_language,
                           input_PeriodicTable = PeriodicTable,
                           input_Nomenclature = Nomenclature)
+      # # 
+      # # 
+      # # GeneralNomenclature(input_atomic_number1 = 6,
+      # #                     input_valence1 = 2,
+      # #                     input_atomic_number2 = NULL,
+      # #                     input_valence2 = NULL,
+      # #                     input_family = "Oxide",
+      # #                     input_internal_language = "en",
+      # #                     input_external_language = "es",
+      # #                     input_PeriodicTable = PeriodicTable,
+      # #                     input_Nomenclature = Nomenclature)
+      # OxideNomenclature(input_atomic_number1 = 6,
+      #                   input_valence1 = 2,
+      #                   input_family = "Oxide",
+      #                   input_internal_language = "en",
+      #                   input_external_language = "es",
+      #                   input_PeriodicTable = PeriodicTable,
+      #                   input_Nomenclature = Nomenclature)
+      
           })
     
    
@@ -707,9 +726,15 @@ shinyServer(function(input, output ,session) {
                  input_external_language = "en",
                  input_PeriodicTable = PeriodicTable)
    
-    if(input$help_level == 1)    text(15, 25, HelperLevel01()[[2]][selected_step()], cex = 4)
-     else if(input$help_level >= 2)    text(3, 25, HelperLevel02()[selected_step()], cex = 4, pos = 4)
+        # Level 1 or 2
+        if(input$help_level == 1) text(x = 1, y = 28, 
+                                       labels = HelperLevel01_Mod()[selected_step()], 
+                                       adj = c(0,1), cex = 4)
         
+        
+        else if(input$help_level >= 2)  text(x = 1, y = 28,
+                                             labels = HelperLevel02_Mod()[selected_step()],
+                                             adj = c(0,1), cex = 4)         
       } else if (selected_step() == equation_step()) {
         
         GeneralPlot( input_atomic_number1 = input$atomic_number1,

@@ -1,6 +1,8 @@
 Order,Hydroxide_help01,Hydroxide_help02,Hydroxide_help03_YES,Hydroxide_help03_NO
 1,Presentanción de Reactivos,"El Óxido es colocado y luego el Agua, separados por un signo '+' siendo ambos Reactivos. 
-A la derecha del Agua se coloca la fecha de reacción. Luego de la fecha el producto será detallado.",El elemento seleccionado es '_element1_' con valencia _valence1_.,El elemento seleccionado es '_element1_' con valencia _valence1_.
+A la derecha del Agua se coloca la fecha de reacción. Luego de la fecha el producto será detallado.","El elemento seleccionado es '_element1_' con valencia _valence1_. 
+Colocamos la valencia en números romanos como referencia.","El elemento seleccionado es '_element1_' con valencia _valence1_. 
+Colocamos la valencia en números romanos como referencia."
 2,Presentación de Hidróxido,"A la derecha de la flecha de reacción será detallado el producto, siendo en este caso un Hidróxido.
 La estructura química del Hidróxido es el Elemento y el grupo Hidroxilo juntos (sin espacios entre 
 ellos) indicando que ambos forman parte de una misma molécula. 

@@ -6,9 +6,10 @@ SaltPlot <-function(input_atomic_number1 = input_atomic_number1,
                       input_atomic_number2 = input_atomic_number2,
                       input_valence2 = input_valence2,
                       input_internal_language = "en",
-                      input_step = NULL,
                       input_external_language = input_external_language,
-                      input_PeriodicTable = input_PeriodicTable) {
+                      input_roman = NULL,
+                      input_PeriodicTable = input_PeriodicTable,
+                      input_step = NULL) {
   
  
   # Internal Settings
@@ -23,6 +24,7 @@ SaltPlot <-function(input_atomic_number1 = input_atomic_number1,
     if (is.null(input_external_language)) input_external_language <- "en"
     
     if (is.null(input_step)) input_step <- 1
+    if (is.null(input_roman)) input_roman <- TRUE
     ###  
   } # End Internal Settings
   ##########################################################################
@@ -84,8 +86,8 @@ SaltPlot <-function(input_atomic_number1 = input_atomic_number1,
     romans <- c("I", "II", "III", "IV", "V", "VI", "VII", "VIII", " ")
     
     # Roman Valences
-    r1 <- romans[input_valence1]
-    r2 <- romans[input_valence2]
+    r1 <- romans[as.numeric(as.character(input_valence1))]
+    r2 <- romans[as.numeric(as.character(input_valence2))]
     ###
   } # End Part 1
   #################################################################
@@ -110,6 +112,12 @@ SaltPlot <-function(input_atomic_number1 = input_atomic_number1,
   ###
     # Normal Case 
     if (internal_control == 1) {
+      
+      
+      
+      # Completed Chemical Equation
+      {
+      ###
       
   library(stringr)
   my_dt <- c(T, F)
@@ -170,9 +178,30 @@ SaltPlot <-function(input_atomic_number1 = input_atomic_number1,
   # E4
   text(gps_x[12], gps_y[12], eval(parse(text = my_armed_step[10])), cex = my_cex[10], pos = 4)
   
-  } 
+  } # End Completed equation
+      ##########################################
 
-  
+      
+      # Valence in Roman Numbers
+      if(input_roman) {
+        ###
+        
+        # GPS       1    2     3      4       5       6      7        8       9
+        gps_y_valence <- gps_y[c(2,5)] + 10
+        gps_x_valence <- gps_x[c(2,5)] + c(0.3, 0.3)
+        my_cex_valence <- c(3,3)
+        
+        
+        # Valence in roman numbers
+        text(gps_x_valence[1], gps_y_valence[1], r1, cex = my_cex_valence[1], pos = 4)
+        text(gps_x_valence[2], gps_y_valence[2], r2, cex = my_cex_valence[2], pos = 4)
+        
+        ###  
+      } # End Valence
+      ###################################
+      
+      
+    } # End if
 
   
   ###

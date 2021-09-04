@@ -146,6 +146,8 @@ shinyUI(
               ),
 
         br(), br(),
+        
+        
         conditionalPanel(
           condition = "input.plot_version == 'Version 1'",
           h1(textOutput("text_V1")),

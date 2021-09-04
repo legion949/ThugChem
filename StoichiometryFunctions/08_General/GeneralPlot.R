@@ -81,6 +81,7 @@ GeneralPlot <- function(input_atomic_number1 = NULL, input_valence1 = NULL,
                       input_valence1 = input_valence1,
                       input_internal_language = "en",
                       input_external_language = input_external_language,
+                      input_roman = input_roman,
                       input_PeriodicTable = input_PeriodicTable,
                       input_step = input_step)
       } else
@@ -91,6 +92,7 @@ GeneralPlot <- function(input_atomic_number1 = NULL, input_valence1 = NULL,
                      input_valence1 = input_valence1,
                      input_internal_language = "en",
                      input_external_language = input_external_language,
+                     input_roman = input_roman,
                      input_PeriodicTable = input_PeriodicTable,
                      input_step = input_step)
           
@@ -102,6 +104,7 @@ GeneralPlot <- function(input_atomic_number1 = NULL, input_valence1 = NULL,
                         input_valence1 = input_valence1,
                         input_internal_language = "en",
                         input_external_language = input_external_language,
+                        input_roman = input_roman,
                         input_PeriodicTable = input_PeriodicTable,
                         input_step = input_step)
             
@@ -114,6 +117,7 @@ GeneralPlot <- function(input_atomic_number1 = NULL, input_valence1 = NULL,
                            input_valence1 = input_valence1,
                            input_internal_language = "en",
                            input_external_language = input_external_language,
+                           input_roman = input_roman,
                            input_PeriodicTable = input_PeriodicTable,
                            input_step = input_step)
             } else
@@ -126,6 +130,7 @@ GeneralPlot <- function(input_atomic_number1 = NULL, input_valence1 = NULL,
                            input_valence2 = input_valence2,
                            input_internal_language = "en",
                            input_external_language = input_external_language,
+                           input_roman = input_roman,
                            input_PeriodicTable = input_PeriodicTable,
                            input_step = input_step)
               } else
@@ -138,6 +143,7 @@ GeneralPlot <- function(input_atomic_number1 = NULL, input_valence1 = NULL,
                            input_valence2 = input_valence2,
                            input_internal_language = "en",
                            input_external_language = input_external_language,
+                           input_roman = input_roman,
                            input_PeriodicTable = input_PeriodicTable,
                            input_step = input_step)
                 } else

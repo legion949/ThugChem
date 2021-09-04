@@ -4,7 +4,8 @@
 OxacidPlot <-function(input_atomic_number1 = NULL, input_valence1 = NULL,
                       input_internal_language = "en", input_external_language = NULL,
                       input_PeriodicTable = NULL,
-                      input_step = NULL) {
+                      input_step = NULL,
+                      input_roman = NULL) {
 
 
   # Internal Settings
@@ -19,6 +20,7 @@ OxacidPlot <-function(input_atomic_number1 = NULL, input_valence1 = NULL,
     if (is.null(input_external_language)) input_external_language <- "en"
 
     if (is.null(input_step)) input_step <- 1
+    if (is.null(input_roman)) input_roman <- TRUE
     ###
   } # End Internal Settings
   ##########################################################################
@@ -74,9 +76,9 @@ OxacidPlot <-function(input_atomic_number1 = NULL, input_valence1 = NULL,
     ###
     # Romans
     romans <- c("I", "II", "III", "IV", "V", "VI", "VII", "VIII", " ")
-
+    
     # Roman Valences
-    r1 <- romans[input_valence1]
+    r1 <- romans[as.numeric(as.character(input_valence1))]
     ###
   } # End Part 1
   #################################################################
@@ -101,6 +103,12 @@ OxacidPlot <-function(input_atomic_number1 = NULL, input_valence1 = NULL,
   ###
     # Normal Case and Oxygen Case
     if (internal_control == 1) {
+      
+      
+      # Completed Chemical Equation
+      {
+      ###
+        
   #          C1    E1    +      C2      E2      ########       C3       E3
   # GPS       1    2     3      4       5       6      7        8       9
   gps_y <- c( 7,   7,    7,     7,      7,     8.5,   8.5,      7,      7)
@@ -132,9 +140,29 @@ OxacidPlot <-function(input_atomic_number1 = NULL, input_valence1 = NULL,
   # Hydroxide
   text(gps_x[9], gps_y[9], eval(parse(text = my_armed_step[7])), cex = my_cex[7], pos = 4)
 
-  }
-
-
+  } # End completed Chemical Equation
+      ########################################
+      
+      
+      # Valence in Roman Numbers
+      if(input_roman) {
+        ###
+        
+        # GPS       1    2     3      4       5       6      7        8       9
+        gps_y_valence <- gps_y[2] + 10
+        gps_x_valence <- gps_x[2] + 0.5
+        my_cex_valence <- 3
+        
+        
+        # Valence in roman numbers
+        text(gps_x_valence[1], gps_y_valence[1], r1, cex = my_cex_valence[1], pos = 4)
+        
+        
+        ###  
+      } # End Valence
+      ###################################
+      
+    } # End if
 
 
   ###
@@ -149,22 +177,22 @@ OxacidPlot <-function(input_atomic_number1 = NULL, input_valence1 = NULL,
 
 
 
-
+# 
 # input_atomic_number1 <- 7
 # input_valence1 <- 5
 # input_internal_language <- "en"
 # input_external_language <- "es"
+# input_roman <- TRUE
 # input_PeriodicTable <- PeriodicTable
 # input_step <- 7
-# input_GeneralNomenclature01 <-  GeneralNomenclature01
-# input_GeneralNomenclature02 <-  GeneralNomenclature02
-# input_GeneralNomenclature03 <-  GeneralNomenclature03
+#
 # 
 # 
 # OxacidPlot(input_atomic_number1 = input_atomic_number1,
 #                                         input_valence1 = input_valence1,
 #                                         input_internal_language = "en",
 #                                         input_external_language = input_external_language,
+#                                         input_roman = input_roman,
 #                                         input_PeriodicTable = input_PeriodicTable,
 #                                         input_step = input_step)
-# 
+

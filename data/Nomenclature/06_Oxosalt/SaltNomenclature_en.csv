@@ -4,7 +4,7 @@ Order,Symbol,Name,Type,Valence,Amount of Valences,Oxide_ValenceOrder1,Oxide_Vale
 3,Li,Litio,Metal,1,1,de Litio,,,,,de Litio
 4,Be,Berilio,Metal,2,1,de Berilio,,,,,de Berilio
 5,B,Boro,Metalloid,3,1,de Boro,,,,,de Boro
-6,C,Carbón,Non-metal,2;4,2,No corresponde,No corresponde,,,,No corresponde
+6,C,Carbono,Non-metal,2;4,2,No corresponde,No corresponde,,,,No corresponde
 7,N,Nitrógeno,Non-metal,2;3;4;5,4,No corresponde,No corresponde,No corresponde,No corresponde,,No corresponde
 8,O,Oxígeno,Non-metal,2,1,No corresponde,,,,,No corresponde
 9,F,Flúor,Non-metal,1,1,Fluoruro,,,,,Fluoruro
