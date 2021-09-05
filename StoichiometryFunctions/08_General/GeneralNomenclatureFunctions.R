@@ -153,13 +153,13 @@ GeneralNomenclature <- function(input_atomic_number1 = NULL, input_valence1 = NU
   {
   ###
     
-    corte1 <- c("oÓ")
-    corte2 <- c("Ó")
-    # Encoding(corte1)
-    # Encoding(corte2)
-    Encoding(corte1) <- "UTF-8"
-    Encoding(corte2) <- "UTF-8"
-    for (k in 1:length(corte1)) iupac <- gsub(corte1[k], corte2[k], iupac)
+    # corte1 <- c("oÓ")
+    # corte2 <- c("Ó")
+    # # Encoding(corte1)
+    # # Encoding(corte2)
+    # Encoding(corte1) <- "UTF-8"
+    # Encoding(corte2) <- "UTF-8"
+    # for (k in 1:length(corte1)) iupac <- gsub(corte1[k], corte2[k], iupac)
     
     #  cat("Completo: ", iupac, "\n")
     
@@ -203,18 +203,18 @@ GeneralNomenclature <- function(input_atomic_number1 = NULL, input_valence1 = NU
 # input_external_language <- "es"
 # input_PeriodicTable <- PeriodicTable
 # input_Nomenclature <- Nomenclature
-
-
-
-input_general_nomenclature <- GeneralNomenclature(input_atomic_number1 = input_atomic_number1,
-                                         input_valence1 = input_valence1,
-                                         input_atomic_number2 = input_atomic_number2,
-                                         input_valence2 = input_valence2,
-                                         input_family = "Oxide",
-                                         input_internal_language = "en",
-                                         input_external_language = input_external_language,
-                                         input_PeriodicTable = input_PeriodicTable,
-                                         input_Nomenclature = input_Nomenclature)
-
-
-input_general_nomenclature
+# 
+# 
+# 
+# input_general_nomenclature <- GeneralNomenclature(input_atomic_number1 = input_atomic_number1,
+#                                          input_valence1 = input_valence1,
+#                                          input_atomic_number2 = input_atomic_number2,
+#                                          input_valence2 = input_valence2,
+#                                          input_family = "Oxide",
+#                                          input_internal_language = "en",
+#                                          input_external_language = input_external_language,
+#                                          input_PeriodicTable = input_PeriodicTable,
+#                                          input_Nomenclature = input_Nomenclature)
+# 
+# 
+# input_general_nomenclature

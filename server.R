@@ -38,6 +38,7 @@ shinyServer(function(input, output ,session) {
     translator
   })
     
+  
   if (1 == 2) {
   # Language
   {
@@ -98,7 +99,7 @@ shinyServer(function(input, output ,session) {
   
   
   
-  
+
   # General Resolution
   {
   ###
@@ -134,7 +135,7 @@ shinyServer(function(input, output ,session) {
     
     nomenclature <- reactive({
       
-      my_nomenclature <- GeneralNomenclature(input_atomic_number1 = as.numeric(as.character(input$atomic_number1)),
+      GeneralNomenclature(input_atomic_number1 = as.numeric(as.character(input$atomic_number1)),
                           input_valence1 = as.numeric(as.character(input$valence1)),
                           input_atomic_number2 = as.numeric(as.character(input$atomic_number2)),
                           input_valence2 = as.numeric(as.character(input$valence2)),
@@ -145,25 +146,8 @@ shinyServer(function(input, output ,session) {
                           input_Nomenclature = Nomenclature)
       
       
-      my_nomenclature 
-      # # 
-      # # 
-      # # GeneralNomenclature(input_atomic_number1 = 6,
-      # #                     input_valence1 = 2,
-      # #                     input_atomic_number2 = NULL,
-      # #                     input_valence2 = NULL,
-      # #                     input_family = "Oxide",
-      # #                     input_internal_language = "en",
-      # #                     input_external_language = "es",
-      # #                     input_PeriodicTable = PeriodicTable,
-      # #                     input_Nomenclature = Nomenclature)
-      # OxideNomenclature(input_atomic_number1 = 6,
-      #                   input_valence1 = 2,
-      #                   input_family = "Oxide",
-      #                   input_internal_language = "en",
-      #                   input_external_language = "es",
-      #                   input_PeriodicTable = PeriodicTable,
-      #                   input_Nomenclature = Nomenclature)
+
+     
       
           })
     
@@ -174,23 +158,82 @@ shinyServer(function(input, output ,session) {
   ####################################################################
   
   
-  # Slider settings
+  # Labels and options (Reactive)
   {
+  ###
+    
+  
+    
+    
+  ###  
+  } # End Labels and options (Reactive)
+  ##############################################################################
+  
+  
+  
+  # Language Update
+  ###### Coming soon
+  
+
+  # Chemestry Family (Update)
+  observe({
+    
+    # Internal Options (Default - En. For example: Oxide)
+    my_family_chem <- PageFamilyOptions[,"chemestry_family"]
+    
+    # Visual User options (Default - En)
+    user_options <- PageFamilyOptions[,"user_chem_fam"]
+    
+    # Translate Visual user options (For example, in Spanish: Oxido)
+    names(my_family_chem) <- i18n()$t(user_options)
+    
+    # Control the value, min, max, and step.
+    updateRadioButtons(session, "chemestry_family", 
+                       label = i18n()$t("Chemestry Family"),
+                       choices = my_family_chem,
+                       selected = my_family_chem[1])
+  })
+  
+  
+  # # Default step (Update)
+  # observeEvent(input$selected_language,{
+  #     
+  #     names(my_step_options) <- i18n()$t(names(my_step_options))
+  #     
+  #     # Control the value, min, max, and step.
+  #     updateRadioButtons(session, "default_step",
+  #                        label = i18n()$t("Default step"),
+  #                        choices = my_step_options,
+  #                        selected = my_step_options[1])
+  #   })
+ 
+  
+  
+  
+  
+  
+  # Steps - Reactive objects
+  {
+  ###
     
     # Inititating reactive values, these will `reset` for each session
     # These are just for counting purposes so we can step through the questions
     # Cantidad de pasos
     
+    # Total steps of the stoichiometry
     total_stoichiometry_step <- reactive({
-      nrow(my_latex())
+      # # # nrow(my_latex())
+        nrow(PageHelperLevel[[input$chemestry_family]][["en"]])
     })
     
+    # Vector for each step in stoichiometry
     vector_stoichiometry <- reactive({
       
       c(1:total_stoichiometry_step())
       
     })
     
+    # Total step in page (stoichiometry + Final ecuation + nomenclature)
     vector_slider <- reactive({
       
       extra_step <- 2   # Final Equation and Nomenclature
@@ -203,58 +246,54 @@ shinyServer(function(input, output ,session) {
     
     
     
-    # Imagen elegida para mostrar "Paso a Paso Imagenes"
-    selected_step <- reactiveVal(1)
+    # Step number for final estoichiometry step
+    final_step <- reactive({ 
+      
+      # result <- max(vector_slider()) - 2
+      # result
+      nrow(PageHelperLevel[[input$chemestry_family]][["en"]])
+    })
+   
     
-    
+    # Step number for final equation step
+    equation_step <- reactive({ 
+      
+      result <- max(vector_slider()) - 1
+      result
+    })
+     
+    # Step number for nomenclature
     nomenclature_step <- reactive({ 
       
       max(vector_slider())
       
       
     })
-    
-    final_step <- reactive({ 
+
+   
+    # Default step selection
+    default_step_selection <- reactive({
       
-      result <- max(vector_slider()) - 2
-      result
-    })
-    
-    equation_step <- reactive({ 
+  
+      c(1, equation_step(), nomenclature_step())
       
-      result <- max(vector_slider()) - 1
-      result
     })
     
     
+    # Selected Step (Default is first step)
+    selected_step <- reactiveVal(1)
+
     
   } # End Slider settings
   #########################################################
   
   
  
-  # Chemestry Family and Element Selection
+  # Element Selection - Reactive objects
   {
-    ###
+  ###
     
-    # Update Chemestry Family
-    observe({
-      
-      # Internal Options
-      my_family_chem <- PageFamilyOptions[,"chemestry_family"]
-      
-      # Visual User options (Default - En)
-      user_options <- PageFamilyOptions[,"user_chem_fam"]
-      
-      # Translate Visual user options
-      names(my_family_chem) <- i18n()$t(user_options)
-      
-      # Control the value, min, max, and step.
-      updateRadioButtons(session, "chemestry_family", 
-                         label = i18n()$t("Chemestry Family"),
-                         choices = my_family_chem,
-                         selected = my_family_chem[1])
-    })
+   
 
     # Reactive for order row for Info and details
     RowSelectedInfo <- reactive({
@@ -366,9 +405,14 @@ shinyServer(function(input, output ,session) {
          new_pos
       
     })
-    
-    # Update Atomic Number 1 and 2 (Element Selection)
-    observe({
+   
+  ###   
+  }
+  #############################################################
+  
+  
+  # Element Selection - Reactive objects (Update)
+  observe({
       
       combinated_options01 <- Elements_Info[[input$selected_language]][Selection01()]
       
@@ -396,12 +440,19 @@ shinyServer(function(input, output ,session) {
       
     })
     
-    # Text01 for ES 01 and 02
-    output$fc_ES01_text01 <- renderText({
+  
+  # Element Seleccion - Text
+  {
+  ###
+    
+    
+  # Text01 for ES 01 and 02
+  output$fc_ES01_text01 <- renderText({
       i18n()$t(PageFamilyOptions[RowSelectedInfo()[1], "text_01"])
      
       
     })
+    
     output$fc_ES02_text01 <- renderText({
       i18n()$t(PageFamilyOptions[RowSelectedInfo()[2], "text_01"])
 
@@ -429,24 +480,45 @@ shinyServer(function(input, output ,session) {
   
 
   
-  # Slider Upgrade
+  # Slider (Update) 
   {
   ###
-    
-    # Slide Update
-    observe({
+
+    # Slide Update for a new chemestryr family
+    observeEvent(input$chemestry_family,{
       
-    #  selected_step(max(vector_slider() - 2))
-                    
-      # Control the value, min, max, and step.
-      updateSliderInput(session, "slider", value = selected_step(),
-                        min = min(vector_slider()), max = max(vector_slider())
-      )
+      # Reset selected step
+      selected_step(1)
+      
+     # Control the value, min, max, and step.
+     updateSliderInput(session, "slider", value = selected_step(),
+                       min = min(vector_slider()), max = max(vector_slider())
+     )
       
       
     })
     
+        
     
+   
+    
+    # Slide Update for a new step
+    observe({
+
+
+      # Control the value, min, max, and step.
+      updateSliderInput(session, "slider", value = selected_step(),
+                        min = min(vector_slider()), max = max(vector_slider())
+      )
+
+
+    })
+    
+
+    
+    
+    
+
     # Si aprieta el boton "Inicio"
     observeEvent(input$atomic_number1,{
       selected_step(1)
@@ -924,7 +996,7 @@ shinyServer(function(input, output ,session) {
   
   output$text_V2 <- renderText({
     
-    my_text <- "Versión 2 - Estequimetría y Help todo en Plot"
+    my_text <- "Versión 2 - Estequiometría y Help todo en Plot"
     my_text
   })
   
