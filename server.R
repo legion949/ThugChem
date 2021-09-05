@@ -990,25 +990,25 @@ shinyServer(function(input, output ,session) {
   
   output$text_V1 <- renderText({
     
-    my_text <- "Versión 1 - Estequimetría en Plot y Tabla Help"
+    my_text <- i18n()$t("Version 1 - Steichiometry on plot and Help Table")
     my_text
   })
   
   output$text_V2 <- renderText({
     
-    my_text <- "Versión 2 - Estequiometría y Help todo en Plot"
+    my_text <- i18n()$t("Versión 2 - Steichiometry and Help all in Plot")
     my_text
   })
   
   output$text_V3 <- renderText({
     
-    my_text <- "Tabla Help"
+    my_text <- i18n()$t("Help Table")
     my_text
   })
   
   output$text_V4 <- renderText({
     
-    my_text <- "Tabla de Nomenclatura"
+    my_text <- i18n()$t("Nomenclature Table")
     my_text
   })
 }

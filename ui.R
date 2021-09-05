@@ -48,7 +48,7 @@ shinyUI(
                        selectInput('plot_version',
                                    i18n$t("Plot version"),
                                    choices = c("Version 1", "Version 2"),
-                                   selected = "Version 2"),
+                                   selected = "Version 1"),
                        
                       # Menu
                      menuItem(i18n$t("Steichiometry"), tabName = "tab_internal01", icon = icon("home")),
@@ -144,7 +144,7 @@ shinyUI(
                  ),
           column(4,     
                  sliderInput(inputId = "help_level", label = i18n$t("Help Level"), 
-                             min=0, max=5, value=5, step=1)
+                             min=0, max=5, value=0, step=1)
           )
                 
               ),
