@@ -25,7 +25,7 @@ LoadPeriodicTable <- function(){
     #                                dec=".", header = T, encoding = "latin1")
     # 
     PeriodicTable[[k]] <- read.csv(file = completed_files_periodic[k], sep=",", 
-                                   dec=".", header = T, encoding = "utf-8")
+                                   dec=".", header = T, fileEncoding="latin1")
   }
   
   # List names
@@ -73,7 +73,7 @@ LoadNomenclature <- function(){
     
     
     Nomenclature[[k]][[h]] <- read.csv(file = my_dir5[h], sep=",", 
-                                   dec=".", header = T, encoding = "latin1")
+                                   dec=".", header = T, fileEncoding="latin1")
   } # End for h
   
   # List names
@@ -101,7 +101,7 @@ LoadInteligentSelection <- function(){
   
   
   InteligentSelection <- read.csv(file = my_dir, sep=",", dec=".", 
-                              header = T, encoding = "latin1")
+                              header = T, fileEncoding="latin1")
   
   
   
@@ -119,7 +119,7 @@ LoadPageFamilyOptions <- function(){
   
   
   PageFamilyOptions <- read.csv(file = my_dir, sep=",", dec=".", 
-                                  header = T, encoding = "latin1", na.strings = "NA")
+                                  header = T, fileEncoding="latin1", na.strings = "NA")
   
   
   
@@ -159,6 +159,9 @@ NewCombination <- function(all_app_language = NULL){
   my_symbols_mod[my_count2 == 1] <- paste0(my_symbols_mod[my_count2 == 1], " ")
   my_symbols_mod[my_count2 == 2] <- paste0(my_symbols_mod[my_count2 == 2], "  ")
   
+  my_state <- PeriodicTable[[the_language]][,"State"]
+  my_state_mod <-as.character(my_state)
+  
   my_names <- PeriodicTable[[the_language]][,3]
   my_types <- PeriodicTable[[the_language]][,7]
   
@@ -166,7 +169,8 @@ NewCombination <- function(all_app_language = NULL){
   
   combinated <- my_atomic_numbers
   names(combinated) <- paste0(my_atomic_numbers_mod, " - ", my_symbols_mod,
-                                      " - ", my_names, " - ", my_types) 
+                                      " - ", my_names, " - ", my_types, 
+                                      " - ", my_state_mod) 
   
   
   combinated_options[[count_internal]] <- combinated
@@ -217,7 +221,7 @@ LoadPageHelperLevel <- function(){
         
         
         PageHelperLevel[[k]][[h]] <- read.csv(file = my_dir5[h], sep=",", 
-                                           dec=".", header = T, encoding = "latin1")
+                                           dec=".", header = T, fileEncoding="latin1")
       } # End for h
       
       # List names

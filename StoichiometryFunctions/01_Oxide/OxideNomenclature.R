@@ -177,15 +177,7 @@ OxideNomenclature <- function(input_atomic_number1 = NULL,
     classic <- my_classic_nomenclature
     
     
-    #cat("Encoding: ", Encoding(iupac), "\n")
-    corte1 <- "oÓ"
-    corte2 <- "Ó"
-   # Encoding(corte1)
-   # Encoding(corte2)
-    Encoding(corte1) <- "UTF-8"
-    Encoding(corte2) <- "UTF-8"
-    iupac <- gsub(corte1, corte2, iupac)
-  #  cat("Completo: ", iupac, "\n")
+
     
     }
     

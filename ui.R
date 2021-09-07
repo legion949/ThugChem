@@ -10,12 +10,14 @@ armado[[1]] <- "latin1"
 names(armado) <- "fileEncoding"
 
 # File with translations
-i18n <- Translator$new(translation_csvs_path = "data/TranslatePagei18n/")
+suppressWarnings(i18n <- Translator$new(translation_csvs_path = "data/TranslatePagei18n/"))
+
 initial_language <- "es"
 i18n$set_translation_language(initial_language) # here you select the default translation to display
 
 shinyUI(
   fluidPage(
+    withMathJax(),
     shiny.i18n::usei18n(i18n),
     tags$head(includeHTML("www/google-analytics-ThugChem.html")),
   useShinyjs(),
@@ -47,8 +49,8 @@ shinyUI(
                                 #   selected = i18n$get_key_translation()),
                        selectInput('plot_version',
                                    i18n$t("Plot version"),
-                                   choices = c("Version 1", "Version 2"),
-                                   selected = "Version 1"),
+                                   choices = c("Version 1", "Version 2", "Version 3"),
+                                   selected = "Version 3"),
                        
                       # Menu
                      menuItem(i18n$t("Steichiometry"), tabName = "tab_internal01", icon = icon("home")),
@@ -162,14 +164,36 @@ shinyUI(
           h1(textOutput("text_V2")),
           plotOutput("resolution_plot_V2"),
         ),
+        conditionalPanel(
+          condition = "input.plot_version == 'Version 3'",
+         
+          fluidRow(
+            column(7, plotOutput("resolution_plot_V3"), 
+                  ),
+            column(5,
+                   uiOutput('exit03')
+                  ),
+            ),
+          fluidRow(
+            h1(uiOutput("text_V3")),
+            h4(uiOutput('ex1'))
+          ),
+          h2(textOutput("exit04")), br(),
+          uiOutput('exit01'), br(), 
+          h3(uiOutput('exit02')),
+         
+   br(),
+   #       tableOutput("fc_HL_Table"),
+    #      tableOutput('ex2'),
+        ),
+
         br(), br(), br(),
       
         br(), br(), 
-        h1(textOutput("text_V3")),
-        tableOutput("fc_HL_Table"),
+     
         br(),
         h1(textOutput("text_V4")),
-        tableOutput("tabla_nomenclatura"),
+   h3(tableOutput("tabla_nomenclatura")),
   
 
 

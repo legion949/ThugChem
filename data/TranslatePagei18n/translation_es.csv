@@ -8,7 +8,7 @@ Contact,Contacto
 Chemestry Family,Familia Química
 Default step,Step por defecto
 Beginning,Inicio
-Final equation,Ecuacion Final
+Final equation,Ecuación Final
 Selection 01,Selección 01
 Selection 02,Selección 02
 Valence 01,Valencia 01
@@ -21,32 +21,32 @@ Start,Inicio
 Final,Final
 Nomenclature,Nomenclatura
 Final Equation,Ecuación Final
-######## Chemestry Family,######## Familia Química
-Oxide,Óxido
+######## Chemestry Family,######## Familia Quimica
+Oxide,Oxido
 Hydroxide,Hidróxido
-Oxacid,Oxácido
+Oxacid,Oxacido
 Hydride,Hidruro
-Hydracid,Hydracid
+Hydracid,Hidracido
 Oxosalt,Oxosal
 Salt,Sal
-Hydride (Metalic Hydride),Hidruro (Hidruro Metálico)
-Hydracid (Non-metalic Hydride),Hidrácido (Hidruro No metálico)
+Hydride (Metalic Hydride),Hidruro (Hidruro Metalico)
+Hydracid (Non-metalic Hydride),Hidracido (Hidruro No metalico)
 ######## Element Selector,######## Selector de Elemento
-Oxide - Select an element,Óxido - Selecciona un elemento
-Hydroxide - Select an element (Restringed options),Hidróxido - Selecciona un elemento (Elección restringida)
-Oxacid - Select an element (Restringed options),Oxácido - Selecciona un elemento (Elección restringida)
-Hydride - Select an element (Restringed options),Hidruro - Selecciona un elemento (Elección restringida)
-Hydracid - Select an element (Restringed options),Hidrácido - Selecciona un elemento (Elección restringida)
-Hydroxide for a Oxosalt - Select an element (Restringed options),Hidróxido para Oxosal - Selecciona un elemento (Elección restringida)
-Oxacid  for a Oxosalt - Select an element (Restringed options),Oxácido para Oxosal - Selecciona un elemento (Elección restringida)
-Hydroxide for a Salt - Select an element (Restringed options),Hidróxido para Sal - Selecciona un elemento (Elección restringida)
-Hydracid  for a Salt - Select an element (Restringed options),Hidrácido para Sal - Selecciona un elemento (Elección restringida)
+Oxide - Select an element,oxido - Selecciona un elemento
+Hydroxide - Select an element (Restringed options),Hidroxido - Selecciona un elemento (Eleccion restringida)
+Oxacid - Select an element (Restringed options),Oxacido - Selecciona un elemento (Eleccion restringida)
+Hydride - Select an element (Restringed options),Hidruro - Selecciona un elemento (Eleccion restringida)
+Hydracid - Select an element (Restringed options),Hidracido - Selecciona un elemento (Eleccion restringida)
+Hydroxide for a Oxosalt - Select an element (Restringed options),Hidroxido para Oxosal - Selecciona un elemento (Eleccion restringida)
+Oxacid  for a Oxosalt - Select an element (Restringed options),Oxacido para Oxosal - Selecciona un elemento (Eleccion restringida)
+Hydroxide for a Salt - Select an element (Restringed options),Hidroxido para Sal - Selecciona un elemento (Eleccion restringida)
+Hydracid  for a Salt - Select an element (Restringed options),Hidracido para Sal - Selecciona un elemento (Eleccion restringida)
 ######## Help Element Selector,######## Ayuda del Selector de Elemento
 Choose an element.,Elije un elemento.
-Only metals and some metalloids can be choosen.,Solo metales y algún metaloide puede ser elegido.
+Only metals and some metalloids can be choosen.,Solo metales y algun metaloide puede ser elegido.
 Only non-metals and some metaloids can be choosen.,Solo No Metales y algunos metaloides pueden ser elegidos.
 "Only six non-metals (Br, Cl, F, I, S, Se) and one metalloid (Te) can be choosen.","Solos seis No Metales (Br, Cl, F, I, S, Se) y un metaloide (Te) pueden ser elegidos."
-Only the first valence can be choosen for Hydracid.,Solo la primer valencia puede ser elegida para un Hidrácido.
+Only the first valence can be choosen for Hydracid.,Solo la primer valencia puede ser elegida para un Hidracido.
 ######## Helper table colnames,######## Nombre de las columnas del helper
 Step,Step
 Resumen,Resumen
@@ -54,9 +54,10 @@ General details,Detalles generales
 ,
 Specific details,Detalles especificos
 #### Special Characters,#### Caracteres Especiales
-Version 1 - Steichiometry on plot and Help Table,Versión 1 - Estequimetría en Plot y Tabla Help
-Version 2 - Steichiometry and Help all in Plot,Versión 2 - Estequiometría y Help todo en Plot
+Version 1 - Steichiometry on plot and Help Table,Version 1 - Estequimetria en Plot y Tabla Help
+Version 2 - Steichiometry and Help all in Plot,Version 2 - Estequiometria y Help todo en Plot
 Nomenclature Table,Tabla de Nomenclatura
 Help Table,Tabla de Ayuda
 of,de
 #### End Special Characters,#### Fin Caracteres Especiales
+  ,  

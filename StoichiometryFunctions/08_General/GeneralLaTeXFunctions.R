@@ -173,13 +173,14 @@ GeneralLaTeX <- function(input_atomic_number1 = NULL, input_valence1 = NULL,
 
 
 
-
+# 
 # input_atomic_number1 <- 3 #Litio
 # input_valence1 <- 1
 # input_atomic_number2 <- 9 #Flúor
 # input_valence2 <- 1
 # input_internal_language <- "en"
 # input_external_language <- "es"
+# input_family = "Oxide"
 # input_PeriodicTable <- PeriodicTable
 # input_GeneralNomenclature01 <-  GeneralNomenclature01
 # input_GeneralNomenclature02 <-  GeneralNomenclature02

@@ -10,6 +10,7 @@ library(stringr) # str_count()
 library(shiny.i18n)
 
 
+
 # The function for load others functions!
 LoadFunctions <- function(the_dir = NULL){
   

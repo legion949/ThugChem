@@ -153,15 +153,7 @@ GeneralNomenclature <- function(input_atomic_number1 = NULL, input_valence1 = NU
   {
   ###
     
-    # corte1 <- c("oÓ")
-    # corte2 <- c("Ó")
-    # # Encoding(corte1)
-    # # Encoding(corte2)
-    # Encoding(corte1) <- "UTF-8"
-    # Encoding(corte2) <- "UTF-8"
-    # for (k in 1:length(corte1)) iupac <- gsub(corte1[k], corte2[k], iupac)
-    
-    #  cat("Completo: ", iupac, "\n")
+   
     
     
   ###  
