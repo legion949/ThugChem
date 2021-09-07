@@ -4,6 +4,9 @@
 
 # options(encoding = 'latin1')
 # Source initial UI settings
+#opar <- par()
+#par(mar = c(0, 0, 0, 0))
+
 source("lib.R")
 
 
@@ -1153,7 +1156,7 @@ shinyServer(function(input, output ,session) {
   ########################################################
   
   output$ex1 <- renderTable({  
-    HelperTable_Mod()[selected_step(),]
+    HelperTable_ModV2()[selected_step(),]
     })
     
   output$ex2 <- renderUI({
@@ -1184,7 +1187,7 @@ shinyServer(function(input, output ,session) {
     
 
     fluidRow(
-      "Ecuacion Quimica", br(),
+      i18n()$t("Chemical Equation"), br(),
       h1(withMathJax(my_row))
       
     )
@@ -1198,7 +1201,7 @@ shinyServer(function(input, output ,session) {
     
      
     fluidRow(
-      "Formula Quimica", br(),
+      i18n()$t("Chemical Formule"), br(),
       h1(withMathJax(my_chemical_formule))
       
     )
@@ -1206,42 +1209,42 @@ shinyServer(function(input, output ,session) {
     
   })
   
-  output$exit03 <- renderUI({
+  output$exit03 <- renderTable({
     
-    my_nomenclature <- nomenclature()
+    aver <- nomenclature()[1,]
     
-    
-    fluidRow(
-      h2("Nomenclatura"), br(),
-      h1(withMathJax(my_nomenclature[2,1])),
-      h1(withMathJax(my_nomenclature[2,2])),
-      h1(withMathJax(my_nomenclature[2,3]))
-      
-    )
+    aver[4] <-  chemical_formule()
+    aver
+ 
     
     
   })
   
   
   
-  output$resolution_plot_V3 <- renderPlot(width = 800, height = 200,{
+  output$resolution_plot_V3 <- renderPlot({
     
     
     the_step <- selected_step()
     if (the_step > final_step()) the_step <- final_step()
     
     my_row <- the_jax2()[the_step,2]
+    my_main <- paste0("Step ", HelperTable_Mod()[selected_step(),1], " - ", HelperTable_Mod()[selected_step(),2])
     
-    if (selected_step() > final_step()) my_row <- paste0("expression(", gsub("[$$]", "", chemical_formule()), ")")
+  #  cat("my_main: ", my_main,"\n")
+  #  if (selected_step() == nomenclature_step()) my_row <- paste0("expression(", gsub("[$$]", "", chemical_formule()), ")")
     
       
+# opar <- par()
+#  par(mar = c(0, 0, 0, 0))
     plot(-1, 0, ylim = c(0,2), xlim = c(0,10), col ="white",
-         axes = F, xlab = "", ylab = "")
+         axes = F, xlab = "", ylab = "", main = my_main)
     rect(par("usr")[1],par("usr")[3],par("usr")[2],par("usr")[4], col = "orange", border = "orange")
     
+  #  par(opar)
     #text(5, 1, expression(A  *symbol('\256')*  B), cex = 6)
     
-    cat("my_row: ", my_row, "\n")
+
     #aver <- "expression(4*Li*'+'*phantom(1)*O[2]*symbol('\\256')*2*Li[2]*O)"
     text(0, 1, eval(parse(text=my_row)), cex = 3, pos = 4)
     
@@ -1262,4 +1265,13 @@ shinyServer(function(input, output ,session) {
     
     
   })
+  
+  
+  output$table_fullhelper <- renderTable({
+    
+    HelperTable_ModV2()
+  })
+  
+ # HelperTable_ModV2
+  
 }) # End shinySever()

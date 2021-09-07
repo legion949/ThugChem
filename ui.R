@@ -144,9 +144,12 @@ shinyUI(
                  sliderInput(inputId = "slider", label = i18n$t("Slider"), min=1, 
                              max=10, value=1, step=1, ticks = T)
                  ),
-          column(4,     
+          column(4,
+                 conditionalPanel(
+                   condition = "input.plot_version == 'Version 1' | input.plot_version == 'Version 2'",
                  sliderInput(inputId = "help_level", label = i18n$t("Help Level"), 
                              min=0, max=5, value=0, step=1)
+                 )
           )
                 
               ),
@@ -168,21 +171,35 @@ shinyUI(
           condition = "input.plot_version == 'Version 3'",
          
           fluidRow(
-            column(7, plotOutput("resolution_plot_V3"), 
+            column(7,
+                   h3(i18n$t("Step by step Resolution")),
+                   plotOutput("resolution_plot_V3", width = "800px", height = "200px"), 
                   ),
-            column(5,
-                   uiOutput('exit03')
+            column(4,
+                   h3(i18n$t("Nomenclature")),
+                   h3(tableOutput("tabla_nomenclatura"))
                   ),
             ),
+          br(),
           fluidRow(
-            h1(uiOutput("text_V3")),
+            column(11,
+            h3(i18n$t("Help Table")),
             h4(uiOutput('ex1'))
+            ),
+            column(1)
           ),
-          h2(textOutput("exit04")), br(),
-          uiOutput('exit01'), br(), 
+          br(),
+          h3(uiOutput('exit01')), br(), 
           h3(uiOutput('exit02')),
          
    br(),
+   fluidRow(
+     column(11,
+   h3(i18n$t("Full Help Table")),
+   h4(tableOutput("table_fullhelper"))
+     ), 
+   column(1)
+   )
    #       tableOutput("fc_HL_Table"),
     #      tableOutput('ex2'),
         ),
@@ -192,8 +209,8 @@ shinyUI(
         br(), br(), 
      
         br(),
-        h1(textOutput("text_V4")),
-   h3(tableOutput("tabla_nomenclatura")),
+     
+  
   
 
 
