@@ -49,8 +49,8 @@ git commit -m MiMensaje   # Lleva el commit a la rama
 ##########################################################################################################
 
 # Todo para el MARGE
-git checkout master   # Nos ponemos en el master... Somos la masa... 
-git brunch # Verificamos que estamos en el master
+git checkout main   # Nos ponemos en el master... Somos la masa... 
+git brunch # Verificamos que estamos en el main
 git merge NombreMiNuevaRama  # Le ponemos la crema a la masa! Jajajaja
 
 
